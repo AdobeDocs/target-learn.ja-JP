@@ -1,0 +1,30 @@
+---
+title: Experience CloudデバッガーでのAdobe Targetのトラブルシューティング
+description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloud への認証をおこなうと、強力な Mbox Trace ツールを使用して、アクティビティ、オーディエンスの資格情報、訪問者プロファイルを調査できます。
+audience: marketer
+difficulty: 3
+author: Daniel Wright
+doc-type: feature-video
+activity-type: troubleshooting
+translation-type: tm+mt
+source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 64%
+
+---
+
+
+# Experience Cloudデバッガーのトラブルシューティング
+
+Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。ライブラリ設定をすばやく表示し、リクエストを検証してカスタムパラメーターが正しく渡されたことを確認し、コンソールのログを有効にして、Target のすべてのリクエストを無効にすることができます。Experience Cloud への認証をおこなうと、強力な Mbox Trace ツールを使用して、アクティビティ、オーディエンスの資格情報、訪問者プロファイルを調査できます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+
+## その他のリソース
+
+* [Targetトレースに関するトラブルシューティングのビデオ](troubleshoot-with-target-traces.md)
+* [ChromeストアのAdobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [「Debugger 追加 Extension」ビデオ](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/add-the-extension.html)
+* [トラブルシューティングTargetのヘルプドキュメント](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Experience Cloudデバッガの使い方のビデオ](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
