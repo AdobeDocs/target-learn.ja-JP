@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -47,7 +47,9 @@ HomeActivityコントローラー `Config.collectLifecycleData()` にのみ追�
 
 Adobe Targetプロパティは、インター [!DNL Target] フェイスで定義され、アプリやWebサイトの個人化の境界を確立するために使用されます。 at_propertyパラメーターは、オファーとアクティビティがアクセスされ、保守される特定のプロパティを指定します。 プリフェッチ要求とライブ・ロケーション要求にプロパティを追加します。
 
->[!NOTE] ライセンスに応じて、インター [!DNL Target] フェイスにプロパティオプションが表示される場合と表示されない場合があります。 これらのオプションがない場合、または会社でプロパティを使用しない場合は、このレッスンの次のセクションに進んでください。
+>[!NOTE]
+>
+>ライセンスに応じて、インター [!DNL Target] フェイスにプロパティオプションが表示される場合と表示されない場合があります。 これらのオプションがない場合、または会社でプロパティを使用しない場合は、このレッスンの次のセクションに進んでください。
 
 at_propertyの値は、インター [!DNL Target] フェイスの [!UICONTROL 設定] / [!UICONTROL プロパティ]で取得できます。  プロパティの上にマウスポインターを置き、コードスニペットアイコンを選択して、 `at_property` 値をコピーします。
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 エミュレータを実行し、Logcatを開きます。 いずれかのパラメーターをフィルターして、リクエストに必要なパラメーターが含まれていることを確認します。
 ![ライブロケーションリクエストのカスタムパラメーターの検証](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] 注文確認のリクエストとパラメーター： このデモプロジェクトでは使用されませんが、注文の詳細は通常実際の実装に取り込まれるので、注文の詳細を指標/ディメンションとして使用でき [!DNL Target] ます。 注文確認リクエストとパラメーターの [実装方法については、ドキュメントを参照してください](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)。
+>[!NOTE]
+>
+>注文確認のリクエストとパラメーター： このデモプロジェクトでは使用されませんが、注文の詳細は通常実際の実装に取り込まれるので、注文の詳細を指標/ディメンションとして使用でき [!DNL Target] ます。 注文確認リクエストとパラメーターの [実装方法については、ドキュメントを参照してください](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)。
 
->[!NOTE] Target用Analytics(A4T): のレポートソースとしてAdobeAnalyticsを設定でき [!DNL Target]ます。 これにより、TargetSDKによって収集されたすべての指標/ディメンションを、アドビのAnalyticsで表示できます。 詳しくは、 [A4Tの概要](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) （英語）を参照してください。
+>[!NOTE]
+>
+>Target用Analytics(A4T): のレポートソースとしてAdobeAnalyticsを設定でき [!DNL Target]ます。 これにより、TargetSDKによって収集されたすべての指標/ディメンションを、アドビのAnalyticsで表示できます。 詳しくは、 [A4Tの概要](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) （英語）を参照してください。
 
 お疲れさま！ パラメーターが設定されたので、Adobe Targetでオーディエンスーとオファーを作成する際に、これらのパラメーターを使用する準備が整いました。
 
