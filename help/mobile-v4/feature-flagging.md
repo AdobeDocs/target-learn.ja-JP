@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ ht-degree: 1%
 
 前回のレッスンで説明したデモアプリでは、「wetravel_feature_flag_recs」という新しい場所をホームアクティビティのプリフェッチ要求に追加し、新しいJavaメソッドを使用して画面に読み込みます。
 
->[!NOTE] プリフェッチ要求を使用する利点の1つは、新しい要求を追加しても、追加のネットワークオーバーヘッドが発生せず、また、要求がプリフェッチ要求内にパッケージ化されるため、負荷が増えることがないことです
+>[!NOTE]
+>
+>プリフェッチ要求を使用する利点の1つは、新しい要求を追加しても、追加のネットワークオーバーヘッドが発生せず、また、要求がプリフェッチ要求内にパッケージ化されるため、負荷が増えることがないことです
 
 まず、wetravel_feature_flag_recs定数がConstant.javaファイルに追加されていることを確認します。
 
