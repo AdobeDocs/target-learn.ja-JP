@@ -25,7 +25,7 @@ SPA VECを使用すると、マーケティング担当者は継続的な開発�
 ## 概要
 
 * SPA VECは、A/Bおよび自動配分テストとエクスペリエンスターゲット設定(XT)アクティビティの作成に使用できます
-* SPA VECは、自動Target、自動パーソナライゼーション、またはRecommendationsのアクティビティをサポートしていません
+* SPA VECは自動Target、Automated Personalization、Recommendationsのアクティビティをサポートしていません
 * SPA VECは、A4T、 [!UICONTROL Experience Cloudオーディエンス]、 [!UICONTROL 顧客属性] 、統合をサポートしています
 * すべてのVECアクションは、カスタムコードを含む単一ページアプリでサポートされます
 * VECアクションは、単一の表示またはページ読み込みイベントに適用できます
