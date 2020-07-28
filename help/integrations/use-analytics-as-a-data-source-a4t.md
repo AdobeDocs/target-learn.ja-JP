@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# アドビAnalyticsをAdobe Target用のデータソースとして使用(A4T)
+# Adobe AnalyticsをAdobe Target用のデータソースとして使用(A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
