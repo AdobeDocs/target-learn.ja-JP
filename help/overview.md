@@ -1,6 +1,6 @@
 ---
-title: Adobe Targetチュートリアルの概要
-seo-title: Adobe Targetチュートリアルの概要
+title: Adobe TargetTutorialsの概要
+seo-title: Adobe TargetTutorialsの概要
 description: Adobe Targetをパワーユーザにするためのハウツービデオとチュートリアルの集まり
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -23,7 +23,7 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 * **[TargetのVisual Experience ComposerをAndroid™アプリに実装する（チュートリアル）](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Targetがマーケティング担当者向けのVisual Experience Composer(VEC)をネイティブAndroidアプリに実装します。*
 
-* **[レコメンデーションアクティビティの作成（ビデオ）](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Recommendationsアクティビティの作成（ビデオ）](recommendations/create-a-recommendations-activity.md)**   <br>
    *このPremium機能を使用して、顧客に商品を適切にレコメンデーションします。*
 
 ## スタッフの選考
@@ -32,11 +32,11 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Adobe Experience Platformの開始を伴うTargetの実装" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Adobe Experience Platform LaunchとのTargetの実装" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Adobe Experience Platformの開始を伴うTargetの実装</strong>
+    <strong>Adobe Experience Platform LaunchとのTargetの実装</strong>
     </a>
     </div>
     <p>
@@ -58,11 +58,11 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Experience CloudデバッガーでのTargetのトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Experience Cloud Debuggerに関するTargetのトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Experience CloudデバッガーでのTargetのトラブルシューティング</strong>
+    <strong>Experience Cloud Debuggerに関するTargetのトラブルシューティング</strong>
     </a>
     </div>
     <p>
