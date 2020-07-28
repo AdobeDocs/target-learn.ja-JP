@@ -1,6 +1,6 @@
 ---
-title: Recommendationsでのカスタムデザインの作成
-seo-title: Adobe Targetレコメンデーションでのカスタムデザインの作成
+title: Recommendationsでカスタムデザインを作成
+seo-title: Adobe TargetRecommendationsでカスタムデザインを作成する
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Recommendationsでのカスタムデザインの作成
+# Recommendationsでカスタムデザインを作成
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [フィードについて](understanding-feeds.md)
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
