@@ -1,6 +1,6 @@
 ---
 title: Recommendationsのフィードについて
-seo-title: Adobe Targetレコメンデーションのフィードについて
+seo-title: Adobe TargetRecommendationsのフィードについて
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 18%
 * [カスタムデザインの作成](create-custom-designs.md)
 * [コレクションと除外の作成](create-collections-and-exclusions.md)
 * [Recommendations アクティビティの作成](create-a-recommendations-activity.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
