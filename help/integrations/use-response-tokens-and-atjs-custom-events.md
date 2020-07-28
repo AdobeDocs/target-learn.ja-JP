@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## その他のリソース
 
-* [Adobe TargetでのExperience Cloudデバッガの使用](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Adobe TargetでExperience Cloud Debuggerを使用する](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [レスポンストークンのドキュメント](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [at.jsカスタムイベントドキュメント](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Adobe Target でのデータプロバイダーの使用](use-data-providers-to-integrate-third-party-data.md)
