@@ -23,7 +23,7 @@ ht-degree: 17%
 
 ## その他のリソース
 
-* [ChromeストアのAdobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [ChromeストアのAdobe Experience Cloudデバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [トラブルシューティングTargetのヘルプドキュメント](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Experience Cloudデバッガーのビデオに関するTargetのトラブルシューティング](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Experience Cloudデバッガの使い方のビデオ](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Experience Cloud Debuggerに関するビデオのTargetのトラブルシューティング](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Experience Cloud Debuggerビデオの使い方](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
