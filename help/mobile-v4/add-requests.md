@@ -1,6 +1,6 @@
 ---
 title: 追加Adobe Target要求
-description: 'Adobe Mobile Services SDK(v4)は、様々なユーザーに対して様々なエクスペリエンスを使用してアプリをパーソナライズするためのAdobe Target方法と機能を提供します。   '
+description: 'AdobeMobile Services SDK(v4)は、Adobe Targetのメソッドと機能を提供します。この機能を使用すると、様々なユーザー向けに、様々なエクスペリエンスでアプリをパーソナライズできます。   '
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 追加Adobe Target要求
 
-Adobe Mobile Services SDK(v4)は、様々なユーザーに対して様々なエクスペリエンスを使用してアプリをパーソナライズするためのAdobe Target方法と機能を提供します。 通常、パーソナライズされたコンテンツを取得し、そのコンテンツの影響を測定するために、アプリからAdobe Targetに1つ以上のリクエストが行われます。
+AdobeMobile Services SDK(v4)は、Adobe Targetのメソッドと機能を提供します。この機能を使用すると、様々なユーザーに対して様々なエクスペリエンスでアプリをパーソナライズできます。 通常、パーソナライズされたコンテンツを取得し、そのコンテンツの影響を測定するために、アプリからAdobe Targetに1つ以上のリクエストが行われます。
 
 このレッスンでは、リクエストを実装して、パーソナライゼーション用のWeb.Travelアプリを準備し [!DNL Target] ます。
 
@@ -45,7 +45,7 @@ Adobe Mobile Services SDK(v4)は、様々なユーザーに対して様々なエ
 * **バッチリクエスト：**  複数の場所を含む単一の要求
 * **プリフェッチ要求：**  オファーを取得し、将来アプリで使用するためにメモリにキャッシュする単一のリクエスト
 * **バッチプリフェッチ要求：**  複数の場所のオファーを事前に取得する単一の要求
-* **オーディエンス:**  インター [!DNL Target] フェイスで定義された訪問者、または他のアドビアプリケーション [!DNL Target] (例： 「iPhone X訪問者」、「訪問者in the California」、「First App Open」)
+* **オーディエンス:**  インター [!DNL Target][!DNL Target] フェイスで定義された訪問者のグループ、または他のAdobeアプリケーション(例： 「iPhone X訪問者」、「訪問者in the California」、「First App Open」)
 * **アクティビティ:**  場所、 [!DNL Target] オファー、オーディエンスをリンクし、パーソナライズされたエクスペリエンスを作成する [!DNL Target] ユーザーインターフェイス（またはAPI）で定義される構成体
 
 ## バッチ追加プリフェッチ要求
