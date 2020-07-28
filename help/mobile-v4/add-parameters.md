@@ -1,6 +1,6 @@
 ---
 title: リクエスト追加のパラメーター
-description: このレッスンでは、前のレッスンで追加したTargetリクエストに、Adobeのライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスの作成に使用されます。
+description: このレッスンでは、前のレッスンで追加したTargetリクエストに、Adobeのライフサイクル指標とカスタムパラメータを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスの作成に使用されます。
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # リクエスト追加のパラメーター
 
-このレッスンでは、前のレッスンで追加した [!DNL Target] リクエストに、Adobeのライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスの作成に使用されます。
+このレッスンでは、前のレッスンで追加した [!DNL Target] リクエストに、Adobeのライフサイクル指標とカスタムパラメータを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスの作成に使用されます。
 
 ## 学習目標
 
 このレッスンを終了すると、次のことができます。
 
-* アド追加ビのモバイルのライフサイクル指標
+* Adobe追加モバイルのライフサイクル指標
 * プリフェッチ要求追加のパラメータ
 * ライブ場所追加のパラメーター
 * 両方のリクエストのパラメーターの検証
 
 ## ライフサイクル追加パラメータ
 
-アド [ビのモバイルライフサイクル指標を有効にします](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。 これにより、ユーザーのデバイスに関する豊富な情報やアプリの使用に関する情報を含む場所のリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを作成します。
+モバイルの [Adobeライフサイクル指標を有効にします](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。 これにより、ユーザーのデバイスに関する豊富な情報やアプリの使用に関する情報を含む場所のリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを作成します。
 
 ライフサイクル指標を有効にするには、HomeActivityコントローラを再び開き、onResume()関数 `Config.collectLifecycleData(this);` を追加します。
 
@@ -148,7 +148,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->Target用Analytics(A4T): のレポートソースとしてAdobeAnalyticsを設定でき [!DNL Target]ます。 これにより、TargetSDKによって収集されたすべての指標/ディメンションを、アドビのAnalyticsで表示できます。 詳しくは、 [A4Tの概要](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) （英語）を参照してください。
+>Target用Analytics(A4T): のレポートソースとしてAdobe Analyticsを設定でき [!DNL Target]ます。 これにより、TargetSDKが収集したすべての指標/ディメンションをAdobe Analyticsで表示できます。 詳しくは、 [A4Tの概要](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) （英語）を参照してください。
 
 お疲れさま！ パラメーターが設定されたので、Adobe Targetでオーディエンスーとオファーを作成する際に、これらのパラメーターを使用する準備が整いました。
 
