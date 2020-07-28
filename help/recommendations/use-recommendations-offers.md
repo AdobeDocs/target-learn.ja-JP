@@ -1,7 +1,7 @@
 ---
 title: A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
-seo-title: Adobe TargetのA/Bテストおよびエクスペリエンスターゲット設定アクティビティでのRecommendationsオファーの使用
-description: Recommendationsオファーは、A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用できます。
+seo-title: Adobe TargetのA/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
+description: Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 # A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
 
-Recommendationsオファーは、A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用できます。 この機能により、次のようなことがおこなえるようになります。
+Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。 この機能により、次のようなことがおこなえるようになります。
 
 * レコメンデーションとレコメンデーション以外のコンテンツを同じアクティビティ内に混在させる
 * 複数のレコメンデーションの順序を含め、ページ上でレコメンデーションの配置を簡単にテストする
@@ -29,5 +29,5 @@ Recommendationsオファーは、A/Bテストおよびエクスペリエンス�
 
 ## その他のリソース
 
-* [オファードキュメントとしてのRecommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [レコメンデーションのアクティビティビデオの作成](create-a-recommendations-activity.md)
+* [オファー文書としてのRecommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendationsアクティビティビデオの作成](create-a-recommendations-activity.md)
