@@ -1,8 +1,8 @@
 ---
 title: Web.Travelサンプルアプリのダウンロードと更新
 seo-title: サンプルアプリをダウンロードし、Mobile Services SDKを検証する
-description: 'We.Travelサンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように更新する必要があります。   '
-seo-description: We.Travelサンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように更新する必要があります。
+description: 'We.Travelサンプルアプリは、AdobeのMobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように更新する必要があります。   '
+seo-description: We.Travelサンプルアプリは、AdobeのMobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように更新する必要があります。
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Web.Travelサンプルアプリのダウンロードと更新
 
-We.Travelサンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように、更新するだけです。
+We.Travelサンプルアプリは、AdobeのMobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように、更新するだけです。
 
 ## 学習目標
 
@@ -40,11 +40,11 @@ We.Travelサンプルアプリは、Adobe Mobile Services SDK v4で事前に実�
 
 ## 次のMobile Services SDK設定の確認と更新 [!DNL Target]
 
-ドキュメントに [従って、Adobe Mobile Services SDKがWeb.Travelアプリ内にプレインストールさ](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)れました。 次に、自分のア [!DNL Target] カウントを指すようにインストールを更新します。
+ドキュメントに [従って、Web.Travelアプリ内にAdobeMobile Services SDKがプレインストールさ](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)れました。 次に、自分のア [!DNL Target] カウントを指すようにインストールを更新します。
 
 最初に、Mobile Servicesユーザーインターフェイスで新しいアプリを作成します。
 
-1. [Adobe Mobile Servicesインターフェイスにログインします](https://mobilemarketing.adobe.com)。
+1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com).
 1. 「アプリ [!UICONTROL の]管理 **[!UICONTROL 」に移動し、このチュートリアルで使用する新しいアプリを追加するには、]** (アプリを管理/********&#x200B;追加追加アプリを追加します)。
 1. 実稼動データ以外のAnalyticsのレポートスイートを選択し、アプリに名前を付け、「 **[!UICONTROL 標準]** 」タイプを選択して「 **[!UICONTROL 保存]**」をクリックします。
 1. アプリを追加したら、次の画面の「 [!DNL Target] SDKのTargetオプション [!UICONTROL 」セクションにクライアントコードを追加します(クライアントコードは、設定/ダウンロードボタンの「導入設定][!DNL Target]************`at.js` 」の下のインターフェイスにあります)。
