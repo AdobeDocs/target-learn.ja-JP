@@ -28,7 +28,7 @@ The newest version of `at.js` provides rich feature sets that equip your busines
 * SPAで表示が変更された場合は常に `adobe.target.triggerView()` 関数を実装します。 これを行うには、URLハッシュの変更のリッスン、SPAで呼び出されるカスタムイベントのリスニング、アプリケーションに直接コードを埋め込むなど、様々な手法を使用できます。 `triggerView()` 特定の単一ページアプリに最適なオプションを選択する必要があります。
 * 表示ー名は、関数の最初のパラメーターで `triggerView()` す。 シンプルで明確な一意の名前を付けて、TargetのVisual Experience Composerで簡単に選択できるようにします。
 * 表示は、小さな表示の変更時にトリガーできるほか、SPA以外のコンテキスト（無限にスクロールするページの半分下など）でもトリガーできます。
-* `at.js` 2.0およびは、Adobe Experience Platformの開始などのtag managementソリューションを使用して実装で `triggerView()` きます。
+* `at.js` 2.0およびは、Adobe Experience Platform Launchなどのタグ管理ソリューションを使用して導入で `triggerView()` きます。
 
 ## at.js 2.0の制限
 
