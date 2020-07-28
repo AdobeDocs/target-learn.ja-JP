@@ -56,12 +56,12 @@ ht-degree: 8%
    + [プロパティの設定](../administration/set-up-properties.md)
 + Recommendations{#recommendations}
    + [Recommendations アクティビティの作成](../recommendations/create-a-recommendations-activity.md)
-   + [レコメンデーションオファーの使用](../recommendations/use-recommendations-offers.md)
+   + [Recommendationsオファーの使用](../recommendations/use-recommendations-offers.md)
    + [フィードについて](../recommendations/understanding-feeds.md)
    + [フィードの作成](../recommendations/create-a-feed.md)
    + [条件の作成](../recommendations/create-criteria.md)
    + [カスタムデザインの作成](../recommendations/create-custom-designs.md)
    + [コレクションと除外の作成](../recommendations/create-collections-and-exclusions.md)
 + トラブルシューティング{#troubleshooting}
-   + [Experience Cloudデバッガーのトラブルシューティング](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Experience Cloud Debuggerのトラブルシューティング](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Targetトレースのトラブルシューティング](../troubleshooting/troubleshoot-with-target-traces.md)
