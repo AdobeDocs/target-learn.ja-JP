@@ -1,6 +1,6 @@
 ---
 title: コレクションと除外の作成
-seo-title: Adobe Targetレコメンデーションでのコレクションおよび除外の作成
+seo-title: Adobe TargetRecommendationsでのコレクションと除外の作成
 description: null
 audience: marketer
 difficulty: 3
@@ -16,7 +16,7 @@ ht-degree: 17%
 ---
 
 
-# Recommendationsでのコレクションおよび除外の作成
+# コレクションと除外の作成(Recommendations)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
@@ -27,4 +27,4 @@ ht-degree: 17%
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)
 * [カスタムデザインの作成](create-custom-designs.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
