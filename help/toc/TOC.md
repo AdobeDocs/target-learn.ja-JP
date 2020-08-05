@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 8%
 + レポート{#reports}
    + [個人用設定インサイトレポートの使用](../reports/use-the-personalization-insights-reports.md)
 + 統合{#integrations}
-   + [AnalyticsをTarget用のデータソースとして使用(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [ターゲット用のデータソースとしてのAnalyticsの使用(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [データの送信先： データプロバイダーを使用したサードパーティデータの統合](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [データの送信先： データプロバイダーの導入によるサードパーティデータの統合](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data Out: 応答トークンとat.jsカスタムイベントの使用](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -64,4 +64,8 @@ ht-degree: 8%
    + [コレクションと除外の作成](../recommendations/create-collections-and-exclusions.md)
 + トラブルシューティング{#troubleshooting}
    + [Experience Cloud Debuggerのトラブルシューティング](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-   + [Targetトレースのトラブルシューティング](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [ターゲットトレースのトラブルシューティング](../troubleshooting/troubleshoot-with-target-traces.md)
++ API{#apis}
+   + [ターゲットAPIについて](../apis/api-overview.md)
+   + [AdobeAPI認証の設定](../apis/configure-io-target-integration.md)
+   + [RecommendationsAPIの使用](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
