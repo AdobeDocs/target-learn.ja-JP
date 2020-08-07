@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Adobe TargetAPIとAdobe TargetAPIはWebページへの応答の配信に使用できますが、アプリ、画面、コンソール、電子メール、キオスク、その他のディスプレイデバイスなど、HTML以外のベースのエクスペリエンスでも使用できます。 [!DNL Recommendations] 言い換えると、 [!DNL Target] ライブラリとJavaScriptを使用できない場合でも、 **[!DNL Target]配信API **(Library And JavaScript)を使用すれば、パーソナライズされたエクスペリエンスを提供するための[!DNL Target]全機能にアクセスできます。
 
-> [!NOTE]
+>[!NOTE]
+>
 > 実際のレコメンデーション（推奨商品や商品）を含むコンテンツをリクエストする場合は、 [!DNL Target] 配信APIを使用します。
 
 レコメンデーションを取得するには、Adobe Target配信APIPOST呼び出しを適切なコンテキスト情報と共に送信します。これには、ユーザーID(最近表示した品目など、プロファイル固有のレコメンデーションで使用)、関連するmbox名、mboxパラメーター、プロファイルパラメーター、その他の属性が含まれます。 この応答には、推奨されるentity.ids（および他のエンティティデータを含む場合もあります）がJSON形式またはHTML形式で含まれ、これらはデバイスに表示できます。
