@@ -1,12 +1,12 @@
 ---
 title: Adobe TargetTutorialsの概要
 seo-title: Adobe TargetTutorialsの概要
-description: Adobe Targetをパワーユーザにするためのハウツービデオとチュートリアルの集まり
+description: Adobe Targetのパワーユーザを作成するためのハウツービデオとチュートリアルの集まり
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 
 ## 最新情報
 
+* **[RecommendationsAPIの使用（チュートリアル）](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *開発者向け：APIを使用して、カタログやカスタム条件などを設定および管理する実践的なプラクティス[!DNL Recommendations][!DNL Recommendations]を受けることができます。*
+
+* **[Android向けAdobeMobile Services SDK v4を使用したAdobe Targetの実装（チュートリアル）](mobile-v4/overview.md)**   <br>
+   *既にAdobeMobile Services SDK v4を使用している開発者向け：アプリのエクスペリエンスをAdobe Targetで個人化する開始方法を説明します。 これらの手順は、レガシーユーザーサポートとして提供されます。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Recommendationsオファーの使用（ビデオ）](recommendations/use-recommendations-offers.md)**   <br>
-   *A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで商品のレコメンデーションを使用します。*
+   *すべてのターゲットユーザー用：A/Bおよびエクスペリエンスのターゲット設定アクティビティで商品のレコメンデーションを使用する方法について説明します。*
 
-* **[TargetのVisual Experience ComposerをAndroid™アプリに実装する（チュートリアル）](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Targetがマーケティング担当者向けのVisual Experience Composer(VEC)をネイティブAndroidアプリに実装します。*
-
-* **[Recommendationsアクティビティの作成（ビデオ）](recommendations/create-a-recommendations-activity.md)**   <br>
-   *このPremium機能を使用して、顧客に商品を適切にレコメンデーションします。*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## スタッフの選考
 
@@ -32,11 +37,11 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Adobe Experience Platform LaunchとのTargetの実装" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Adobe Experience Platform Launchとのターゲットの実装" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Adobe Experience Platform LaunchとのTargetの実装</strong>
+    <strong>Adobe Experience Platform Launchとのターゲットの実装</strong>
     </a>
     </div>
     <p>
@@ -58,11 +63,11 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Experience Cloud Debuggerに関するTargetのトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Experience Cloud Debuggerに関するターゲットのトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Experience Cloud Debuggerに関するTargetのトラブルシューティング</strong>
+    <strong>Experience Cloud Debuggerに関するターゲットのトラブルシューティング</strong>
     </a>
     </div>
     <p>
