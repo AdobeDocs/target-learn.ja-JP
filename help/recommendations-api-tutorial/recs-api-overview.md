@@ -1,7 +1,7 @@
 ---
 title: Adobe RecommendationsAPIの概要
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。 レコメンデーションのアルゴリズムとキャンペーンを管理します。 Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
+description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
 kt: 3815
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 # Adobe RecommendationsAPIの概要
 
-関連するAPIに [!DNL Recommendations] は [管理者APIが含まれ](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) 、次のことができます。
+関連するAPIに [!DNL Recommendations] は [管理者APIが含まれ](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) 、次のことができます。
 
 * レコメンデーション可能な商品またはコンテンツのカタログの管理
 * アルゴリズムと [!DNL Recommendations] アクティビティの管理
 
-Recommendationsで [!DNL Target] 配信API [](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) を使用すると、次のこともできます。
+Recommendationsで [!DNL Target] 配信API [](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) を使用すると、次のこともできます。
 
 * レコメンデーションをJSON、HTMLまたはXMLオブジェクトで取得し、Web、モバイル、電子メール、Internet of Things(IOT)などのチャネルで表示できるようにします。
 
@@ -52,7 +52,7 @@ Recommendationsで [!DNL Target] 配信API [](https://docs.adobe.com/content/hel
 
 | リソース | 詳細 |
 | --- | --- |
-| 郵便配達人 | ご使用のオペレーティングシステムの [Postmanアプリを取得します](https://www.postman.com/downloads/) 。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分は、Postmanの作業知識を前提としています。 援助が必要な場合は、 [ポストマンのドキュメントを参照してください](https://learning.getpostman.com/)。 |
+| 郵便配達人 | ご使用のオペレーティングシステムの [Postmanアプリを取得します](https://www.postman.com/downloads/) 。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分では、Postmanの作業知識を前提としています。 援助が必要な場合は、 [ポストマンのドキュメントを参照してください](https://learning.getpostman.com/)。 |
 | リファレンス | このチュートリアルの残りの部分では、次のリソースに精通していることを前提としています。<UL><li>[AdobeI/O Github](https://github.com/adobeio)</li><li>[ターゲットAdobeI/Oドキュメント](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPIドキュメント](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 [次の「Recommendationsカタログの管理」>](manage-catalog.md)
