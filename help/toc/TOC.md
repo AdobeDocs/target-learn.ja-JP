@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
+source-git-commit: ad45a6993e8ee58bed589f1994539839b44b484c
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '365'
 ht-degree: 8%
 
 ---
@@ -85,6 +85,5 @@ ht-degree: 8%
 + モバイル{#mobile}
    + [Android向けAdobeMobile Services SDK v4を使用したAdobe Targetの実装](../mobile-v4/overview.md)
 + API{#apis}
-   + [ターゲットAPIについて](../apis/api-overview.md)
    + [AdobeAPI認証の設定](../apis/configure-io-target-integration.md)
    + [RecommendationsAPIの使用](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
