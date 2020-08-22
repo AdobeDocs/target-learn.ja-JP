@@ -1,7 +1,7 @@
 ---
 title: 認証の設定
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。 レコメンデーションのアルゴリズムとキャンペーンを管理します。 Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
+description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
 kt: null
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
    ![configure-io-target-createproject5](assets/configure-io-target-createproject5.png)
 
-6. 公開鍵と秘密鍵を、ターゲット用に作成するサービスアカウント統合に関連付けるオプションを選択します。 このチュートリアルでは、 **[!UICONTROL オプション1を選択します。 キーペアを生成し]** 、「キーペアを **[!UICONTROL 生成]**」をクリックします。
+6. 公開鍵と秘密鍵を、ターゲット用に作成するサービスアカウント統合に関連付けるオプションを選択します。 このチュートリアルでは、 **[!UICONTROL オプション1を選択します。キーペアを生成し]** 、「キーペアを **[!UICONTROL 生成]**」をクリックします。
    ![configure-io-target-createproject6](assets/configure-io-target-createproject6.png)
 
 7. 結果をメモしておけ 指示に従って、自動的にダウンロードされた設定ファイル(`config`)に秘密鍵が含まれていることを控えておきます。 「**[!UICONTROL 次へ]**」をクリックします。
@@ -112,10 +112,12 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
    ![JWT5](assets/configure-io-target-jwt5.png)
 6. 「Postman **環境の管理** 」モーダルで、新しく読み込んだ環境の名前をクリックして検証します。 (環境名は、ここに表示されている名前とは異なる場合があります。 必要に応じて名前を編集します。 必ずしもAdobeプロジェクトの名前と一致する必要はありません)。
    ![JWT6](assets/configure-io-target-jwt6.png)
-7. お `CLIENT_SECRET` よび `API_KEY` （他の変数と共に）は、Adobe開発者コンソールで定義されたとおりに、統合から取得された値が事前に設定されています。 (Postman `CLIENT_SECRET` 変数は、Developer Consoleに表示される `CLIENT SECRET` Adobe資格情報と一致する必要があります。Postmanでも、Developer Consoleで表示される `API_KEY``CLIENT ID` 資格情報と一致する必要があります)。 一方、注、 `PRIVATE_KEY`およびは空白 `JWT_TOKEN``ACCESS_TOKEN` です。 価値を提供して開始を行おう `PRIVATE_KEY` 。
+7. お `CLIENT_SECRET` よび `API_KEY` （他の変数と共に）は、Adobe開発者コンソールで定義されたとおりに、統合から取得された値が事前に設定されています。 (Postman `CLIENT_SECRET` 変数は、Developer Consoleに表示される `CLIENT SECRET` Adobe資格情報と一致する必要があります。Postmanでも、Developer Consoleで表示される `API_KEY``CLIENT ID` 資格情報と一致する必要があります)。 一方、注、 `PRIVATE_KEY`およびは空白 `JWT_TOKEN``ACCESS_TOKEN` です。 その `PRIVATE_KEY` 値を与えて開始をしよう。
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**驚き！**
    >
    >クイズ！ 秘密鍵がどこにあるか覚えてる？
    >そのとおり、Adobeデベロッパーコンソールから以前にダウンロードした `config` ファイルに含まれています。
@@ -141,7 +143,7 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Postmanで、生のJSONを貼り付けてクリップボードから送信し、コレクションを読み込みます。 （または、保存した.jsonファイルをアップロードすることもできます）。 「**続行**」をクリックします。
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. IMSを選択し **[!UICONTROL ます。 AdobeI/Oアクセストークン生成ポストマンコレクションのJWT Generate + Auth via User Token]** request、環境が選択されていることを確認し、「 **送信** 」をクリックしてトークンを生成します。
+5. IMSを選択し **[!UICONTROL ます。AdobeI/Oアクセストークン生成ポストマンコレクションのJWT Generate + Auth via User Token]** request、環境が選択されていることを確認し、「 **送信** 」をクリックしてトークンを生成します。
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -156,9 +158,9 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
 
 >[!NOTE]
 >
->Q: JSON Web Token(JWT)およびbearerアクセストークンを生成するには、AdobeI/Oアクセストークン生成ポストマンコレクションを使用する必要がありますか。
+>Q:JSON Web Token(JWT)およびbearerアクセストークンを生成するには、AdobeI/Oアクセストークン生成ポストマンコレクションを使用する必要がありますか。
 >
->A: だめ！ AdobeI/Oアクセストークン生成ポストマンコレクションは、ポストマンでJWTおよびベアラアクセストークンをより容易に生成できる利便性として利用できる。 または、Adobe開発者コンソール内の機能を使用して、ベアラアクセストークンを手動で生成できます。
+>A:だめ！ AdobeI/Oアクセストークン生成ポストマンコレクションは、ポストマンでJWTおよびベアラアクセストークンをより容易に生成できる利便性として利用できる。 または、Adobe開発者コンソール内の機能を使用して、ベアラアクセストークンを手動で生成できます。
 
 ## bearerアクセストークンのテスト
 
@@ -168,7 +170,7 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
    ![testtoken1](assets/configure-io-target-testtoken0.png)
 1. コレクションを展開し、 **[!UICONTROL リストアクティビティ]** リクエストをメモします。
    ![testtoken1](assets/configure-io-target-testtoken1.png)
-1. などの変数は、最初は未解決 `{{access_token}}` です。 この問題を解決する方法はいくつかあります。例えば、という名前の新しいコレクション変数を定義する場合などです `{{access_token}}`が、このチュートリアルでは、APIリクエストを変更して、以前使用したPostman環境を活用します。 これにより、環境は、AdobeAPI間で共通するすべての変数を単一で一貫性のある統合として機能し続けることができます。
+1. などの変数は、最初は未解決 `{{access_token}}` です。 この問題を解決する方法はいくつかあります。例えば、という名前の新しいコレクション変数を定義する場合などです `{{access_token}}`が、このチュートリアルでは、APIリクエストを変更して以前使用したPostman環境を活用します。 これにより、環境は、AdobeAPI間で共通するすべての変数を単一で一貫性のある統合として機能し続けることができます。
    ![testtoken2](assets/configure-io-target-testtoken2.png)
 1. 置き換える文字 `{{access_token}}` を入力し `{{ACCESS_TOKEN}}`ます。
    ![testtoken3](assets/configure-io-target-testtoken3.png)
