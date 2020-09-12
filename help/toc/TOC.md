@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target チュートリアル
-user-guide-url: /content/help/en/target-learn/tutorials/overview.html
+breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: ad45a6993e8ee58bed589f1994539839b44b484c
+source-git-commit: 23f1b9b62d88596ec6571e9d4d90798dd14a5de9
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 8%
