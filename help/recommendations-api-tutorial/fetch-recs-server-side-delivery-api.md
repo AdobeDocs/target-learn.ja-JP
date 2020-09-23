@@ -1,17 +1,17 @@
 ---
 title: 配信APIを使用したRecommendationsの取得
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。 レコメンデーションのアルゴリズムとキャンペーンを管理します。 Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
+description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # 配信API [!DNL Recommendations] を使用した取得
 
-Adobe TargetAPIとAdobe TargetAPIはWebページへの応答の配信に使用できますが、アプリ、画面、コンソール、電子メール、キオスク、その他のディスプレイデバイスなど、HTML以外のベースのエクスペリエンスでも使用できます。 [!DNL Recommendations] 言い換えると、 [!DNL Target] ライブラリとJavaScriptを使用できない場合でも、 **[!DNL Target]配信API **(Library And JavaScript)を使用すれば、パーソナライズされたエクスペリエンスを提供するための[!DNL Target]全機能にアクセスできます。
+Adobe TargetAPIとAdobe TargetAPIはWebページへの応答の配信に使用できますが、アプリ、画面、コンソール、電子メール、キオスク、その他のディスプレイデバイスなど、HTML以外のベースのエクスペリエンスでも使用できます。 [!DNL Recommendations] 言い換えると、 [!DNL Target] ライブラリとJavaScriptを使用できない場合でも、 **[!DNL Target]配信API** (Library And JavaScript)を使用すれば、パーソナライズされたエクスペリエンスを提供するための [!DNL Target] 全機能にアクセスできます。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe Targetの [配信API](https://developers.adobetarget.com/api/delivery-api/
 配信APIを使用してレコメンデーションなどの [!DNL Target] エクスペリエンスを提供するには、次の手順に従います。
 
 1. （Visual Experience Composerではなく）フォームベースの [!DNL Target] Composerを使用して [!DNL Recommendations]アクティビティ（A/B、XT、APまたは）を作成します。
-2. 配信APIを使用して、作成した [!DNL Target] アクティビティによって生成されたリクエストに対する応答を取得します。
+2. 配信APIを使用して、先ほど作成した [!DNL Target] アクティビティによって生成されたリクエストに対する応答を取得します。
 
 <!-- Q: Why are BOTH steps necessary for this? If you have a Form-based recommendation defined for an mbox, what's the point/benefit of ALSO having the Delivery API step in to retrieve results? Why can't you just have the Form-based Rec deliver the results in the destination device...?? A: See use case below... it's when you want to "intercept" the pending results in order to do more stuff prior to displaying the results. Things like real-time comparisons to inventory levels. -->
 
