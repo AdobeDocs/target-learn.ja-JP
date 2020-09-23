@@ -1,7 +1,7 @@
 ---
 cloud: marketing-cloud
 product: target
-solution: Adobe Target Tutorials
+solution: Target
 solution-title: 'Target '
 solution-hub-url: https://helpx.adobe.com/jp/support/target.html
 getting-started-title: 導入
@@ -13,7 +13,7 @@ index: true
 mini-toc-levels: 2
 type: Tutorials
 translation-type: tm+mt
-source-git-commit: e399ad319b28a1988b7d30cb4f255f8b82915722
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 92%
