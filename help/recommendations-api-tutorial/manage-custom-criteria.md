@@ -1,17 +1,17 @@
 ---
 title: カスタム条件の管理
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。 レコメンデーションのアルゴリズムとキャンペーンを管理します。 Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
+description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -116,7 +116,7 @@ ht-degree: 1%
    ![DeleteCustomCriteria2](assets/DeleteCustomCriteria2.png)この場合、予期される404エラーは、削除された条件が見つからないことを示します。
 
 >[!NOTE]
->注意：条件は、カスタム条件を作成APIを使用して作成されたので、削除されても [!DNL Target] UIから削除されません。
+>注意：条件は、カスタム条件を作成APIを使用して作成されたので、削除されても、 [!DNL Target] UIから削除されません。
 
 おめでとう！ これで、 [!DNL Recommendations] APIを使用して、カスタム条件の作成、リスト、編集、削除および詳細の取得を行うことができます。 次の節では、 [!DNL Target] 配信APIを使用してレコメンデーションを取得します。
 
