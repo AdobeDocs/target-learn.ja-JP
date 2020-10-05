@@ -1,12 +1,13 @@
 ---
+title: Adobe Target チュートリアル
 user-guide-title: Adobe Target チュートリアル
 breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 23f1b9b62d88596ec6571e9d4d90798dd14a5de9
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 8%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 8%
 
 # Adobe Target チュートリアル {#tutorials}
 
-+ [概要](../overview.md)
++ [Adobe TargetTutorialsの概要](../overview.md)
 + 管理{#administration}
    + [導入戦略とシステム・ガバナンス](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [アカウント設定](../administration/set-up-account-preferences.md)
