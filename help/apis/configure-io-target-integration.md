@@ -1,5 +1,5 @@
 ---
-title: 認証の設定
+title: Adobe TargetAPIの認証の設定
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1885'
 ht-degree: 2%
 
 ---
 
 
-# 認証の設定
+# Adobe TargetAPIの認証の設定
 
 管理APIを含むAdobe Target管理APIは、認証によって保護され、許可されたユーザーのみがAdobe Targetにアクセスするために使用できるようになります。 [!DNL Recommendations] AdobeDeveloper Console [(Developer Console](https://console.adobe.io/) )を使用して、を含むすべてのAdobe Experience Cloudソリューションでこの認証を管理し [!DNL Target]ます。
 
