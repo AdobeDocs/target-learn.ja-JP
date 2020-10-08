@@ -5,9 +5,9 @@ breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 8%
    + [ターゲット導入の設計](../dev101/2.5-design-target-implementation.md)
    + [ターゲット導入を設計する次の手順](../dev101/2.6-next-steps-design-target-implementation.md)
    + [ユーザーの同意に基づいてExperience Cloudソリューションを制御するためにオプトインを使用](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Adobe Targetハイブリッド展開の理解](../implementation/hybrid-deployment.md)
 + 統合{#integrations}
    + [ターゲットとAnalyticsの統合](../dev101/3.2-target-analytics.md)
    + [ターゲット用のデータソースとしてのAnalyticsの使用(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
