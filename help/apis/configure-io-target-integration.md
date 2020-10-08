@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
 1. 「環境の管理」モーダルを開き、環境を選択します。
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. 新しい `{{TENANT_ID}}` 環境変数を追加するには、と入力します。 新しい **環境変数の「** 初期値 **」フィールドと「** 現在の値 `TENANT_ID` 」フィールドに、テナントID値をコピー&amp;ペーストします。
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >テナントIDがお客様のものと異なり [!DNL Target]`clientcode`ます。 テナントIDは、にログインしたときにURLに存在し [!DNL Target]ます。 テナントIDを取得するには、にログインし、 [!DNL Adobe Experience Cloud]を開き、カード [!DNL Target]をクリックし [!DNL Target] ます。 URLサブドメインに記載されているテナントID値を使用します。
    >
    >例えば、Adobe TargetにログインしたときのURLが
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >テナントIDが「mycompany」になる。
 
 1. 正しい環境を選択したことを確認した上で、リクエストを送信します。 アクティビティのリストを含む回答を受け取ります。
