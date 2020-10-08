@@ -1,17 +1,17 @@
 ---
-title: Adobe TargetTutorialsの概要
-seo-title: Adobe TargetTutorialsの概要
-description: Adobe Targetのパワーユーザを作成するためのハウツービデオとチュートリアルの集まり
+title: Adobe Target チュートリアル
+seo-title: Adobe Target チュートリアル
+description: Adobe Targetのパワーユーザになるためのハウツービデオとチュートリアルの集まり
 translation-type: tm+mt
-source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 16%
+source-wordcount: '243'
+ht-degree: 20%
 
 ---
 
 
-# Adobe TargetTutorialsの概要
+# Adobe Target チュートリアル
 
 Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。これらのビデオとチュートリアルを使用して、Adobe Targetの多くのコンポーネントを学習します。
 
