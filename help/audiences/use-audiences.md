@@ -1,7 +1,7 @@
 ---
 title: Adobe Targetでのオーディエンスの使用
 seo-title: Adobe Targetでのオーディエンスの使用
-description: オーディエンスが最適化にどのように使用されるかを説明します。
+description: Audiences を最適化に使用する方法について説明します。
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
