@@ -1,14 +1,14 @@
 ---
 title: Adobe Target チュートリアル
 user-guide-title: Adobe Target チュートリアル
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Target チュートリアル
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
