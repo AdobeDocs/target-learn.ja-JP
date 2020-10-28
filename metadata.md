@@ -11,9 +11,9 @@ tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.ja-JP
 index: true
 mini-toc-levels: 2
-type: Tutorials
+type: Tutorial
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: e3ae86c7e6ba6c87345e187f89973a4787876896
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 92%
