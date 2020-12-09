@@ -6,11 +6,11 @@ feature: implementation
 audience: developer, architect
 activity: understand
 doc-type: feature video
-team: Technical Marketing
+team: Evangelism
 kt: 6165
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
+source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
