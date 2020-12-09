@@ -4,10 +4,11 @@ user-guide-title: Adobe Target チュートリアル
 breadcrumb-title: Target チュートリアル
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [ターゲット導入を設計する次の手順](../dev101/2.6-next-steps-design-target-implementation.md)
    + [ユーザーの同意に基づいてExperience Cloudソリューションを制御するためにオプトインを使用](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Adobe Targetハイブリッド展開の理解](../implementation/hybrid-deployment.md)
+   + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
 + 統合{#integrations}
    + [ターゲットとAnalyticsの統合](../dev101/3.2-target-analytics.md)
    + [ターゲット用のデータソースとしてのAnalyticsの使用(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [ターゲットとAudience Managerの統合](../dev101/3.3-target-dmp.md)
    + [ターゲットとExperience Cloudオーディエンスの統合](../dev101/3.4-target-exc-audiences.md)
    + [Target と Campaign の統合](../dev101/3.6-target-campaign.md)
-   + [ターゲットとAdobeI/Oの統合](../dev101/3.7-target-io.md)
+   + [ターゲットとAdobe I/Oの統合](../dev101/3.7-target-io.md)
    + [ターゲットとScene7の統合](../dev101/3.8-target-scene7.md)
    + [ターゲットとAdobe Experience Managerの統合](../dev101/3.5-target-aem.md)
    + [Adobe TargetでのAEMエクスペリエンスフラグメントの使用](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
