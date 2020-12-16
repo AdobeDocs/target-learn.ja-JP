@@ -1,5 +1,5 @@
 ---
-title: Adobe Targetを使用したA/Bテストの作成
+title: Adobe TargetでA/Bテストを作成
 description: 'null'
 audience: marketer
 difficulty: 1
