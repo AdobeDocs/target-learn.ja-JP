@@ -1,6 +1,6 @@
 ---
-title: AnalyticsをTarget用のデータソースとして使用(A4T)
-seo-title: AnalyticsをTarget用のデータソースとして使用(A4T)
+title: ターゲット用のデータソースとしてのAnalyticsの使用(A4T)
+seo-title: ターゲット用のデータソースとしてのAnalyticsの使用(A4T)
 description: 'null'
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Adobe AnalyticsをAdobe Target用のデータソースとして使用(A4T)
+# Adobe AnalyticsをAdobe Targetのデータソースとして使用(A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
