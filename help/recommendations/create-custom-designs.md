@@ -1,6 +1,6 @@
 ---
 title: Recommendationsでカスタムデザインを作成
-seo-title: Adobe TargetRecommendationsでカスタムデザインを作成する
+seo-title: Adobe TargetRecommendationsでカスタムデザインを作成
 audience: marketer
 difficulty: 3
 author: Daniel Wright
