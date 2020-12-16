@@ -16,7 +16,7 @@ ht-degree: 31%
 ---
 
 
-# Adobe Targetでの [!UICONTROL Visual Experience Composerの使用]
+# Adobe Targetの[!UICONTROL Visual Experience Composer]を使用
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
