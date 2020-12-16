@@ -1,6 +1,6 @@
 ---
-title: Adobe Targetのat.js 2.0をシングルページアプリケーション(SPA)に実装する
-seo-title: Adobe Targetのat.js 2.0をシングルページアプリケーション(SPA)に実装する
+title: Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
+seo-title: Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
 description: at.js の最新バージョンは、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能セットを提供します。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
 audience: developer
 difficulty: 3
@@ -16,31 +16,31 @@ ht-degree: 8%
 ---
 
 
-# Adobe Targetのat.js 2.0をシングルページアプリケーション(SPA)に実装する
+# Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
 
-The newest version of `at.js` provides rich feature sets that equip your business to execute personalization on next-generation, client-side technologies. This new version is focused on upgrading `at.js` to have harmonious interactions with single page applications (SPAs).
+最新バージョンの`at.js`は、次世代のクライアント側テクノロジーでパーソナライゼーションを実行できる豊富な機能セットを提供します。 この新しいバージョンは、単一ページアプリ(SPA)との調和したやり取りを持つ`at.js`のアップグレードに焦点を当てています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## SPAにat.js 2.0を実装する方法
+## at.js 2.0をSPAに実装する方法
 
-* シングルページアプリの&lt;head>に `at.js` 2.0を実装します。
-* SPAで表示が変更された場合は常に `adobe.target.triggerView()` 関数を実装します。 これを行うには、URLハッシュの変更のリッスン、SPAで呼び出されるカスタムイベントのリスニング、アプリケーションに直接コードを埋め込むなど、様々な手法を使用できます。 `triggerView()` 特定の単一ページアプリに最適なオプションを選択する必要があります。
-* 表示ー名は、関数の最初のパラメーターで `triggerView()` す。 シンプルで明確な一意の名前を付けて、TargetのVisual Experience Composerで簡単に選択できるようにします。
-* 表示は、小さな表示の変更時にトリガーできるほか、SPA以外のコンテキスト（無限にスクロールするページの半分下など）でもトリガーできます。
-* `at.js` 2.0およびは、Adobe Experience Platform Launchなどのタグ管理ソリューションを使用して導入で `triggerView()` きます。
+* `at.js` 2.0をシングルページアプリの&lt;head>に実装します。
+* SPAで表示が変更されるたびに、`adobe.target.triggerView()`関数を実装します。 これを行うには、URLハッシュの変更のリッスン、SPAで実行されるカスタムイベントのリスニング、`triggerView()`コードの直接アプリケーションへの埋め込みなど、様々な手法を使用できます。 特定の単一ページアプリに最適なオプションを選択する必要があります。
+* 表示名は`triggerView()`関数の最初のパラメータです。 シンプルで明確な一意の名前を付けて、ターゲットのVisual Experience Composerで簡単に選択できるようにします。
+* 表示は、小さな表示の変更時にトリガーすることができます。また、SPA以外のコンテキスト（無限にスクロールするページの半分下など）でもトリガーできます。
+* `at.js` 2.0およびは、Adobe Experience Platform Launchなどのタグ管理ソリューションを使用して導入 `triggerView()` できます。
 
 ## at.js 2.0の制限
 
-アップグレードする前に、 `at.js` 2.0の次の制限事項に注意してください。
+アップグレードする前に、`at.js` 2.0の次の制限事項に注意してください。
 
-* クロスドメイントラッキングは `at.js` 2.0ではサポートされていません。
-* mboxOverride.browserIpパラメーターとmboxSession URLパラメーターは、 `at.js` 2.0ではサポートされていません
-* 2.0では、従来の関数mboxCreate、mboxDefine、mboxUpdateは廃止されました。デフォルトのコンテンツが表示され、ネットワークリクエストは行われません。 `at.js`
+* `at.js` 2.0では、クロスドメイントラッキングはサポートされていません
+* mboxOverride.browserIpおよびmboxSession URLパラメーターは`at.js` 2.0ではサポートされていません
+* 従来の関数mboxCreate、mboxDefine、mboxUpdateは、`at.js` 2.0では廃止されました。デフォルトのコンテンツが表示され、ネットワークリクエストは行われません。
 
 ## ビデオで使用されるライブラリフッターコード
 
-以下のコードは、ビデオ中にライブラリの「ライブラリフッター」セクションに追加され `at.js` ました。 アプリが最初に読み込まれ、次にアプリ内のハッシュの変更時に発生します。 表示名にはハッシュのクリーンアップバージョンを使用し、ハッシュが空の場合は「home」を使用します。 SPAを識別するために、コードはURL内で「react/」というテキストを探します。このテキストは、サイト上で更新する必要がある可能性が高いことに注意してください。 また、SPAでカスタムイベントの実行を停止したり、コードを直接アプリに埋め込んだりする方が適切な場合があるこ `triggerView()` とにも注意してください。
+次のコードは、ビデオの実行中に`at.js`ライブラリの「ライブラリフッター」セクションに追加されました。 アプリが最初に読み込まれ、次にアプリ内のハッシュの変更時に発生します。 表示名にはハッシュのクリーンアップバージョンを使用し、ハッシュが空の場合は「home」を使用します。 SPAを識別するために、コードはURL内で「react/」というテキストを探します。このテキストは、サイトで更新する必要がある可能性が高いことに注意してください。 また、SPAでカスタムイベントから`triggerView()`を起動したり、コードを直接アプリに埋め込んだりする方が適切である可能性があることにも注意してください。
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -74,5 +74,5 @@ window.onhashchange = function() {
 ## その他のリソース
 
 * [at.js 2.0の仕組み（アーキテクチャ図）](understanding-how-atjs-20-works.md)
-* [Adobe TargetのVisual Experience Composerをシングルページアプリケーションで使用(SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Adobe TargetのVisual Experience Composerを使用したシングルページアプリ(SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
 * [at.js 1.xからat.js 2.0ドキュメントへのアップグレード](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
