@@ -1,5 +1,5 @@
 ---
-title: Adobe Targetでのプロパティの設定
+title: Adobe Targetでプロパティを設定
 description: 'null'
 audience: administrator
 difficulty: 1
