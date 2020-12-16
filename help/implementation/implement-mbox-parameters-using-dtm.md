@@ -1,6 +1,6 @@
 ---
-title: DTMを使用したTarget用のmboxパラメーターの実装
-seo-title: DTMを使用したTarget用のmboxパラメーターの実装
+title: DTMを使用したターゲット用のmboxパラメーターの実装
+seo-title: DTMを使用したターゲット用のmboxパラメーターの実装
 description: 'null'
 audience: developer
 difficulty: 3
