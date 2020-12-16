@@ -1,6 +1,6 @@
 ---
 title: Recommendations アクティビティの作成
-seo-title: Adobe TargetでのRecommendationsアクティビティの作成
+seo-title: Adobe TargetでRecommendationsアクティビティを作る
 audience: marketer
 difficulty: 3
 author: Daniel Wright
