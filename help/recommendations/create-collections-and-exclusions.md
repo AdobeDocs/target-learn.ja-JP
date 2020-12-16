@@ -1,6 +1,6 @@
 ---
 title: コレクションと除外の作成
-seo-title: Adobe TargetRecommendationsでのコレクションと除外の作成
+seo-title: コレクションと除外の作成(Adobe TargetRecommendations)
 description: null
 audience: marketer
 difficulty: 3
