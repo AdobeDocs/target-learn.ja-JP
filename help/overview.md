@@ -21,11 +21,11 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 
    *建築家向け：ほぼゼロの待ち時間エクスペリエンスをユーザーに提供するためのOn-Device Decisioningの概要を説明します。*
 * **[RecommendationsAPIの使用（チュートリアル）](recommendations-api-tutorial/recs-api-overview.md)**
-   *開発者向け：APIを使用して、カタログやカスタム条件などを設定および管理する実践的なプラクティス [!DNL Recommendations][!DNL Recommendations] を受けることができます。*
+   *開発者向け：APIを使用して、カタログやカスタム条件などを設定および管理する実践的なプラクティス [!DNL Recommendations]  [!DNL Recommendations] を受けることができます。*
 
 * **[Android向けAdobeMobile Services SDK v4を使用したAdobe Targetの実装（チュートリアル）](mobile-v4/overview.md)**
 
-   *既にAdobeMobile Services SDK v4を使用している開発者向け：アプリのエクスペリエンスをAdobe Targetで個人化する開始方法を説明します。 これらの手順は、レガシーユーザーサポートとして提供されます。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+   *既にAdobeMobile Services SDK v4を使用している開発者向け：アプリのエクスペリエンスをAdobe Targetで個人化する開始方法を説明します。これらの手順は従来のユーザーサポートとして提供されています。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
