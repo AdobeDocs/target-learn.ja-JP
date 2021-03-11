@@ -6,10 +6,10 @@ audience: end-user
 solution: Target
 type: チュートリアル
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 9%
 + 統合{#integrations}
    + [ターゲットとAnalyticsの統合](../dev101/3.2-target-analytics.md)
    + [ターゲット用のデータソースとしてのAnalyticsの使用(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [自動ターゲットアクティビティ用のA4TレポートをAnalysis Workspaceで設定する](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [ターゲットとAudience Managerの統合](../dev101/3.3-target-dmp.md)
    + [ターゲットとExperience Cloudオーディエンスの統合](../dev101/3.4-target-exc-audiences.md)
    + [Target と Campaign の統合](../dev101/3.6-target-campaign.md)
