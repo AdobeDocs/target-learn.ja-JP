@@ -10,7 +10,7 @@ topic: ターゲット用のAnalytics(A4T)、自動ターゲット
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Adobe AnalyticsAnalysis Workspaceでは豊富な分析機能を利用できま�
 >
 >自動ターゲットアクティビティ用にターゲットパネルのAnalyticsを設定するには、任意のコントロールエクスペリエンスを選択し、正規化指標として「訪問回数」を選択し、ターゲットアクティビティの作成時に最適化用に選択したのと同じ目標指標を選択します。
 
-## Adobe TargetのアンサンブルMLモデルとコントロールを比較する際に、コントロールとターゲットディメンションを使用します。
+## コントロールとターゲットディメンションを使用して、Adobe TargetのアンサンブルMLモデルとコントロールを比較します。
 
 デフォルトのA4Tパネルは、従来の（手動の）A/Bテストまたは自動配分アクティビティ用に設計されており、ここで目標は、個々のエクスペリエンスのパフォーマンスとコントロールのエクスペリエンスとを比較することです。 ただし、[!DNL Auto-Target]アクティビティでは、最初の順序の比較は、制御&#x200B;*戦略*&#x200B;と対象&#x200B;*戦略*&#x200B;の間で行う必要があります（つまり、制御戦略に対する[!DNL Auto-Target]アンサンブルモデル全体のパフォーマンスの上昇率を決定します）。
 
