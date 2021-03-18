@@ -1,17 +1,19 @@
 ---
-title: データプロバイダーを使用して、サードパーティのデータをAdobe Targetに統合する
-seo-title: データプロバイダーを使用して、サードパーティのデータをAdobe Targetに統合する
-description: データプロバイダーは、サードパーティから Target へデータを簡単に渡すことのできる機能です。サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。
-audience: marketer
-difficulty: 5
+title: データプロバイダーを使用したサードパーティデータの統合方法
+description: このチュートリアルでは、データプロバイダに関するユーザを紹介します。 データプロバイダー機能を使用して、サードパーティからAdobe Targetに簡単にデータを渡す方法を説明します。
+role: 開業者、開発者
+level: 経験豊富な
+topic: パーソナライゼーション、統合
+feature: 実装，統合， API/SDK
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
