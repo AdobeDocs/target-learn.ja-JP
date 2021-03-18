@@ -1,21 +1,33 @@
 ---
-title: Recommendations アクティビティの作成
-seo-title: Adobe TargetでRecommendationsアクティビティを作る
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendationsアクティビティの作り方
+description: Adobe TargetRecommendationsアクティビティの作り方
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 15%
 
 ---
 
 
-# Recommendations アクティビティの作成
+# Adobe TargetRecommendationsアクティビティの作成
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Recommendations アクティビティの作成
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
