@@ -1,24 +1,23 @@
 ---
 title: 自動ターゲットアクティビティ用にA4TレポートをAnalysis Workspaceで設定する方法
-description: 自動ターゲットアクティビティの実行時に期待通りの結果を得るために、Analysis WorkspaceでA4Tレポートを設定する方法
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: ターゲット用のAnalytics(A4T)の統合を導入し、自動ターゲットアクティビティを実行したら、結果を正しく解釈できるかどうかを確認するには、どうしたらいいですか。 自動ターゲットアクティビティの実行時に期待通りの結果を得るために、Analysis WorkspaceでA4Tレポートを設定するには、次の手順に従います。
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
 feature: ターゲット用のAnalytics(A4T)、自動ターゲット
-topic: ターゲット用のAnalytics(A4T)、自動ターゲット
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# [!DNL Auto-Target]アクティビティのA4TレポートをAnalysis Workspaceで設定する方法
+# Analysis Workspaceでの[!DNL Auto-Target]アクティビティのA4Tレポートの設定
 
 [!DNL Auto-Target]アクティビティ向けのターゲット用Analytics(A4T)統合では、Adobe Targetのアンサンブル機械学習(ML)アルゴリズムを使用して、プロファイル、行動およびコンテキストに基づいて、すべてAdobe Analytics目標指標を使用して、各訪問者に最適なエクスペリエンスを選択します。
 
