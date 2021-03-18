@@ -1,17 +1,17 @@
 ---
 title: Adobe Targetでオーディエンスとオファーを作成する
-seo-title: Adobe Targetでオーディエンスとオファーを作成する
 description: 'このレッスンでは、Adobe Targetで、前のレッスンで実装した3つの場所に対応するオーディエンスとオファーを作成します。 これらは、次のレッスンでパーソナライズされたエクスペリエンスを表示するために使用されます。   '
-seo-description: このレッスンでは、Adobe Targetで、前のレッスンで実装した3つの場所に対応するオーディエンスとオファーを作成します。 これらは、次のレッスンでパーソナライズされたエクスペリエンスを表示するために使用されます。
-feature: mobile
-kt: 3040
-audience: developer
+role: 開発者
+level: 中間
+topic: モバイル、パーソナライゼーション
+feature: モバイルの実装
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1015'
 ht-degree: 1%
 
 ---
