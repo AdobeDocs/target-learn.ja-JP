@@ -1,21 +1,33 @@
 ---
-title: Recommendationsでのフィードの作成
-seo-title: Adobe TargetRecommendationsでのフィードの作成
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendationsでのフィードの作成方法
+description: Adobe TargetRecommendationsでデータフィードを作成する方法を説明します。
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '78'
+ht-degree: 15%
 
 ---
 
 
-# Recommendationsでのフィードの作成
+# Adobe TargetRecommendationsでのフィードの作成
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Adobe TargetRecommendationsでデータフィードを作成する
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
