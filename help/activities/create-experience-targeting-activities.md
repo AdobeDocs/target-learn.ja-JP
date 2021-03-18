@@ -1,17 +1,18 @@
 ---
-title: Adobe Targetでエクスペリエンスターゲット設定アクティビティを作成
-description: エクスペリエンスのターゲット設定アクティビティを使用すると、マーケターは特定のオーディエンスに対して特定のコンテンツをターゲットできます。
-seo-description: エクスペリエンスのターゲット設定アクティビティを使用すると、マーケターは特定のオーディエンスに対して特定のコンテンツをターゲットできます。
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: エクスペリエンスのターゲット設定アクティビティの作成方法
+description: エクスペリエンスのターゲット設定(XT)アクティビティを使用すると、マーケターは特定のコンテンツを特定のオーディエンスにターゲットできます。 XTアクティビティのメリットと、その作成および使用方法について説明します。
+role: 開業医
+level: 初心者
+topic: パーソナライゼーション
+feature: エクスペリエンスのターゲット設定，アクティビティ, Visual Experience Composer(VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +20,16 @@ ht-degree: 22%
 # エクスペリエンスのターゲット設定アクティビティの作成
 
 エクスペリエンスのターゲット設定は、パーソナライゼーションの第一歩であり、多くの場合、A/B テストから始まります。マーケティング担当者は A/B テストを実施し、レポート用オーディエンスを使用することで、エクスペリエンスが異なれば、それに共感するオーディエンスも異なることを発見します。エクスペリエンスのターゲット設定(XT)を使用すると、マーケティング担当者はその発見を簡単に活用して、様々なユーザーセグメントに対するコンテンツの長期的なターゲット設定に切り替えることができます。
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Visual Experience Composer(VEC)を使用して、エクスペリエンスターゲット設定(XT)アクティビティを作成する
+
+## 対象オーディエンス
+
+* ビジネス従事者
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
