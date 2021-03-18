@@ -1,17 +1,17 @@
 ---
 title: 機能のフラグ付け
-seo-title: 機能のフラグ付け
 description: Adobe Targetは、色、コピー、ボタン、テキスト、イメージなどのUX機能を試して、それらの機能を特定のオーディエンスに提供するのに使用できます。
-seo-description: Adobe Targetは、色、コピー、ボタン、テキスト、イメージなどのUX機能を試して、それらの機能を特定のオーディエンスに提供するのに使用できます。
-feature: mobile
-kt: 3040
-audience: developer
+role: 開発者
+level: 中間
+topic: モバイル、パーソナライゼーション
+feature: モバイルの実装
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ public void processFeatureFlags() {
 
 ## 機能フラグJSONオファーの作成
 
-次に、特定のオーディエンス(アプリで機能のロールアウトを受け取るオーディエンス)のフラグまたはトリガーとして機能する単純なJSONオファーを作成します。 [!DNL Target]インターフェイスで、新しいオファーを作成します。
+次に、特定のオーディエンス(アプリ内で機能のロールアウトを受け取るオーディエンス)のフラグまたはトリガーとして機能する単純なJSONオファーを作成します。 [!DNL Target]インターフェイスで、新しいオファーを作成します。
 
 ![機能フラグJSONオファーを作成](assets/feature_flag_json_offer.jpg)
 
