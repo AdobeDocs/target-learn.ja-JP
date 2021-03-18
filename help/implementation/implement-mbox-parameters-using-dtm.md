@@ -1,21 +1,34 @@
 ---
-title: DTMを使用したターゲット用のmboxパラメーターの実装
-seo-title: DTMを使用したターゲット用のmboxパラメーターの実装
-description: 'null'
-audience: developer
-difficulty: 3
-author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
+title: DTMを使用したmboxパラメーターの実装方法
+description: このビデオでは、Adobeアクティベーション(旧称Dynamic Tag Management(DTM))を使用してmboxパラメーターを実装する方法を開発者に示します。
+role: 開発者
+level: 中間
+topic: パーソナライゼーション、アーキテクチャ、開発
+feature: 実装
+doc-type: technical video
+kt: null
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 5%
 
 ---
 
 
-# DTMを使用したAdobe Target用のmboxパラメーターの実装
+# Dynamic Tag Management(DTM)を使用したAdobe Target用のmboxパラメーターの実装
+
+## 目標
+
+このビデオの最後までに、次のことが可能になります。
+
+* 静的な名前と値のペアをターゲットグローバルmbox内のパラメーターまたはプロファイルパラメーターにマップ
+* データ要素の基本について理解する
+* 動的なデータ要素の値をターゲットグローバルmboxのパラメーターまたはプロファイルパラメーターにマップする
+
+## 対象オーディエンス
+
+* 開発者
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
