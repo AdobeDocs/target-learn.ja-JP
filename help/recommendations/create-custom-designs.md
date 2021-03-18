@@ -1,21 +1,33 @@
 ---
-title: Recommendationsでカスタムデザインを作成
-seo-title: Adobe TargetRecommendationsでカスタムデザインを作成
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendationsでカスタムデザインを作る方法
+description: Adobe TargetRecommendationsでカスタムデザインを作成する方法を説明します。
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
 
 # Recommendationsでカスタムデザインを作成
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Adobe TargetRecommendationsでカスタムデザインを作成する
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
