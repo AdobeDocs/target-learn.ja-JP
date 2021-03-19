@@ -1,21 +1,35 @@
 ---
-title: Adobe Targetでのオーディエンスの使用
-seo-title: Adobe Targetでのオーディエンスの使用
-description: Audiences を最適化に使用する方法について説明します。
-audience: marketer
-difficulty: 1
+title: オーディエンスとは何ですか？その使用方法を教えてください。
+description: このビデオでは、Adobe Targetのユーザがオーディエンスを使用してターゲットアクティビティやレポートのフィルタリングを行う方法を紹介します。
+role: 開業医
+level: 初心者
+topic: パーソナライゼーション
+feature: オーディエンス、レポート
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 31%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
 
 # Adobe Targetでのオーディエンスの使用
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Adobe Targetの「オーディエンス」の定義
+* オーディエンスリストでのオーディエンスの検索
+* オーディエンスを使用したターゲットアクティビティとレポートのフィルタリング
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)
