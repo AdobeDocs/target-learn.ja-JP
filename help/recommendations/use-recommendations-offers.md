@@ -1,24 +1,25 @@
 ---
-title: A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
-seo-title: Adobe TargetのA/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する
-description: Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: A/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法
+description: Adobe TargetのA/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法を説明します。
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations、自動ターゲット、自動配分
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 7%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
 
 # A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
 
-Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。 この機能により、次のようなことがおこなえるようになります。
+Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。 この機能により、豊富な機能が開かれ、次のことが可能になります。
 
 * レコメンデーションとレコメンデーション以外のコンテンツを同じアクティビティ内に混在させる
 * 複数のレコメンデーションの順序を含め、ページ上でレコメンデーションの配置を簡単にテストする
