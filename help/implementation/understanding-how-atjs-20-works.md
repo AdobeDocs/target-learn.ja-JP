@@ -1,17 +1,19 @@
 ---
-title: Adobe Targetのat.js 2.0の仕組み
-seo-title: Adobe Targetのat.js 2.0の仕組み
+title: at.js 2.0の仕組み
 description: at.js 2.0は、Adobe Targetのシングルページアプリ(SPA)に対するサポートを強化し、他のExperience Cloudソリューションと統合します。 このビデオと付属の図は、すべてがどのように連携するかを説明しています。
-audience: developer
-difficulty: 3
+role: 開発者
+level: 中間
+topic: SPA，アーキテクチャ，開発
+feature: 実装
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 11%
+source-wordcount: '433'
+ht-degree: 12%
 
 ---
 
