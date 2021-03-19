@@ -1,19 +1,18 @@
 ---
-title: カスタム条件の管理
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
-kt: 3815
-audience: developer
+title: カスタム条件の管理方法
+description: チュートリアルのこの部分では、開発者がAdobe TargetAPIを使用してAdobe TargetRecommendationsの条件の管理、作成、リスト、編集、取得、削除を行うために必要な手順について説明します。
+role: 開発者
+level: 中間
+topic: パーソナライゼーション、管理、統合、開発
+feature: API/SDK、Recommendations、管理および設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
@@ -41,7 +40,7 @@ ht-degree: 1%
 
 上記の警告を読み、UIから削除できない新しいカスタム条件を作成しやすい場合にのみ、このチュートリアルを進めてください。
 
-1. **カスタム条件**&#x200B;の`TENANT_ID`と`API_KEY`を確認し、&lt;a2/>以前に確立したポストマン環境変数を参照します。 比較には、次の画像を使用してください。
+1. **カスタム条件**&#x200B;の`TENANT_ID`と`API_KEY`を確認し、以前に確立したポストマン環境変数を参照します。 比較には、次の画像を使用してください。
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
