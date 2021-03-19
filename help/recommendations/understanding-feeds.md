@@ -1,21 +1,33 @@
 ---
-title: Recommendationsのフィードについて
-seo-title: Adobe TargetRecommendationsのフィードについて
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Recommendationsの飼料とは
+description: Adobe TargetRecommendationsのフィードの概要と使用方法
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 15%
 
 ---
 
 
 # Recommendationsのフィードについて
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* フィードの概要と使用方法の説明
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
