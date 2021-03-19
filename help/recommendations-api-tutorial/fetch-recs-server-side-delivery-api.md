@@ -1,19 +1,18 @@
 ---
-title: 配信APIを使用したRecommendationsの取得
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
-kt: 3815
-audience: developer
+title: 配信APIでRecommendationsを取得する方法
+description: チュートリアルのこの部分では、Adobe Target配信APIを使用してレコメンデーションコンテンツを取得するために必要な手順について、開発者に説明します。
+role: 開発者
+level: 中間
+topic: パーソナライゼーション、管理、統合、開発
+feature: API/SDK、Recommendations、管理および設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -87,7 +86,7 @@ png応答には、キーIDと推奨エンティティのエンティティIDが�
 
 この方法で配信APIを[!DNL Recommendations]と共に使用すると、HTML以外のデバイスで訪問者にレコメンデーションを表示する前に、追加の手順を実行できます。 例えば、配信APIからの応答を受け取って、最終的な結果を表示する前に、別のシステム（CMS、PIM、eコマースプラットフォームなど）からエンティティ属性の詳細（在庫、価格、評価など）を追加のリアルタイムで参照できます。
 
-このチュートリアルで概要を説明するアプローチを使うと、[!DNL Target]からの回答を活用して、パーソナライズされたレコメンデーションを提供するアプリをどれでも手に入れることができます。
+このチュートリアルで概要を説明するアプローチを使用すると、[!DNL Target]からの回答を活用して、パーソナライズされたレコメンデーションを提供するアプリを利用できます。
 
 ## 実装例
 
@@ -108,7 +107,7 @@ png応答には、キーIDと推奨エンティティのエンティティIDが�
 
 ほとんどの場合、レコメンデーションはAdobe TargetUIで設定され、[!DNL Target] APIを使用またはアクセスします。これは、上の節で説明したような理由からです。 このUI-APIの調整は一般的です。 ただし、場合によっては、設定と結果の使用の両方のAPIを使用して、すべての操作を実行したい場合があります。 一般的ではありませんが、ユーザーは絶対に設定、実行、*および*&#x200B;を行うことができます。これらの結果は、APIを完全に使用したレコメンデーションの結果を利用できます。
 
-[前の](manage-catalog.md)節で、Adobe TargetRecommendationsのエンティティを管理し、サーバ側で配信する方法を学びました。 同様に、Adobe I/Oでは、Adobe Targetにログインすることなく、条件、プロモーション、コレクション、デザインテンプレートを管理できます。 すべての[!DNL Recommendations] APIの完全なリストは、[ここ](http://developers.adobetarget.com/api/recommendations/)にありますが、以下は参考用の要約です。
+[前の](manage-catalog.md)節で、Adobe TargetRecommendationsのエンティティを管理し、サーバ側で配信する方法を学びました。 同様に、Adobe I/Oを使用すると、Adobe Targetにログインすることなく、条件、プロモーション、コレクション、デザインテンプレートを管理できます。 すべての[!DNL Recommendations] APIの完全なリストは、[ここ](http://developers.adobetarget.com/api/recommendations/)にありますが、以下は参考用の要約です。
 
 | リソース | 詳細 |
 | --- | --- |
