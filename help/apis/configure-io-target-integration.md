@@ -1,19 +1,18 @@
 ---
-title: Adobe TargetAPIの認証の設定
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
-kt: null
-audience: developer
+title: Adobe TargetAPI用の認証の設定方法
+description: このチュートリアルでは、開発者がAdobe TargetAPIとのやり取りに必要な認証トークンを生成する手順を説明します。 次の手順に従って、AdobeDeveloper Consoleを使用してベアラアクセストークンを生成およびテストします。ベアラターゲットAPIを使用するには、この操作が必要です。
+role: 開発者、管理者、アーキテクト
+level: 中間
+topic: パーソナライゼーション、管理、統合、開発
+feature: API/SDK、管理と設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1896'
 ht-degree: 2%
 
 ---
@@ -34,8 +33,8 @@ ht-degree: 2%
 
 | リソース | 詳細 |
 | --- | --- |
-| 郵便配達人 | これらの手順を正しく完了するには、お使いのオペレーティングシステムの[Postmanアプリ](https://www.postman.com/downloads/)を入手してください。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分は、Postmanの作業知識を前提としています。 援助が必要な場合は、[ポストマンのドキュメント](https://learning.getpostman.com/)を参照してください。 |
-| リファレンス | このチュートリアルの残りの部分では、次のリソースに精通していることを前提としています。<UL><li>[Adobe I/Oギトブ](https://github.com/adobeio)</li><li>[ターゲットAdobe I/O文書](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPIドキュメント](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| 郵便配達人 | これらの手順を正しく完了するには、お使いのオペレーティングシステムの[Postmanアプリ](https://www.postman.com/downloads/)を入手してください。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分では、Postmanの作業知識を前提としています。 援助が必要な場合は、[ポストマンのドキュメント](https://learning.getpostman.com/)を参照してください。 |
+| リファレンス | このチュートリアルの残りの部分では、次のリソースに精通していることを前提としています。<UL><li>[Adobe I/Oギトブ](https://github.com/adobeio)</li><li>[ターゲットAdobe I/Oドキュメント](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPIドキュメント](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Adobe I/Oプロジェクトの作成
 
@@ -91,7 +90,7 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
 >
 >[!DNL Target]を含む、Experience Cloudソリューションで使用できるビデオ手順については、[PostmanとExperience PlatformAPIの使用](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html)を参照してください。 以下の節は[!DNL Target] APIに関連しています。
 >
-> 1. Adobe I/O統合の詳細をポストマンにエクスポート
+> 1. Adobe I/O統合の詳細をPostmanにエクスポート
 > 2. ポストマンでのアクセストークンの生成
 
 >
@@ -145,7 +144,7 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Postmanで、生のJSONを貼り付けてクリップボードから送信し、コレクションを読み込みます。 （または、保存した.jsonファイルをアップロードすることもできます）。 「**続行**」をクリックします。
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. **[!UICONTROL IMSを選択します。JWT Generate + Auth via User Token]**&#x200B;リクエスト(Adobe I/Oアクセストークン生成ポストマンコレクション内)を生成し、環境が選択されていることを確認します。「**送信**」をクリックしてトークンを生成します。
+5. **[!UICONTROL IMSを選択します。Adobe I/Oアクセストークン生成ポストマンコレクションのJWT Generate + Auth via User Token]**&#x200B;リクエストを生成し、環境が選択されていることを確認します。「**送信**」をクリックしてトークンを生成します。
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -162,7 +161,7 @@ Postmanではプロジェクトの詳細を指定する方法は多数ありま�
 >
 >Q:JSON Web Token(JWT)およびbearerアクセストークンを生成するには、Adobe I/Oアクセストークン生成ポストマンコレクションを使用する必要がありますか。
 >
->A:だめ！ Adobe I/Oアクセストークン生成ポストマンコレクションは、ポストマンでJWTおよびベアラアクセストークンをより簡単に生成できる便利さとして利用できます。 または、Adobe開発者コンソール内の機能を使用して、ベアラアクセストークンを手動で生成できます。
+>A:だめ！ Adobe I/Oアクセストークン生成ポストマンコレクションは、ポストマンでJWTおよびベアラアクセストークンをより容易に生成できる利便性として利用できる。 または、Adobe開発者コンソール内の機能を使用して、ベアラアクセストークンを手動で生成できます。
 
 ## bearerアクセストークンのテスト
 
