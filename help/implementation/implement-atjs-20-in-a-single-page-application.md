@@ -1,24 +1,26 @@
 ---
-title: Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
-seo-title: Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
-description: at.js の最新バージョンは、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能セットを提供します。この新しいバージョンは、シングルページアプリケーション（SPA）と調和したインタラクションを実現するための at.js のアップグレードに焦点を当てています。
-audience: developer
-difficulty: 3
+title: シングルページアプリケーション(SPA)でat.js 2.0を実装する方法
+description: Adobe Targetのat.js 2.0は、次世代のクライアント側テクノロジー上でパーソナライゼーションを実行できる豊富な機能セットを提供します。 at.js 2.0をシングルページアプリケーション(SPA)に実装するには、次の手順に従います。
+role: 開発者
+level: 中間
+topic: SPA，アーキテクチャ，開発
+feature: 実装
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Targetのat.js 2.0をシングルページアプリ(SPA)に実装する
 
-最新バージョンの`at.js`は、次世代のクライアント側テクノロジーでパーソナライゼーションを実行できる豊富な機能セットを提供します。 この新しいバージョンは、単一ページアプリ(SPA)との調和したやり取りを持つ`at.js`のアップグレードに焦点を当てています。
+Adobe Targetの`at.js` 2.0は、次世代のクライアント側テクノロジーでパーソナライゼーションを実行できる豊富な機能セットを提供します。 このバージョンは、単一ページアプリ(SPA)との調和したやり取りを持つように`at.js`をアップグレードすることに焦点を当てています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
@@ -27,7 +29,7 @@ ht-degree: 8%
 * `at.js` 2.0をシングルページアプリの&lt;head>に実装します。
 * SPAで表示が変更されるたびに、`adobe.target.triggerView()`関数を実装します。 これを行うには、URLハッシュの変更のリッスン、SPAで実行されるカスタムイベントのリスニング、`triggerView()`コードの直接アプリケーションへの埋め込みなど、様々な手法を使用できます。 特定の単一ページアプリに最適なオプションを選択する必要があります。
 * 表示名は`triggerView()`関数の最初のパラメータです。 シンプルで明確な一意の名前を付けて、ターゲットのVisual Experience Composerで簡単に選択できるようにします。
-* 表示は、小さな表示の変更時にトリガーすることができます。また、SPA以外のコンテキスト（無限にスクロールするページの半分下など）でもトリガーできます。
+* トリガー表示は、小さな表示の変更時にも、無限にスクロール可能なページの中途半端な下りなど、SPA以外のコンテキストでも使用できます。
 * `at.js` 2.0およびは、Adobe Experience Platform Launchなどのタグ管理ソリューションを使用して導入 `triggerView()` できます。
 
 ## at.js 2.0の制限
