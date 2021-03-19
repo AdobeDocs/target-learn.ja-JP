@@ -1,24 +1,37 @@
 ---
-title: プロファイル比較を使用してAdobe Targetでオーディエンスを作成する
-seo-title: プロファイル比較を使用してAdobe Targetでオーディエンスを作成する
-description: Adobe Targetのプロファイル比較機能を使用すると、オーディエンスを作成する際に2つの数値プロファイル値を相互に比較できます。 これは、カスタム構築された傾向スコアをターゲットに渡し、最も高い傾向スコアを持つ製品に基づいてコンテンツをパーソナライズする場合に非常に役立ちます。
-audience: marketer
-difficulty: 3
+title: プロファイル比較を使用してオーディエンスを作成する方法
+description: このビデオでは、Adobe Targetのユーザがプロファイルを作成する際に、オーディエンス比較機能を使用して2つの数値プロファイル値を比較する方法を示します。
+role: 開業医
+level: 経験豊富な
+topic: パーソナライゼーション
+feature: オーディエンス
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 4%
+source-wordcount: '179'
+ht-degree: 6%
 
 ---
 
 
 # プロファイル比較を使用してAdobe Targetでオーディエンスを作成する
 
-Adobe Targetの[!UICONTROL プロファイル比較]機能を使用すると、オーディエンスを作成する際に2つの数値プロファイル値を相互に比較できます。 これは、カスタムビルドの傾向スコアを[!DNL Target]に渡し、最も高い傾向スコアを持つ製品に基づいてコンテンツをパーソナライズする場合に非常に役立ちます。
+Adobe Targetの[!UICONTROL プロファイル比較]機能を使用すると、オーディエンスを作成する際に2つの数値プロファイル値を相互に比較できます。 これは、例えば、カスタム設計の傾向スコアを[!DNL Target]に渡し、最も高い傾向スコアを持つ製品に基づいてコンテンツをパーソナライズする場合に非常に役立ちます。
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Adobe Targetに渡される数値プロファイル値（スコア）を比較します。
+* これらのスコア比較を使用して、オーディエンスを定義します
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
