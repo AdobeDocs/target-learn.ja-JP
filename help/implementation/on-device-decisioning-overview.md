@@ -1,18 +1,18 @@
 ---
-title: オンデバイス判定の概要
-description: Adobe Targetのデバイス上での判定により、ほぼゼロの遅延のコンテンツ配信が可能になります。
-topics: implementation
-feature: implementation
-audience: architect
-activity: understand
+title: On-Device Decisioningとは
+description: Adobe Targetのデバイス上での判定により、ほぼゼロの遅延のコンテンツ配信が可能になります。 このビデオでは、オンデバイスの判定を有効にする方法について説明します。
+role: 設計者
+level: 初心者
+topic: アーキテクチャ、開発
+feature: 実装，サーバー側の実装，クライアント側の実装
 doc-type: feature video
 team: Evangelism
 kt: 6691
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '187'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,6 @@ Adobe Targetのデバイス上での判定により、ほぼゼロの遅延の�
 * On-Device Decisioningで使用するフォームベースのコンポーザーアクティビティの作成
 * [Adobe TargetSDKドキュメント](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)にアクセスして、オンデバイス判定に必要なSDKの設定についての詳細を確認します
 * オンデバイスの判定機能を使用して配信されるコンテンツに対してエンドユーザーが経験する内容を理解する
-
 
 ## 対象オーディエンス
 
