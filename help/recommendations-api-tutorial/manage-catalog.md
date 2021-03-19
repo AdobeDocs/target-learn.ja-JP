@@ -1,27 +1,26 @@
 ---
-title: APIを使用したRecommendationsカタログの管理
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
-kt: 3815
-audience: developer
+title: APIを使用したRecommendationsカタログの管理方法
+description: チュートリアルのこの部分では、開発者がAdobe TargetAPIを使用して、Recommendationsカタログ内のエンティティを作成、更新、保存、取得、および削除するために必要な手順について説明します。
+role: 開発者
+level: 中間
+topic: パーソナライゼーション、管理、統合、開発
+feature: API/SDK、Recommendations、管理および設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 
 # APIを使用した[!DNL Recommendations]カタログの管理
 
-この時点で、JWT認証フローを使用してアクセストークンを生成し、Adobe I/OでAdobe Target管理APIを使用する方法を学びました。
+この時点で、JWT認証フローを使用してアクセストークンを生成し、Adobe Target管理APIをAdobe I/Oと共に使用する方法を学習しました。
 
 [RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/)を使用して、レコメンデーションカタログの品目の追加、更新または削除を行うことができます。 他のAdobe Target管理APIと同様に、[!DNL Recommendations] APIは認証が必要です。
 
