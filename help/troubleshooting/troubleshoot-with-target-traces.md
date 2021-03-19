@@ -1,16 +1,19 @@
 ---
-title: ターゲットトレースでAdobe Targetをトラブルシューティング
+title: ターゲットトレースのトラブルシューティング方法
 description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。Experience Cloudに対する認証方法、および強力なターゲットトレースツールを使用して、アクティビティとオーディエンスの資格、および訪問者プロファイルを検査する方法について説明します。
-audience: marketer
-difficulty: 3
+role: 開業医
+level: 中間
+topic: パーソナライゼーション、パフォーマンス
+feature: トラブルシューティング
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 translation-type: tm+mt
-source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 17%
+source-wordcount: '115'
+ht-degree: 18%
 
 ---
 
