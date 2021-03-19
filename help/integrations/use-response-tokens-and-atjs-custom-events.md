@@ -1,17 +1,19 @@
 ---
-title: 応答トークンとat.jsカスタムイベントのAdobe Targetでの使用
-seo-title: 応答トークンとat.jsカスタムイベントのAdobe Targetでの使用
-description: 応答トークンとat.jsカスタムイベントを使用すると、ターゲットからサードパーティ製システムにプロファイル情報を共有できます。 カスタムプロファイル属性、地理情報、アクティビティの詳細、組み込みプロファイルなど、ターゲット訪問者プロファイル内の任意のオブジェクトをターゲットの応答に追加し、カスタムJavaScriptを使用してサードパーティと統合できます。
-audience: developer
-difficulty: 5
+title: 応答トークンとat.jsカスタムイベントの使用方法
+description: 応答トークンとat.jsカスタムイベントを使用して、ターゲットからサードパーティ製システムにプロファイル情報を共有する方法を説明します。
+role: 開発者
+level: 経験豊富な
+topic: パーソナライゼーション、アーキテクチャ、開発
+feature: 実装
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 4%
 
 ---
 
