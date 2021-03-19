@@ -1,20 +1,32 @@
 ---
-title: Adobe Targetでのアカウント設定
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: アカウント設定の設定方法
+description: このビデオでは、Adobe Targetアカウントの環境設定について説明します。 このビデオでは、設定の違いがAdobe Targetに与える影響の例をご覧ください。
+role: 管理者
+level: 初心者
+topic: 管理
+feature: 管理と設定
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
-ht-degree: 8%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
 
-# アカウント設定
+# Adobe Targetでのアカウント設定
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* Adobe Targetの様々なアカウント設定について説明する
+
+## 対象オーディエンス
+
+* 管理者
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
