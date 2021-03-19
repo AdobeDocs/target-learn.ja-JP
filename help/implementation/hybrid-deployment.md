@@ -1,26 +1,24 @@
 ---
-title: Adobe Targetハイブリッド展開
-description: Adobe Targetオファーは、パーソナライゼーション用の独自のハイブリッド展開モデルです。クライアント側とサーバ側の実装を混在させます。
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: ハイブリッド展開オプション
+description: このビデオでは、Adobe Target独自のハイブリッド展開モデルを使用してパーソナライズ（クライアント側とサーバー側の実装を組み合わせたもの）について説明します。
+role: 開発者、アーキテクト
+level: 初心者
+topic: パーソナライゼーション、アーキテクチャ、開発
+feature: 実装，サーバー側の実装，クライアント側の実装
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
 
 
 # Adobe Targetハイブリッド展開
-
-## 説明
 
 Adobe Targetオファーは、パーソナライゼーション用の独自のハイブリッド展開モデルです。クライアント側とサーバ側の実装を混在させます。 このハイブリッドモデルを使用すると、技術者以外のユーザーがWYSIWYG Visual Experience Composerを使用してテストまたはパーソナライズアクティビティを作成し、高パフォーマンスの配信を実現するためにサーバー側でエクスペリエンスを実行、配信、レンダリングできます。 
 
@@ -39,4 +37,7 @@ Adobe Targetオファーは、パーソナライゼーション用の独自の�
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## その他のリソース
+
+* [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Adobe TargetSDKドキュメント](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
