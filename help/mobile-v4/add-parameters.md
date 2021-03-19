@@ -1,15 +1,17 @@
 ---
 title: リクエスト追加のパラメーター
 description: このレッスンでは、前のレッスンで追加したターゲットリクエストに、Adobeのライフサイクル指標とカスタムパラメータを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスの作成に使用されます。
-feature: mobile
-kt: 3040
-audience: developer
+role: 開発者
+level: 中間
+topic: モバイル、パーソナライゼーション
+feature: モバイルの実装
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
