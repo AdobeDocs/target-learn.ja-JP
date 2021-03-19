@@ -1,19 +1,18 @@
 ---
-title: Adobe RecommendationsAPIの概要
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe TargetRecommendationsには、レコメンデーション可能な商品やコンテンツのカタログを管理するためのAPIの専用セットが含まれています。レコメンデーションのアルゴリズムとキャンペーンを管理します。Web、モバイル、電子メール、IOTなどのチャネルに表示するJSON、HTMLまたはXMLオブジェクトでレコメンデーションを配信します。
-kt: 3815
-audience: developer
+title: Adobe RecommendationsAPIとは何ですか。
+description: このチュートリアルでは、Adobe TargetRecommendationsAPIを使用したRecommendationsカタログとカスタム条件の設定と管理、および配信APIを使用したレコメンデーションコンテンツの取得に関する実践、開発者向けの練習について説明します。
+role: 開発者
+level: 中間
+topic: パーソナライゼーション、管理、統合、開発
+feature: API/SDK,Recommendations，管理と設定，概要
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -52,7 +51,7 @@ ht-degree: 1%
 
 | リソース | 詳細 |
 | --- | --- |
-| 郵便配達人 | お使いのオペレーティングシステムの[Postmanアプリ](https://www.postman.com/downloads/)を取得します。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分は、Postmanの作業知識を前提としています。 援助が必要な場合は、[ポストマンのドキュメント](https://learning.getpostman.com/)を参照してください。 |
-| リファレンス | このチュートリアルの残りの部分では、次のリソースに精通していることを前提としています。<UL><li>[Adobe I/Oギトブ](https://github.com/adobeio)</li><li>[ターゲットAdobe I/O文書](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPIドキュメント](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| 郵便配達人 | お使いのオペレーティングシステムの[Postmanアプリ](https://www.postman.com/downloads/)を取得します。 Postman Basicはアカウントの作成で自由です。 一般的にAdobe TargetAPIを使用するために必須ではありませんが、PostmanはAPIワークフローを容易にし、Adobe TargetはAPIの実行や動作の学習に役立ついくつかのポストマンコレクションを提供しています。 このチュートリアルの残りの部分では、Postmanの作業知識を前提としています。 援助が必要な場合は、[ポストマンのドキュメント](https://learning.getpostman.com/)を参照してください。 |
+| リファレンス | このチュートリアルの残りの部分では、次のリソースに精通していることを前提としています。<UL><li>[Adobe I/Oギトブ](https://github.com/adobeio)</li><li>[ターゲットAdobe I/Oドキュメント](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPIドキュメント](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 [次の「Recommendationsカタログの管理」>](manage-catalog.md)
