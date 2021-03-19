@@ -1,22 +1,34 @@
 ---
-title: コレクションと除外の作成
-seo-title: コレクションと除外の作成(Adobe TargetRecommendations)
-description: null
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: コレクションと除外をRecommendationsで作成する方法
+description: Recommendationsコレクションの概要と使用方法を説明します。 Recommendationsの除外とは何かと、その使い方を学びます。
+role: 開業医
+level: 中間
+topic: パーソナライゼーション
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '84'
+ht-degree: 14%
 
 ---
 
 
 # コレクションと除外の作成(Recommendations)
+
+## 説明
+
+このビデオでは、次の方法を学習します。
+
+* コレクションの作成
+* 除外の作成
+
+## 対象オーディエンス
+
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
