@@ -1,15 +1,17 @@
 ---
 title: 追加Adobe Targetの要請
 description: 'AdobeMobile Services SDK(v4)は、Adobe Targetのメソッドと機能を提供し、様々なユーザーに対して様々なエクスペリエンスを使用してアプリをパーソナライズできます。   '
-feature: mobile
-kt: 3040
-audience: developer
+role: 開発者
+level: 中間
+topic: モバイル、パーソナライゼーション
+feature: モバイルの実装
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -46,7 +48,7 @@ AdobeMobile Services SDK(v4)は、Adobe Targetのメソッドと機能を提供�
 * **プリフェッチ要求：オファー**  を取得し、将来アプリで使用するためにメモリにキャッシュする単一の要求
 * **バッチプリフェッチ要求：複数**  の場所のオファーをプリフェッチする単一の要求
 * **オーディエンス：イ**  ンター [!DNL Target] フェイスで定義された訪問者のグループ、または他のAdobeアプリケーション [!DNL Target] から共有されたのグループ(例：「iPhone X訪問者」、「訪問者in the California」、「First App Open」)
-* **アクティビティ:**  場所、オファー、オーディエンスをリンクし、パーソナライズされたエクスペリエンスを作成する [!DNL Target] ユーザーインターフェイス（またはAPI）で定義される [!DNL Target] 構成体。
+* **アクティビティ:**  場所、オファーおよびオーディエンスをリンクし、パーソナライズされたエクスペリエンスを作成する [!DNL Target] ユーザーインターフェイス（またはAPI）で定義される [!DNL Target] 構成体。
 
 ## バッチ追加プリフェッチ要求
 
@@ -284,7 +286,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | コード | 説明 |
 |--- |--- |
-| `targetLoadRequest()` | `Target.loadRequest()`が起動し、wetravel_context_destの場所を読み込んで表示するユーザー定義関数（SDKの一部ではありません） |
+| `targetLoadRequest()` | `Target.loadRequest()`が起動し、wetravel_context_destの場所を読み込んで表示する、ユーザー定義関数（SDKの一部ではありません） |
 | `Target.loadRequest()` | ターゲットサーバーにリクエストを送信するSDKメソッド |
 | Constant.wetravel_context_dest | [!DNL Target]インターフェイスでアクティビティを構築する際に、後で使用する要求に割り当てられる場所の名前です。 |
 | `filterRecommendationBasedOnOffer()` | オファーの応答から場所のオファーを取得し、ターゲットのコンテンツに基づいてアプリの変更方法を決定する、アプリのユーザー定義関数 |
