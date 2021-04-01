@@ -1,5 +1,5 @@
 ---
-cloud: marketing-cloud
+cloud: Experience Cloud
 product: target
 solution: Target
 solution-title: 'Target '
@@ -14,7 +14,7 @@ mini-toc-levels: 2
 feature-set: Target
 type: チュートリアル
 translation-type: tm+mt
-source-git-commit: 3cb099a8c5bf18cf4cc4c038040b3aa2ef1d68bc
+source-git-commit: 38125cff6d0c94d476f059442b592eaee39160ce
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 92%
