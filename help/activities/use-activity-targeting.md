@@ -1,10 +1,10 @@
 ---
 title: アクティビティのターゲット設定を使用する方法
 description: Adobe Targetは、アクティビティが実稼動中に異なるオーディエンスに表示されるエクスペリエンスを制御するための様々なレバーを提供します。 オーディエンスとトラフィックの配分を使用して、誰に何を表示するかを制御する方法を説明します。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
-feature: アクティビティ、オーディエンス
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

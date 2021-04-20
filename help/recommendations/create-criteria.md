@@ -1,9 +1,9 @@
 ---
 title: Recommendationsで条件を作成する方法
 description: Adobe TargetRecommendationsで条件の作成方法を学ぶ
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

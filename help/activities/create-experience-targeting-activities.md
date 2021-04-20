@@ -1,10 +1,10 @@
 ---
 title: エクスペリエンスのターゲット設定アクティビティの作成方法
 description: エクスペリエンスのターゲット設定(XT)アクティビティを使用すると、マーケターは特定のコンテンツを特定のオーディエンスにターゲットできます。 XTアクティビティのメリットと、その作成および使用方法について説明します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション
-feature: エクスペリエンスのターゲット設定，アクティビティ, Visual Experience Composer(VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,9 +1,9 @@
 ---
 title: Recommendationsアクティビティの作り方
 description: Adobe TargetRecommendationsアクティビティの作り方
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

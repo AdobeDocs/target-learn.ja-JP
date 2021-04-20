@@ -1,9 +1,9 @@
 ---
 title: コレクションと除外をRecommendationsで作成する方法
 description: Recommendationsコレクションの概要と使用方法を説明します。 Recommendationsの除外とは何かと、その使い方を学びます。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

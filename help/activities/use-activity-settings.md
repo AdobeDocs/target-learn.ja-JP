@@ -1,10 +1,10 @@
 ---
 title: アクティビティ設定の使用方法
 description: このビデオでは、目標、優先度レベル、開始と終了時間、オーディエンスなど、Adobe Targetの様々なアクティビティ設定の使い方を学習します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション
-feature: アクティビティ
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

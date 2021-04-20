@@ -1,10 +1,10 @@
 ---
 title: Web.Travelサンプルアプリのダウンロードと更新
 description: 'We.Travelサンプルアプリは、AdobeのMobile Services SDK v4で事前に実装されています。 組織およびソリューションのExperience Cloudアカウントを指すように更新する必要があります。   '
-role: 開発者
-level: 中間
-topic: モバイル、パーソナライゼーション
-feature: モバイルの実装
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

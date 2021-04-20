@@ -1,10 +1,10 @@
 ---
 title: 自動ターゲットアクティビティ用にA4TレポートをAnalysis Workspaceで設定する方法
 description: ターゲット用のAnalytics(A4T)の統合を導入し、自動ターゲットアクティビティを実行したら、結果を正しく解釈できるかどうかを確認するには、どうしたらいいですか。 自動ターゲットアクティビティの実行時に期待通りの結果を得るために、Analysis WorkspaceでA4Tレポートを設定するには、次の手順に従います。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション、統合
-feature: ターゲット用のAnalytics(A4T)、自動ターゲット、統合
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

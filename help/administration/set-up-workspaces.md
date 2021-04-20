@@ -1,10 +1,10 @@
 ---
 title: ワークスペースの設定方法
 description: このビデオでは、管理者がAdobe Targetでワークスペースを作成する方法を示します。
-role: 管理者
-level: 初心者
-topic: 管理
-feature: 管理と設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

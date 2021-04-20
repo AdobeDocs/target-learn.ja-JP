@@ -1,10 +1,10 @@
 ---
 title: 応答トークンとat.jsカスタムイベントの使用方法
 description: 応答トークンとat.jsカスタムイベントを使用して、ターゲットからサードパーティ製システムにプロファイル情報を共有する方法を説明します。
-role: 開発者
-level: 経験豊富な
-topic: パーソナライゼーション、アーキテクチャ、開発
-feature: 実装
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

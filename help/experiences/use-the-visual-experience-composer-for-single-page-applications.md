@@ -1,10 +1,10 @@
 ---
 title: シングルページアプリケーションでのVisual Experience Composerの使用方法(SPA VEC)
 description: このビデオでは、マーケターがシングルページアプリ(SPA VEC)用にVisual Experience Composerを使用する方法を紹介します。 SPA VECを使用してアクティビティを作成する方法については、このビデオをご覧ください。
-role: 開業医
-level: 初心者
-topic: SPA，パーソナライゼーション
-feature: エクスペリエンスとオファー、Visual Experience Composer(VEC)
+role: Business Practitioner
+level: Beginner
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

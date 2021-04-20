@@ -1,10 +1,10 @@
 ---
 title: プロファイル比較を使用してオーディエンスを作成する方法
 description: このビデオでは、Adobe Targetのユーザがプロファイルを作成する際に、オーディエンス比較機能を使用して2つの数値プロファイル値を比較する方法を示します。
-role: 開業医
-level: 経験豊富な
-topic: パーソナライゼーション
-feature: オーディエンス
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

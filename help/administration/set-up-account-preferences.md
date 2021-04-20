@@ -1,10 +1,10 @@
 ---
 title: アカウント設定の設定方法
 description: このビデオでは、Adobe Targetアカウントの環境設定について説明します。 このビデオでは、設定の違いがAdobe Targetに与える影響の例をご覧ください。
-role: 管理者
-level: 初心者
-topic: 管理
-feature: 管理と設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

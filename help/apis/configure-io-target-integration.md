@@ -1,10 +1,10 @@
 ---
 title: Adobe TargetAPI用の認証の設定方法
 description: このチュートリアルでは、開発者がAdobe TargetAPIとのやり取りに必要な認証トークンを生成する手順を説明します。 次の手順に従って、AdobeDeveloper Consoleを使用してベアラアクセストークンを生成およびテストします。ベアラターゲットAPIを使用するには、この操作が必要です。
-role: 開発者、管理者、アーキテクト
-level: 中間
-topic: パーソナライゼーション、管理、統合、開発
-feature: API/SDK、管理と設定
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: エンタープライズユーザー権限の設定方法
 description: このビデオでは、Adobe Target管理者にユーザー権限、プロパティおよびワークスペースを紹介します。 このビデオでは、様々なユーザーレベルと、プロパティとワークスペースを使用してユーザーアクセスを制御する方法について説明します。
-role: 管理者
-level: 初心者
-topic: 管理
-feature: 管理と設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

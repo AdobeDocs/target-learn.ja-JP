@@ -1,10 +1,10 @@
 ---
 title: Analyticsをターゲット用のデータソースとして使用する方法(A4T)
 description: このビデオでは、Analyticsでのターゲット(A4T)に関するマーケターの例を紹介します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション、統合
-feature: ターゲット用Analytics(A4T)、統合
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

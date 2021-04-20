@@ -1,10 +1,10 @@
 ---
 title: プロファイルスクリプトの作成方法
 description: このビデオでは、プロファイルスクリプトをAdobe Targetのユーザに紹介します。 Adobe Targetの経験があり、プロファイルスクリプトを使用して、より特殊なターゲット設定やオーディエンスの作成を実行する基本的な方法を学ぶには、このビデオをご覧ください。
-role: 開業者、開発者
-level: 経験豊富な
-topic: パーソナライゼーション
-feature: オーディエンス、管理、設定
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization
+feature: Audiences, Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

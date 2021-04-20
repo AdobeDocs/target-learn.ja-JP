@@ -1,10 +1,10 @@
 ---
 title: Adobe Targetでオーディエンスとオファーを作成する
 description: 'このレッスンでは、Adobe Targetで、前のレッスンで実装した3つの場所に対応するオーディエンスとオファーを作成します。 これらは、次のレッスンでパーソナライズされたエクスペリエンスを表示するために使用されます。   '
-role: 開発者
-level: 中間
-topic: モバイル、パーソナライゼーション
-feature: モバイルの実装
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

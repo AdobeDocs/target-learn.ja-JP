@@ -1,10 +1,10 @@
 ---
 title: 配信APIでRecommendationsを取得する方法
 description: チュートリアルのこの部分では、Adobe Target配信APIを使用してレコメンデーションコンテンツを取得するために必要な手順について、開発者に説明します。
-role: 開発者
-level: 中間
-topic: パーソナライゼーション、管理、統合、開発
-feature: API/SDK、Recommendations、管理および設定
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

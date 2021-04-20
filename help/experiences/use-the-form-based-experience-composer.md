@@ -1,10 +1,10 @@
 ---
 title: フォームベースのExperience Composerの使用方法
 description: このビデオでは、Adobe TargetユーザーがフォームベースのExperience Composerをいつどのように使用するかを示します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション
-feature: フォームベースのExperience Composer、エクスペリエンスとオファー、Visual Experience Composer(VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

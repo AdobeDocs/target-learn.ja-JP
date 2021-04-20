@@ -1,10 +1,10 @@
 ---
 title: データプロバイダーを導入してサードパーティデータを統合する方法
 description: このチュートリアルでは、Adobe Targetのデータプロバイダー機能を使用して、サードパーティのデータプロバイダーからデータを取得し、ターゲットリクエストに渡す方法の詳細と例を示します。
-role: 開発者
-level: 経験豊富な
-topic: パーソナライゼーション、統合
-feature: 実装，統合， API/SDK
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: ハイブリッド展開オプション
 description: このビデオでは、Adobe Target独自のハイブリッド展開モデルを使用してパーソナライズ（クライアント側とサーバー側の実装を組み合わせたもの）について説明します。
-role: 開発者、アーキテクト
-level: 初心者
-topic: パーソナライゼーション、アーキテクチャ、開発
-feature: 実装，サーバー側の実装，クライアント側の実装
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

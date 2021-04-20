@@ -1,10 +1,10 @@
 ---
 title: DTMを使用したmboxパラメーターの実装方法
 description: このビデオでは、Adobeアクティベーション(旧称Dynamic Tag Management(DTM))を使用してmboxパラメーターを実装する方法を開発者に示します。
-role: 開発者
-level: 中間
-topic: パーソナライゼーション、アーキテクチャ、開発
-feature: 実装
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

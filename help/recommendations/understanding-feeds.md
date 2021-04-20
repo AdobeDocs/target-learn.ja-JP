@@ -1,9 +1,9 @@
 ---
 title: Recommendationsの飼料とは
 description: Adobe TargetRecommendationsのフィードの概要と使用方法
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

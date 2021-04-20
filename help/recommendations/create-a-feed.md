@@ -1,9 +1,9 @@
 ---
 title: Recommendationsでのフィードの作成方法
 description: Adobe TargetRecommendationsでデータフィードを作成する方法を説明します。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

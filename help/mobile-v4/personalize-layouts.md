@@ -1,10 +1,10 @@
 ---
 title: レイアウトのパーソナライズ
 description: 'この最後のレッスンでは、オーディエンスに合わせて2つのパーソナライズアクティビティをターゲットして作成します。 アプリでアクティビティを読み込んで表示する方法、および適切な場所で適切なタイミングでコンテンツが表示されていることを検証する方法について説明します。  '
-role: 開発者
-level: 中間
-topic: モバイル、パーソナライゼーション
-feature: モバイルの実装
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

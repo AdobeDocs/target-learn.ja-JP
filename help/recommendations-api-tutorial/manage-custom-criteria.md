@@ -1,10 +1,10 @@
 ---
 title: カスタム条件の管理方法
 description: チュートリアルのこの部分では、開発者がAdobe TargetAPIを使用してAdobe TargetRecommendationsの条件の管理、作成、リスト、編集、取得、削除を行うために必要な手順について説明します。
-role: 開発者
-level: 中間
-topic: パーソナライゼーション、管理、統合、開発
-feature: API/SDK、Recommendations、管理および設定
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

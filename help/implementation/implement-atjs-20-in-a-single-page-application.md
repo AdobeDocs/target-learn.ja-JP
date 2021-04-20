@@ -1,10 +1,10 @@
 ---
 title: シングルページアプリケーション(SPA)でat.js 2.0を実装する方法
 description: Adobe Targetのat.js 2.0は、次世代のクライアント側テクノロジー上でパーソナライゼーションを実行できる豊富な機能セットを提供します。 at.js 2.0をシングルページアプリケーション(SPA)に実装するには、次の手順に従います。
-role: 開発者
-level: 中間
-topic: SPA，アーキテクチャ，開発
-feature: 実装
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

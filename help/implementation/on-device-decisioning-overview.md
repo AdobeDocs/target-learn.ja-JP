@@ -1,10 +1,10 @@
 ---
 title: On-Device Decisioningとは
 description: Adobe Targetのデバイス上での判定により、ほぼゼロの遅延のコンテンツ配信が可能になります。 このビデオでは、オンデバイスの判定を有効にする方法について説明します。
-role: 設計者
-level: 初心者
-topic: アーキテクチャ、開発
-feature: 実装，サーバー側の実装，クライアント側の実装
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

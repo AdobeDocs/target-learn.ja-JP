@@ -1,10 +1,10 @@
 ---
 title: オーディエンスとは何ですか？その使用方法を教えてください。
 description: このビデオでは、Adobe Targetのユーザがオーディエンスを使用してターゲットアクティビティやレポートのフィルタリングを行う方法を紹介します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション
-feature: オーディエンス、レポート
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: A/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法
 description: Adobe TargetのA/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法を説明します。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
-feature: Recommendations、自動ターゲット、自動配分
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451

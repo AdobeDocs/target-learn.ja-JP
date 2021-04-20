@@ -3,7 +3,7 @@ title: Adobe Targetの使い方を学ぶ
 description: Adobe Targetの使い方を学ぶには、すべてのコンポーネントに関するチュートリアルとビデオのコレクションをご覧ください。 Adobe Targetの力を有効に使え。
 role: Leader, Architect, Developer, Administrator, Business Practitioner
 level: Beginner, Intermediate, Experienced
-topic: パーソナライゼーション
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
 source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82

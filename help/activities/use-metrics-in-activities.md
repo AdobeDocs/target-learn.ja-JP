@@ -1,10 +1,10 @@
 ---
 title: アクティビティで指標を使用する方法
 description: Adobe Targetアクティビティが成功したかどうかは、どのように測定しますか。 このビデオでは、各種目標指標のタイプと、目標指標を使用してアクティビティのパフォーマンスを測定する方法について説明します。
-role: 開業医
-level: 中間
-topic: パーソナライゼーション
-feature: アクティビティ
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

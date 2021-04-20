@@ -1,10 +1,10 @@
 ---
 title: 異なるアクティビティタイプ
 description: Adobe Target に含まれる様々なタイプのアクティビティと、それらが目標の達成にどのように役立つかについて説明します。このビデオでは、A/Bアクティビティ、多変量分析テスト(MVT)、エクスペリエンスターゲット設定(XT)アクティビティ、RecommendationsおよびAutomated Personalization(AP)アクティビティの基本について説明します。
-role: 開業医
-level: 初心者
-topic: パーソナライゼーション
-feature: アクティビティ, A/Bテスト，多変量分析テスト，エクスペリエンスのターゲット設定，Recommendations,Automated Personalization, Visual Experience Composer(VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
