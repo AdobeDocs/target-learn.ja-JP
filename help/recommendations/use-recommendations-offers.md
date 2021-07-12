@@ -1,34 +1,33 @@
 ---
-title: A/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法
-description: Adobe TargetのA/Bテストおよびエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法を説明します。
-role: Business Practitioner
+title: A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでRecommendationsオファーを使用する方法
+description: A/BテストおよびAdobe Targetのエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法について説明します。
+role: User
 level: Intermediate
-topic: Personalization
-feature: Recommendations, Auto-Target, Auto-Allocate
+topic: パーソナライゼーション
+feature: Recommendations、自動ターゲット、自動配分
 doc-type: feature video
 thumbnail: null
 kt: 3451
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
 
-
 # A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用
 
-Recommendationsのオファーは、A/Bテストおよびエクスペリエンスのターゲット設定のアクティビティで使用できます。 この機能により、豊富な機能が開かれ、次のことが可能になります。
+Recommendationsオファーは、A/Bテストおよびエクスペリエンスのターゲット設定アクティビティで使用できます。 この機能により、豊富な機能が開き、次の操作が可能になります。
 
-* レコメンデーションとレコメンデーション以外のコンテンツを同じアクティビティ内に混在させる
-* 複数のレコメンデーションの順序を含め、ページ上でレコメンデーションの配置を簡単にテストする
-* 自動配分を使用して、自動的に最もパフォーマンスの高いレコメンデーションエクスペリエンスにトラフィックをプッシュします。
-* 自動ターゲットを使用して、レコメンデーションのプロファイルに基づいて、レコメンデーションに合わせて訪問者を動的に割り当てます
+* 同じアクティビティ内でレコメンデーションと非レコメンデーションのコンテンツを混在させる
+* 複数のレコメンデーションの順序を含め、ページ上でのレコメンデーションの配置を簡単に試す
+* 自動配分を使用して、パフォーマンスが最も高いRecommendationsエクスペリエンスにトラフィックを自動的にプッシュします。
+* 自動ターゲットを使用して、訪問者をプロファイルに基づいてカスタマイズされたRecommendationsエクスペリエンスに動的に割り当てます
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?quality=12)
 
 ## その他のリソース
 
-* [オファー文書としてのRecommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Recommendationsアクティビティビデオの作成](create-a-recommendations-activity.md)
+* [オファードキュメントとしてのRecommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendationsアクティビティの作成ビデオ](create-a-recommendations-activity.md)
