@@ -1,22 +1,21 @@
 ---
 title: フォームベースのExperience Composerの使用方法
-description: このビデオでは、Adobe TargetユーザーがフォームベースのExperience Composerをいつどのように使用するかを示します。
-role: Business Practitioner
+description: このビデオでは、Adobe TargetユーザーがフォームベースのExperience Composerを使用する方法とタイミングを示します。
+role: User
 level: Beginner
-topic: Personalization
-feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
+topic: パーソナライゼーション
+feature: フォームベースのExperience Composer、エクスペリエンスとオファー、Visual Experience Composer(VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 9%
 
 ---
-
 
 # Adobe TargetでのフォームベースのExperience Composerの使用
 
@@ -25,11 +24,11 @@ ht-degree: 9%
 このビデオでは、次の方法を学習します。
 
 * フォームベースのコンポーザーを使用したアクティビティの作成
-* Visual Experience Composer(VEC)とは異なり、フォームベースのコンポーザーをいつ使用するかの説明
+* Visual Experience Composer(VEC)とは異なり、フォームベースのコンポーザーを使用するタイミングを説明する
 * 場所のターゲット設定の調整
 
-## 対象オーディエンス
+## 対象読者
 
-* 開業医
+* 実務者
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
