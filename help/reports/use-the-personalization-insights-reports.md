@@ -1,30 +1,29 @@
 ---
-title: 個人用設定インサイトレポートの使用方法
-description: Automated Personalizationと自動ターゲットのアクティビティは、高度な機械学習機能を使用して、個々の顧客のプロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づき、各訪問者に最も合わせたエクスペリエンスを提供します。 パーソナライゼーションインサイトレポートは、これらのモデルが決定を行う方法に関する情報を提供します。
-role: Business Practitioner
+title: パーソナライゼーションインサイトレポートの使用方法
+description: Automated Personalizationおよび自動ターゲットアクティビティでは、高度な機械学習を使用して、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 パーソナライゼーションインサイトレポートでは、これらのモデルがどのように決定を下すかに関する情報を提供します。
+role: User
 level: Intermediate
-topic: Personalization
-feature: Reports, Automated Personalization, Auto-Target
+topic: パーソナライゼーション
+feature: レポート、Automated Personalization、自動ターゲット
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
+# パーソナライゼーションインサイトレポートの使用
 
-# 個人用設定インサイトレポートの使用
-
-Automated Personalizationと自動ターゲットのアクティビティは、高度な機械学習機能を使用して、個々の顧客のプロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づき、各訪問者に最も合わせたエクスペリエンスを提供します。 パーソナライゼーションインサイトレポートは、これらのモデルが決定を行う方法に関する情報を提供します。
+Automated Personalizationおよび自動ターゲットアクティビティでは、高度な機械学習を使用して、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 パーソナライゼーションインサイトレポートでは、これらのモデルがどのように決定を下すかに関する情報を提供します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## 追加情報
 
-* [ヘルプドキュメントの個人用設定のインサイト](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)
+* [パーソナライゼーションインサイト（ヘルプドキュメント）](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)
