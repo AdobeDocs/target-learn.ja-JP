@@ -1,23 +1,22 @@
 ---
-title: Recommendationsアクティビティの作り方
-description: Adobe TargetRecommendationsアクティビティの作り方
-role: Business Practitioner
+title: Recommendationsアクティビティの作成方法
+description: Adobe Target Recommendationsアクティビティの作成方法を説明します
+role: User
 level: Intermediate
-topic: Personalization
+topic: パーソナライゼーション
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 15%
+source-wordcount: '77'
+ht-degree: 14%
 
 ---
 
-
-# Adobe TargetRecommendationsアクティビティの作成
+# Adobe Target Recommendationsアクティビティの作成
 
 ## 説明
 
@@ -25,9 +24,9 @@ ht-degree: 15%
 
 * Recommendations アクティビティの作成
 
-## 対象オーディエンス
+## 対象読者
 
-* 開業医
+* 実務者
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
@@ -39,4 +38,4 @@ ht-degree: 15%
 * [条件の作成](create-criteria.md)
 * [カスタムデザインの作成](create-custom-designs.md)
 * [コレクションと除外の作成](create-collections-and-exclusions.md)
-* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
