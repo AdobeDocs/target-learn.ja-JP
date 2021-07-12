@@ -1,32 +1,31 @@
 ---
-title: Adobe Targetの使い方を学ぶ
-description: Adobe Targetの使い方を学ぶには、すべてのコンポーネントに関するチュートリアルとビデオのコレクションをご覧ください。 Adobe Targetの力を有効に使え。
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+title: Adobe Target
+description: Adobe Targetのすべてのコンポーネントをカバーするこのチュートリアルとビデオのコレクションで、を使用する方法を説明します。 Adobe Targetの力を有効に使う。
+role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: Personalization
+topic: パーソナライゼーション
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-translation-type: tm+mt
-source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 16%
 
 ---
 
-# Adobe Targetの使い方を学ぶ
+# Adobe Targetの使用方法を学ぶ
 
-Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。これらのビデオとチュートリアルを使用して、Adobe Targetの多くのコンポーネントを学習します。
+Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。これらのビデオとチュートリアルを使用して、Adobe Targetの多くのコンポーネントを学びます。
 
 ## 最新情報
 
-* **[自動ターゲットアクティビティ用のAnalysis WorkspaceでのA4Tレポートの設定](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Analysis Workspace for Auto-TargetアクティビティでのA4Tレポートの設定](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   *ビジネス従事者の場合：自動ターゲットにA4Tを使用しているか。自動ターゲットアクティビティの実行時に期待通りの結果が得られるように、Analysis WorkspaceでA4Tレポートを設定するには、次の手順に従います。*
+   *実務担当者向け：自動ターゲットにA4Tを使用しているか。以下の手順に従って、Analysis WorkspaceでA4Tレポートを設定し、自動ターゲットアクティビティの実行時に期待どおりの結果が得られることを確認します。*
 * **[オンデバイス判定の概要](implementation/on-device-decisioning-overview.md)**
 
-   *建築家向け：ほぼゼロの待ち時間エクスペリエンスをユーザーに提供するためのOn-Device Decisioningの概要を説明します。*
-* **[RecommendationsAPIの使用（チュートリアル）](recommendations-api-tutorial/recs-api-overview.md)**
-   *開発者向け：APIを使用して、カタログやカスタム条件などを設定および管理する実践的なプラクティス [!DNL Recommendations]  [!DNL Recommendations] を受けることができます。*
+   *アーキテクト向け：ゼロに近いレイテンシーエクスペリエンスを消費者に提供するための、デバイス上での判定を開始します。*
+* **[Recommendations APIの使用（チュートリアル）](recommendations-api-tutorial/recs-api-overview.md)**
+   *開発者向け：APIを使用して、カタログやカス [!DNL Recommendations] タム条件の設定と管 [!DNL Recommendations] 理などを実践できます。*
 
 <!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
     *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
@@ -39,47 +38,47 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
-## スタッフの選考
+## スタッフのおすすめ
 
 <table>
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Adobe Experience Platform Launchとのターゲットの実装" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Adobe Experience Platform Launchを使用したTargetの実装" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Adobe Experience Platform Launchとのターゲットの実装</strong>
+    <strong>Adobe Experience Platform Launchを使用したTargetの実装</strong>
     </a>
     </div>
     <p>
-    <em>Launchを使用してWeb実装を高速化</em>
+    <em>Launchを使用したWeb実装の高速化</em>
     <p>
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="at.js 2.0のシングルページアプリケーション(SPA)への実装" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="シングルページアプリケーション(SPA)でのat.js 2.0の実装" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>at.js 2.0のシングルページアプリケーション(SPA)への実装</strong>
+    <strong>シングルページアプリケーション(SPA)でのat.js 2.0の実装</strong>
     </a>
     </div>
     <p>
-    <em>at.js 2.xがSPAをサポートする方法を参照</em>
+    <em>at.js 2.xによるSPAのサポートを参照してください。</em>
     <p>
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Experience Cloud Debuggerに関するターゲットのトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Experience Cloud Debuggerに関するターゲットのトラブルシューティング</strong>
+    <strong>Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
-    <em>導入を拡大表示します。</em>
+    <em>実装を拡大します。</em>
     <p>
   </td>
 </tr>
