@@ -1,21 +1,20 @@
 ---
-title: Recommendationsの飼料とは
-description: Adobe TargetRecommendationsのフィードの概要と使用方法
-role: Business Practitioner
+title: Recommendationsのフィードとは
+description: Adobe Target Recommendationsフィードの概要とその使用方法について説明します
+role: User
 level: Intermediate
-topic: Personalization
+topic: パーソナライゼーション
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 15%
+source-wordcount: '77'
+ht-degree: 14%
 
 ---
-
 
 # Recommendationsのフィードについて
 
@@ -25,9 +24,9 @@ ht-degree: 15%
 
 * フィードの概要と使用方法の説明
 
-## 対象オーディエンス
+## 対象読者
 
-* 開業医
+* 実務者
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
@@ -38,4 +37,4 @@ ht-degree: 15%
 * [カスタムデザインの作成](create-custom-designs.md)
 * [コレクションと除外の作成](create-collections-and-exclusions.md)
 * [Recommendations アクティビティの作成](create-a-recommendations-activity.md)
-* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
