@@ -1,23 +1,22 @@
 ---
 title: Recommendationsで条件を作成する方法
-description: Adobe TargetRecommendationsで条件の作成方法を学ぶ
-role: Business Practitioner
+description: Adobe Target Recommendationsで条件を作成する方法を説明します
+role: User
 level: Intermediate
-topic: Personalization
+topic: パーソナライゼーション
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 17%
 
 ---
 
-
-# Recommendationsで条件を作成
+# Recommendationsでの条件の作成
 
 ## 説明
 
@@ -25,9 +24,9 @@ ht-degree: 17%
 
 * 条件の作成
 
-## 対象オーディエンス
+## 対象読者
 
-* 開業医
+* 実務者
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
@@ -38,4 +37,4 @@ ht-degree: 17%
 * [Recommendations アクティビティの作成](create-a-recommendations-activity.md)
 * [フィードについて](understanding-feeds.md)
 * [フィードの作成](create-a-feed.md)
-* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
