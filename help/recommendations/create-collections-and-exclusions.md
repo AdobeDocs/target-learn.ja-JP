@@ -1,23 +1,22 @@
 ---
-title: コレクションと除外をRecommendationsで作成する方法
-description: Recommendationsコレクションの概要と使用方法を説明します。 Recommendationsの除外とは何かと、その使い方を学びます。
-role: Business Practitioner
+title: Recommendationsでコレクションと除外を作成する方法
+description: Recommendationsコレクションとは何かと、その使用方法について説明します。 Recommendationsの除外とは何かと、その使用方法を説明します。
+role: User
 level: Intermediate
-topic: Personalization
+topic: パーソナライゼーション
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 14%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
-
-# コレクションと除外の作成(Recommendations)
+# Recommendationsでのコレクションと除外の作成
 
 ## 説明
 
@@ -26,9 +25,9 @@ ht-degree: 14%
 * コレクションの作成
 * 除外の作成
 
-## 対象オーディエンス
+## 対象読者
 
-* 開業医
+* 実務者
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
@@ -39,4 +38,4 @@ ht-degree: 14%
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)
 * [カスタムデザインの作成](create-custom-designs.md)
-* [Recommendations文書](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
