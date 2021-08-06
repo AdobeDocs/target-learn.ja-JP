@@ -1,6 +1,7 @@
 ---
 title: オーディエンスとは何ですか？オーディエンスの使用方法を教えてください。
 description: このビデオでは、Adobe Target ユーザーを対象に、オーディエンスを使用してアクティビティをターゲティングしたりレポートをフィルタリングしたりする方法を紹介します。
+landing-page-description: オーディエンスの定義、オーディエンスの検索、アクティビティのターゲット設定、レポートのフィルタリングについて説明します。
 role: User
 level: Beginner
 topic: パーソナライゼーション
@@ -10,10 +11,10 @@ thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 27%
+source-wordcount: '78'
+ht-degree: 23%
 
 ---
 
