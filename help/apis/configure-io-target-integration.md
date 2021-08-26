@@ -3,16 +3,16 @@ title: Adobe Target APIの認証を設定する方法
 description: このチュートリアルでは、Adobe Target APIとのやり取りに必要な認証トークンを生成するために必要な手順を開発者に説明します。 以下の手順に従って、Adobe開発者コンソールを使用して、Target APIの使用に必要なbearerアクセストークンを生成し、テストします。
 role: Developer, Admin, Architect
 level: Intermediate
-topic: パーソナライゼーション、管理、統合、開発
-feature: API/SDK、管理および設定
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1884'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 2%
 
    ![configure-io-target-createproject3.png](assets/configure-io-target-createproject3.png)
 
-4. 「**[!UICONTROL APIを追加]**」をクリックして、Adobeサービスと製品にアクセスするためのREST APIをプロジェクトに追加します。
+4. 「**[!UICONTROL APIを追加]**」をクリックして、Adobe サービスと製品にアクセスするためのREST APIをプロジェクトに追加します。
 
    ![APIを追加](assets/configure-io-target-createproject4.png)
 
-5. 統合するAdobeサービスとして&#x200B;**[!DNL Adobe Target]**&#x200B;を選択します。 表示される「**[!UICONTROL 次へ]**」ボタンをクリックします。
+5. 統合先のAdobe サービスとして&#x200B;**[!DNL Adobe Target]**&#x200B;を選択します。 表示される「**[!UICONTROL 次へ]**」ボタンをクリックします。
 
    ![configure-io-target-createproject5](assets/configure-io-target-createproject5.png)
 
@@ -93,8 +93,7 @@ Postmanでプロジェクトの詳細を指定する方法は多数あります�
 > 2. Postmanでのアクセストークンの生成
 
 >
-> 
-これらの手順も以下に示します。
+> これらの手順も以下に示します。
 
 1. 引き続き[Adobeデベロッパーコンソール](https://console.adobe.io/)で、新しいプロジェクトの&#x200B;**[!UICONTROL サービスアカウント(JWT)]**&#x200B;資格情報に移動して表示します。 図のように、左側のナビゲーションまたは&#x200B;**[!UICONTROL Credentials]**セクションを使用します。
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ Postmanでプロジェクトの詳細を指定する方法は多数あります�
 1. 正しい環境を選択したことを確認した後、リクエストを送信します。 アクティビティのリストを含む応答を受け取ります。
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-おめでとう！ これで、Adobe認証を確認したので、Adobe Target API(および他のAdobeAPI)とやり取りするために使用できます。 例えば、[Recommendations API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)を使用して、レコメンデーションを作成または管理できます。
+おめでとう！ これで、Adobe認証を確認したので、Adobe Target API(および他のAdobeAPI)とやり取りするために使用できます。 例えば、[Recommendations API](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)を使用して、レコメンデーションを作成または管理できます。
