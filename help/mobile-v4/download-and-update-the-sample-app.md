@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -43,7 +43,7 @@ AdobeMobile Services SDKは、ドキュメント](https://experienceleague.adobe
 
 最初に、Mobile Servicesユーザーインターフェイスで新しいアプリを作成します。
 
-1. [AdobeMobile Servicesインターフェイス](https://mobilemarketing.adobe.com)にログインします。
+1. [AdobeMobile Servicesインターフェイス](https://mobilemarketing.adobe.com/)にログインします。
 1. [!UICONTROL アプリの管理]に移動し、**[!UICONTROL 追加]**&#x200B;をクリックして、このチュートリアルで使用する新しいアプリを追加します（**[!UICONTROL アプリの管理]**/****&#x200B;の追加）。
 1. 実稼動以外のデータを含むAnalyticsレポートスイートを選択し、アプリに名前を付け、「**[!UICONTROL 標準]**」タイプを選択して、「**[!UICONTROL 保存]**」をクリックします。
 1. アプリを追加したら、次の画面の「[!UICONTROL SDK Targetオプション]」セクションに[!DNL Target]クライアントコードを追加します（[!DNL Target]インターフェイスの&#x200B;**[!UICONTROL 設定]** / **[!UICONTROL 実装]** / **[!UICONTROL 設定を編集]**、をクリックします）。`at.js`

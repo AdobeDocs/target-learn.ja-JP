@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## ライフサイクルパラメーターの追加
 
-[Adobeモバイルライフサイクル指標](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)を有効にします。 これにより、ユーザーのデバイスやアプリの使用に関する豊富な情報を含む場所のリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを構築します。
+[Adobeモバイルライフサイクル指標](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)を有効にします。 これにより、ユーザーのデバイスやアプリの使用に関する豊富な情報を含む場所のリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを構築します。
 
 ライフサイクル指標を有効にするには、HomeActivityコントローラを再度開き、onResume()関数に`Config.collectLifecycleData(this);`を追加します。
 
