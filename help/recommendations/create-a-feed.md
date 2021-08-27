@@ -3,16 +3,16 @@ title: Recommendationsでフィードを作成する方法
 description: Adobe Target Recommendationsでデータフィードを作成する方法を説明します
 role: User
 level: Intermediate
-topic: パーソナライゼーション
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '73'
+ht-degree: 12%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 14%
 * [条件の作成](create-criteria.md)
 * [カスタムデザインの作成](create-custom-designs.md)
 * [コレクションと除外の作成](create-collections-and-exclusions.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

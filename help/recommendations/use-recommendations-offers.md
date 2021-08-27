@@ -3,16 +3,16 @@ title: A/Bテストおよびエクスペリエンスのターゲット設定ア�
 description: A/BテストおよびAdobe Targetのエクスペリエンスターゲット設定アクティビティでRecommendationsオファーを使用する方法について説明します。
 role: User
 level: Intermediate
-topic: パーソナライゼーション
-feature: Recommendations、自動ターゲット、自動配分
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 1%
 
 ---
 
@@ -29,5 +29,5 @@ Recommendationsオファーは、A/Bテストおよびエクスペリエンス�
 
 ## その他のリソース
 
-* [オファードキュメントとしてのRecommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [オファードキュメントとしてのRecommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Recommendationsアクティビティの作成ビデオ](create-a-recommendations-activity.md)

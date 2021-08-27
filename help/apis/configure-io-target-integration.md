@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Postmanでプロジェクトの詳細を指定する方法は多数あります�
 
 >[!NOTE]
 >
->[!DNL Target]を含む、あらゆるExperience Cloudソリューションに適用できるビデオ手順については、 [PostmanとExperience PlatformAPIの使用](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html)を参照してください。 以下の節は、[!DNL Target] APIに関連しています。
+>[!DNL Target]を含む、あらゆるExperience Cloudソリューションに適用できるビデオ手順については、 [PostmanとExperience PlatformAPIの使用](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en)を参照してください。 以下の節は、[!DNL Target] APIに関連しています。
 >
 > 1. PostmanへのAdobe I/O統合の詳細の書き出し
 > 2. Postmanでのアクセストークンの生成

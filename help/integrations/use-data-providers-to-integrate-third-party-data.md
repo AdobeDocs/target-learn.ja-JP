@@ -3,17 +3,17 @@ title: データプロバイダーを使用してサードパーティデータ�
 description: このチュートリアルでは、データプロバイダーに関するユーザーを紹介します。 データプロバイダー機能を使用して、サードパーティからAdobe Targetにデータを簡単に渡す方法を説明します。
 role: User, Developer
 level: Experienced
-topic: パーソナライゼーション、統合
-feature: 実装、統合、API/SDK
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 22%
+source-wordcount: '211'
+ht-degree: 23%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 22%
 ## サポート資料
 
 * [at.jsとAdobe Targetでのデータプロバイダーの実装](implement-data-providers-to-integrate-third-party-data.md)
-* [データプロバイダーのドキュメント](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [データプロバイダーのドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

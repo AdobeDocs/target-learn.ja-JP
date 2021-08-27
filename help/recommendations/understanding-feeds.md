@@ -3,16 +3,16 @@ title: Recommendationsのフィードとは
 description: Adobe Target Recommendationsフィードの概要とその使用方法について説明します
 role: User
 level: Intermediate
-topic: パーソナライゼーション
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 14%
+source-wordcount: '75'
+ht-degree: 12%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 14%
 * [カスタムデザインの作成](create-custom-designs.md)
 * [コレクションと除外の作成](create-collections-and-exclusions.md)
 * [Recommendations アクティビティの作成](create-a-recommendations-activity.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

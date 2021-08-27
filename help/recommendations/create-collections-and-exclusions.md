@@ -3,16 +3,16 @@ title: Recommendationsでコレクションと除外を作成する方法
 description: Recommendationsコレクションとは何かと、その使用方法について説明します。 Recommendationsの除外とは何かと、その使用方法を説明します。
 role: User
 level: Intermediate
-topic: パーソナライゼーション
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 13%
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)
 * [カスタムデザインの作成](create-custom-designs.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

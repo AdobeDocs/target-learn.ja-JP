@@ -10,7 +10,7 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Delivery APIを使用して、レコメンデーションを含む[!DNL Target]�
 
 ## フォームベースのExperience Composerを使用したレコメンデーションの作成
 
-Delivery APIで使用できるレコメンデーションを作成するには、[フォームベースのコンポーザー](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html)を使用します。
+Delivery APIで使用できるレコメンデーションを作成するには、[フォームベースのコンポーザー](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en)を使用します。
 
-1. まず、レコメンデーションで使用するJSONベースのデザインを作成して保存します。 サンプルJSON、およびフォームベースのアクティビティの設定時にJSON応答を返す方法に関する背景情報については、[Recommendationデザインの作成](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html)に関するドキュメントを参照してください。 この例では、デザインの名前は&#x200B;*Simple JSON.*です。
+1. まず、レコメンデーションで使用するJSONベースのデザインを作成して保存します。 サンプルJSON、およびフォームベースのアクティビティの設定時にJSON応答を返す方法に関する背景情報については、[Recommendationデザインの作成](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en)に関するドキュメントを参照してください。 この例では、デザインの名前は&#x200B;*Simple JSON.*です。
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Delivery APIで使用できるレコメンデーションを作成するには�
 3. プロパティを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 4. レコメンデーションの応答を受け取る場所を定義します。 次の例では、*api_charter*&#x200B;という名前の場所を使用しています。 先ほど作成したJSONベースのデザインを、*Simple JSON.*という名前で選択します。
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. レコメンデーションを保存してアクティブ化します。 結果が生成されます。 [結果の準備が整ったら](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html)、Delivery APIを使用して結果を取得できます。
+5. レコメンデーションを保存してアクティブ化します。 結果が生成されます。 [結果の準備が整ったら](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en)、Delivery APIを使用して結果を取得できます。
 
 ## Delivery APIの使用
 
@@ -95,38 +95,38 @@ png応答には、キーIDと、推奨エンティティのエンティティID�
 | --- | --- |
 | [Adobe Target Everywhere - IoTでサーバ側またはを実装](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Targetのサーバー側APIを利用するReactアプリケーションに関する実践的な体験を提供するAdobe Summit2019 Lab。 |
 | [AdobeSDKを使用しないモバイルアプリでのAdobe Target](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | このガイドでは、AdobeSDKをインストールせずにモバイルアプリでAdobe Targetを設定する方法を説明します。 このソリューションでは、 Tealium SDKのWebビューとRemote Commandsモジュールを使用して、Adobe訪問者API(Experience Cloud)およびAdobe Target APIにリクエストを送受信します。 |
-| [モバイルアプリにおけるAdobe Targetの仕組み](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | [!DNL Target]がMobile SDKでどのように動作するか |
+| [モバイルアプリにおけるAdobe Targetの仕組み](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | [!DNL Target]がMobile SDKでどのように動作するか |
 | [APIの [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] 設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Experience Platform Launchで[!DNL Target]拡張機能を設定し、アプリに[!DNL Target]拡張機能を追加し、[!DNL Target] APIを実装してアクティビティをリクエストし、オファーをプリフェッチし、ビジュアルプレビューモードを開始する手順。 |
 | [Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | オープンソースの[!DNL Target] Node.js SDK v1.0 |
-| [サーバー側の概要](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target Server Side Delivery API、Server Side Batch Delivery API、Node.js SDK、Adobe Target [!DNL Recommendations] APIに関する情報です。 |
+| [サーバー側の概要](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Adobe Target Server Side Delivery API、Server Side Batch Delivery API、Node.js SDK、Adobe Target [!DNL Recommendations] APIに関する情報です。 |
 | [Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Adobe CampaignのAdobe TargetとAdobe I/O Runtimeを介してEメールでコンテンツのレコメンデーションを活用する方法を説明するブログ。 |
 
 ## APIを使用した[!DNL Recommendations]設定の管理
 
 ほとんどの場合、レコメンデーションはAdobe Target UIで設定され、前述の節で説明したような理由で、 [!DNL Target] APIを介して使用またはアクセスされます。 このUIとAPIの調整は一般的です。 ただし、セットアップと結果の使用の両方のAPIを介してすべてのアクションを実行したい場合があります。 一般的ではありませんが、ユーザーは絶対に設定、実行、*および*&#x200B;を使用して、レコメンデーションの結果を完全にAPIを使用して活用できます。
 
-Adobe Target Recommendationsエンティティを管理し、サーバー側で配信する方法について、[前の節](manage-catalog.md)で学びました。 同様に、Adobe I/Oを使用すると、Adobe Targetにログインしなくても条件、プロモーション、コレクションおよびデザインテンプレートを管理できます。 すべての[!DNL Recommendations] APIの完全なリストは、[ここ](http://developers.adobetarget.com/api/recommendations/)にありますが、参照用の要約を示します。
+Adobe Target Recommendationsエンティティを管理し、サーバー側で配信する方法について、[前の節](manage-catalog.md)で学びました。 同様に、Adobe I/Oを使用すると、Adobe Targetにログインしなくても条件、プロモーション、コレクションおよびデザインテンプレートを管理できます。 すべての[!DNL Recommendations] APIの完全なリストは、[ここ](https://developers.adobetarget.com/api/recommendations/)にありますが、参照用の要約を示します。
 
 | リソース | 詳細 |
 | --- | --- |
-| [コレクション](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | コレクションのリスト、作成、取得、編集および削除を行います。 |
-| [条件](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 条件のリストと取得。 |
-| [デザイン](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | デザインのリスト、作成、取得、編集、削除および検証を行います。 |
-| [エンティティ](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | エンティティを保存、削除、取得します。 |
-| [プロモーション](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | プロモーションのリスト、作成、取得、編集、削除を行います。 |
-| [カテゴリ条件](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | カテゴリ条件のリスト、作成、取得、編集、削除を行います。 |
-| [カスタム条件](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | カスタム条件をリスト、作成、取得、編集および削除します。 |
-| [品目基準](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 項目基準のリスト、作成、取得、編集、削除を行います。 |
-| [人気度条件](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 人気度条件のリスト、作成、取得、編集および削除。 |
-| [プロファイル属性条件](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | プロファイル属性条件のリスト、作成、取得、編集、削除を行います。 |
-| [最近の条件](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 最近使用した条件のリスト、作成、取得、編集、削除を行います。 |
-| [シーケンス条件](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | シーケンス条件のリスト、作成、取得、編集および削除を行います。 |
+| [コレクション](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | コレクションのリスト、作成、取得、編集および削除を行います。 |
+| [条件](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 条件のリストと取得。 |
+| [デザイン](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | デザインのリスト、作成、取得、編集、削除および検証を行います。 |
+| [エンティティ](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | エンティティを保存、削除、取得します。 |
+| [プロモーション](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | プロモーションのリスト、作成、取得、編集、削除を行います。 |
+| [カテゴリ条件](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | カテゴリ条件のリスト、作成、取得、編集、削除を行います。 |
+| [カスタム条件](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | カスタム条件をリスト、作成、取得、編集および削除します。 |
+| [品目基準](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 項目基準のリスト、作成、取得、編集、削除を行います。 |
+| [人気度条件](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 人気度条件のリスト、作成、取得、編集および削除。 |
+| [プロファイル属性条件](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | プロファイル属性条件のリスト、作成、取得、編集、削除を行います。 |
+| [最近の条件](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 最近使用した条件のリスト、作成、取得、編集、削除を行います。 |
+| [シーケンス条件](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | シーケンス条件のリスト、作成、取得、編集および削除を行います。 |
 
 ## リファレンスドキュメント
 
 * [Adobe Target APIドキュメント](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target Delivery API](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Eメールとの統合](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [ [!DNL Recommendations] Eメールとの統合](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## 概要とレビュー
 

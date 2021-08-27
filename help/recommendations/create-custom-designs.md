@@ -3,16 +3,16 @@ title: Recommendationsでカスタムデザインを作成する方法
 description: Adobe Target Recommendationsでカスタムデザインを作成する方法を説明します。
 role: User
 level: Intermediate
-topic: パーソナライゼーション
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '69'
+ht-degree: 13%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 15%
 * [フィードについて](understanding-feeds.md)
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)
-* [Recommendationsドキュメント](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendationsドキュメント](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

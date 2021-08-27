@@ -3,18 +3,18 @@ title: パーソナライゼーションインサイトレポートの使用方�
 description: Automated Personalizationおよび自動ターゲットアクティビティでは、高度な機械学習を使用して、個々の顧客プロファイルと類似のプロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 パーソナライゼーションインサイトレポートでは、これらのモデルがどのように決定を下すかに関する情報を提供します。
 role: User
 level: Intermediate
-topic: パーソナライゼーション
-feature: レポート、Automated Personalization、自動ターゲット
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 badge: premium
 exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 1%
 
 ---
 
@@ -26,4 +26,4 @@ Automated Personalizationおよび自動ターゲットアクティビティで�
 
 ## 追加情報
 
-* [パーソナライゼーションインサイト（ヘルプドキュメント）](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)
+* [パーソナライゼーションインサイト（ヘルプドキュメント）](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

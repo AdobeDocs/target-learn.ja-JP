@@ -3,17 +3,17 @@ title: プロファイル比較を使用したオーディエンスの作成方�
 description: このビデオでは、Adobe Targetユーザーがオーディエンスを作成する際に、プロファイル比較機能を使用して2つの数値プロファイル値を相互に比較する方法を示します。
 role: User
 level: Experienced
-topic: パーソナライゼーション
-feature: オーディエンス
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: '174'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Targetの[!UICONTROL プロファイル比較]機能を使用すると、�
 
 ## その他のリソース
 
-* [プロファイル属性比較オーディエンスの作成](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [データをAdobe Targetに送信する方法](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [オーディエンスの作成](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [プロファイル属性比較オーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [データをAdobe Targetに送信する方法](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [オーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [エクスペリエンスのターゲット設定アクティビティの作成（ビデオ）](../activities/create-experience-targeting-activities.md)
