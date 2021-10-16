@@ -1,18 +1,17 @@
 ---
 title: アクティビティ設定の使用方法
-description: Adobe Targetの様々なアクティビティ設定（目標、優先度レベル、開始時間と終了時間、オーディエンスなど）の使用方法については、このビデオをご覧ください。
+description: 目標、優先度レベル、開始時間と終了時間、オーディエンスなど、Adobe Targetの様々なアクティビティ設定の使用方法については、このビデオをご覧ください。
 role: User
 level: Beginner
-topic: パーソナライゼーション
-feature: アクティビティ
+topic: Personalization
+feature: Activities
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '62'
+ht-degree: 16%
 
 ---
 
@@ -22,13 +21,13 @@ ht-degree: 18%
 
 このビデオでは、次の方法を学習します。
 
-* アクティビティの目標の入力
+* 活動目標の入力
 * アクティビティの優先度の設定
-* 開始時刻と終了時刻のスケジュール
+* スケジュールの開始時刻と終了時刻
 * オーディエンスを追加
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381/?quality=12)

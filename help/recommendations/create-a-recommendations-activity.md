@@ -6,10 +6,9 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 12%
@@ -26,13 +25,13 @@ ht-degree: 12%
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## その他のリソース
 
-* [A/Bテストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用](use-recommendations-offers.md)
+* [A/B テストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendationsオファーの使用](use-recommendations-offers.md)
 * [フィードについて](understanding-feeds.md)
 * [フィードの作成](create-a-feed.md)
 * [条件の作成](create-criteria.md)

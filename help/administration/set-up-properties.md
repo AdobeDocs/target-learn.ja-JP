@@ -3,17 +3,16 @@ title: プロパティの設定方法
 description: このビデオでは、管理者がAdobe Targetでプロパティを作成する方法を説明します。
 role: Admin
 level: Beginner
-topic: 管理
-feature: 管理と設定
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
-thumbnail: null
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 7%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 

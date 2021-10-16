@@ -1,29 +1,28 @@
 ---
-title: Enterpriseユーザーの権限の構成方法
-description: このビデオでは、Adobe Target管理者にユーザー権限、プロパティおよびワークスペースについて説明します。 様々なユーザーレベルと、プロパティおよびワークスペースを使用してユーザーアクセスを制御する方法については、このビデオをご覧ください。
+title: Enterprise ユーザー権限の構成方法
+description: このビデオでは、Adobe Target管理者に、ユーザー権限、プロパティおよびワークスペースについて説明します。 様々なユーザーレベルと、プロパティおよびワークスペースを使用してユーザーアクセスを制御する方法については、このビデオをご覧ください。
 role: Admin
 level: Beginner
-topic: 管理
-feature: 管理と設定
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
-thumbnail: null
 kt: null
 badge: premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 4%
+source-wordcount: '68'
+ht-degree: 2%
 
 ---
 
-# Adobe TargetのEnterpriseユーザーの権限について
+# Adobe Targetの Enterprise ユーザー権限について
 
 ## 説明
 
 このビデオでは、次の方法を学習します。
 
-* 3つのAdobe Targetユーザーレベルの説明
+* 3 つのAdobe Targetユーザーレベルの説明
 * プロパティとワークスペースについて
 
 ## 対象読者

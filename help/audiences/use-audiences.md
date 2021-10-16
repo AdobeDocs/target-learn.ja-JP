@@ -4,21 +4,20 @@ description: このビデオでは、Adobe Target ユーザーを対象に、オ
 landing-page-description: オーディエンスの定義、オーディエンスの検索、アクティビティのターゲット設定、レポートのフィルタリングについて説明します。
 role: User
 level: Beginner
-topic: パーソナライゼーション
-feature: オーディエンス、レポート
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
-thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 23%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
-# Adobe TargetでのAudiencesの使用
+# Adobe Targetでのオーディエンスの使用
 
 ## 説明
 
@@ -26,10 +25,10 @@ ht-degree: 23%
 
 * Adobe Targetの「オーディエンス」の定義
 * オーディエンスリストでのオーディエンスの検索
-* オーディエンスを使用したアクティビティのターゲティングとレポートのフィルタリング
+* オーディエンスを使用したアクティビティのターゲット設定とレポートのフィルタリング
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)

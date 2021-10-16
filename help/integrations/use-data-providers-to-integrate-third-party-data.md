@@ -7,10 +7,9 @@ topic: Personalization, Integrations
 feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
-thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 23%
@@ -25,16 +24,16 @@ ht-degree: 23%
 
 ## データプロバイダーの使用方法
 
-1. 実装の専門家は、at.jsの前（またはat.jsの「ライブラリヘッダー」セクション）にコードを追加し、API呼び出しをサードパーティに対しておこない、応答を解析し、応答から[!DNL Target]に送信する名前と値のペアを指定します。
-1. at.jsはちらつきを制御し、名前と値のペアをカスタムパラメーターとしてグローバルTargetリクエストに含めます。
-1. マーケターは、これらのカスタムパラメーターに基づいて、[!DNL Target]インターフェイスでオーディエンスを構築します。
-1. マーケターは、これらのオーディエンスを使用して、エクスペリエンス、アクティビティ、指標のターゲット設定やレポート用オーディエンスのターゲット設定をおこないます。
+1. 実装の専門家は、at.js（または at.js の「ライブラリヘッダー」セクション）の前にコードを追加して、サードパーティへの API 呼び出しをおこない、応答を解析して、[!DNL Target] に送信する応答の名前と値のペアで指定します。
+1. at.js はちらつきを制御し、名前と値のペアをカスタムパラメーターとしてグローバル Target リクエストに含めます。
+1. マーケターは、これらのカスタムパラメーターに基づいて、 [!DNL Target] インターフェイスでオーディエンスを構築します。
+1. マーケターは、これらのオーディエンスを使用して、エクスペリエンス、アクティビティおよび指標をターゲット設定したり、レポート用オーディエンスをターゲット設定したりします。
 
 >[!NOTE]
 >
->[!UICONTROL デー] タプロバイダーにはat.js 1.3以降が必要です。
+>[!UICONTROL デー] タプロバイダーには at.js 1.3 以降が必要です
 
 ## サポート資料
 
-* [at.jsとAdobe Targetでのデータプロバイダーの実装](implement-data-providers-to-integrate-third-party-data.md)
+* [at.js とAdobe Targetでのデータプロバイダーの実装](implement-data-providers-to-integrate-third-party-data.md)
 * [データプロバイダーのドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

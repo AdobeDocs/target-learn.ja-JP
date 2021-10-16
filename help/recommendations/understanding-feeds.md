@@ -6,10 +6,9 @@ level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 12%
@@ -22,11 +21,11 @@ ht-degree: 12%
 
 このビデオでは、次の方法を学習します。
 
-* フィードの概要と使用方法の説明
+* フィードの概要と使用方法
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 

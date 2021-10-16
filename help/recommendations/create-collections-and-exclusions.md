@@ -1,15 +1,14 @@
 ---
 title: Recommendationsでコレクションと除外を作成する方法
-description: Recommendationsコレクションとは何かと、その使用方法について説明します。 Recommendationsの除外とは何かと、その使用方法を説明します。
+description: Recommendationsコレクションの概要とその使用方法を説明します。 Recommendationsの除外とは何かと、その使用方法を説明します。
 role: User
 level: Intermediate
 topic: Personalization
 feature: Recommendations
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 11%
@@ -27,7 +26,7 @@ ht-degree: 11%
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 

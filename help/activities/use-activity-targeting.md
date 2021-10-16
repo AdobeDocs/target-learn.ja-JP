@@ -1,22 +1,21 @@
 ---
 title: アクティビティのターゲティングの使用方法
-description: Adobe Targetは、アクティビティが実行されたときに異なるオーディエンスに表示されるエクスペリエンスを制御するための様々なレバーを提供します。 オーディエンスとトラフィックの配分を使用して、誰に何を表示するかを制御する方法を説明します。
+description: Adobe Targetは、アクティビティが実行される際に、様々なオーディエンスに表示されるエクスペリエンスを制御するための様々なレバーを提供します。 オーディエンスとトラフィックの配分を使用して、誰に何を表示するかを制御する方法を説明します。
 role: User
 level: Intermediate
-topic: パーソナライゼーション
-feature: アクティビティ、オーディエンス
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 30%
 
 ---
 
-# アクティビティのターゲティングを使用
+# アクティビティのターゲット設定を使用
 
 ## 説明
 
@@ -29,6 +28,6 @@ ht-degree: 30%
 
 ## 対象読者
 
-* 実務者
+* 開業医
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385/?quality=12)
