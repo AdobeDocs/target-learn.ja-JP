@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
+source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 11%
+source-wordcount: '411'
+ht-degree: 10%
 
 ---
 
@@ -13,7 +13,11 @@ ht-degree: 11%
 
 + [Adobe TargetTutorialsの概要](../overview.md)
 + 管理{#administration}
-   + [実装戦略とシステムガバナンス](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [戦略と思考のリーダーシップ]{#strategy}
+      + [パーソナライゼーションテストとロードマップ作成のクイックスタート](../strategy/create-personalization-roadmap-testing-plan.md)
+      + [実装戦略とシステムガバナンス](../dev101/1.1-implementation-strategy-sys-governance.md)
+      + [Adobe Targetの最適化のベストプラクティス](../strategy/target-best-practices-for-optimization.md)
+      + [Adobe Target実装の最適化](../strategy/optimize-your-target-implementation.md)
    + [アカウントの環境設定](../administration/set-up-account-preferences.md)
    + [Enterprise ユーザーの権限について](../administration/understanding-enterprise-user-permissions.md)
    + [Enterprise ユーザーの権限の設定](../dev101/1.2-configure-ent-user-permissions.md)
