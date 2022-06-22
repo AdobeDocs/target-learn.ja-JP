@@ -1,10 +1,11 @@
 ---
 title: パーソナライゼーションのテストとロードマップの作成のための QuickStart
-description: 'パーソナライゼーションアクティビティの検証を開始し、Adobe TargetとAdobe Analyticsを通じて実行するパーソナライゼーションロードマップを作成するために使用できるフレームワークについて説明します。  '
+description: パーソナライゼーションアクティビティの検証を開始し、Adobe TargetとAdobe Analyticsを通じて実行するパーソナライゼーションロードマップを作成するために使用できるフレームワークについて説明します。
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Adobeでは、各ユースケースを 1 ～ 5 のスケールでランク付け
 ### 詳細情報
 
 次の各手順について説明するこのビデオをご覧になることをお勧めします。 [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。

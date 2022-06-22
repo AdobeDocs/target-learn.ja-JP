@@ -1,10 +1,11 @@
 ---
 title: Adobe Target実装の最適化
-description: 'Adobe Targetの実装と構造の概要を説明します。 組織の設定を理解し、監査する方法を説明します。 チームのナレッジリポジトリを作成する際の一般的なトラブルシューティングのテクニックとヒントを説明します。 '
+description: Adobe Targetの実装と構造の概要を説明します。 組織の設定を理解し、監査する方法を説明します。 チームのナレッジリポジトリを作成する際の一般的なトラブルシューティングのテクニックとヒントを説明します。
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Adobeは、次の目的で月次手動監査を実行することを推奨しま
 * **プログラムダッシュボード**  — プログラムのパフォーマンス、ケイデンス、収益に関するメリットを経時的に追跡するために使用するドキュメント。
 
 詳細については、 [ウェビナー](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) 上級コンサルタントのウィルダー・フリードと共に
+
+戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。
