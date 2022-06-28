@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 10%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 10%
    + [アクティビティでの指標の使用](../activities/use-metrics-in-activities.md)
 + オーディエンス{#audiences}
    + [オーディエンスの使用](../audiences/use-audiences.md)
+   + [オーディエンスを作成](../audiences/create-audiences.md)
    + [プロファイルスクリプトの作成](../audiences/create-profile-scripts.md)
    + [プロファイル比較を使用したオーディエンスの構築](../audiences/use-profile-comparison-to-build-audiences.md)
 + エクスペリエンス{#experiences}
