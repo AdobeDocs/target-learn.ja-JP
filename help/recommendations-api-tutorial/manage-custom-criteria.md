@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -118,4 +118,4 @@ ht-degree: 1%
 
 おめでとうございます。 を使用して、カスタム条件の作成、リスト、編集、削除、詳細の取得をおこなうことができるようになりました。 [!DNL Recommendations] API 次の節では、 [!DNL Target] レコメンデーションを取得するための Delivery API。
 
-[次：「サーバー側配信 API を使用したRecommendationsの取得」>](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[次：「サーバー側配信 API を使用したRecommendationsの取得」>](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 3%
@@ -195,4 +195,4 @@ In **[!UICONTROL 資格情報の詳細]**&#x200B;を使用する場合、 **公�
 1. 正しい環境を選択したことを確認した後、リクエストを送信します。 アクティビティのリストを含む応答を受信します。
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-おめでとうございます。 これで、Adobe認証を確認したので、これを使用してAdobe Target API( および他のAdobeAPI) とやり取りできます。 例えば、次のことが可能です。 [Recommendations API の使用](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} で、レコメンデーションを作成または管理できます。
+おめでとうございます。 これで、Adobe認証を確認したので、これを使用してAdobe Target API( および他のAdobeAPI) とやり取りできます。 例えば、次のことが可能です。 [Recommendations API の使用](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;} を使用して、レコメンデーションを作成または管理します。

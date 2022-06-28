@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->を **[!UICONTROL IMS:JWT 生成+ユーザートークンを介した認証]** 認証用にアクセストークンを更新する必要が生じたときにリクエストを送信します。リクエストの有効期限は 24 時間後に切れるからです。 詳しくは、 [AdobeAPI 認証の設定](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} を参照してください。
+>を **[!UICONTROL IMS:JWT 生成+ユーザートークンを介した認証]** 認証用にアクセストークンを更新する必要が生じたときにリクエストを送信します。リクエストの有効期限は 24 時間後に切れるからです。 詳しくは、 [AdobeAPI 認証の設定](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} を参照してください。
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 おめでとう！ これで、 [!DNL Recommendations] カタログ内のエンティティの詳細を作成、更新、削除、取得するための API。 次の節では、カスタム条件の管理方法について説明します。
 
-[次：「カスタム条件の管理」>](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[次：「カスタム条件の管理」>](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

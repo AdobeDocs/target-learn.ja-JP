@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Adobe TargetとAdobe Target [!DNL Recommendations] API を使用して Web ペ�
 
 レコメンデーションを取得するには、適切なコンテキスト情報を使用してAdobe Target Delivery API のPOST呼び出しを送信します。これには、ユーザー ID（ユーザーの最近表示された項目などのプロファイル固有のレコメンデーションで使用）、関連する mbox 名、mbox パラメーター、プロファイルパラメーター、その他の属性が含まれます。 応答には、推奨される entity.ids（および他のエンティティデータを含む場合もあります）が JSON 形式またはHTML形式で含まれ、デバイスに表示できます。
 
-この [配信 API](https://developer.adobe.com/target/implement/delivery-api/)Adobe Targetの {target=_blank} は、標準の [!DNL Target] リクエストによって提供されます。
+この [配信 API](https://developer.adobe.com/target/implement/delivery-api/)Adobe Targetの {target=&quot;_blank&quot;} では、標準の [!DNL Target] リクエストによって提供されます。
 
 >[!NOTE]
 >Delivery API は次の操作を実行します。
@@ -63,7 +63,7 @@ Delivery API で使用できるレコメンデーションを作成するには�
 
 ## Delivery API の使用
 
-の構文 [配信 API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=_blank} は：
+の構文 [配信 API](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=&quot;_blank&quot;} は次の値です。
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
@@ -104,7 +104,7 @@ Delivery API を [!DNL Recommendations] この方法を使用すると、訪問�
 
 ほとんどの場合、レコメンデーションはAdobe Target UI で設定され、 [!DNL Target] API（上記の節で説明したものなど） この UI と API の調整は一般的です。 ただし、API を介してすべてのアクション（セットアップと結果の使用）を実行したい場合があります。 一般的ではありませんが、ユーザーは、 *および* は、レコメンデーションの結果を API を完全に使用して活用します。
 
-私たちは、 [前の節](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank} Adobe Target Recommendationsエンティティを管理し、サーバー側で配信する方法。 同様に、Adobe I/Oを使用すると、Adobe Targetにログインしなくても、条件、プロモーション、コレクション、デザインテンプレートを管理できます。 すべての [!DNL Recommendations] API が見つかる場合があります [ここ](https://developers.adobetarget.com/api/recommendations/)ですが、参照用の要約を次に示します。
+私たちは、 [前の節](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;} Adobe Target Recommendationsエンティティを管理し、サーバー側で配信する方法。 同様に、Adobe I/Oを使用すると、Adobe Targetにログインしなくても、条件、プロモーション、コレクション、デザインテンプレートを管理できます。 すべての [!DNL Recommendations] API が見つかる場合があります [ここ](https://developers.adobetarget.com/api/recommendations/)ですが、参照用の要約を次に示します。
 
 | リソース | 詳細 |
 | --- | --- |
@@ -123,13 +123,13 @@ Delivery API を [!DNL Recommendations] この方法を使用すると、訪問�
 
 ## リファレンスドキュメント
 
-* [Adobe Target Admin API ドキュメント](https://developer.adobe.com/target/administer/admin-api/){target=_blank}
-* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}
+* [Adobe Target Admin API ドキュメント](https://developer.adobe.com/target/administer/admin-api/){target=&quot;_blank&quot;}
+* [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=&quot;_blank&quot;}
 * [ [!DNL Recommendations]  メールとの統合](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## 概要とレビュー
 
 おめでとうございます。 このチュートリアルを終了して、次の方法を学びました。
-* [Recommendations API を使用したカタログの管理](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
-* [Recommendations API を使用したカスタム条件の管理](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
-* [Recommendationsでの Delivery API の使用](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+* [Recommendations API を使用したカタログの管理](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}
+* [Recommendations API を使用したカスタム条件の管理](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}
+* [Recommendationsでの Delivery API の使用](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}
