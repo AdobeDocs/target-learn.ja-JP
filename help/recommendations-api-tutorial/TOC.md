@@ -1,9 +1,9 @@
 ---
 user-guide-title: Recommendations API の使用
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: d8bb5884e3014792174813464bf00e7f94cc83ad
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Target Recommendations API の使用{#recommendations-api-tutorial}
 
-+ [Recs API の概要](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [Recs API の概要](recs-api-overview.md)
 + [API を使用したカタログの管理](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
 + [カスタム条件の管理](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
 + [Recommendationsでの Delivery API の使用](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
