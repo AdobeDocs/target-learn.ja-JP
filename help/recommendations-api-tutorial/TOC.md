@@ -1,21 +1,20 @@
 ---
-user-guide-title: RecommendationsAPIの使用
+user-guide-title: Recommendations API の使用
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
 
-# Adobe TargetRecommendationsAPIを使用{#recommendations-api-tutorial}
+# Adobe Target Recommendations API の使用{#recommendations-api-tutorial}
 
-+ [Recs APIの概要](recs-api-overview.md)
-+ [APIを使用したカタログの管理](manage-catalog.md)
-+ [カスタム条件の管理](manage-custom-criteria.md)
-+ [Recommendationsでの配信APIの使用](fetch-recs-server-side-delivery-api.md)
++ [Recs API の概要](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [API を使用したカタログの管理](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
++ [カスタム条件の管理](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
++ [Recommendationsでの Delivery API の使用](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '395'
 ht-degree: 10%
 
 ---
@@ -88,6 +88,3 @@ ht-degree: 10%
    + [A4T 統合エラーのトラブルシューティング](../dev101/4.3-troubleshoot-integration-errors.md)
 + モバイル{#mobile}
    + [Android 向けAdobeMobile Services SDK v4 を使用したAdobe Targetの実装](../mobile-v4/overview.md)
-+ API{#apis}
-   + [AdobeAPI 認証の設定](../apis/configure-io-target-integration.md)
-   + [Recommendations API の使用](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)
