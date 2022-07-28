@@ -2,22 +2,21 @@
 cloud: Experience Cloud
 product: target
 solution: Target
-solution-title: 'Target '
-solution-hub-url: https://helpx.adobe.com/jp/support/target.html
-getting-started-title: 導入
-getting-started-url: https://helpx.adobe.com/jp/target/get-started.html
-tutorials-title: チュートリアル
+solution-title: Target
+solution-hub-url: https://helpx.adobe.com/support/target.html
+getting-started-title: Getting Started
+getting-started-url: https://helpx.adobe.com/target/get-started.html
+tutorials-title: Tutorials
 tutorials-url: /content/help/en/target-learn/tutorials/overview.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.ja-JP
+git-repo: https://github.com/AdobeDocs/target-learn.ja-JP
 index: true
 mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
-translation-type: tm+mt
 source-git-commit: 38125cff6d0c94d476f059442b592eaee39160ce
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 92%
+source-wordcount: '111'
+ht-degree: 96%
 
 ---
 
