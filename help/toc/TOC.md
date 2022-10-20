@@ -3,8 +3,8 @@ user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 10%
 
 ---
 
