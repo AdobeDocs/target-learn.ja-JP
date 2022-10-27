@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
+source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '408'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 10%
 + 統合{#integrations}
    + [Target と Analytics の統合](../dev101/3.2-target-analytics.md)
    + [Analytics を Target のデータソースとして使用する (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [自動配分アクティビティ用のAnalysis Workspaceでの A4T レポートの設定](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Analysis Workspaceでの自動ターゲットアクティビティ用の A4T レポートの設定](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Target と Audience Manager の統合](../dev101/3.3-target-dmp.md)
    + [Target とExperience CloudAudiences の統合](../dev101/3.4-target-exc-audiences.md)
