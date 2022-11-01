@@ -5,7 +5,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 7d74151de84e7b9f504a5d19cb304cd29c1bb928
+source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 17%
