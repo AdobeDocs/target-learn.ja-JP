@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
+source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '413'
 ht-degree: 10%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 10%
    + [オプトインを使用して、ユーザーの同意に基づいてExperience Cloudソリューションを制御する](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target Hybrid デプロイメントについて](../implementation/hybrid-deployment.md)
    + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
+   + [Adobe Targetの実装パターン](../implementation/implementation-patterns-for-adobe-target.md)
 + 統合{#integrations}
    + [Target と Analytics の統合](../dev101/3.2-target-analytics.md)
    + [Analytics を Target のデータソースとして使用する (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
