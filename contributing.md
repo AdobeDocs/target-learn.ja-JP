@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # 寄稿
@@ -19,7 +18,7 @@ ht-degree: 88%
 
 ## 寄稿者ガイドドキュメント
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+詳しくは、 [寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## 質問がある場合
 
@@ -27,7 +26,7 @@ See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/c
 
 ## 寄稿者使用許諾契約書
 
-このプロジェクトへのすべてのサードパーティの寄稿者は、寄稿者使用許諾契約書に署名している必要があります。これにより、寄稿をプロジェクトの一環として再配布するための Adobe 権限が付与されます。[CLAに署名](http://opensource.adobe.com/cla.html)。 Adobe CLA は一度だけ提出する必要があるので、既に提出されている場合は署名する必要はありません。
+このプロジェクトへのすべてのサードパーティの寄稿者は、寄稿者使用許諾契約書に署名している必要があります。これにより、寄稿をプロジェクトの一環として再配布するための Adobe 権限が付与されます。[アドビの CLA に署名する](http://opensource.adobe.com/cla.html). Adobe CLA は一度だけ提出する必要があるので、既に提出されている場合は署名する必要はありません。
 
 ## 行動規範のレビュー
 
@@ -44,4 +43,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、この問題トラッカーでは報告できません。代わりに、セキュリティの専門家に問題を [提出してください](https://helpx.adobe.com/security/alertus.html)
+セキュリティ上の問題は、この問題トラッカーでは報告できません。代わりに、 [セキュリティの専門家に問題を提起する](https://helpx.adobe.com/security/alertus.html)
