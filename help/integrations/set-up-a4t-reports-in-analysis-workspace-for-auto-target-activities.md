@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ A4T 統合により、 [!UICONTROL 自動ターゲット] ML モデルは次の�
 ## 概要：最終サンプル [!DNL Analysis Workspace] パネル [!UICONTROL 自動ターゲット] レポート
 
 上記のすべての手順を 1 つのパネルに組み合わせた場合、次の図は、 [!UICONTROL 自動ターゲット] A4T アクティビティ。 このレポートは、 [!DNL Target] ML モデルを使用して目標指標を最適化する。 このレポートは、このチュートリアルで説明するすべてのニュアンスと推奨事項を組み込んでいます。 また、このレポートは、従来の [!DNL Target]レポート主導 [!UICONTROL 自動ターゲット] アクティビティ。
+
+クリックして画像を展開します。
 
 ![での最終的な A4T レポート [!DNL Analysis Workspace]](assets/Figure8.png "Analysis Workspaceの A4T レポート"){width="600" zoomable="yes"}
 
