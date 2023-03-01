@@ -1,6 +1,8 @@
 ---
-title: Analysis Workspace for Auto-Target アクティビティで A4T レポートを設定する方法
-description: Analytics for Target(A4T) 統合が完了し、自動ターゲットアクティビティを実行したら、結果を正しく解釈するにはどうすればよいですか？ 次の手順に従って、自動ターゲットアクティビティの実行時に予期した結果を得るためにAnalysis Workspaceで A4T レポートを設定します。
+title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!DNL Auto-Target] アクティビティ
+description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動ターゲット] アクティビティ？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
 
 # での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Target] アクティビティ
+
+>[!NOTE]
+>
+>この機能は現在ベータ版で、すべての [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} のお客様が次回のリリースでサポートされる予定です。
 
 >[!IMPORTANT]
 >
