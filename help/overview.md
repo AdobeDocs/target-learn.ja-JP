@@ -1,31 +1,37 @@
 ---
 title: Adobe Targetの使用方法
-description: Adobe Targetの使用方法を学ぶには、すべてのコンポーネントをカバーするこのチュートリアルとビデオのコレクションを利用します。 Adobe Targetの力を効果的に使う。
+description: 使用方法を学ぶ [!DNL Adobe Target] すべてのコンポーネントをカバーするこのチュートリアルとビデオのコレクションが用意されています。
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 # Adobe Targetの使い方を学ぶ
 
-Adobe Target は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する Adobe Experience Cloud ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化することができます。これらのビデオとチュートリアルを使用して、Adobe Targetの多くのコンポーネントを学習します。
+[!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。これらのビデオとチュートリアルを使用して、の多くのコンポーネントを学習します。 [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## 最新情報
 
-* **[Analysis Workspace for Auto-Target アクティビティでの A4T レポートの設定](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Allocate] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *実務担当者向け：自動ターゲットに A4T を使用しているか。 以下の手順に従って、Analysis Workspaceで A4T レポートを設定し、自動ターゲットアクティビティの実行時に期待どおりの結果が得られることを確認します。*
+   実務担当者向け：この [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] レポートデータを [!DNL Adobe Analytics]を使用すると、 [!DNL Analytics].
+
+* **[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   実務担当者向け：A4T を [!UICONTROL 自動ターゲット]? 次の手順に従って、で A4T レポートを設定します。 [!DNL Analysis Workspace] 実行時に期待どおりの結果が得られるようにする [!UICONTROL 自動ターゲット] アクティビティ。
+
 * **[オンデバイス判定の概要](implementation/on-device-decisioning-overview.md)**
 
-   *アーキテクトの場合：ほぼゼロの待ち時間のエクスペリエンスを消費者に提供するオンデバイス判定を開始します。*
+   アーキテクトの場合：の基本を学ぶ [!UICONTROL オンデバイス判定] 待ち時間がほぼゼロのエクスペリエンスを消費者に提供する。
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -39,7 +45,6 @@ Adobe Target は、顧客のエクスペリエンスのカスタマイズやパ�
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
-
 
 </div>
 

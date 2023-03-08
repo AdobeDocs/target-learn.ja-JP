@@ -1,7 +1,6 @@
 ---
 title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ
 description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動配分] アクティビティ。
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,18 +8,14 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
 
 # での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Allocate] アクティビティ
-
->[!NOTE]
->
->この機能は現在ベータ版で、すべての [!UICONTROL ターゲット] のお客様が次回のリリースでサポートされる予定です。
 
 An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエクスペリエンスの中から勝者を特定し、テストの実施と学習が続く間に、自動的にその勝者に配分するトラフィックを増やします。 この [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] レポートデータを [!DNL Adobe Analytics]を使用すると、 [!DNL Analytics].
 
