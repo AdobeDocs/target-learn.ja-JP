@@ -2,6 +2,7 @@
 title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!DNL Auto-Target] アクティビティ
 description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動ターゲット] アクティビティ？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ ht-degree: 1%
 
 ## 以下を使用： [!UICONTROL コントロールとターゲット] 比較するディメンション [!DNL Target] コントロールに合わせたアンサンブル ML モデル
 
-デフォルトの A4T パネルは、クラシック（手動）用に設計されています [!UICONTROL A/B テスト] または [!UICONTROL 自動配分] 個々のエクスペリエンスのパフォーマンスをコントロールエクスペリエンスと比較することが目標となるアクティビティ。 In [!UICONTROL 自動ターゲット] ただし、最初の順序の比較は、コントロール間でおこなう必要があります *戦略* そしてターゲット *戦略*. つまり、 [!UICONTROL 自動ターゲット] 制御戦略のアンサンブル ML モデル )。
+デフォルトの A4T パネルは、クラシック（手動）用に設計されています [!UICONTROL A/B テスト] または [!UICONTROL 自動配分] 個々のエクスペリエンスのパフォーマンスをコントロールエクスペリエンスと比較することが目標となるアクティビティ。 In [!UICONTROL 自動ターゲット] ただし、最初の順序の比較は、コントロール間でおこなう必要があります *戦略* そしてターゲット *戦略*. つまり、 [!UICONTROL 自動ターゲット] 制御戦略に対するアンサンブル ML モデル。
 
 この比較を実行するには、 **[!UICONTROL コントロールとターゲット (Analytics for Target)]** ディメンション。 ドラッグ&amp;ドロップして **[!UICONTROL Target エクスペリエンス]** ディメンションを使用して、A4T デフォルトのレポートに表示できます。
 

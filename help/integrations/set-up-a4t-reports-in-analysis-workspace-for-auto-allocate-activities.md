@@ -2,15 +2,16 @@
 title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ
 description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動配分] アクティビティ。
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
    * 「個別訪問者コンバージョン率の最大化」の最適化基準では、コンバージョン率が算出されます。このコンバージョン率の分子は、指標の正の値を持つ個別訪問者の数です。
    * 「訪問者ごとの指標値を最大化*」には、コンバージョン率があり、その分子が [!DNL Adobe Analytics]. これは、デフォルトで **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace].
 * 最適化指標が [!DNL Target] 定義済みのコンバージョン指標、デフォルト **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace] はパネルの設定を処理します。
-* この [!UICONTROL 信頼性] 数値 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)を削除する必要があります。
+* この [!UICONTROL 信頼性] 数値 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)だから、無視すべきだ。 代わりに、 [!DNL Target] レポート。
 
 ## 用の A4T の作成 [!DNL Auto-Allocate] パネル内 [!DNL Analysis Workspace]
 
