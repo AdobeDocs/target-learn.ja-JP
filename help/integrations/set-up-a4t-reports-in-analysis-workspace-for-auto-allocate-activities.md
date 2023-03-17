@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
    * 「個別訪問者コンバージョン率の最大化」の最適化基準では、コンバージョン率が算出されます。このコンバージョン率の分子は、指標の正の値を持つ個別訪問者の数です。
    * 「訪問者ごとの指標値を最大化*」には、コンバージョン率があり、その分子が [!DNL Adobe Analytics]. これは、デフォルトで **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace].
 * 最適化指標が [!DNL Target] 定義済みのコンバージョン指標、デフォルト **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace] はパネルの設定を処理します。
-* この [!UICONTROL 信頼性] 数値 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)だから、無視すべきだ。 代わりに、 [!DNL Target] レポート。
+* この [!UICONTROL 信頼性] 数値 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)A4T パネルから削除する必要があります。 代わりに、 [!DNL Target] レポート。
 
 ## 用の A4T の作成 [!DNL Auto-Allocate] パネル内 [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
 
 デフォルトの A4T パネルが [!DNL Auto-Allocate] 目標指標が以下のいずれかに該当するアクティビティ [!DNL Target] コンバージョンまたは [!DNL Analytics] 指標と最適化基準「訪問者あたりの指標値を最大化」を使用
 
-このパネルの例は、 [!UICONTROL 売上高] 指標を使用します。ここで、「訪問者あたりの指標値の最大化」が、アクティビティ作成時の最適化条件として選択されています。 前述のように、 [!DNL Auto-Allocate] では、 **[!UICONTROL Analytics for Target]** パネル。 Adobeでは、信頼性指標と、関連する上昇率指標を削除することをお勧めします。
+このパネルの例は、 [!UICONTROL 売上高] 指標を使用します。ここで、「訪問者あたりの指標値の最大化」が、アクティビティ作成時の最適化条件として選択されています。 前述のように、 [!DNL Auto-Allocate] では、 **[!UICONTROL Analytics for Target]** パネル。 Adobeでは、A4T パネルおよび関連する上昇率指標（下限と上限の指標）から信頼性指標を削除することをお勧めします。 代わりに、 [!DNL Target] レポート。
 
 ![[!UICONTROL Target の Analytics — 自動配分レポート] パネル](assets/AAFigure2.png)
 
