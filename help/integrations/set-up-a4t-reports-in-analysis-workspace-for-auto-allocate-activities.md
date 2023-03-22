@@ -2,16 +2,16 @@
 title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動配分] アクティビティ
 description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動配分] アクティビティ。
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,23 @@ ht-degree: 0%
 
 An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエクスペリエンスの中から勝者を特定し、テストの実施と学習が続く間に、自動的にその勝者に配分するトラフィックを増やします。 この [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] レポートデータを [!DNL Adobe Analytics]を使用すると、 [!DNL Analytics].
 
-豊富な分析機能は [!DNL Adobe Analytics] [!DNL Analysis Workspace]( デフォルトの **[!UICONTROL Analytics for Target]** 正しく解釈するには、パネルが必要です [!DNL Auto-Allocate] アクティビティ、 [最適化基準](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+豊富な分析機能は [!DNL Adobe Analytics] [!DNL Analysis Workspace]( デフォルトの **[!UICONTROL Analytics for Target]** 正しく解釈するには、パネルが必要です [!DNL Auto-Allocate] アクティビティ、 [最適化基準](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 このチュートリアルでは、分析に推奨される変更について説明します [!DNL Auto-Allocate] アクティビティ [!DNL Analysis Workspace]. 主な概念は次のとおりです。
 
 * [!UICONTROL 訪問者] は、常に [!DNL Auto-Allocate] アクティビティ。
 * 指標が [!DNL Adobe Analytics] 指標を使用する場合、コンバージョン率に適した分子は、アクティビティの設定時に選択した最適化条件のタイプに応じて異なります。
    * 「個別訪問者コンバージョン率の最大化」の最適化基準では、コンバージョン率が算出されます。このコンバージョン率の分子は、指標の正の値を持つ個別訪問者の数です。
-   * 「訪問者ごとの指標値を最大化*」には、コンバージョン率があり、その分子が [!DNL Adobe Analytics]. これは、デフォルトで **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace].
+   * 「訪問者ごとの指標値の最大化」には、コンバージョン率があります。このコンバージョン率の分子は、 [!DNL Adobe Analytics]. これは、デフォルトで **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace].
 * 最適化指標が [!DNL Target] 定義済みのコンバージョン指標、デフォルト **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace] はパネルの設定を処理します。
-* この [!UICONTROL 信頼性] 数値 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)A4T パネルから削除する必要があります。 代わりに、 [!DNL Target] レポート。
+* すべて [!UICONTROL 自動配分] 以前に作成されたアクティビティ [!DNL Target Standard/Premium] 23.3.1 リリース（2023 年 3 月 29 日） [!DNL Analytics Workspace] および [!DNL Target] 同じ値を示す [!UICONTROL 信頼性].
+
+   すべて [!UICONTROL 自動配分] 2023 年 3 月 28 日以降に作成されたアクティビティ。 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} これらのアクティビティが *両方* 次の条件を満たす場合：
+
+   * [!DNL Analytics] レポートソースとして (A4T)
+   * [!DNL Analytics] 最適化指標
+
+   If *両方* これらの条件が存在する場合は、信頼性指標を A4T パネルから削除する必要があります。 代わりに、 [!DNL Target] レポート。
 
 ## 用の A4T の作成 [!DNL Auto-Allocate] パネル内 [!DNL Analysis Workspace]
 
@@ -84,7 +91,7 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
 
    *図 4:フィルター [!UICONTROL 実訪問者数] 新しく作成したセグメント別*
 
-3. コンバージョン率は、 [迅速に計算される](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) 1 列目と 2 列目の両方をハイライト表示し、右クリックして、選択 **[!UICONTROL 選択から指標を作成]** > **[!UICONTROL 除算]**.
+3. コンバージョン率は、 [迅速に計算される](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) 1 列目と 2 列目の両方をハイライト表示し、右クリックして、選択 **[!UICONTROL 選択から指標を作成]** > **[!UICONTROL 除算]**.
 
    次の図に示すように、デフォルトのコンバージョン率は削除し、この新しい計算指標に置き換える必要があります。 新しく作成した計算指標を編集して **[!UICONTROL 形式]** > **[!UICONTROL 割合]** 図のように、小数点以下 2 桁までです。
 
