@@ -1,8 +1,8 @@
 ---
 title: で A4T レポートを設定する方法 [!DNL Analysis Workspace] 対象 [!DNL Auto-Target] アクティビティ
 description: で A4T レポートを設定する方法を教えてください。 [!DNL Analysis Workspace] を実行すると、期待した結果が得られます。 [!UICONTROL 自動ターゲット] アクティビティ？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 このチュートリアルでは、分析に推奨される変更について説明します [!UICONTROL 自動ターゲット] アクティビティ [!DNL Analysis Workspace]は、次の主要概念に基づいています。
 
 * この **[!UICONTROL コントロールとターゲット]** ディメンションは、 [!UICONTROL 制御] エクスペリエンスと [!UICONTROL 自動ターゲット] アンサンブル ML アルゴリズム。
-* 訪問回数は、パフォーマンスのエクスペリエンスレベルの分類を表示する際に、標準化指標として使用する必要があります。 さらに、 [Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティのコンテンツを見ない訪問が含まれる場合があります](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics)に設定されていますが、適切にスコープされたセグメント（以下で詳しく説明）を使用して、このデフォルトの動作を変更できます。
+* 訪問回数は、パフォーマンスのエクスペリエンスレベルの分類を表示する際に、標準化指標として使用する必要があります。 さらに、 [Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティのコンテンツを見ない訪問が含まれる場合があります](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}に設定されていますが、適切にスコープされたセグメント（以下で詳しく説明）を使用して、このデフォルトの動作を変更できます。
 * 訪問のルックバックスコープによるアトリビューション（所定のアトリビューションモデルの「訪問のルックバックウィンドウ」とも呼ばれます）は、 [!DNL Adobe Target] 目標指標を分類する際は、トレーニングフェーズ中の ML モデルと、同じ（デフォルト以外の）アトリビューションモデルを使用する必要があります。
 
 ## 用の A4T の作成 [!UICONTROL 自動ターゲット] パネル内 [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->現在、 [!UICONTROL 上昇率と信頼性] 数値は次の場合は使用できません： [!UICONTROL コントロールとターゲット] 次元 for A4T レポート： [!UICONTROL 自動ターゲット]. サポートが追加されるまで、 [!UICONTROL 上昇率と信頼性] は、 [信頼性計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>現在、 [!UICONTROL 上昇率と信頼性] 数値は次の場合は使用できません： [!UICONTROL コントロールとターゲット] 次元 for A4T レポート： [!UICONTROL 自動ターゲット]. サポートが追加されるまで、 [!UICONTROL 上昇率と信頼性] は、 [信頼性計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## 指標のエクスペリエンスレベルの分類の追加
 
@@ -150,7 +150,7 @@ A4T 統合により、 [!UICONTROL 自動ターゲット] ML モデルは次の�
 >
 >レポートに表示している指標とは異なる属性の指標に対して ML モデルが最適化を行っている場合、そのモデルが期待どおりに動作しない可能性があります。 これを避けるには、レポートの目標指標で、 [!DNL Target] ML モデル。
 
-正確な指標の定義とアトリビューションの設定は、 [最適化基準](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) アクティビティの作成中に指定した値。
+正確な指標の定義とアトリビューションの設定は、 [最適化基準](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} アクティビティの作成中に指定した値。
 
 ### Target が定義したコンバージョン、または [!DNL Analytics] 指標 *訪問あたりの指標値の最大化*
 
