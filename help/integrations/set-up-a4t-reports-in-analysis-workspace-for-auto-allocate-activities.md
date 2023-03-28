@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
+source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
    * 「個別訪問者コンバージョン率の最大化」の最適化基準では、コンバージョン率が算出されます。このコンバージョン率の分子は、指標の正の値を持つ個別訪問者の数です。
    * 「訪問者ごとの指標値の最大化」には、コンバージョン率があります。このコンバージョン率の分子は、 [!DNL Adobe Analytics]. これは、デフォルトで **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace].
 * 最適化指標が [!DNL Target] 定義済みのコンバージョン指標、デフォルト **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace] はパネルの設定を処理します。
-* すべて [!UICONTROL 自動配分] 以前に作成されたアクティビティ [!DNL Target Standard/Premium] 23.3.1 リリース（2023 年 3 月 29 日） [!DNL Analytics Workspace] および [!DNL Target] 同じ値を示す [!UICONTROL 信頼性].
+* すべて [!UICONTROL 自動配分] 以前に作成されたアクティビティ [!DNL Target Standard/Premium] 23.3.1 リリース（2023 年 3 月 31 日） [!DNL Analytics Workspace] および [!DNL Target] 同じ値を示す [!UICONTROL 信頼性].
 
-   すべて [!UICONTROL 自動配分] 2023 年 3 月 28 日以降に作成されたアクティビティ。 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} これらのアクティビティが *両方* 次の条件を満たす場合：
+   すべて [!UICONTROL 自動配分] 2023 年 3 月 30 日以降に作成されたアクティビティ。 [!DNL Analysis Workspace] 反映しない [～が使うより保守的な統計 [!UICONTROL 自動配分]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} これらのアクティビティが *両方* 次の条件を満たす場合：
 
    * [!DNL Analytics] レポートソースとして (A4T)
    * [!DNL Analytics] 最適化指標
