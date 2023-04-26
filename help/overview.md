@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 10%
+source-wordcount: '474'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 10%
 
 アーキテクトの場合：の基本を学ぶ [!UICONTROL オンデバイス判定] 待ち時間がほぼゼロのエクスペリエンスを消費者に提供する。 詳しくは、 [オンデバイス判定の概要](implementation/on-device-decisioning-overview.md).
 
+### 移行 [!DNL Target] at.js 2.*x* から [!DNL Adobe Experience Platform Web SDK]
+
+移行方法を学ぶ [!DNL Target] at.js の実装 [!DNL Adobe Experience Platform Web SDK]. 詳しくは、 [移行 [!DNL Target] at.js 2.x から [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ja){target=_blank} 内 *Adobe Experience PlatformTutorialsガイド*.
+
 ## 最頻訪問ビデオ
 
 次のビデオには、Target のお客様が最も多くアクセスします。
@@ -67,20 +71,14 @@ ht-degree: 10%
 
 ### Adobe Experience Platformタグを使用した Target の実装
 
-ページ読み込みリクエストとカスタムパラメーターを使用してAdobe Target拡張機能を実装する方法について説明します。
-
-詳しくは、 [Adobe Targetを追加](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 内 *タグ付き Web サイトでの実装チュートリアルガイド*.
+ページ読み込みリクエストとカスタムパラメーターを使用してAdobe Target拡張機能を実装する方法について説明します。 詳しくは、 [Adobe Targetを追加](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 内 *タグ付き Web サイトでの実装チュートリアルガイド*.
 
 ### シングルページアプリケーション (SPA) での at.js 2.0 の実装
 
-SPAで at.js 2.0（およびそれ以降）を実装する方法について説明します。
-
-詳しくは、 [シングルページアプリケーション (SPA) での at.js 2.0 を使用したAdobe Targetの実装](implementation/implement-atjs-20-in-a-single-page-application.md).
+SPAで at.js 2.0（およびそれ以降）を実装する方法について説明します。 詳しくは、 [シングルページアプリケーション (SPA) での at.js 2.0 を使用したAdobe Targetの実装](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Experience Cloud Debuggerでの Target のトラブルシューティング
 
-Adobe Experience Cloud Debugger を使用して [!DNL Target] 実装。 ライブラリ設定をすばやく表示し、要求を調べて、カスタムパラメーターが正しく渡されていることを確認し、コンソールログを有効にし、すべてを無効にする方法を説明します [!DNL Target] リクエストを実行し、Mbox Trace ツールを使用します。
-
-詳しくは、 [トラブルシューティング [!DNL Target] と [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Adobe Experience Cloud Debugger を使用して [!DNL Target] 実装。 ライブラリ設定をすばやく表示し、要求を調べて、カスタムパラメーターが正しく渡されていることを確認し、コンソールログを有効にし、すべてを無効にする方法を説明します [!DNL Target] リクエストを実行し、Mbox Trace ツールを使用します。 詳しくは、 [トラブルシューティング [!DNL Target] と [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
