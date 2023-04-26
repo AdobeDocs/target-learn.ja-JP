@@ -5,101 +5,82 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
+source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 15%
+source-wordcount: '442'
+ht-degree: 10%
 
 ---
 
 # Adobe Targetの使い方を学ぶ
 
-[!DNL Adobe Target] は、顧客のエクスペリエンスのカスタマイズやパーソナライズに必要なすべてのツールを提供する [!DNL Adobe Experience Cloud] ソリューションです。Web サイト、モバイルサイト、アプリ、ソーシャルメディアおよびその他のデジタルチャネルでの収益性を最大化できます。これらのビデオとチュートリアルを使用して、の多くのコンポーネントを学習します。 [!DNL Adobe Target].
+[!DNL Adobe Target] が [!DNL Adobe Experience Cloud] 顧客体験をカスタマイズし、パーソナライズするために必要なすべてを提供するソリューション。 [!DNL Target] は、Web サイト、モバイルサイト、アプリ、ソーシャルメディア、その他のデジタルチャネルの売上高を最大化するのに役立ちます。これらのビデオとチュートリアルを使用して、の多くのコンポーネントを学習します。 [!DNL Adobe Target].
 
-<div id="whats-new-section">
+>[!NOTE]
+>
+>このガイドに加えて、次の手順を実行します。 [!DNL Adobe Target] ガイドも利用できます。
+>
+>* *[Adobe Target ビジネス実践者ガイド](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja){target=_blank}*
+>
+>* *[Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+
 
 ## 最新情報
 
-* **[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Allocate] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
+以下のリソースが新しく追加されました。
 
-   実務担当者向け：この [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] レポートデータを [!DNL Adobe Analytics]を使用すると、 [!DNL Analytics].
+### での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Allocate] アクティビティ
 
-* **[での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+実務担当者向け：この [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] レポートデータを [!DNL Adobe Analytics]を使用すると、 [!DNL Analytics]. 詳しくは、 [での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!DNL Auto-Allocate] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md).
 
-   実務担当者向け：A4T を [!UICONTROL 自動ターゲット]? 次の手順に従って、で A4T レポートを設定します。 [!DNL Analysis Workspace] 実行時に期待どおりの結果が得られるようにする [!UICONTROL 自動ターゲット] アクティビティ。
+### [!DNL Analysis Workspace] での [!UICONTROL 自動ターゲット]アクティビティ用 A4T レポートの設定
 
-* **[オンデバイス判定の概要](implementation/on-device-decisioning-overview.md)**
+実務担当者向け：A4T を [!UICONTROL 自動ターゲット]? 次の手順に従って、で A4T レポートを設定します。 [!DNL Analysis Workspace] 実行時に期待どおりの結果が得られるようにする [!UICONTROL 自動ターゲット] アクティビティ。 詳しくは、 [での A4T レポートの設定 [!DNL Analysis Workspace] 対象 [!UICONTROL 自動ターゲット] アクティビティ](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md).
 
-   アーキテクトの場合：の基本を学ぶ [!UICONTROL オンデバイス判定] 待ち時間がほぼゼロのエクスペリエンスを消費者に提供する。
+### オンデバイス判定
 
-<!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
-    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
+アーキテクトの場合：の基本を学ぶ [!UICONTROL オンデバイス判定] 待ち時間がほぼゼロのエクスペリエンスを消費者に提供する。 詳しくは、 [オンデバイス判定の概要](implementation/on-device-decisioning-overview.md).
 
-<!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
-    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
+## 最頻訪問ビデオ
 
-<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
-    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
+次のビデオには、Target のお客様が最も多くアクセスします。
 
-<!--
-* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
-    <br>
-    *Recommend products to your customers at scale with this Premium feature.* -->
+### オンデバイス判定の概要
 
-</div>
+>[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-<div id="recs-overview-body-1"></div>
-<div id="recs-overview-body-2"></div>
-<div id="recs-overview-body-3"></div>
-<div id="recs-overview-body-4"></div>
-<div id="recs-overview-body-5"></div>
-<div id="recs-overview-body-6"></div>
+詳しくは、 [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} 内 *Adobe Target Developer Guide*.
 
-<div id="staff-picks-section">
+### の概要 [!DNL Adobe Target] 実装
+
+>[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+
+詳しくは、 [クライアント側実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} 内 *[!UICONTROL Adobe Target Developer Guide]*.
+
+### でのプロファイルスクリプトの作成 [!DNL Adobe Target]
+
+>[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
 
 ## スタッフのおすすめ
 
-<table>
-<tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-      <img alt="Adobe Experience Platform Launchでの Target の実装" src="assets/launch_referencearchitectureguides.png" />
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-    <strong>Adobe Experience Platform Launchでの Target の実装</strong>
-    </a>
-    </div>
-    <p>
-    <em>Launch を使用した Web 実装の高速化</em>
-    <p>
-  </td>
-  <td>
-    <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="シングルページアプリケーション (SPA) での at.js 2.0 の実装" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
-    </a>
-    <div>
-      <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>シングルページアプリケーション (SPA) での at.js 2.0 の実装</strong>
-    </a>
-    </div>
-    <p>
-    <em>at.js 2.x によるSPAのサポートを参照してください。</em>
-    <p>
-  </td>
-  <td>
-    <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Experience Cloud Debuggerでの Target のトラブルシューティング" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
-    </a>
-    <div>
-      <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Experience Cloud Debuggerでの Target のトラブルシューティング</strong>
-    </a>
-    </div>
-    <p>
-    <em>実装を拡大</em>
-    <p>
-  </td>
-</tr>
-</table>
-</div>
+この [!DNL Adobe Target] スタッフは、次のリソースを推奨します。
+
+### Adobe Experience Platformタグを使用した Target の実装
+
+ページ読み込みリクエストとカスタムパラメーターを使用してAdobe Target拡張機能を実装する方法について説明します。
+
+詳しくは、 [Adobe Targetを追加](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 内 *タグ付き Web サイトでの実装チュートリアルガイド*.
+
+### シングルページアプリケーション (SPA) での at.js 2.0 の実装
+
+SPAで at.js 2.0（およびそれ以降）を実装する方法について説明します。
+
+詳しくは、 [シングルページアプリケーション (SPA) での at.js 2.0 を使用したAdobe Targetの実装](implementation/implement-atjs-20-in-a-single-page-application.md).
+
+### Experience Cloud Debuggerでの Target のトラブルシューティング
+
+Adobe Experience Cloud Debugger を使用して [!DNL Target] 実装。 ライブラリ設定をすばやく表示し、要求を調べて、カスタムパラメーターが正しく渡されていることを確認し、コンソールログを有効にし、すべてを無効にする方法を説明します [!DNL Target] リクエストを実行し、Mbox Trace ツールを使用します。
+
+詳しくは、 [トラブルシューティング [!DNL Target] と [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+
+
