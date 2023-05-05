@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
+source-git-commit: 081475bb9928ba169e2a068c06456a415ed28124
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 12%
+source-wordcount: '429'
+ht-degree: 14%
 
 ---
 
@@ -115,11 +115,11 @@ ht-degree: 12%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>シングルページアプリケーション (SPA) での at.js 2.0 を使用したAdobe Targetの実装</strong>
+    <strong>SPA での at.js 2.0 の実装</strong>
     </a>
     </div>
     <p>
-    <em> SPAで at.js 2.0（およびそれ以降）を実装する方法について説明します。</em>
+    <em> シングルページアプリケーション (SPA) でのAdobe Targetの at.js 2.0 以降の実装方法を説明します。</em>
     <p>
   </td>
   <td>
@@ -132,7 +132,7 @@ ht-degree: 12%
     </a>
     </div>
     <p>
-    <em>Adobe Experience Cloud Debugger を使用して [!DNL Target] 実装。 ライブラリ設定をすばやく表示し、要求を調べて、カスタムパラメーターが正しく渡されていることを確認し、コンソールログを有効にし、すべてを無効にする方法を説明します [!DNL Target] リクエストを実行し、Mbox Trace ツールを使用します。</em>
+    <em>Adobe Experience Cloud Debugger を使用して [!DNL Target] 実装。</em>
     <p>
   </td>
 </tr>
