@@ -3,7 +3,7 @@ title: 最適化のベストプラクティス
 description: Adobeの最適化に関する 6 つの基本事項と適用方法について説明します。
 solution: Target
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -117,4 +117,4 @@ _図 1 — 最適化反復サイクル_
 
 詳しくは、 [Adobe Targetの実装の理解と最適化に関するウェビナー](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)ビジネスコンサルタント、Katie Cozby と共に。
 
-戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。
+戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。

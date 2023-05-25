@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
+source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '446'
+ht-degree: 9%
 
 ---
 
@@ -48,6 +48,12 @@ ht-degree: 10%
    + [Target とExperience CloudAudiences の統合](../dev101/3.4-target-exc-audiences.md)
    + [Target と Campaign の統合](../dev101/3.6-target-campaign.md)
    + [Target とAdobe Developer Console の統合](../dev101/3.7-target-io.md)
+   + [Target とReal-Time CDPの統合]{#rtcdp}
+      + [Adobe Targetを使用した次ヒットのパーソナライゼーション](../integrations/rtcdp/next-hit-personalization.md)
+      + [Adobe Targetの宛先の設定](../integrations/rtcdp/configure-the-target-destination.md)
+      + [セグメントとプロファイル属性のアクティブ化](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [Target でのReal-Time CDPセグメントの使用](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
+      + [Target でのReal-Time CDPプロファイル属性の使用](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Target とScene7の統合](../dev101/3.8-target-scene7.md)
    + [Target とAdobe Experience Managerの統合](../dev101/3.5-target-aem.md)
    + [Adobe TargetでのAEMエクスペリエンスフラグメントの使用](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)

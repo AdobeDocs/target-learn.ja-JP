@@ -3,7 +3,7 @@ title: パーソナライゼーションのテストとロードマップの作�
 description: パーソナライゼーションアクティビティの検証を開始し、Adobe TargetとAdobe Analyticsを通じて実行するパーソナライゼーションロードマップを作成するために使用できるフレームワークについて説明します。
 solution: Target,Analytics
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%
@@ -88,4 +88,4 @@ Adobeでは、各ユースケースを 1 ～ 5 のスケールでランク付け
 
 次の各手順について説明するこのビデオをご覧になることをお勧めします。 [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。
+戦略と思考のリーダーシップに関する詳細は、 [顧客の成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブ。
