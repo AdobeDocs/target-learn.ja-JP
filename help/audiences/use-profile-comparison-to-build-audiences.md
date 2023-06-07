@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
-workflow-type: ht
-source-wordcount: '174'
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,5 @@ Adobe Target の[!UICONTROL プロファイル比較]機能を使用すると、
 ## その他のリソース
 
 * [プロファイル属性比較オーディエンスの作成](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=ja)
-* [データを Adobe Target に送信する方法](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=ja)
 * [オーディエンスの構築](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=ja)
 * [エクスペリエンスのターゲット設定アクティビティの作成（ビデオ）](../activities/create-experience-targeting-activities.md)

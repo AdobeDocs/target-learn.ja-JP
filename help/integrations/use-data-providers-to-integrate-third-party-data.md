@@ -1,6 +1,6 @@
 ---
 title: データプロバイダーを使用してサードパーティデータを統合する方法
-description: このチュートリアルでは、データプロバイダーに関するユーザーを紹介します。 データプロバイダー機能を使用して、サードパーティからAdobe Targetにデータを簡単に渡す方法を説明します。
+description: このチュートリアルでは、データプロバイダーに対するユーザーを紹介します。 データプロバイダー機能を使用して、サードパーティからAdobe Targetにデータを簡単に渡す方法を説明します。
 role: User, Developer
 level: Experienced
 topic: Personalization, Integrations
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 23%
+source-wordcount: '195'
+ht-degree: 25%
 
 ---
 
@@ -24,16 +24,15 @@ ht-degree: 23%
 
 ## データプロバイダーの使用方法
 
-1. 実装の専門家は、at.js（または at.js の「ライブラリヘッダー」セクション）の前にコードを追加して、サードパーティへの API 呼び出しをおこない、応答を解析して、[!DNL Target] に送信する応答の名前と値のペアで指定します。
+1. 実装の専門家は、at.js（または at.js の「ライブラリヘッダー」セクション）の前に、サードパーティへの API 呼び出しをおこなうコードを追加し、応答を解析して、に送信する応答の名前と値のペアで指定します [!DNL Target].
 1. at.js はちらつきを制御し、名前と値のペアをカスタムパラメーターとしてグローバル Target リクエストに含めます。
-1. マーケターは、これらのカスタムパラメーターに基づいて、 [!DNL Target] インターフェイスでオーディエンスを構築します。
-1. マーケターは、これらのオーディエンスを使用して、エクスペリエンス、アクティビティおよび指標をターゲット設定したり、レポート用オーディエンスをターゲット設定したりします。
+1. マーケターが [!DNL Target] インターフェイスを作成します。
+1. マーケターは、これらのオーディエンスを使用して、エクスペリエンス、アクティビティおよび指標をターゲット設定し、レポート用オーディエンスをターゲット設定します。
 
 >[!NOTE]
 >
->[!UICONTROL デー] タプロバイダーには at.js 1.3 以降が必要です
+>[!UICONTROL データプロバイダー] には at.js 1.3 以降が必要です。
 
 ## サポート資料
 
 * [at.js とAdobe Targetでのデータプロバイダーの実装](implement-data-providers-to-integrate-third-party-data.md)
-* [データプロバイダーのドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
