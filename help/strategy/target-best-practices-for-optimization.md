@@ -2,8 +2,11 @@
 title: 最適化のベストプラクティス
 description: Adobeの最適化に関する 6 つの基本事項と適用方法について説明します。
 solution: Target
+role: Leader, Architect, Developer, Admin
+feature: Overview
+level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%

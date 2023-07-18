@@ -5,10 +5,11 @@ role: User
 solution: Real-time Customer Data Platform,Target
 feature-set: Experience Platform,Target
 feature: Integrations,Segments,Web SDK,Destinations,Datastreams,Audiences,Experience Targeting
+level: Intermediate
 jira: KT-9629
 thumbnail: 340091.jpg
 exl-id: 08568a37-1450-4fdc-ba58-37ea026028c7
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 7%

@@ -2,8 +2,10 @@
 title: Adobe Target実装の最適化
 description: Adobe Targetの実装と構造の概要を説明します。 組織の設定を理解し、監査する方法を説明します。 チームのナレッジリポジトリを作成する際の一般的なトラブルシューティングのテクニックとヒントを説明します。
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Adobeは、次の目的で月次手動監査を実行することを推奨しま
 
 >[!NOTE]
 >
->Adobeでは、Adobe Experience Platform Debugger をインストールすることをお勧めします。
+>Adobeは、Adobe Experience Platform Debuggerをインストールすることをお勧めします。
 
 エクスペリエンスに入る際の一般的なトラブルシューティングのヒントを次に示します。
 
