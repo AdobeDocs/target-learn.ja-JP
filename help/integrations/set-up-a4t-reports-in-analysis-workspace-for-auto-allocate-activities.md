@@ -8,10 +8,10 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 51%
+source-wordcount: '1303'
+ht-degree: 50%
 
 ---
 
@@ -25,10 +25,10 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
 
 * [!UICONTROL 訪問者数]は、[!DNL Auto-Allocate] アクティビティの正規化指標として常に使用する必要があります。
 * 指標が [!DNL Adobe Analytics] 指標の場合、コンバージョン率の計算は、アクティビティの設定時に定義した最適化条件のタイプに応じて異なります。
-   * 「訪問者ごとの指標値の最大化」コンバージョン率：分子は、 [!DNL Adobe Analytics] ( デフォルトでは [!UICONTROL Analytics for Target] パネル内 [!DNL Analysis Workspace]) をクリックします。
+   * 「訪問者ごとの指標値を最大化」：コンバージョン率分子は、 [!DNL Adobe Analytics] ( デフォルトでは [!UICONTROL Analytics for Target] A のパネル[!DNL nalysis Workspace]) をクリックします。
       * つまり、訪問者あたりのコンバージョン数を最大化します（「訪問者ごとにカウント」）。
       * このメソッドでは、 [!DNL Target] UI
-   * 「個別訪問者コンバージョン率を最大化」コンバージョン率：分子は、指標の正の値を持つ個別訪問者の数です。
+   * 「個別訪問者コンバージョン率を最大化」：コンバージョン率分子は、指標の正の値を持つ個別訪問者の数です。
       * つまり、コンバージョンに至った訪問者の数を最大化します（「訪問者ごとに 1 回カウント」）。
       * このメソッド *DOES* 表示されるコンバージョン率に合わせて、レポートで追加のセグメントを作成する必要がある [!DNL Target] UI
 
@@ -74,7 +74,7 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
 
 ![[!UICONTROL Analytics for Target - 自動配分レポート]パネル](assets/AAFigure2.png)
 
-*図 2：[!DNL Analytics] 指標の「訪問者あたりの指標値の最大化」の最適化条件を使用した [!DNL Auto-Allocate] アクティビティの推奨レポート。これらのタイプの指標および [!DNL Target] 定義済みのコンバージョン指標については、[!DNL Analysis Workspace] のデフォルトの&#x200B;**[!UICONTROL Analytics for Target]**パネルを使用できます。*
+*図 2：の推奨レポート [!DNL Auto-Allocate] アクティビティの [!DNL Analytics] 指標の「訪問者あたりの指標値を最大化」の最適化基準。 これらのタイプの指標および [!DNL Target] 定義済みのコンバージョン指標については、[!DNL Analysis Workspace] のデフォルトの&#x200B;**[!UICONTROL Analytics for Target]**パネルを使用できます。*
 
 ## 「ユニーク訪問者のコンバージョン率の最大化」の最適化条件を備えた [!DNL Analytics] 指標
 
