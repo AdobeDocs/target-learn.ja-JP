@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1287'
 ht-degree: 51%
 
 ---
@@ -44,7 +44,6 @@ An [!DNL Auto-Allocate] 「 」アクティビティでは、2 つ以上のエ�
 
 用の A4T パネルを作成するには、以下を実行します。 [!DNL Auto-Allocate] レポートは **[!UICONTROL Analytics for Target]** パネル内 [!DNL Analysis Workspace]、以下に示すように。 次に、以下の選択を行います。
 
-1. 「 」アクティビティを追加します。
 1. **[!UICONTROL コントロールエクスペリエンス]**：任意のエクスペリエンスを選択できます。
 1. **[!UICONTROL 指標の標準化]**:「訪問者」を選択します（訪問者はデフォルトで A4T パネルに含まれます）。 [!DNL Auto-Allocate] では、ユニーク訪問者ごとのコンバージョン率が常に正規化されます。
 1. **[!UICONTROL 成功指標]**：アクティビティの作成時に使用した指標と同じ指標を選択します。これが [!DNL Target] 定義済みのコンバージョン指標である場合、「**アクティビティのコンバージョン**」を選択します。それ以外の場合は、使用した [!DNL Adobe Analytics] 指標を選択します。
