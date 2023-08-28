@@ -13,7 +13,8 @@ index: true
 mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
-source-git-commit: 38125cff6d0c94d476f059442b592eaee39160ce
+auto-video-transcripts: true
+source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 96%
