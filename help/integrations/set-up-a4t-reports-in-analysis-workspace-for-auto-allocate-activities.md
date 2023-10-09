@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 3%
@@ -52,13 +52,13 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
    The [!UICONTROL 列] [ 設定 ] ダイアログボックスには、次の項目が表示されます。
 
-   ![[ 列設定 ] ダイアログボックス](/help/integrations/assets/column-settings-dialog-box.png)
+   ![[ 列設定 ] ダイアログボックス](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. 選択を解除すると、 **[!UICONTROL 割合]** チェックボックス。
 
-A4T パネルで、コンバージョン率と一致する割合が表示されなくなりました。 [!DNL Target]、以下に示すように。
+   A4T パネルで、コンバージョン率と一致する割合が表示されなくなりました。 [!DNL Target]、以下に示すように。
 
-![コンバージョン率列に割合が表示されない](/help/integrations/assets/no-percentages.png)
+   ![コンバージョン率列に割合が表示されない](/help/integrations/assets/no-percentages.png)
 
 ### A4T パネルでの日時の整列 {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ A4T パネルで、コンバージョン率と一致する割合が表示され�
 1. 新しく作成した「コンバージョン率」指標を既存のパネルにドラッグ&amp;ドロップします。
 1. 歯車アイコンをクリックし、「 **[!UICONTROL 割合]** 」チェックボックスにチェックマークを付けます。この値は混乱を招く可能性があります。
 
-レポートの正しい設定では、次の図のような結果が得られます。
+   レポートの正しい設定では、次の図のような結果が得られます。
 
-![A4T パネルレポートの個別訪問コンバージョン率](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![A4T パネルレポートの個別訪問コンバージョン率](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target] — 定義されたコンバージョン率
 
