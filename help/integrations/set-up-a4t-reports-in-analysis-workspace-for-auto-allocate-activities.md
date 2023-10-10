@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
 >[!NOTE]
 >
-「まだ勝者がありません」と「勝者」のバッジは、A4T パネル ( [!DNL Analysis Workspace] また、 [!DNL Target] レポート。 詳しくは、 [自動配分](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *自動配分と自動ターゲットアクティビティに対する A4T のサポート* （内） *[!UICONTROL Adobe Target Business Practioner ガイド]*.
+「まだ勝者がありません」と「勝者」のバッジは、A4T パネル ( [!DNL Analysis Workspace]. また、 [!DNL Target] レポート： [!UICONTROL 自動配分] アクティビティは無視する必要があります。 詳しくは、 [自動配分](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *自動配分と自動ターゲットアクティビティに対する A4T のサポート* （内） *[!UICONTROL Adobe Target Business Practioner ガイド]*.
 
 ## 用の A4T の作成 [!UICONTROL 自動配分] パネル内 [!DNL Analysis Workspace]
 
