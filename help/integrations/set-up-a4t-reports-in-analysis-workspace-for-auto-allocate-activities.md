@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
+source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1566'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ An [[!UICONTROL 自動配分] アクティビティ](https://experienceleague.ad
 
 | 変更が必要です | [!DNL Target] — トリガーされたレポート | A4T パネルレポート |
 | --- | --- | --- |
-| の指標値を最大化 [!DNL Analytics] 指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
+| の指標値を最大化 [!DNL Analytics] 指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）]. 保持 [!UICONTROL 上昇率（中）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）] 保持 [!UICONTROL 上昇率（中）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 ![売上高の指標値を最大化](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ An [[!UICONTROL 自動配分] アクティビティ](https://experienceleague.ad
 
 | 変更が必要です | ターゲットトリガーレポート | A4T パネルレポート |
 | --- | --- | --- |
-| のコンバージョンを最大化します。 [!DNL Analytics] 指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>すべてを削除 [!UICONTROL 上昇率] 指標。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>すべてを削除 [!UICONTROL 上昇率] 指標。</li><li>セグメントを作成して、分析されたアクティビティを表示した正の指標値を持つ訪問者をフィルタリングします。 詳しくは、 [セグメントの作成](#segment) 下</li><li>自動入力を置き換える [!UICONTROL コンバージョン率] ～間の除算になるように指標 [!UICONTROL 実訪問者数] と共に使用します。 詳しくは、 [コンバージョン率指標の更新](#update-conversion-metric) 下</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
+| のコンバージョンを最大化します。 [!DNL Analytics] 指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>3 つすべてを削除 [!UICONTROL 上昇率] 指標。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>3 つすべてを削除 [!UICONTROL 上昇率] 指標。</li><li>セグメントを作成して、分析されたアクティビティを表示した正の指標値を持つ訪問者をフィルタリングします。 詳しくは、 [セグメントの作成](#segment) 下</li><li>自動入力を置き換える [!UICONTROL コンバージョン率] ～間の除算になるように指標 [!UICONTROL 実訪問者数] と共に使用します。 詳しくは、 [コンバージョン率指標の更新](#update-conversion-metric) 下</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 ### デフォルトの A4T パネルレポート — 追加のガイダンス
 
@@ -114,7 +114,7 @@ An [[!UICONTROL 自動配分] アクティビティ](https://experienceleague.ad
 
 | 変更が必要です | ターゲットトリガーレポート | A4T パネルレポート |
 | --- | --- | --- |
-| [!DNL Analytics] レポート， [!DNL Target] コンバージョン指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
+| [!DNL Analytics] レポート， [!DNL Target] コンバージョン指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）]. キープリフト（中）。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）]. 保持 [!UICONTROL 上昇率（中）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 レポートの正しい設定では、次の図のような結果が得られます。
 
