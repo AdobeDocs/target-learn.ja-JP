@@ -8,16 +8,16 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 352f334e2ca8c1d0be3ff0f89482b97500685174
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 3%
+source-wordcount: '1554'
+ht-degree: 2%
 
 ---
 
-# [!DNL Analysis Workspace] での [!DNL Auto-Allocate] アクティビティ用 A4T レポートの設定
+# での A4T レポートの設定 [!DNL Analysis Workspace] 対象： [!DNL Auto-Allocate] アクティビティ
 
-An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 つ以上のエクスペリエンスの中から勝者を特定し、テストによる学習を続ける間、訪問者のトラフィックを自動的にその勝者に配分します。 The [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] でレポートデータを表示できます。 [!DNL Adobe Analytics]を使用して、カスタムイベントや指標に対してを最適化することができます。 [!DNL Analytics].
+An [[!UICONTROL 自動配分] アクティビティ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] は、2 つ以上のエクスペリエンスの中から勝者を特定し、テストによる学習を続ける間、訪問者のトラフィックを自動的にその勝者に配分します。 The [!UICONTROL Analytics for Target] (A4T) 統合： [!UICONTROL 自動配分] でレポートデータを表示できます。 [!DNL Adobe Analytics]を使用して、カスタムイベントや指標に対してを最適化することができます。 [!DNL Analytics].
 
 豊富な分析機能は [!DNL Adobe Analytics] [!DNL Analysis Workspace]（デフォルトに対するいくつかの変更） [!UICONTROL Analytics for Target] パネルが正しく解釈するために必要になる場合があります [!UICONTROL 自動配分] アクティビティ。 これらの変更は、 [最適化指標の基準](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ja#supported){target=_blank}.
 
@@ -40,7 +40,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
 | 変更が必要です | [!DNL Target] — トリガーされたレポート | A4T パネルレポート |
 | --- | --- | --- |
-| の指標値を最大化 [!DNL Analytics] 指標 | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>[!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）] を削除する必要があります。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li><li>コンバージョン率指標は、「指標/訪問者」に名前を変更する必要があります。</li></ul> | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>[!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）] を削除する必要があります。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li><li>コンバージョン率指標は、「指標/訪問者」に名前を変更する必要があります。</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [全体的なガイダンス](#guidance) 下</li></ul> |
+| の指標値を最大化 [!DNL Analytics] 指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>名前を変更 [!UICONTROL コンバージョン] 指標を「指標/訪問者」に評価する。</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 ![売上高の指標値を最大化](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
 | 変更が必要です | ターゲットトリガーレポート | A4T パネルレポート |
 | --- | --- | --- |
-| のコンバージョンを最大化します。 [!DNL Analytics] 指標 | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>すべて [!UICONTROL 上昇率] 指標を削除する必要があります。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>すべて [!UICONTROL 上昇率] 指標を削除する必要があります。</li><li>セグメントを作成して、分析されたアクティビティを表示した正の指標値で訪問者をフィルタリングします。 詳しくは、 [セグメントの作成](#segment) 下</li><li>自動入力を置き換える [!UICONTROL コンバージョン率] ～間の除算になるように指標 [!UICONTROL 実訪問者数] と共に使用します。 詳しくは、 [コンバージョン率指標の更新](#update-conversion-metric) 下</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [全体的なガイダンス](#guidance) 下</li></ul> |
+| のコンバージョンを最大化します。 [!DNL Analytics] 指標 | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>すべてを削除 [!UICONTROL 上昇率] 指標。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>すべてを削除 [!UICONTROL 上昇率] 指標。</li><li>セグメントを作成して、分析されたアクティビティを表示した正の指標値を持つ訪問者をフィルタリングします。 詳しくは、 [セグメントの作成](#segment) 下</li><li>自動入力を置き換える [!UICONTROL コンバージョン率] ～間の除算になるように指標 [!UICONTROL 実訪問者数] と共に使用します。 詳しくは、 [コンバージョン率指標の更新](#update-conversion-metric) 下</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 ### デフォルトの A4T パネルレポート — 追加のガイダンス
 
@@ -85,7 +85,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
    ![正の指標値](/help/integrations/assets/positive-metric-value.png)
 
 1. A4T パネルに、新しく作成した「Visitors with positive metric value」という名前のセグメントを追加します。
-1. 次をドラッグ&amp;ドロップ： [!UICONTROL 実訪問者数] 指標が「正の指標値を持つ訪問者」と同じ列に表示されます。
+1. 次をドラッグ&amp;ドロップ： [!UICONTROL 実訪問者数] 指標を「正の指標値を持つ訪問者」と同じ列に追加します。
 
    この設定により、指標値が正の数を示すすべての個別訪問者のセグメントが作成されます。 この例では、売上高が 0 より大きいすべての個別訪問者数が表示されます。
 
@@ -114,19 +114,19 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
 | 変更が必要です | ターゲットトリガーレポート | A4T パネルレポート |
 | --- | --- | --- |
-| [!DNL Analytics] レポート， [!DNL Target] コンバージョン指標 | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>[!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）] を削除する必要があります。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>[!UICONTROL 信頼性] 指標を削除する必要があります。</li><li>[!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）] を削除する必要があります。</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [全体的なガイダンス](#guidance) 下</li></ul> |
+| [!DNL Analytics] レポート， [!DNL Target] コンバージョン指標 | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> | <ul><li>削除 [!UICONTROL 信頼性] 指標。</li><li>削除 [!UICONTROL 上昇率（低）] および [!UICONTROL 上昇率（高）].</li><li>次の割合のプレゼンテーションをオフにします： [!UICONTROL コンバージョン率] 列を使用して混乱を避けます。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li><li>日付と時間範囲が、 [!DNL Target] レポート。 詳しくは、 [A4T の全体的なガイダンス](#guidance) 下</li></ul> |
 
 レポートの正しい設定では、次の図のような結果が得られます。
 
 ![アクティビティコンバージョン](/help/integrations/assets/optimized-table.png)
 
-## の全体的なガイダンス [!UICONTROL Analytics for Target] (A4T) {#guidance}
+## A4T の全体的なガイダンス {#guidance}
 
-事前定義済みの [!UICONTROL Analytics for Target] パネルで [!UICONTROL Adobe Target] ( これは、このガイドで後述します。[!DNL Target]-triggered report」) を参照してください。 または、 [!DNL Analytics] （詳しくは、この節を参照）。
+事前定義済みの [!UICONTROL Analytics for Target] パネルで [!UICONTROL Target] ( これは、このガイドで後述します。[!DNL Target]-triggered report」) を参照してください。 または、 [!DNL Analytics] （詳しくは、この節を参照）。
 
-次の節では、選択した方法に応じて、必要な設定を指定します。 ただし、以下の手順は全体的なガイダンスとして機能します。
+次の節では、選択した方法に応じて、必要な設定を指定します。 ただし、次の手順は A4T の全体的なガイダンスとして機能します。
 
-* パネルの作成方法に関係なく、信頼性指標を A4T パネルから削除する必要があります（両方について詳しくは、以下を参照）。 代わりに、[!DNL Target] レポートでこれらの値を参照してください。さらに、アクティビティの勝者は、 [!DNL Target] レポート。 アクティビティの勝者の特定について詳しくは、 [アクティビティの勝者の特定](#winner) 」の節を参照してください。
+* パネルの作成方法に関係なく、A4T パネルから信頼性指標を削除します（両方について詳しくは、以下を参照）。 代わりに、[!DNL Target] レポートでこれらの値を参照してください。さらに、アクティビティの勝者は、 [!DNL Target] レポート。 アクティビティの勝者の特定について詳しくは、 [アクティビティの勝者の特定](#winner) 」の節を参照してください。
 >>
 * 混乱を避けるには、「[!UICONTROL 割合]」の表示 [!UICONTROL コンバージョン率] 指標。 詳しくは、 [割合を [!UICONTROL コンバージョン率] 列](#hide-percentage) 下
 >>
@@ -144,7 +144,7 @@ An [!UICONTROL 自動配分] アクティビティ [!DNL Adobe Target] は、2 �
 
 1. 選択を解除すると、 **[!UICONTROL 割合]** チェックボックス。
 
-   A4T パネルで、コンバージョン率と一致する割合が表示されなくなりました。 [!DNL Target]、以下に示すように。
+   A4T パネルで、 [!UICONTROL コンバージョン率] および一致 [!DNL Target]、以下に示すように。
 
    ![コンバージョン率列に割合が表示されない](/help/integrations/assets/no-percentages.png)
 
