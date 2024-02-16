@@ -3,7 +3,7 @@ user-guide-title: Recommendations API の使用
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
 source-git-commit: 542ff406fc24df54a2f1b007422492341ea46507
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
