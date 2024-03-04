@@ -8,8 +8,7 @@ feature: Integrations,Segments,Web SDK,Destinations,Datastreams,Audiences,Experi
 level: Intermediate
 jira: KT-9629
 thumbnail: 340091.jpg
-exl-id: 08568a37-1450-4fdc-ba58-37ea026028c7
-source-git-commit: 802a71ffb92864c4765f81be02ff84da3a87d9f5
+source-git-commit: 6e868964fdf9f3575928e933e91805bf5ef71cb0
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 1%
