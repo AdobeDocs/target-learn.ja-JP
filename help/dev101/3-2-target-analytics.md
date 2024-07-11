@@ -1,6 +1,6 @@
 ---
-title: Target と Analytics を統合する方法
-description: このビデオでは、開発者を対象に、SDID を使用して Analytics リクエストと Target リクエストを結び付ける方法を示します。このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
+title: Target と Analytics の統合方法
+description: このビデオでは、開発者を対象に、SDID を使用して Analytics リクエストと Target リクエストを結び付ける方法を示します。 このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 landing-page-description: このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 short-description: このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 role: Developer
@@ -24,8 +24,8 @@ ht-degree: 65%
 
 このビデオでは、次の方法を学びます。
 
-* SDID を使用して Analytics と Target のリクエストを結び付ける方法について説明する
-* Adobe Target(A4T) を使用したAdobe Analyticsの実装要件の説明
+* SDID を使用して Analytics と Target のリクエストをバインドする方法について説明する
+* Adobe AnalyticsとAdobe Targetの統合（A4T）の実装要件
 
 ## 対象オーディエンス
 
@@ -33,4 +33,4 @@ ht-degree: 65%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35146/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=en).
+詳しくは、 [詳細を見る](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=en).

@@ -1,6 +1,6 @@
 ---
-title: Visual Experience Composer(VEC) の使用方法
-description: これら 2 つのビデオでは、マーケターを対象に、Adobe Target の Visual Experience Composer（VEC）を紹介しています。VEC を使用してアクティビティを作成する方法については、これらのビデオをご覧ください。
+title: Visual Experience Composer （VEC）の使用方法
+description: これら 2 つのビデオでは、マーケターを対象に、Adobe Target の Visual Experience Composer（VEC）を紹介しています。 VEC を使用してアクティビティを作成する方法については、これらのビデオをご覧ください。
 landing-page-description: Visual Experience Composer（VEC）を使用してアクティビティを作成する方法については、これらのビデオをご覧ください。
 short-description: これらのビデオでは、Visual Experience Composer（VEC）を使用してアクティビティを作成する方法について説明します。
 role: User
@@ -12,22 +12,22 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 41%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
-# 以下を使用： [!UICONTROL Visual Experience Composer] Adobe Target
+# の使用 [!UICONTROL Visual Experience Composer] Adobe Target内
 
 ## 説明
 
 最初のビデオでは、次の方法を学びます。
 
-* Visual Experience Composer(VEC) を使用して主要な機能を実行します。この機能では、Adobe Targetアクティビティ内のページのレイアウトとコンテンツを直感的で視覚的に変更できます。
+* Visual Experience Composer （VEC）を使用して主要な機能を実行します。Adobe Target アクティビティ内のページのレイアウトとコンテンツを直感的かつ視覚的に変更できます。
 
-2 つ目のビデオでは、次の方法を学習します。
+2 番目のビデオでは、次の方法を学びます。
 
-* リダイレクトエクスペリエンスの作成方法、複数ページのアクティビティの作成方法、モバイルビューポートの使用方法など、VEC の追加機能を使用します。
+* リダイレクトエクスペリエンスと複数ページアクティビティの作成方法、モバイルビューポートの使用方法など、VEC の追加機能を使用します。
 
 ## 対象オーディエンス
 
