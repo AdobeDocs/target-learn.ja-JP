@@ -33,4 +33,4 @@ ht-degree: 65%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35146/?quality=12)
 
-詳しくは、 [詳細を見る](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=en) を参照してください。

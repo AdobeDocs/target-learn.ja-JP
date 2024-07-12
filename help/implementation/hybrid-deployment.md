@@ -1,6 +1,6 @@
 ---
 title: ハイブリッドデプロイメントオプション
-description: このビデオでは、Adobe Target独自のハイブリッドデプロイメントモデルで、クライアント側とサーバー側の実装を組み合わせた、パーソナライゼーションについて説明します。
+description: このビデオでは、Adobe Target独自のパーソナライゼーションハイブリッドデプロイメントモデル（クライアントサイドとサーバーサイドの実装を組み合わせる）について説明します。
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -11,31 +11,31 @@ team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
 source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
-# Adobe Target Hybrid Deployment
+# Adobe Target ハイブリッドデプロイメント
 
-Adobe Targetは、クライアント側とサーバー側の実装を組み合わせた、パーソナライゼーション用の独自のハイブリッドデプロイメントモデルを提供します。 このハイブリッドモデルを使用すると、技術以外のユーザーが WYSIWYG Visual Experience Composer を使用して実験やパーソナライゼーションアクティビティを作成し、サーバー側でエクスペリエンスを実行、配信、レンダリングして高いパフォーマンスで配信できます。
+Adobe Targetは、パーソナライゼーションのための独自のハイブリッドデプロイメントモデルを提供し、クライアントサイドとサーバーサイドの実装を組み合わせます。 このハイブリッドモデルを使用すると、技術者以外のユーザーでも WYSIWYG Visual Experience Composer を使用して実験やパーソナライゼーションアクティビティを作成でき、エクスペリエンスをサーバーサイドで実行、配信、レンダリングして、パフォーマンスの高い配信を行うことができます。
 
 ## 目標
 
-このビデオを最後まで見ると、次の内容になります。
+このビデオを最後まで学習すると、次のことができるようになります。
 
-* Adobe Targetのハイブリッドデプロイメントの詳細の理解
-* ハイブリッドデプロイメントのメリットの理解
-* ハイブリッドデプロイメントで実行可能なサーバーコールの削減を観察します
+* Adobe Targetのハイブリッドデプロイメントの概要
+* ハイブリッドデプロイメントのメリットを理解する
+* ハイブリッドデプロイメントによって可能になるサーバーコールの減少を確認します
 
 ## 対象オーディエンス
 
 * 開発者
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
 ## その他のリソース
 
-* [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
-* [Adobe Target SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* [ オンデバイス判定の概要 ](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Adobe Target SDK ドキュメント ](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

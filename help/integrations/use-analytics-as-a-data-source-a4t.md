@@ -1,6 +1,6 @@
 ---
-title: Analytics を Target のデータソースとして使用する方法 (A4T)
-description: このビデオでは、Analytics for Target(A4T) のマーケターを紹介します。
+title: Analytics as a Data Source for Target （A4T）の使用方法
+description: このビデオでは、マーケター向けに Analytics for Target （A4T）を紹介しています。
 role: User
 level: Beginner
 topic: Personalization, Integrations
@@ -10,21 +10,21 @@ kt: null
 exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
-# Adobe Analytics as a Data Source for Adobe Target(A4T)
+# Adobe Analytics as a Data Source for Adobe Target（A4T）の使用
 
 ## 説明
 
-* A4T とは何ですか？また、なぜ使用する必要があるのですか？
+* A4T の概要と用途
 * A4T の仕組み
 * A4T を使用するための前提条件は何ですか？
 
-## 対象読者
+## 対象オーディエンス
 
-* 開業医
+* ビジネス従事者
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)

@@ -1,6 +1,6 @@
 ---
-title: Adobe Target要求の追加
-description: 'AdobeMobile Services SDK(v4) は、Adobe Targetのメソッドおよび機能を提供し、様々なユーザーに対して様々なエクスペリエンスを提供してアプリをパーソナライズできます。   '
+title: Adobe Target リクエストの追加
+description: AdobeMobile Services SDK （v4）には、ユーザーごとに異なるエクスペリエンスを使用してアプリをパーソナライズできるAdobe Targetの手法と機能が用意されています。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -10,61 +10,61 @@ kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
 
-# Adobe Target要求の追加
+# Adobe Target リクエストの追加
 
-AdobeMobile Services SDK(v4) は、Adobe Targetのメソッドおよび機能を提供し、様々なユーザーに対して様々なエクスペリエンスを提供してアプリをパーソナライズできます。 通常、アプリからAdobe Targetに対して 1 つ以上の要求がおこなわれ、パーソナライズされたコンテンツが取得され、そのコンテンツの影響を測定します。
+AdobeMobile Services SDK （v4）には、ユーザーごとに異なるエクスペリエンスを使用してアプリをパーソナライズできるAdobe Targetのメソッドと機能が用意されています。 通常、パーソナライズされたコンテンツを取得し、そのコンテンツの影響を測定するために、アプリからAdobe Targetに 1 つ以上のリクエストが行われます。
 
-このレッスンでは、 [!DNL Target] リクエストを実装して、パーソナライゼーション用の We.Travel アプリを準備します。
+このレッスンでは、[!DNL Target] リクエストを実装して、パーソナライゼーション用の We.Travel アプリを準備します。
 
 ## 前提条件
 
-必ず [ をダウンロードし、サンプルアプリ ](download-and-update-the-sample-app.md) を更新してください。
+必ず [ サンプルアプリをダウンロードして更新 ](download-and-update-the-sample-app.md) してください。
 
-## 学習内容
+## 学習目標
 
-このレッスンを最後まで学習すると、次の内容を習得できます。
+このレッスンを終了すると、次の操作を実行できるようになります。
 
-* バッチプリフェッチ要求を使用して、複数の [!DNL Target] オファー（パーソナライズされたコンテンツ）をキャッシュ
-* プリフェッチされた [!DNL Target] の場所を読み込む
-* [!DNL Target] の場所をリアルタイムで読み込む（プリフェッチされない）
+* バッチプリフェッチリクエストを使用して複数の [!DNL Target] オファー（パーソナライズされたコンテンツ）をキャッシュする
+* プリフェッチされた [!DNL Target] の場所の読み込み
+* リアルタイムでの [!DNL Target] の場所の読み込み（プリフェッチなし）
 * プリフェッチされた場所をキャッシュからクリア
 * プリフェッチされたリクエストとリアルタイムリクエストの検証
 
 ## 用語
 
-このチュートリアルの後半で使用する Target の主な用語を以下に示します。
+このチュートリアルの残りの部分で使用する、主な Target 用語の一部を以下に示します。
 
-* **リクエスト：**  Adobe Targetサーバーへのネットワークリクエスト
-* **オファー：**  ユーザーインターフェイス（または API を使用）で定義され、応答で配信されるコードまたはその他のテキストベースのコンテンツのスニペットで [!DNL Target] す。通常、[!DNL Target] がネイティブのモバイルアプリで使用されている場合は JSON です。
-* **場所：**  リクエストに指定されたユーザー定義の名前。オファーを特定のリクエストに関連付ける [!DNL Target] ためのインターフェイスで使用されます。
-* **バッチリクエスト：**  複数の場所を含む単一のリクエスト
-* **プリフェッチリクエスト：**  オファーを取得し、将来アプリで使用するためにメモリにキャッシュする単一のリクエスト
-* **バッチプリフェッチ要求：**  複数の場所のオファーをプリフェッチする単一の要求
-* **オーディエンス：**  インターフェイスで定義さ [!DNL Target] れた訪問者のグループ、または他の [!DNL Target] Adobeアプリケーション ( 例：「iPhone X 訪問者」、「Visitors in the California」、「First App Open」)
-* **アクティビティ：**  場所、オ [!DNL Target] ファー、オーディエンスをリンク [!DNL Target] し、パーソナライズされたエクスペリエンスを作成するユーザーインターフェイス（または API を使用）で定義される構成体
+* **リクエスト：** Adobe Target サーバーへのネットワークリクエスト
+* **オファー：**[!DNL Target] ユーザーインターフェイス（または API を使用）で定義され、応答で配信される、コードまたはその他のテキストベースのコンテンツのスニペット。 通常、ネイティブモバイルアプリで [!DNL Target] を使用する場合は JSON です。
+* **Location:** リクエストに付けられるユーザー定義名。オファーを特定のリクエストに関連付けるために [!DNL Target] インターフェイスで使用されます。
+* **バッチリクエスト：** 複数の場所を含む単一のリクエスト
+* **プリフェッチリクエスト**：オファーを取得し、アプリで今後使用するためにメモリにキャッシュする単一のリクエスト
+* **バッチプリフェッチリクエスト：** 複数の場所のオファーをプリフェッチする単一のリクエスト
+* **オーディエンス：**[!DNL Target] インターフェイスで定義された訪問者、または他のAdobeアプリケーション（「iPhone X の訪問者」、「カリフォルニアの訪問者」、「アプリの初回起動数」など）から [!DNL Target] に共有される訪問者のグループ
+* **アクティビティ：** [!DNL Target] ユーザーインターフェイス（または API を使用）で定義される [!DNL Target] ーディエンス構成で、場所、オファー、オーディエンスをリンクし、パーソナライズされたエクスペリエンスを作成します
 
-## バッチプリフェッチ要求の追加
+## バッチ・プリフェッチ・リクエストの追加
 
-We.Travel で実装する最初のリクエストは、ホーム画面上の 2 つの [!DNL Target] 場所を含むバッチプリフェッチリクエストです。 後のレッスンでは、新規ユーザーが予約プロセスを進めるのに役立つメッセージを表示するこれらの場所のオファーを設定します。
+We.Travel で最初に実装するリクエストは、ホーム画面の 2 つの [!DNL Target] の場所を持つバッチプリフェッチリクエストです。 後のレッスンでは、これらの場所にオファーを設定します。このオファーでは、新規ユーザーが予約プロセスを進める際に役立つメッセージを表示します。
 
-プリフェッチリクエストは、Adobe Targetサーバーの応答（オファー）をキャッシュすることで、可能な限り最小限の [!DNL Target] コンテンツを取得します。 バッチプリフェッチリクエストは、複数のオファーを取得してキャッシュし、それぞれが異なる場所に関連付けられます。 プリフェッチされたすべての場所は、今後のユーザーセッションでの使用のためにデバイス上にキャッシュされます。 ホーム画面の複数の場所を先取りすることで、後で訪問者がアプリ内を移動する際に使用するオファーを取得できます。 プリフェッチメソッドの詳細については、[ プリフェッチのドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) を参照してください。
+プリフェッチリクエストは [!DNL Target]Adobe Target サーバー応答（オファー）をキャッシュすることで、最小限のコンテンツを取得します。 バッチ事前読み込みリクエストは、それぞれ異なる場所に関連付けられた複数のオファーを取得してキャッシュします。 プリフェッチされたすべての場所は、ユーザー・セッションで後で使用するためにデバイス上にキャッシュされます。 ホーム画面で複数の場所をプリフェッチすることで、訪問者がアプリ内を移動したときに後で使用するオファーを取得できます。 プリフェッチ・メソッドの詳細は、[prefetch ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) を参照してください。
 
-### バッチプリフェッチ要求の追加
+### バッチ・プリフェッチ・リクエストの追加
 
-HomeActivity コントローラ（Home Screen のソースコード）を更新します。このコントローラは、app > main > java > com.wetravel > Controller の下にあります。 赤で表示される 2 つのコードブロックを追加します。
+app/main/java/com.wetravel/Controller の下にある HomeActivity コントローラー（ホーム画面のソースコード）を更新しましょう。 赤で表示されている 2 つのコードブロックを追加します。
 
-まず、HomeActivity コントローラ（Home Screen のソースコード）を使用します。このコントローラは、app/main/java/com.wetravel/Controller の下にあります。
+まず、HomeActivity コントローラー（ホーム画面のソースコード）を使用します。このコントローラーは、app/main/java/com.wetravel/Controller にあります。
 
-赤で表示される 2 つのコードブロックを追加します。
+赤で表示されている 2 つのコードブロックを追加します。
 
-![HomeActivity プリフェッチコード](assets/homeactivity.jpg)
+![HomeActivity プリフェッチ コード ](assets/homeactivity.jpg)
 
-HomeActivity のコードの最後まで下にスクロールし、以下に示すコードを `setHeader()` 関数の後に追加し、*replacing* 現在の `onResume()` 関数に追加します。
+HomeActivity のコードの末尾まで下にスクロールし、`setHeader()` 関数および現在の `onResume()` 関数の *置き換え* の後に以下のコードを追加します。
 
 ```java
 @Override
@@ -94,57 +94,57 @@ public void targetPrefetchContent() {
 }
 ```
 
-IDE では、[!DNL Target] クラスがファイルにインポートされていないことを警告する場合があります。 次の赤で示すように、HomeActivity コントローラの最上部に [!DNL Target] クラスを必ずインポートしてください。
+おそらく、ファイルに [!DNL Target] クラスが読み込まれていないという警告が表示されます。 次の図に示すように、HomeActivity コントローラの最上部に [!DNL Target] クラスをインポートしてください。
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![ターゲットクラスのインポート](assets/import.jpg)
+![Target クラスの読み込み ](assets/import.jpg)
 
-また、「cannot find symbol variable wetravel_engage_home」と「cannot find symbol variable wetravel_engage_search」のエラーが表示される場合もあります。 これらを `Constant.java` ファイルに追加します (app > src > main > java > com > wetravel > Utils)。
+「シンボル変数 wetravel_engage_home が見つかりません」と「シンボル変数 wetravel_engage_search が見つかりません」というエラーも表示されます。 これらを `Constant.java` ファイルに追加します（アプリ/src/メイン/java/com/wetravel/Utils 内）。
 
 ```java
 public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![Constant.java ファイルに場所名を追加します](assets/constants.jpg)
+![Constant.java ファイルに場所の名前を追加する ](assets/constants.jpg)
 
-### バッチプリフェッチ要求コードの説明
+### バッチ・プリフェッチ・リクエスト・コードの説明
 
 | コード | 説明 |
 |--- |--- |
-| `targetPrefetchContent()` | [!DNL Target] メソッドを使用して 2 つの [!DNL Target] の場所を取得し、キャッシュする、ユーザー定義の関数（SDK の一部ではありません）。 |
+| `targetPrefetchContent()` | [!DNL Target] メソッドを使用して 2 つの [!DNL Target] しい場所を取得しキャッシュするユーザー定義関数（SDK の一部ではない）。 |
 | `prefetchContent()` | プリフェッチ要求を送信する [!DNL Target] SDK メソッド |
-| `Constant.wetravel_engage_home` | ホーム画面にオファーコンテンツを表示する [!DNL Target] ロケーション名をプリフェッチ |
-| `Constant.wetravel_engage_search` | [!DNL Target] ロケーション名をプリフェッチしました。この名前は、検索結果画面にオファーコンテンツを表示します。 これはプリフェッチの 2 番目の場所なので、このプリフェッチ要求は「プリフェッチバッチ要求」と呼ばれます。 |
-| setUp() | [!DNL Target] オファーがプリフェッチされた後にアプリのホーム画面をレンダリングするユーザー定義関数 |
+| `Constant.wetravel_engage_home` | ホーム画面 [!DNL Target] オファーコンテンツを表示する、プリフェッチされた場所名 |
+| `Constant.wetravel_engage_search` | 検索結果画面 [!DNL Target] オファーコンテンツを表示する、プリフェッチされた場所名。 これはプリフェッチの 2 番目の場所であるため、このプリフェッチ・リクエストは「プリフェッチ・バッチ・リクエスト」と呼ばれます。 |
+| setUp （） | [!DNL Target] しいオファーがプリフェッチされた後にアプリのホーム画面をレンダリングするユーザー定義関数 |
 
-### 非同期と同期について
+### 非同期と同期の比較
 
-実装したコードでは、プリフェッチ要求は、ホーム画面がレンダリングされる直前に、同期呼び出しでブロック呼び出しとしておこなわれます。 新しいコードを HomeActivity コントローラーに貼り付けると、`setUp()` 関数の実行を `onResume()` 関数から Target リクエストの後まで移動しました。 これは、アプリを最初に開いたときにコンテンツをパーソナライズするシナリオで役立ちます。最初の画面がレンダリングされる前に、Target サーバーからパーソナライズされたコンテンツが返される（またはタイムアウトする）からです。 リクエストが（バックグラウンドで）非同期で読み込まれるようにするには、代わりに `onCreate()` 関数内で `setUp()` を呼び出します。
+先ほど実装したコードを使用して、ホーム画面がレンダリングされる直前に、プリフェッチリクエストは同期されたブロック呼び出しとして行われます。 新しいコードを HomeActivity コントローラーに貼り付けた際、`setUp()` 関数の実行を `onResume()` 関数から Target リクエストの後まで移動しました。 これは、アプリを初めて開いたときにコンテンツをパーソナライズするシナリオで役立ちます。この場合、最初の画面がレンダリングされる前に、Target サーバーからパーソナライズされたコンテンツが返された（またはタイムアウトした）ことを確認できるからです。 リクエストを（バックグラウンドで）非同期に読み込めるようにするには、代わりに `onCreate()` 関数内で `setUp()` を呼び出します。
 
-### バッチプリフェッチ要求の検証
+### バッチ・プリフェッチ・リクエストの検証
 
-アプリを再構築し、Android エミュレーターを開きます。 （以下のスクリーンショットは、Android Q バージョン 9 以降、API レベル 29 のピクセル 2 を使用しています）。 プリフェッチ応答は、「プリフェッチ応答を受信しました」と読み取られます。
+アプリを再構築し、Android エミュレーターを開きます。 （以下のスクリーンショットでは、Android Q version 9+、API レベル 29 の Pixel 2 を使用しています）。 プリフェッチ応答は、「prefetch response received」と読みます。
 
-ホーム画面がレンダリングされたら、プリフェッチ要求を読み込む必要があります。 Logcat で、[!DNL "Target"] をフィルターして、要求と応答を確認します。
+ホーム画面がレンダリングされると、プリフェッチリクエストが読み込まれます。 Logcat で、[!DNL "Target"] をフィルタリングして、リクエストと応答を確認します。
 
-![ホーム画面での要求の検証](assets/prefetch_validation.jpg)
+![ ホーム画面でリクエストを検証 ](assets/prefetch_validation.jpg)
 
-正常な応答が表示されない場合は、HomeActivity ファイルの `ADBMobileConfig.json` ファイルおよびコード構文の設定を確認します。
+正常な応答が表示されない場合は、`ADBMobileConfig.json` ファイルの設定と HomeActivity ファイルのコード構文を確認してください。
 
-これで、2 つの場所がデバイスにキャッシュされます。 場所名は [!DNL Target] インターフェイスにまもなく遅延読み込みされ、アクティビティで使用する際に、様々なドロップダウンメニューで選択できます。
+2 つの場所がデバイスにキャッシュされるようになりました。 場所の名前は間もなく [!DNL Target] インターフェイスに遅延読み込みされ、アクティビティで使用する際に、様々なドロップダウンメニューで選択できるようになります。
 
-### キャッシュされた各場所に対する読み込み要求の追加
+### キャッシュされた各場所への読み込み要求の追加
 
-場所がプリフェッチされ、応答がデバイスにキャッシュされたので、オファーコンテンツをキャッシュから取得する `Target.loadRequest()` メソッドを追加して、アプリケーションの更新に使用できるようにします。 プリフェッチ要求で実行される新しいカスタムメソッド `engageMessage()` を追加します。 `engageMessage()` が呼び出されま `Target.loadRequest()`す。`engageMessage()` がの前に実 `setUp()` 行され、読み込みリクエストが画面の設定前に呼び出されるようにします。
+ロケーションがプリフェッチされ、その応答がデバイスにキャッシュされたら、キャッシュからオファーコンテンツを取得する `Target.loadRequest()` メソッドを追加して、アプリケーションの更新に使用できます。 プリフェッチリクエストで実行される `engageMessage()` という新しいカスタムメソッドを追加します。 `engageMessage()` が `Target.loadRequest()` を呼び出します。 `engageMessage()` は `setUp()` の前に実行され、画面が設定される前に読み込みリクエストが呼び出されるようにします。
 
-まず、HomeActivity の wetravel_engage_home の場所に対して `engageMessage()` 呼び出しおよびメソッドを追加します。
+まず、HomeActivity で wetravel_engage_home ロケーションの `engageMessage()` 呼び出しとメソッドを追加します。
 
-![最初の読み込みリクエストの追加](assets/wetravel_engage_home_loadRequest.jpg)
+![ 最初の読み込みリクエストを追加 ](assets/wetravel_engage_home_loadRequest.jpg)
 
 更新されたコードを次に示します。
 
@@ -188,9 +188,9 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
     }
 ```
 
-次に、SearchBusActivity の wetravel_engage_search の場所に対して `engageMessage()` 呼び出しとメソッドを追加します。 `engageMessage()` 呼び出しは、`setUpSearch()` の呼び出しの前の `onResume()` メソッドで設定され、画面が設定される前に実行されます。
+次に、SearchBusActivity の wetravel_engage_search の場所に対する `engageMessage()` 呼び出しおよびメソッドを追加します。 `engageMessage()` の呼び出しは、`setUpSearch()` の呼び出しの前に `onResume()` メソッドで設定されるため、画面が設定される前に実行されます。
 
-![2 回目の読み込み要求の追加](assets/wetravel_engage_search_loadRequest.jpg)
+![2 回目の読み込みリクエストを追加 ](assets/wetravel_engage_search_loadRequest.jpg)
 
 更新されたコードを次に示します。
 
@@ -218,7 +218,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
     }
 ```
 
-Target メソッドを SearchBusActivity に追加したばかりなので、必ず [!DNL Target] クラスをインポートしてください。
+SearchBusActivity に Target メソッドを追加したので、必ず [!DNL Target] のクラスをインポートしてください。
 
 ```java
 import com.adobe.mobile.Target;
@@ -227,12 +227,12 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 ## リアルタイムリクエストの追加
 
-次に、アプリに追加するリクエストは、「ありがとうございます」画面でのリアルタイムリクエストになります。 「リアルタイム」とは、両方のリクエストがおこなわれ、応答が即座に適用されることを意味します（後でキャッシュされることはありません）。 後のレッスンでは、このリクエストを使用して、ユーザーの旅行先に合わせてパーソナライズされたエクスペリエンスを構築します。
+アプリに追加する次のリクエストは、ありがとう画面のリアルタイムリクエストになります。 「リアルタイム」とは、リクエストが行われ、応答が直ちに適用される（後でキャッシュされない）ことを意味します。 後のレッスンでは、このリクエストを使用して、ユーザーの旅行先に合わせてパーソナライズされたエクスペリエンスを作成します。
 
-次に、ありがとう画面でリアルタイムリクエストを追加します。 ThankYouActivity ファイルで、赤で表示される変更を行います。
-![ ありがとう画面にリアルタイムの場所を追加 ](assets/thankyou.jpg)
+次に、「ありがとうございます」画面でリアルタイムリクエストを追加します。 ThankYouActivity ファイルで、赤で表示されている変更を行います。
+![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou.jpg)
 
-ThankYouActivity ファイルの最後までスクロールします。 `getRecommandations()` 関数の 3 行をコメントアウトし、`targetLoadRequest()` 関数の呼び出しを追加します。
+ThankYouActivity ファイルの末尾までスクロールします。 `getRecommandations()` 関数の 3 行をコメントアウトし、`targetLoadRequest()` 関数の呼び出しを追加します。
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -246,10 +246,10 @@ ThankYouActivity ファイルの最後までスクロールします。 `getReco
 targetLoadRequest(recommandation.recommandations);
 ```
 
-次に、`targetLoadRequest()` 関数を定義する必要があります。
-![ ありがとう画面にリアルタイムの場所を追加する ](assets/thankyou2.jpg)
+次に、`targetLoadRequest()` の関数を定義する必要があります。
+![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou2.jpg)
 
-このコードブロックを `filterRecommendationBasedOnOffer()` 関数の後に追加します。
+`filterRecommendationBasedOnOffer()` 関数の後にこのコードブロックを追加します。
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -273,52 +273,52 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-Target メソッドを ThankYouActivity に追加したばかりなので、必ず Target クラスをインポートしてください。
+ThankYouActivity に Target メソッドを追加したので、必ず Target クラスを読み込んでください。
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-### targetLoadRequest() コードの説明
+### targetLoadRequest （） コードの説明
 
 | コード | 説明 |
 |--- |--- |
-| `targetLoadRequest()` | `Target.loadRequest()` を呼び出し、 wetravel_context_dest の場所を読み込んで表示する、ユーザー定義の関数（SDK の一部ではない） |
-| `Target.loadRequest()` | Target サーバーにリクエストを送信する SDK メソッド |
-| Constant.wetravel_context_dest | 後で [!DNL Target] インターフェイスでアクティビティを作成する際に使用する、リクエストに割り当てられる場所の名前 |
-| `filterRecommendationBasedOnOffer()` | 場所のオファーを Target の応答から受け取り、オファーのコンテンツに基づいてアプリの変更方法を決定する、アプリのユーザー定義関数 |
-| `recommandations.addAll()` | ThankYou 画面が読み込まれたときにデフォルトで実行されるように使用されたアプリ内のユーザー定義関数ですが、Target 応答を受け取り、`filterRecommendationBasedOnOffer()` で解析した後に実行されるようになりました。 |
+| `targetLoadRequest()` | wetravel_context_dest の場所を読み込んで表示する `Target.loadRequest()` に実行される（SDK の一部ではない）ユーザー定義関数 |
+| `Target.loadRequest()` | Target サーバーにリクエストを行う SDK メソッド |
+| Constant.wetravel_context_dest | [!DNL Target] インターフェイスでアクティビティを作成する際に後で使用する、リクエストに割り当てられた場所の名前 |
+| `filterRecommendationBasedOnOffer()` | Target の応答から場所のオファーを受け取り、オファーのコンテンツに基づいてアプリがどのように変化するかを決定する、アプリ内のユーザー定義関数 |
+| `recommandations.addAll()` | ありがとう画面が読み込まれたときにデフォルトで実行されていましたが、`filterRecommendationBasedOnOffer()` が Target 応答を受信して解析した後で実行されるようになりましたアプリ内のユーザー定義関数 |
 
-これは、アプリを更新した後、ホーム画面に追加したリクエストを使用して、より高度な更新をおこなったので、操作内容を確認します。
+これは、アプリに加えた、ホーム画面に追加されたリクエストに対する、より高度なアップデートでした。ここで内容を確認してみましょう。
 
-1. コードの行をコメントアウトすることで、アプリの以前の動作で 3 つのデフォルトのプロモーションを表示するのを中断しました
-1. 代わりに、targetLoadRequest という任意の名前を付けた新しい関数を実行するようにアプリに指示しました。
-1. Target.loadRequest メソッドを使用して Target に要求を送信し、 [!DNL Target] オファーの応答を受信したらすぐに `filterRecommendationBasedOnOffer()` 関数を実行する `targetLoadRequest` 関数を定義しました
-1. `filterRecommendationBasedOnOffer()` 関数は応答を解釈し、画面に適用するプロモーションを決定します
+1. 以前、デフォルトの 3 つのプロモーションを表示していたアプリの動作を、コードの行をコメントアウトすることで中断しました
+1. 代わりに、新しい関数を実行するようにアプリに指示し、targetLoadRequest を任意に命名しました
+1. Target.loadRequest メソッドを使用して Target にリクエストを行い、[!DNL Target] のオファー応答を受信したら直ちに `filterRecommendationBasedOnOffer()` 関数を実行するように、`targetLoadRequest` 関数を定義しました
+1. `filterRecommendationBasedOnOffer()` 関数は応答を解釈し、画面に適用するプロモーションを決定します。
 
-これは、モバイルアプリで [!DNL Target] を使用する場合の非常に一般的な使用パターンです。  モバイルアプリのほとんどあらゆる側面をパーソナライズできる点は、どちらも非常に強力です。 また、アプリのコードと、後で [!DNL Target] インターフェイスで定義するオファーとの間の調整も必要です。 この調整のため、一部のパーソナライゼーションの使用例では、アクティビティを起動するために、App Store のアプリを更新する必要が生じる場合があります。
+これは、モバイルアプリで [!DNL Target] を使用する場合の非常に一般的な使用パターンです。  モバイルアプリのほぼすべての側面をパーソナライズできるという点で、どちらも非常に強力です。 また、アプリコードと、後で [!DNL Target] インターフェイスで定義するオファーとの調整も必要です。 この調整により、一部のパーソナライゼーションのユースケースでは、アクティビティを開始するために、アプリストアでアプリを更新する必要が生じる場合があります。
 
 ### リアルタイムリクエストの検証
 
-Android エミュレーターを開き、すべての手順を実行して旅行を予約します。ホーム/バス検索結果/座席選択、支払いオプション（空のデータを含むすべての支払いオプションが機能します）。
+Android エミュレーターを開き、次のすべての手順を実行して旅行を予約します。ホーム / バス検索結果/シートの選択、支払いオプション （空白のデータのあるすべての支払いオプションが機能します）。
 
-最後の「ありがとうございます」画面で、Logcat の反応を見てください。 応答は、「Default content was returned for &quot;wetravel_context_dest&quot;:
+最後の「ありがとうございます」画面で、Logcat の応答を確認します。 応答は、「Default content was returned for &quot;wetravel_context_dest&quot;:
 
-![ありがとう画面でのリアルタイムの場所の追加](assets/thankyou_validation.jpg)
+![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou_validation.jpg)
 
-## プリフェッチされた場所をキャッシュから消去
+## プリフェッチされた場所のキャッシュからの消去
 
-セッション中にプリフェッチされた場所をクリアする必要がある場合があります。 例えば、予約が発生した場合、ユーザーが「関与」し、予約プロセスを理解したので、キャッシュされた場所を消去すると効果的です。 セッション中に別の旅行を予約した場合、ホーム画面や検索結果画面の元の場所を使用して予約をガイドする必要はありません。 キャッシュから場所をクリアし、新しいオファーをプリフェッチして、割引された 2 回目の予約やその他の関連シナリオをプリフェッチする方が、より合理的です。 セッション中に予約がおこなわれた場合に新しい場所をプリフェッチするロジックをホーム画面と検索結果画面に追加できます。
+セッション中に、プリフェッチされた場所をクリアする必要が生じる場合があります。 例えば、予約が発生した場合、ユーザーが「関与」し、予約プロセスを理解しているので、キャッシュされた場所をクリアすることは理にかなっています。 セッション中に別の旅行を予約する場合、予約のガイドとしてホーム画面と検索結果画面の元の場所は必要ありません。 キャッシュから場所をクリアし、おそらく割引された 2 回目の予約やその他の関連するシナリオのために、新しいオファーをプリフェッチする方が理にかなっています。 セッション中に予約が行われた場合に、新しい場所をプリフェッチするロジックをホーム画面と検索結果画面に追加できます。
 
-この例では、予約がおこなわれたときに、セッションで事前に取得された場所のみを消去します。 これは、`Target.clearPrefetchCache()` 関数を呼び出すことで行われます。 次に示すように、`targetLoadRequest()` 関数内に関数を設定します。
+この例では、予約が行われる際に、セッションのプリフェッチされた場所をクリアするだけです。 それには、`Target.clearPrefetchCache()` 関数を呼び出します。 次に示すように、`targetLoadRequest()` 関数内に関数を設定します。
 
 ```java
 Target.clearPrefetchCache()
 ```
 
-![プリフェッチされた場所をキャッシュからクリア](assets/clearPrefetch.jpg)
+![ プリフェッチされた場所をキャッシュからクリア ](assets/clearPrefetch.jpg)
 
-おめでとう！ これで、アプリにパーソナライゼーションのフレームワークが組み込まれました。 次のレッスンでは、パーソナライゼーション機能を強化し、これらの場所にパラメーターを追加します。
+おめでとうございます。 アプリにパーソナライゼーションのフレームワークが追加されました。 次のレッスンでは、これらの場所にパラメーターを追加して、パーソナライゼーション機能を強化します。
 
-**[次へ：「パラメータの追加」>](add-parameters.md)**
+**[次へ：「パラメーターの追加」 >](add-parameters.md)**

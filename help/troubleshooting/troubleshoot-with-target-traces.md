@@ -1,6 +1,6 @@
 ---
-title: Target Traces を使用したトラブルシューティング方法
-description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。Experience Cloudを認証し、強力な Target Traces ツールを使用して、アクティビティ、オーディエンスの資格、および訪問者プロファイルを調べる方法について説明します。
+title: Target トレースのトラブルシューティング方法
+description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。Experience Cloudへの認証を行い、強力な Target トレース ツールを使用して、アクティビティ、オーディエンスの選定、訪問者プロファイルを調べる方法を説明します。
 role: User
 level: Intermediate
 topic: Personalization, Performance
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ---
 
-# Target Traces のトラブルシューティング
+# Target トレースを使用したトラブルシューティング
 
 ## Mbox Trace
 

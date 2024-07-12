@@ -1,6 +1,6 @@
 ---
 title: A/B テストの作成方法
-description: このビデオでは、Adobe Targetで A/B アクティビティを作成するための主なワークフローについて説明します。 Visual Experience Composer(VEC) を使用して基本的な A/B アクティビティを作成する方法については、このビデオをご覧ください。
+description: このビデオでは、Adobe Targetで A/B アクティビティを作成するための主要なワークフローについて説明します。 Visual Experience Composer （VEC）を使用して基本的な A/B アクティビティを作成する方法については、このビデオをご覧ください。
 role: User
 level: Beginner
 topic: Personalization
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 このビデオでは、次の方法を学びます。
 
-* Adobe Target Visual Experience Composer(VEC) を使用した基本的な A/B アクティビティの作成
+* Adobe Target Visual Experience Composer （VEC）を使用した基本的な A/B アクティビティの作成
 
 ## 対象オーディエンス
 
@@ -31,4 +31,4 @@ ht-degree: 13%
 
 ## その他のリソース
 
-詳細な手順については、 [A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} （内） *Adobe Target Business Practioner ガイド*.
+この手順の詳細については、*Adobe Target ビジネス実践者ガイドの [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} を参照してください*。

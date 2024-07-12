@@ -1,6 +1,6 @@
 ---
 title: Target とAudience Managerの統合方法
-description: Adobe TargetとAdobe Audience Managerを統合する方法を説明します。
+description: Adobe TargetをAdobe Audience Managerと統合する方法について説明します。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 ---
 
-# Target とAudience Manager
+# Target とAudience Managerの統合
 
 ## 説明
 
@@ -30,4 +30,4 @@ ht-degree: 23%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35151/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en) を参照してください。

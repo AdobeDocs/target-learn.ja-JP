@@ -1,6 +1,6 @@
 ---
 title: at.js 2.0 の仕組み
-description: at.js 2.0 は、Adobe Targetのシングルページアプリケーション (SPA) のサポートを強化し、他のExperience Cloudソリューションと統合します。 このビデオと付属の図は、すべてがどのように組み合わされるかを説明しています。
+description: at.js 2.0 は、シングルページアプリケーション（SPA）のAdobe Target サポートを強化し、他のExperience Cloudソリューションと統合されています。 このビデオと付属の図では、すべてがどのように統合されるかを説明します。
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -11,52 +11,52 @@ author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 12%
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
 # Adobe Targetの at.js 2.0 の仕組みについて
 
-`at.js` 2.0 は、Adobe Targetのシングルページアプリケーション (SPA) のサポートを強化し、他のExperience Cloudソリューションと統合します。 このビデオと付属の図は、すべてがどのように組み合わされるかを説明しています。
+`at.js` 2.0 は、シングルページアプリケーション（SPA）に対するAdobe Targetのサポートを強化し、他のExperience Cloudソリューションと統合されています。 このビデオと付属の図では、すべてがどのように統合されるかを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
 ## アーキテクチャ図
 
-![ページ読み込み時の at.js 2.0 の動作](assets/pageload.png)
+![ ページ読み込み時の at.js 2.0 の動作 ](assets/pageload.png)
 
-1. 呼び出しによってExperience CloudID(ECID) が返されます。 ユーザーが認証されると、別の呼び出しが顧客 ID を同期します。
+1. 呼び出しによってExperience CloudID （ECID）が返されます。 ユーザーが認証されると、別の呼び出しでその顧客 ID が同期されます。
 
-1. `at.js` ライブラリがドキュメント本文 (`at.js` は、ページに実装されているオプションの事前非表示スニペットを使用して非同期で読み込むこともできます )。
+1. ライブラリ `at.js` 同期して読み込まれ、ドキュメントの本文を非表示にします（ページに実装され `at.js` オプションの事前非表示スニペットを使用して非同期で読み込むこともできます）。
 
-1. ページ読み込みリクエストは、設定済みのすべてのパラメーター、ECID、SDID および顧客 ID を含めておこなわれます。
+1. すべての設定済みパラメーター、ECID、SDID、顧客 ID を含むページ読み込みリクエストが行われます。
 
-1. プロファイルスクリプトを実行し、 [!UICONTROL プロファイルストア]. ストアは、 [!UICONTROL オーディエンスライブラリ] ( 例： [!DNL Analytics]、Audience Managerなど )。 [!UICONTROL 顧客属性] 送信先 [!UICONTROL プロファイルストア] バッチ・プロセスで使用します。
-1. URL、リクエストパラメーターおよびプロファイルデータに基づいて、 [!DNL Target] は、現在のページおよび将来のビューでどのアクティビティおよびエクスペリエンスを訪問者に返すかを決定します
+1. プロファイルスクリプトは、を実行して [!UICONTROL Profile Store] に入力します。 ストアは、[!UICONTROL Audience Library] ーザーから選定オーディエンス（[!DNL Analytics]、Audience Managerなどから共有されたオーディエンスなど）をリクエストします。 [!UICONTROL Customer Attributes] は、バッチ処理で [!UICONTROL Profile Store] に送信されます。
+1. URL、リクエストパラメーター、プロファイルデータに基づいて、現在のページと今後の表示で訪問者に返すアクティビティとエクスペリエンスを [!DNL Target] 定します
 
-1. ターゲットコンテンツが（オプションで、追加のパーソナライゼーションに関するプロファイル値を含めて）ページに送り返されました。
+1. ターゲットコンテンツがページに送り返されます（オプションで、パーソナライゼーションを追加するためのプロファイル値も含む）。
 
-   デフォルトコンテンツがちらつくことなく、可能な限り迅速に現在のページ上のターゲットコンテンツが表示されます。
+   現在のページ上のターゲットコンテンツは、デフォルトコンテンツのちらつきなしでできるだけ早く表示されます。
 
-   将来の単一ページアプリケーションのビューに向けたターゲットコンテンツはブラウザーにキャッシュされるので、ビューがトリガーされる際に追加のサーバー呼び出しを必要とせずに、即座に適用できます。 ( 次の図： `triggerView()` 動作 )。
+   単一ページアプリケーションの今後のビュー用のターゲットコンテンツは、ブラウザーにキャッシュされます。そのため、ビューがトリガーされたときに追加のサーバー呼び出しをおこなわずに即座にターゲットコンテンツを適用できます。 （`triggerView()` の動作については、次の図を参照してください）。
 
-1. [!DNL Analytics] ページから [!UICONTROL データ収集] サーバー
-1. [!DNL Target] データは、SDID を使用して データに適合され、Analytics レポートストレージへと処理されます。[!DNL Analytics][!DNL Analytics] データは、 [!DNL Analytics] および [!DNL Target] A4T レポートを使用する。
+1. ページから [!UICONTROL Data Collection] サーバーに送信された [!DNL Analytics] データ
+1. [!DNL Target] データは、SDID を介して Analytics データと照合され、[!DNL Analytics] レポートストレージに処理されます。 A4T レポートを使用して、[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。
 
-![at.js 2.0 の動作 (triggerView() 関数が使用された場合 )](assets/triggerview.png)
+![triggerView （）関数が使用された場合の at.js 2.0 の動作 ](assets/triggerview.png)
 
-1. `adobe.target.triggerView()` は、単一ページアプリケーションで呼び出されます。
-1. ビューのターゲットコンテンツがキャッシュから読み取られます
+1. `adobe.target.triggerView()` は、単一ページアプリケーションで呼び出されます
+1. ビューのターゲットコンテンツがキャッシュから読み取られる
 
-1. デフォルトコンテンツがちらつくことなく、可能な限り迅速にターゲットコンテンツが表示されます
+1. ターゲットコンテンツは、デフォルトコンテンツのちらつきなしでできるだけ早く表示されます
 
-1. 通知リクエストが [!DNL Target] [!UICONTROL プロファイルストア] ：アクティビティで訪問者をカウントし、指標を増分します
-1. [!DNL Analytics] データがSPAから [!UICONTROL データ収集] サーバー
+1. アクティビティ内の訪問者をカウントして指標を増分するための通知リクエストが [!DNL Target] [!UICONTROL Profile Store] ーザーに送信されます
+1. SPAから [!UICONTROL Data Collection] Server にデータが送信される [!DNL Analytics]
 
-1. [!DNL Target] データは [!DNL Target] ～のバックエンド [!UICONTROL データ収集] サーバー。 [!DNL Target] データは、SDID を使用して [!DNL Analytics] データに適合され、[!DNL Analytics] レポートストレージへと処理されます。[!DNL Analytics] データは、 [!DNL Analytics] および [!DNL Target] A4T レポートを使用する。
+1. データ [!DNL Target]、[!DNL Target] バックエンドから [!UICONTROL Data Collection] Server に送信されます。 [!DNL Target] データは、SDID を介して [!DNL Analytics] データと照合され、[!DNL Analytics] レポートストレージに処理されます。 A4T レポートを使用して、[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。
 
 ## その他のリソース
 
-* [シングルページアプリケーションでの at.js 2.0 の実装](implement-atjs-20-in-a-single-page-application.md)
-* [シングルページアプリケーション (SPA VEC) でのAdobe Targetの Visual Experience Composer の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [at.js 2.0 のシングルページアプリケーションへの実装](implement-atjs-20-in-a-single-page-application.md)
+* [Adobe Target Visual Experience Composer for Single Page Applications （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

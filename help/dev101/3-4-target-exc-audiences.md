@@ -1,6 +1,6 @@
 ---
-title: Target とExperience CloudAudiences の統合方法
-description: Adobe Target開発者向けのこのビデオでは、Analytics とAudience Managerを使用したオーディエンスの作成について説明します。 このビデオを視聴している開発者は、他のAdobe製品からオーディエンスをインポートし、Adobe Experience Cloud(AEC) 管理パネルに慣れ、Experience CloudID(ECID) の要件を一覧表示できます。
+title: Target とExperience Cloudオーディエンスを統合する方法
+description: Adobe Target開発者向けのこのビデオでは、Analytics とAudience Managerを使用してオーディエンスを作成する方法を説明します。 このビデオを視聴する開発者は、他のAdobe製品からオーディエンスを読み込み、Adobe Experience Cloud（AEC）管理パネルに精通し、Experience CloudID （ECID）の要件をリスト化できるようになります。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,16 +16,16 @@ ht-degree: 9%
 
 ---
 
-# Target とExperience CloudAudiences の統合
+# Target とExperience Cloudオーディエンスの統合
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
-* Analytics とAudience Managerを使用したオーディエンスの作成と使用について説明する
-* 他のオーディエンス製品からオーディエンスをインポートするAdobeの説明
-* Adobe Experience Cloud(AEC) 管理パネルを参照する
-* Experience CloudID(ECID) の要件の一覧
+* Analytics とAudience Managerを使用したオーディエンスの作成および使用の説明
+* 他のAdobe製品からオーディエンスをインポートする方法を説明します
+* Adobe Experience Cloud（AEC）管理パネルの探索
+* Experience CloudID （ECID）の要件のリスト
 
 ## 対象オーディエンス
 
@@ -33,4 +33,4 @@ ht-degree: 9%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en) を参照してください。

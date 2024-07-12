@@ -1,6 +1,6 @@
 ---
-title: シングルページアプリケーション (SPA) で at.js 2.0 を実装する方法
-description: Adobe Targetの at.js 2.0 は、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能セットを提供します。 シングルページアプリケーション (SPA) に at.js 2.0 を実装するには、次の手順に従います。
+title: at.js 2.0 をシングルページアプリケーション（SPA）に実装する方法
+description: Adobe Targetの at.js 2.0 には、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行できる豊富な機能セットが用意されています。 次の手順に従って、at.js 2.0 をシングルページアプリケーション（SPA）に実装します。
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -11,36 +11,36 @@ author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# シングルページアプリケーション (SPA) での at.js 2.0 を使用したAdobe Targetの実装
+# Adobe Targetの at.js 2.0 のシングルページアプリケーションへの実装（SPA）
 
-Adobe Target `at.js` 2.0 は、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行するための機能セットを提供します。 このバージョンはアップグレードに重点を置いています `at.js` を使用すれば、シングルページアプリケーション (SPA) と調和したインタラクションを実現できます。
+Adobe Target `at.js` 2.0 には、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行できる豊富な機能セットが用意されています。 このバージョンは、シングルページアプリケーション（SPA）との調和のとれたインタラクションを実現するために、`at.js` をアップグレードすることに重点を置いています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## SPAで at.js 2.0 を実装する方法
+## SPAでの at.js 2.0 の実装方法
 
-* 実装方法 `at.js` 2.0 の &lt;head> を使用します。
-* の実装 `adobe.target.triggerView()` 関数は、SPAで表示が変更された場合に常に機能します。 これをおこなうには、URL ハッシュの変更のリッスン、SPAで実行されるカスタムイベントのリッスン、 `triggerView()` コードをアプリケーションに直接組み込みます。 特定の単一ページアプリケーションに最適なオプションを選択する必要があります。
-* ビュー名は、 `triggerView()` 関数に置き換えます。 シンプルで明確で一意の名前を使用して、Target の Visual Experience Composer で簡単に選択できるようにします。
-* 小さなビューの変更でトリガービューを表示できます。また、SPA以外のコンテキスト（無限にスクロールするページの半分下など）でも表示できます。
-* `at.js` 2.0 および `triggerView()` は、Adobe Experience Platform Launchなどのタグ管理ソリューションを介して実装できます。
+* シングルページアプリケーションの &lt;head> に `at.js` 2.0 を実装します。
+* SPAでビューが変更されるたびに `adobe.target.triggerView()` 関数を実装します。 これを行うには、URL ハッシュの変更をリッスンする、SPAによって実行されるカスタムイベントをリッスンする、`triggerView()` コードをアプリケーションに直接埋め込むなど、様々な手法を採用できます。 特定の単一ページアプリケーションに最適なオプションを選択してください。
+* ビュー名は、`triggerView()` 関数の最初のパラメーターです。 Target の Visual Experience Composer で簡単に選択できるように、シンプル、明確、一意の名前を使用します。
+* ビューのトリガーは、小さなビューの変化の場合と、SPA以外のコンテキスト（無限スクロールのページの半分の下など）の場合があります。
+* `at.js` 2.0 以 `triggerView()` は、Adobe Experience Platform Launchなどのタグ管理ソリューションを通じて実装できます。
 
 ## at.js 2.0 の制限
 
-次の制限事項に注意してください： `at.js` 2.0 （アップグレード前）:
+アップグレードする前に、`at.js` 2.0 の次の制限事項に注意してください。
 
-* クロスドメイントラッキングは、 `at.js` 2.0
-* mboxOverride.browserIp および mboxSession URL パラメーターは、 `at.js` 2.0
-* レガシー関数 mboxCreate、mboxDefine、mboxUpdate は、 `at.js` 2.0。デフォルトコンテンツが表示され、ネットワークリクエストはおこなわれません。
+* クロスドメイントラッキングは `at.js` 2.0 ではサポートされていません
+* mboxOverride.browserIp および mboxSession URL パラメーターは、`at.js` 2.0 ではサポートされていません。
+* 従来の関数 mboxCreate、mboxDefine、mboxUpdate は、`at.js` 2.0 で非推奨（廃止予定）になりました。デフォルトのコンテンツが表示され、ネットワークリクエストは行われません。
 
-## ビデオで使用されるライブラリのフッターコード
+## ビデオで使用されているライブラリフッターコード
 
-以下のコードは、 `at.js` ライブラリをビデオ中に追加しました。 アプリが最初に読み込まれ、次にアプリ内のハッシュの変更時に実行されます。 クリーンアップバージョンのハッシュがビュー名として使用され、ハッシュが空の場合は「home」が使用されます。 SPAを識別するために、コードは URL 内で「react/」というテキストを探します。このテキストは、サイト上で更新する必要がある可能性が高くなります。 また、SPAで `triggerView()` カスタムイベントが表示されない、またはコードを直接アプリに埋め込むことによって削除されます。
+ビデオの再生中に、`at.js` ライブラリのライブラリフッターセクションに次のコードが追加されました。 これは、アプリが最初に読み込まれ、次にアプリ内のハッシュが変更されたときに起動されます。 クリーンアップされたバージョンのハッシュをビュー名として使用し、ハッシュが空の場合は「home」を使用します。 SPAを識別するために、コードは URL 内で「react/」というテキストを探します。このテキストはサイト上で更新する必要がある可能性が高くなります。 また、SPAでカスタムイベントから `triggerView()` を実行するか、アプリに直接コードを埋め込む方が適切な場合があることに注意してください。
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -73,5 +73,5 @@ window.onhashchange = function() {
 
 ## その他のリソース
 
-* [at.js 2.0 の仕組みについて（アーキテクチャ図）](understanding-how-atjs-20-works.md)
-* [シングルページアプリケーション (SPA VEC) でのAdobe Targetの Visual Experience Composer の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [at.js 2.0 の仕組みについて（アーキテクチャ図） ](understanding-how-atjs-20-works.md)
+* [Adobe Target Visual Experience Composer for Single Page Applications （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

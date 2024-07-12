@@ -1,6 +1,6 @@
 ---
 title: レイアウトのパーソナライズ
-description: 'この最後のレッスンでは、Target でオーディエンス用に 2 つのパーソナライゼーションアクティビティを作成します。 アプリでアクティビティを読み込んで表示する方法と、適切な場所で適切なタイミングでコンテンツが表示されていることを検証する方法について説明します。  '
+description: この最後のレッスンでは、オーディエンス用に Target で 2 つのパーソナライゼーションアクティビティを作成します。 アプリにアクティビティを読み込んで表示する方法、およびコンテンツが適切なタイミングで適切な場所に表示されることを検証する方法を説明します。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -11,190 +11,190 @@ author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
 
 # レイアウトのパーソナライズ
 
-次に、すべてをまとめ、パーソナライズされたエクスペリエンスを作成します。 _アクティビティ_ は、場所、オーディエンスおよびオファーを相互にリンクする [!DNL Target] メカニズムで、アプリからリクエストがおこなわれると、 [!DNL Target] はパーソナライズされたコンテンツで応答します。 [!DNL Target] で 2 つのパーソナライゼーションアクティビティを作成し、パーソナライズされたコンテンツが適切なタイミングで適切な場所に適切なユーザーに表示されることを検証します。
+次は、すべてを統合し、パーソナライズされたエクスペリエンスを作成します。 _アクティビティ_ は、場所、オーディエンスおよびオファーをリンクする [!DNL Target] のメカニズムで、アプリからリクエストが行われると、パーソナライズされたコンテンツで応答するよ [!DNL Target] にします。 [!DNL Target] で 2 つのパーソナライゼーションアクティビティを作成し、パーソナライズされたコンテンツが適切なタイミング、適切な場所で適切なユーザーに表示されることを検証します。
 
-## 学習内容
+## 学習目標
 
-このレッスンを最後まで学習すると、次の内容を習得できます。
+このレッスンを終了すると、次の操作を実行できるようになります。
 
 * Adobe Targetでのアクティビティの作成
 * サンプルアプリでのアクティビティの検証
 
 ## Adobe Targetでのアクティビティの作成
 
-ユーザーの関心を向けるアクティビティとコンテキストオファーアクティビティの作成方法を説明します。
+Engage ユーザーとコンテキストオファーアクティビティを作成する方法を説明します。
 
-### 最初のアクティビティ — 「ユーザーのエンゲージメント」
+### 最初のアクティビティ – 「ユーザーのエンゲージメント」
 
-作成するアクティビティの概要を次に示します。
+作成するアクティビティの概要は次のとおりです。
 
 | オーディエンス | 場所 | オファー |
 |---|---|---|
-| 新しいモバイルアプリユーザー | wetravel_engage_home, wetravel_engage_search | ホーム：新規ユーザーのエンゲージメント、検索：新しいユーザーの惹き付け |
-| モバイルアプリユーザーの再訪問 | wetravel_engage_home, wetravel_engage_search | ホーム：ユーザーの再訪問， default_content#ユーザーノサク# |
+| 新規モバイルアプリユーザー | wetravel_engage_home, wetravel_engage_search | ホーム：新しいユーザーと関わる、検索：新しいユーザーと関わる |
+| 再びモバイルアプリユーザー | wetravel_engage_home, wetravel_engage_search | ホーム：再来訪ユーザー、default_content |
 
-[!DNL Target] インターフェイスで、次の操作を行います。
+[!DNL Target] インターフェイスで以下を行います。
 
-1. **[!UICONTROL アクティビティ]** / **[!UICONTROL アクティビティを作成]** / **[!UICONTROL エクスペリエンスのターゲット設定]** を選択します。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Create Activity]**/**[!UICONTROL Experience Targeting]** を選択します。
 
-   ![アクティビティを作成](assets/activity_create_1.jpg)
+   ![ アクティビティを作成 ](assets/activity_create_1.jpg)
 
-1. 「**[!UICONTROL モバイルアプリ]**」をクリックします。
-1. 「**[!UICONTROL フォームコンポーザー]**」を選択します。
+1. **[!UICONTROL Mobile App]** をクリックします。
+1. **[!UICONTROL Form composer]** を選択します。
 1. ワークスペース（前のレッスンで使用したのと同じワークスペース）を選択します。
 1. プロパティ（前のレッスンで使用したのと同じプロパティ）を選択します。
-1. 「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL Next]** をクリックします。
 
-   ![アクティビティを作成](assets/activity_create_2.jpg)
+   ![ アクティビティを作成 ](assets/activity_create_2.jpg)
 
-1. アクティビティのタイトルを **[!UICONTROL ユーザーのエンゲージ]** に変更します。
-1. **[!UICONTROL 省略記号]** > **[!UICONTROL Change Audience]** を選択します。
-   ![新しいモバイルアプリユーザーによるオーディエンスの変更](assets/activity_create_3.jpg)
-1. オーディエンスを「**[!UICONTROL 新しいモバイルアプリユーザー]**」に設定します。
-1. 「 **[!UICONTROL 完了]**」をクリックします。
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_4.jpg)
+1. アクティビティのタイトルを **[!UICONTROL Engage Users]** に変更します。
+1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]** を選択します。
+   ![ オーディエンスを変更する新しいモバイルアプリユーザー ](assets/activity_create_3.jpg)
+1. オーディエンスを **[!UICONTROL New Mobile App Users]** に設定します。
+1. **[!UICONTROL Done]** をクリックします。
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_4.jpg)
 
 1. 場所を _wetravel_engage_home_ に変更します。
-1. 「デフォルトコンテンツ」の横のドロップダウン矢印を選択し、「**[!UICONTROL HTMLオファーを変更]**」を選択します。
+1. 「デフォルトコンテンツ」の横にあるドロップダウン矢印を選択し、「**[!UICONTROL Change HTML Offer]**」を選択します。
 
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_5.jpg)
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_5.jpg)
 
-1. **[!UICONTROL ホームを選択します。新しいユーザーのエンゲージメント]** オファー。
-1. **[!UICONTROL 完了]** を選択します。
+1. **[!UICONTROL Home: Engage New Users]** オファーを選択します。
+1. 「**[!UICONTROL Done]**」を選択します。
 
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_6.jpg)
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_6.jpg)
 
-1. 「**[!UICONTROL 場所を追加]**」を選択します。
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_7.jpg)
+1. 「**[!UICONTROL Add Location]**」を選択します。
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_7.jpg)
 
 1. _wetravel_engage_search_ の場所を選択します。
-1. HTMLオファーを変更
+1. HTMLオファーを変更します。
 
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_8.jpg)
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_8.jpg)
 
-1. **[!UICONTROL 検索を選択します。新しいユーザーのエンゲージメント]** オファー。
-1. 「 **[!UICONTROL 完了]**」をクリックします。
+1. **[!UICONTROL Search: Engage New Users]** オファーを選択します。
+1. **[!UICONTROL Done]** をクリックします。
 
-   ![新しいモバイルアプリユーザーオーディエンス](assets/activity_create_9.jpg)
+   ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_9.jpg)
 
 オーディエンスを場所とオファーに接続し、新しいモバイルアプリユーザー向けにパーソナライズされたエクスペリエンスを作成しました。 エクスペリエンスは次のようになります。
 
-![最終的な経験](assets/activity_engage_users_a_final.jpg)
+![Experience A Final](assets/activity_engage_users_a_final.jpg)
 
-モバイルアプリユーザーを再訪問するエクスペリエンスを作成します。
+次に、再モバイルアプリユーザー向けのエクスペリエンスを作成します。
 
-1. 左側の「**[!UICONTROL エクスペリエンスのターゲットを追加]**」を選択します。
-1. 「オーディエンス **[!UICONTROL モバイルアプリユーザーを再訪問]**」を選択します。
-1. **[!UICONTROL 完了]** を選択します。
-   ![モバイルアプリユーザーのオーディエンスを返す](assets/activity_create_11.jpg)
+1. 左側の「**[!UICONTROL Add Experience Targeting]**」を選択します。
+1. オーディエンス **[!UICONTROL Returning Mobile App Users]** を選択します。
+1. 「**[!UICONTROL Done]**」を選択します。
+   ![ モバイルアプリユーザーのオーディエンスを返す ](assets/activity_create_11.jpg)
 
-次に、前の手順と同じ手順を使用して、新しいエクスペリエンスを設定します。 「モバイルアプリユーザーを再訪問」エクスペリエンスの設定は次のようになります。
+次に、以前に新しいエクスペリエンスを設定したのと同じプロセスを使用します。 「モバイルアプリのユーザーを返す」エクスペリエンスの設定は、次のようになります。
 
-![モバイルアプリユーザーの最終版を返す](assets/activity_engage_users_b_final.jpg)
+![ モバイルアプリユーザーの最終的な復帰 ](assets/activity_engage_users_b_final.jpg)
 
-次の画面に進みます。
+設定の次の画面に進みます。
 
-1. 「**[!UICONTROL 次へ]**」をクリックして、**[!UICONTROL ターゲティング]** 画面に進みます。
-1. 「ターゲット設定」のデフォルト設定を使用します。 重複するオーディエンスのエクスペリエンスがある場合 ( 例：_New York Users_ と _First Time Users_) この画面で優先順位を並べることができます。
-1. 「**[!UICONTROL 次へ]**」をクリックして、「**[!UICONTROL 目標と設定]**」に進みます。
+1. **[!UICONTROL Next]** をクリックして、**[!UICONTROL Targeting]** の画面に進みます。
+1. ターゲティングのデフォルト設定を使用します。 オーディエンスのエクスペリエンスが重複している場合（例：_ニューヨークのユーザー_ および _初回のユーザー_）、この画面で優先順位を並べ替えることができます。
+1. **[!UICONTROL Next]** をクリックして **[!UICONTROL Goals & Settings]** に進みます。
 
-   ![ユーザーのエンゲージメントアクティビティ — デフォルトのターゲティング](assets/activity_engage_users_targeting.jpg)
+   ![ ユーザーアクティビティのエンゲージメント – ターゲティングのデフォルト ](assets/activity_engage_users_targeting.jpg)
 
 次に、アクティビティの設定を完了します。
 
-1. **[!UICONTROL プライマリの目標]** を **[!UICONTROL コンバージョン]** に設定します。
-1. アクションを「**[!UICONTROL mbox]** を表示した/_wetravel_context_dest_」に設定します（この場所は確認画面に表示されるので、コンバージョンの測定に使用できます）。
+1. **[!UICONTROL Primary Goal]** を **[!UICONTROL Conversion]** に設定します。
+1. アクションを **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ に設定します（この場所は確認画面にあるので、コンバージョンの測定に使用できます）。
 
-   ![ユーザーのエンゲージメントアクティビティ — 目標](assets/activity_create_12.jpg)
+   ![ ユーザーアクティビティの使用 – 目標 ](assets/activity_create_12.jpg)
 
-1. 画面上のその他の設定はすべてデフォルトのままにします。
-1. 「**[!UICONTROL 保存して閉じる]**」をクリックして、アクティビティを保存します。
-1. 次の画面で **[!UICONTROL アクティビティ]** をアクティブにします。
+1. 画面のその他すべての設定をデフォルトのままにします。
+1. 「**[!UICONTROL Save & Close]**」をクリックして、アクティビティを保存します。
+1. 次の画面で **[!UICONTROL Activity]** をアクティブにします。
 
-![エクスペリエンス B オーディエンス](assets/activity_create_13.jpg)
+![ エクスペリエンス B オーディエンス ](assets/activity_create_13.jpg)
 
-最初のアクティビティが実稼働し、テストの準備が整いました。
+最初のアクティビティが実稼働し、テストする準備が整いました。
 
-### 2 つ目のアクティビティ — 「コンテキストオファー」
+### 2 つ目のアクティビティ – 「コンテキストオファー」
 
-2 つ目のアクティビティの概要を次に示します。
+作成する 2 つ目のアクティビティの概要を次に示します。
 
 | オーディエンス | 場所 | オファー |
 | --- | --- | --- |
-| 宛先：サンディエゴ | wetravel_context_dest | サンディエゴのプロモーション |
-| 宛先：ロサンゼルス | wetravel_context_dest | ロサンゼルスのプロモーション |
+| 目的地：サンディエゴ | wetravel_context_dest | サンディエゴのプロモーション |
+| 目的地：ロサンゼルス | wetravel_context_dest | ロサンゼルスのプロモーション |
 
-次のアクティビティ「コンテキストオファー」に対して、上記と同じ手順を繰り返します。 両方のエクスペリエンスの最終設定を次に示します。
+次のアクティビティ「コンテキストオファー」に対して、上記と同じプロセスを繰り返します。 両方のエクスペリエンスの最終的な設定を次に示します。
 
 #### サンディエゴ
 
-![コンテキストオファー — エクスペリエンス A](assets/activity_contextual_a_final.jpg)
+![ コンテキストオファー – エクスペリエンス A](assets/activity_contextual_a_final.jpg)
 
 #### ロサンゼルス
 
-![コンテキストオファー — エクスペリエンス B](assets/activity_contextual_b_final.jpg)
+![ コンテキストオファー – エクスペリエンス B](assets/activity_contextual_b_final.jpg)
 
 目標と設定ステップで、プライマリ目標を予約確認画面の場所に変更します。
 
-1. 「**[!UICONTROL レポート設定]**」で、**[!UICONTROL プライマリの目標]** を **[!UICONTROL コンバージョン]** に設定します。
-1. アクションを **[!UICONTROL Viewed an mbox]** / _wetravel_context_dest_ に設定します（このアクティビティでは、この指標もエクスペリエンスを提供する同じ場所なので、基本的にこの指標は無意味です）。
-1. 「**[!UICONTROL 保存して閉じる]**」をクリックします。
+1. **[!UICONTROL Reporting Settings]** の下で、**[!UICONTROL Primary Goal]** を **[!UICONTROL Conversion]** に設定します。
+1. アクションを **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ に設定します（このアクティビティでは、エクスペリエンスを配信する場所も同じなので、この指標は基本的に意味がありません）。
+1. **[!UICONTROL Save & Close]** をクリックします。
 
-![コンテキストオファー — エクスペリエンス](assets/activity_create_14.jpg)
+![ コンテキストオファー – エクスペリエンス ](assets/activity_create_14.jpg)
 
-次の画面で「アクティビティ」をアクティブにします。
+次の画面でアクティビティをアクティブにします。
 
-2 つ目のアクティビティはライブで、テストの準備が整いました。
+これで、2 つ目のアクティビティが稼働し、テストの準備が整いました。
 
 ## ホームオファーの検証
 
-エミュレーターを実行し、ホーム画面の下部に表示される最初のオファーを監視します。 5 つ以上のアプリを起動した再ユーザーの場合は、_ようこそ_ オファーが表示されます。 新しいユーザー（アプリの起動回数が 5 回未満）の場合は、_新しいユーザー_ メッセージが表示されます。
+エミュレーターを実行し、ホーム画面の下部に表示される最初のオファーを確認します。 アプリの起動数が 5 つ以上の再ユーザーの場合は、「ようこそ _オファーが表示され_ す。 新規ユーザー（アプリの起動数が 5 未満）の場合は、_新規ユーザー_ というメッセージが表示されます。
 
-![ホームオファーの検証](assets/layout_home_validate.jpg)
+![ ホームオファーを検証 ](assets/layout_home_validate.jpg)
 
-新しいユーザーオファーが表示されない場合は、エミュレーターでデータを消去してみてください。 これにより、次回起動したときにアプリが 1 にリセットされます。 これは **[!UICONTROL ツール]** > **[!UICONTROL AVD マネージャ]** で行います。 Logcat が正常に動作しない場合は、Android Studio も再起動する必要がある場合があります。
+新しいユーザーオファーが表示されない場合は、エミュレーターのデータを消去してみてください。 これにより、次回の起動時にアプリの起動回数が 1 にリセットされます。 これは、**[!UICONTROL Tools]**/**[!UICONTROL AVD Manager]** で行います。 Logcat が正しく動作しない場合は、Android Studio も再起動する必要がある可能性があります。
 
-![ワイプエミュレータ](assets/layout_home_validate_avd_wipe.jpg)
+![ ワイプエミュレーター ](assets/layout_home_validate_avd_wipe.jpg)
 
-_wetravel_engage_home_ に対するフィルタリングを使用して、Logcat での応答を検証することもできます。
+また、_wetravel_engage_home_ をフィルタリングすることで、Logcat の応答を検証することもできます。
 
-![ホームオファーの検証 — Logcat](assets/layout_home_validate_logcat.jpg)
+![ ホームオファーの検証 – Logcat](assets/layout_home_validate_logcat.jpg)
 
 ## 検索オファーの検証
 
-**[!UICONTROL 出発]** として **[!UICONTROL サンノゼ]** を選択し、**[!UICONTROL 目的地]** として **[!UICONTROL サンディエゴ]** を選択して、「**[!UICONTROL バスを検索]**」をクリックし、利用可能なバスを検索します。
+**[!UICONTROL Departure]** として **[!UICONTROL San Jose]** を選択し、**[!UICONTROL Destination]** として **[!UICONTROL San Diego]** を選択し、**[!UICONTROL Find Bus]** をクリックして利用可能なバスを検索します。
 
-結果画面に、「_use filters_」というメッセージが表示されます。 アプリの起動回数が 5 回以上の再訪問者の場合、この場所（空白）のデフォルトコンテンツが設定されているので、ここにはメッセージは表示されません。
+結果画面に「_フィルターを使用_」メッセージが表示されます。 アプリの起動数が 5 つ以上の再ユーザーの場合、この場所（空白）にはデフォルトコンテンツが設定されているので、メッセージはここに表示されません。
 
-![検索オファーの検証](assets/layout_search_validate.jpg)
+![ 検索オファーを検証 ](assets/layout_search_validate.jpg)
 
 ## ありがとう画面でのコンテキストオファーの検証
 
 次に、予約プロセスを続行します。
 
 * 結果画面でバスを選択します。
-* チェックアウト画面で座席を選択します。
-* 支払い画面で「**[!UICONTROL クレジットカード]**」を選択します（支払い情報は空白のままにします。実際の予約は行われません）。
+* チェックアウト画面で席を選択します。
+* 支払い画面で **[!UICONTROL Credit Card]** を選択します（支払い情報は空白のままにします – 実際の予約は行われません）。
 
-San Diego が宛先に選ばれたので、確認画面に _DJ SAM_ のオファーバナーが表示されます。
+サンディエゴが目的地として選択されたので、確認画面に _DJ SAM_ のオファーバナーが表示されます。
 
-![コンテキストオファーの検証 — San Diego](assets/layout_context_san_diego.jpg)
+![ コンテキストオファーの検証 – サンディエゴ ](assets/layout_context_san_diego.jpg)
 
-次に、**[!UICONTROL 完了]** を選択し、別の予約先にロサンゼルスを選択してみてください。 確認画面に _Universal Studios_ のバナーが表示されます。
+次に、**[!UICONTROL Done]** を選択して、ロサンゼルスを目的地として別の予約を試してください。 確認画面に _Universal Studios_ のバナーが表示されます。
 
-![コンテキストオファーの検証 — ロサンゼルス](assets/layout_context_los_angeles.jpg)
+![ コンテキストオファーの検証 – ロサンゼルス ](assets/layout_context_los_angeles.jpg)
 
 ## まとめ
 
-おめでとう！ これで、「 Android 向けAdobe Target SDK 4.x のチュートリアル」の主な部分は終わりです。 これで、Android アプリでパーソナライゼーションを実装するスキルが身につきました。 このドキュメントとデモアプリを、今後のプロジェクトのリファレンスとして参照できます。
+おめでとうございます。 これで、Android チュートリアル用Adobe Target SDK 4.x の主な部分は終了です。 これで、Android アプリでパーソナライゼーションを実装するスキルが身につきました。 今後のプロジェクトの参考として、このドキュメントとデモアプリを参照できます。
 
-次へ：機能フラグ付けは、Android でAdobe Targetで実装できる機能です。 機能のフラグ付けについては、次のレッスンを参照してください。
+次のトピック：機能フラグは、AndroidのAdobe Targetで実装できるもう 1 つの機能です。 機能のフラグ設定について詳しくは、次のレッスンを参照してください。
 
-**[次へ：機能フラグ付け >](feature-flagging.md)**
+**[次へ：機能フラグの設定 >](feature-flagging.md)**

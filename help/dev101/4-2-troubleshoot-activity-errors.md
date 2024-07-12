@@ -1,6 +1,6 @@
 ---
 title: アクティビティエラーのトラブルシューティング方法
-description: このビデオでは、Adobe Target開発者がアクティビティを絞り込み、オーディエンスとアクティビティの認定に関する問題のトラブルシューティング、Target エクスペリエンスとアクティビティコンテンツの読み込みの問題のデバッグ、競合、ホストおよびプロパティのトラブルシューティングをおこなう方法を示します。
+description: このビデオでは、Adobe Target開発者に対して、アクティビティの絞り込み、オーディエンスとアクティビティの選定の問題のトラブルシューティング、Target エクスペリエンスとアクティビティコンテンツの読み込みの問題のデバッグ、競合、ホスト、プロパティのトラブルシューティングを行う方法を示します。
 role: Developer
 level: Intermediate
 topic: Performance
@@ -22,9 +22,9 @@ ht-degree: 13%
 
 このビデオでは、次の方法を学びます。
 
-* アクティビティを調整する
+* アクティビティを絞り込む
 * オーディエンスとアクティビティの選定に関する問題のトラブルシューティング
-* Target エクスペリエンスとアクティビティコンテンツの読み込みの問題のデバッグ
+* Target エクスペリエンスとアクティビティコンテンツ読み込みの問題のデバッグ
 * 競合、ホスト、プロパティのトラブルシューティング
 
 ## 対象オーディエンス
@@ -33,4 +33,4 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35154/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en) を参照してください。

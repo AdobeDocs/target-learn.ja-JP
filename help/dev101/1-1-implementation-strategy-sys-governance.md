@@ -36,4 +36,4 @@ ht-degree: 68%
 
 >[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
 
-詳しくは、 [詳細を見る](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en) を参照してください。

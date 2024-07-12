@@ -1,6 +1,6 @@
 ---
-title: Target とAdobe Developerコンソールの統合方法
-description: Adobe TargetとAdobe Developerコンソールの統合方法について説明します。
+title: Target とAdobe Developer Consoleの統合方法
+description: Adobe TargetとAdobe Developer Consoleを統合する方法について説明します。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,13 +16,13 @@ ht-degree: 14%
 
 ---
 
-# Target とAdobe Developer Console の統合
+# Target とAdobe Developer Consoleの統合
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
-* Adobe TargetとAdobe Developerコンソール ( 旧称：Adobe I/O) の統合
+* Adobe TargetとAdobe Developer Console（旧称：Adobe I/O）の統合
 
 ## 対象オーディエンス
 
@@ -30,6 +30,6 @@ ht-degree: 14%
 
 ## 注釈
 
-このビデオでは、 [Adobe Developer Console](https://developer.adobe.com/developer-console/). Adobe Developerコンソールを使用してAdobe Targetと統合する方法を実践する手順については、こちらを参照してください。 [Adobe認証の設定に関するガイド](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"} （内） *Adobe Target Developer Guide*.
+このビデオでは、[Adobe Developer Console](https://developer.adobe.com/developer-console/) を使用した統合の概念を説明します。 Adobe Developer Consoleを使用してAdobe Targetと統合する方法を示す実践手順については、*Adobe Target開発者ガイドの [Adobe認証の設定に関するガイド ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"} を参照してください*。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

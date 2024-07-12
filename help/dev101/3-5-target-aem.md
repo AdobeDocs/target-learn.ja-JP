@@ -1,6 +1,6 @@
 ---
-title: Target とAEMを統合する方法
-description: このビデオでは、開発者がAdobe TargetをAEMと統合する方法を示します（3 つの方法）。 開発者は、AEMからエクスペリエンスフラグメントを読み込むプロセスを適用する方法と、Target とAEMの統合要件について学習します。
+title: Target とAEMの統合方法
+description: このビデオでは、Adobe TargetとAEMを統合する方法（3 つの方法）を開発者に示します。 開発者は、AEMからエクスペリエンスフラグメントを読み込むプロセスを適用する方法と、Target とAEMの統合要件を学びます。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,15 +16,15 @@ ht-degree: 12%
 
 ---
 
-# Target とAdobe Experience Manager (AEM) の統合
+# Target とAdobe Experience Manager（AEM）の統合
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
-* Target とAEMの統合（3 つのメソッド）
-* エクスペリエンスフラグメントをAEMから読み込むプロセスを適用します
-* Target とAEMの統合に関する要件の一覧
+* Target とAEMの統合（3 つの方法）
+* AEMからエクスペリエンスフラグメントを読み込むプロセスの適用
+* Target とAEMの統合要件の列挙
 
 ## 対象オーディエンス
 
@@ -32,4 +32,4 @@ ht-degree: 12%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35147/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/experiences/offers/aem-experience-fragments.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/aem-experience-fragments.html?lang=en) を参照してください。

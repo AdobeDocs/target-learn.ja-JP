@@ -35,5 +35,5 @@ ht-degree: 66%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-詳しくは、を参照してください [クライアントサイドの実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} または [サーバーサイドの実装](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} が含まれる *[!UICONTROL Adobe Target Developer Guide]*.
+詳しくは、*[!UICONTROL Adobe Target Developer Guide]* の [ クライアントサイド実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} または [ サーバーサイド実装 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank} を参照してください。
 

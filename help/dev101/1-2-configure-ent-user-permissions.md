@@ -1,6 +1,6 @@
 ---
-title: Enterprise ユーザー権限の構成方法
-description: このビデオでは、管理者とアーキテクトが、管理者ユーザーレベルの権限を区別する方法、Target の権限を設定する方法、ワークスペースを作成してアクセスを規制する方法について説明します。
+title: Enterprise ユーザー権限の設定方法
+description: このビデオでは、管理者とアーキテクトに対して、管理者ユーザーレベルの権限の差別化、Target 権限の設定、ワークスペースの作成およびアクセスの規制の方法を説明します。
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -16,22 +16,22 @@ ht-degree: 18%
 
 ---
 
-# Enterprise ユーザーの権限の設定
+# Enterprise ユーザー権限の設定
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
 * 管理者ユーザーレベルの権限の区別
-* Target 権限の設定
-* ワークスペースの作成とアクセス権の規制
+* Target の権限の設定
+* ワークスペースの作成とアクセスの規制
 
 ## 対象オーディエンス
 
 * 管理者
 * 開発者
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/33754/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en) を参照してください。

@@ -1,6 +1,6 @@
 ---
 title: 多変量分析テストの作成方法
-description: このビデオでは、Adobe Targetで多変量分析テスト (MVT) を作成する際の主なワークフローについて説明します。 MVT を作成および解釈する手順を説明します。
+description: このビデオでは、Adobe Targetで多変量分析テスト（MVT）を作成するための主なワークフローについて説明します。 MVT の作成と解釈を行う手順を説明します。
 role: User
 level: Beginner
 topic: Personalization
@@ -11,7 +11,7 @@ exl-id: 1389e511-9d7a-400e-9261-8a7655beab37
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 ## 説明
 
-このビデオでは、次の方法を学習します。
+このビデオでは、次の方法を学びます。
 
-* Adobe Target Visual Experience Composer(VEC) を使用した多変量分析テスト (MVT) の作成
+* Adobe Target Visual Experience Composer （VEC）を使用した多変量分析テスト （MVT）の作成
 
-## 対象読者
+## 対象オーディエンス
 
-* 開業医
+* ビジネス従事者
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395/?quality=12)

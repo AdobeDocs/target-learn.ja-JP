@@ -1,6 +1,6 @@
 ---
-title: On-Device Decisioning とは
-description: Adobe Target on-device decisioning を使用すると、待ち時間がほぼゼロのコンテンツ配信が可能になります。 オンデバイス判定と有効化の方法については、このビデオをご覧ください。
+title: オンデバイス判定とは
+description: Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コンテンツ配信が可能になります。 オンデバイス判定とその有効化方法については、このビデオをご覧ください。
 role: Architect
 level: Beginner
 topic: Architecture, Development
@@ -11,8 +11,8 @@ kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 4%
+source-wordcount: '174'
+ht-degree: 3%
 
 ---
 
@@ -20,28 +20,28 @@ ht-degree: 4%
 
 ## 説明
 
-Adobe Target on-device decisioning を使用すると、待ち時間がほぼゼロのコンテンツ配信が可能になります。 この 7 分間のビデオ：
+Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コンテンツ配信が可能になります。 この 7 分間のビデオでは、
 
-* Target 実装の他の方法との比較方法を含む、オンデバイス判定について説明します。
+* Target 実装の他の方法との比較など、オンデバイス判定について説明します。
 * Target でオンデバイス判定を有効にする方法を示します
-* JSON コンテンツを使用して設定されたサンプルのフォームベースのコンポーザーアクティビティを調べます。
+* JSON コンテンツで設定されたフォームベースのコンポーザーアクティビティのサンプルを調べます
 * オンデバイス判定に必要なキー設定を含む Node.JS SDK コードのサンプルを示します
-* ブラウザーでの結果を示します。
+* ブラウザーで結果を表示します。
 
 ## 目標
 
-このビデオを最後まで学習すると、次の内容を習得できます。
+このビデオを最後まで学習すると、次のことができるようになります。
 
-* オンデバイス判定とその利点の説明
-* Target でのオンデバイス判定の有効化
+* オンデバイス判定とそのメリットについて説明します
+* Target でオンデバイス判定を有効にする
 * オンデバイス判定で使用するためのフォームベースのコンポーザーアクティビティを作成する
-* オンデバイス判定に必要な SDK 設定について詳しくは、 [Adobe Target SDK ドキュメント](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* オンデバイス判定を使用して配信されるコンテンツについて、エンドユーザーが体験する内容を理解する
+* [Adobe Target SDK ドキュメントにアクセスして、オンデバイス判定に必要な SDK 設定について詳しく説明します ](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* オンデバイス判定を使用して配信されるコンテンツに対してエンドユーザーが体験する内容を理解する
 
 ## 対象オーディエンス
 
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-詳しくは、 [オンデバイス判定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} 内 *Adobe Target Developer Guide*.
+詳しくは、*Adobe Target開発者ガイド [On-device Decisioning の概要 ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja){target=_blank} を参照してください*

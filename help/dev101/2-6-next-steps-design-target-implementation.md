@@ -1,6 +1,6 @@
 ---
-title: Target 実装をデザインするための次の手順（基本事項以外）
-description: このビデオでは、Adobe Targetの開発者とアーキテクトが、タグ管理ライブラリを使用した Target の実装方法、ユーザーモデルに対するプロファイルスクリプトの関連性の説明方法、要求パラメーターとプロファイルパラメーターの使用と適用の違いを示します。
+title: 基本以外に、Target 実装を設計するための次の手順は何か
+description: このビデオでは、Adobe Target開発者およびアーキテクトを対象に、Tag Management ライブラリを使用して Target を実装する方法、プロファイルスクリプトのユーザーモデルへの関連性を説明する方法、リクエストパラメーターとプロファイルパラメーターの使用法と適用方法を区別する方法を説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -23,14 +23,14 @@ ht-degree: 10%
 このビデオでは、次の方法を学びます。
 
 * タグ管理ライブラリを使用した Target の実装
-* ユーザーモデルに対するプロファイルスクリプトの関連性の説明
-* 要求パラメーターとプロファイルパラメーターの使用と適用の区別
+* プロファイルスクリプトのユーザーモデルに対する関連性の説明
+* リクエストパラメーターとプロファイルパラメーターの使用および適用を区別する
 
 ## 対象オーディエンス
 
 * 開発者
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/35144/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en) を参照してください。

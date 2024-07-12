@@ -1,6 +1,6 @@
 ---
 title: Target リクエストの仕組み
-description: このビデオでは、Target の cookie と Target のプロファイルの有効期限について説明します。 Target リクエストの数とタイプの決定、同期デプロイメントと非同期デプロイメントの区別、ちらつき管理の説明をおこなう方法について説明します。
+description: このビデオでは、Target の Cookie とプロファイルの有効期限について説明します。 Target 要求の数とタイプを特定する方法、同期デプロイメントと非同期デプロイメントの違い、ちらつきの管理の説明について説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -22,16 +22,16 @@ ht-degree: 12%
 
 このビデオでは、次の方法を学びます。
 
-* Target の cookie と Target のプロファイルの有効期限を区別する
+* Target Cookie と Target プロファイルの有効期限要因の区別
 * リクエストの数とタイプの決定
-* 同期デプロイメントと非同期デプロイメントの違い
-* ちらつき管理の説明
+* 同期デプロイメントと非同期デプロイメントの区別
+* フリッカー管理の説明
 
 ## 対象オーディエンス
 
 * 開発者
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/35141/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en) を参照してください。

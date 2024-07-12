@@ -1,6 +1,6 @@
 ---
-title: Adobe TargetでReal-Time CDPプロファイル属性を使用する方法を教えてください。
-description: Adobe TargetでReal-time Customer Data Platformプロファイル属性を使用して、Web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。
+title: Adobe TargetでReal-Time CDP プロファイル属性を使用する方法
+description: Adobe TargetのReal-time Customer Data Platform プロファイル属性を使用して、パーソナライズされたエクスペリエンスを web サイトやモバイルアプリで提供する方法を説明します。
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 solution: Experience Platform, Target
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 ---
 
-# Adobe TargetでのReal-Time CDPプロファイル属性の使用
+# Adobe TargetでのReal-Time CDP プロファイル属性の使用
 
-Adobe TargetでAdobe Real-time Customer Data Platformプロファイル属性を使用して、Web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。 詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
+Adobe TargetのAdobe Real-time Customer Data Platform プロファイル属性を使用して、パーソナライズされたエクスペリエンスを web サイトやモバイルアプリで提供する方法を説明します。 詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)

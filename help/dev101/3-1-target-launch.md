@@ -1,6 +1,6 @@
 ---
-title: Target とタグを統合する方法
-description: Adobe Targetをタグと統合する方法を説明します。
+title: Target とタグの統合方法
+description: Adobe Targetとタグを統合する方法について説明します。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ---
 
-# タグと Target の統合
+# Target とタグの統合
 
 ## 説明
 
@@ -30,13 +30,13 @@ ht-degree: 12%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-詳しくは、 [タグのチュートリアル](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en).
+詳しくは、[ タグのチュートリアル ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en) を参照してください。
 
 >[!NOTE]
 >
->Adobe Experience Platform Launchは、データ収集テクノロジーのスイートとしてAdobe Experience Platformに統合されました。 このコンテンツを使用する際に注意が必要な、いくつかの用語の変更がインターフェイスにロールアウトされました。
+>Adobe Experience Platform Launchは、データ収集テクノロジーのスイートとしてAdobe Experience Platformに統合されています。 このコンテンツを使用する際に注意する必要があるインターフェイスで、いくつかの用語がロールアウトされました。
 >
-> * Platform launch（クライアント側）が **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)**
-> * Platform launchサーバー側が **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
-> * エッジ設定が **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
+> * Platform launch（クライアントサイド）が **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)** になりました
+> * Platform launchサーバーサイドが **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)** になりました
+> * Edgeの設定が **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)** になりました
 

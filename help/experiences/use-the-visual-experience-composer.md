@@ -17,7 +17,7 @@ ht-degree: 42%
 
 ---
 
-# の使用 [!UICONTROL Visual Experience Composer] Adobe Target内
+# Adobe Targetでの [!UICONTROL Visual Experience Composer] の使用
 
 ## 説明
 

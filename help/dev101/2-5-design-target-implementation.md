@@ -1,6 +1,6 @@
 ---
-title: Target 実装をデザインする方法
-description: このビデオでは、Adobe Targetの開発者とアーキテクトに対し、標準サイト（複数ページ）とシングルページアプリ (SPA) 環境の実装の違いについて説明します。 人ベースのキャンペーン (mbox3rdPartyID) を実装するプロセスを適用する方法、システムアーキテクチャや設計に関するドキュメントで関連情報を特定する方法、および実装に影響を与えるレポート戦略を分析する方法について説明します。
+title: Target 実装の設計方法
+description: このビデオでは、Adobe Targetの開発者とアーキテクトを対象に、標準サイト（複数ページ）環境とシングルページアプリ（SPA）環境の実装の違いについて説明します。 人物ベースのキャンペーン（mbox3rdPartyID）を実装するプロセスを適用する方法、システムアーキテクチャや設計ドキュメントに関連情報を特定する方法、実装の影響に関するレポート戦略を分析する方法について説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -16,22 +16,22 @@ ht-degree: 9%
 
 ---
 
-# Target 実装のデザイン
+# Target 実装の設計
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
-* 標準サイト（複数ページ）とシングルページアプリ (SPA) 環境での実装の違いの特定
-* プロセスを適用して、ユーザーベースのキャンペーン (mbox3rdPartyID) を実装する
-* システムアーキテクチャ/設計ドキュメントの関連情報を特定
-* 実装に影響を与えるレポート戦略の分析
+* 標準サイト（複数ページ）環境とシングルページアプリ（SPA）環境の実装の違いの特定
+* 人物ベースのキャンペーン（mbox3rdPartyID）を実装するプロセスの適用
+* システム・アーキテクチャ/設計ドキュメントで関連情報を特定
+* 実装の影響に関するレポート戦略の分析
 
 ## 対象オーディエンス
 
 * 開発者
-* アーキテクト
+* 建築士
 
 >[!VIDEO](https://video.tv.adobe.com/v/35143/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en) を参照してください。

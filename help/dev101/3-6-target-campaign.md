@@ -1,6 +1,6 @@
 ---
 title: Target と Campaign の統合方法
-description: Adobe TargetとAdobe Campaignの統合方法を説明します。
+description: Adobe TargetとAdobe Campaignを統合する方法について説明します。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,4 +30,4 @@ ht-degree: 25%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en) を参照してください。

@@ -1,6 +1,6 @@
 ---
-title: mbox エラーのトラブルシューティング方法
-description: このビデオでは、Adobe Target開発者がレコメンデーションの一般的なコンソールログエラーとエンティティパラメーターを示します。 本文の事前非表示スニペットの問題のトラブルシューティング方法と、トレース出力の検査方法と理解方法について説明します。
+title: Mbox エラーのトラブルシューティング方法
+description: このビデオでは、Adobe Target開発者に対し、レコメンデーションで発生する一般的なコンソールログエラーとエンティティパラメーターについて説明します。 本文をあらかじめ非表示にするスニペットの問題のトラブルシューティング方法と、トレース出力を調べて理解する方法について説明します。
 role: Developer
 level: Intermediate
 topic: Performance
@@ -22,8 +22,8 @@ ht-degree: 13%
 
 このビデオでは、次の方法を学びます。
 
-* レコメンデーションの一般的なコンソールログエラーとエンティティパラメーターの説明
-* 本文の事前非表示スニペットの問題のトラブルシューティング
+* レコメンデーションに関する一般的なコンソールログエラーとエンティティパラメーターの説明
+* 本文があらかじめ非表示になるスニペットの問題のトラブルシューティング
 * Inspectとトレース出力の理解
 
 ## 対象オーディエンス
@@ -32,4 +32,4 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35153/?quality=12)
 
-詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en) を参照してください。
