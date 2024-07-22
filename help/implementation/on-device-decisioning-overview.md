@@ -9,10 +9,10 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
+source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コ�
 * オンデバイス判定とそのメリットについて説明します
 * Target でオンデバイス判定を有効にする
 * オンデバイス判定で使用するためのフォームベースのコンポーザーアクティビティを作成する
-* [Adobe Target SDK ドキュメントにアクセスして、オンデバイス判定に必要な SDK 設定について詳しく説明します ](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* [Adobe Target SDK ドキュメントにアクセスして、オンデバイス判定に必要な SDK 設定について詳しく説明します ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * オンデバイス判定を使用して配信されるコンテンツに対してエンドユーザーが体験する内容を理解する
 
 ## 対象オーディエンス
