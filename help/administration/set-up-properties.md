@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 53596f912f08019c992b53b9cb695173802d16b6
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 30%
+source-wordcount: '61'
+ht-degree: 21%
 
 ---
 
@@ -27,5 +27,12 @@ ht-degree: 30%
 ## 対象オーディエンス
 
 * 管理者
+
+## 要件
+
+ユーザーがプロパティを作成するには、次の権限が必要です。
+
+* 製品管理者（製品プロファイル管理者と混同しないこと）
+* システム管理者
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
