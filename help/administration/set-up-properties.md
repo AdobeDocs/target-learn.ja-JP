@@ -9,24 +9,24 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 1b68c92b64324e8f515e22a821ec4f600bdcae47
+source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 14%
+source-wordcount: '88'
+ht-degree: 13%
 
 ---
 
-# Adobe Targetでのプロパティの設定
+# [!DNL Adobe Target] でのプロパティの設定
 
 ## 説明
 
 このビデオでは、次の方法を学びます。
 
-* Adobe Targetでのプロパティの作成
+* [!DNL Adobe Target] でのプロパティの作成
 
 ## 対象オーディエンス
 
-* 管理者
+* Administrator
 
 ## 要件
 
@@ -35,11 +35,10 @@ ht-degree: 14%
 * 製品管理者（製品プロファイル管理者と混同しないこと）
 * システム管理者
 
-## ビデオ：Adobe Target インターフェイス内でプロパティを作成する方法
+## ビデオ：[!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
 
 >[!NOTE]
 >
 >このビデオの録画以降、[!DNL Target] UI が更新されました。 新しいビデオが使用可能になるまで、プロパティを作成するパスは **[!UICONTROL Administration]**/**[!UICONTROL Properties]**/**[!UICONTROL Create Property]** になります。
-
