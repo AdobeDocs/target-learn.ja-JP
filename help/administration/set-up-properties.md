@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->このビデオの録画以降、[!DNL Target] UI が更新されました。 新しいビデオが使用可能になるまで、プロパティを作成するパスは **[!UICONTROL Administration]**/**[!UICONTROL Properties]**/**[!UICONTROL Create Property]** になります。
+>このビデオの収録以降、[!DNL Target] UI が更新されました。 プロパティを作成するには、[!UICONTROL Administration] / [!UICONTROL Properties] / [!UICONTROL Create Property] に移動します。 新しいビデオが間もなく利用できるようになります。
