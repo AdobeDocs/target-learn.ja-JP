@@ -1,6 +1,6 @@
 ---
 title: プロファイル比較を使用したオーディエンスの構築方法
-description: このビデオでは、Adobe Target ユーザーがオーディエンスを構築する際に、プロファイル比較機能を使用して 2 つのプロファイルの数値を相互に比較する方法を説明します。
+description: オーディエンスの構築時にプロファイル比較を使用して 2 つのプロファイルの数値を相互に比較する方法を説明します。
 role: User
 level: Experienced
 topic: Personalization
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 85%
+source-wordcount: '132'
+ht-degree: 68%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 85%
 
 Adobe Targetの [!UICONTROL Profile Comparison] 機能を使用すると、オーディエンスの構築時に 2 つのプロファイルの数値を相互に比較できます。 これは、例えば、カスタム設計された傾向スコアを [!DNL Target] に渡し、最も傾向スコアの高い製品に基づいてコンテンツをパーソナライズする場合に非常に役立ちます。
 
-## 説明
+## 学習内容
 
 このビデオでは、次の方法を学びます。
 
 * Adobe Target に渡されたプロファイルの数値（スコア）の比較方法
 * これらのスコア比較を使用したオーディエンスの定義方法
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

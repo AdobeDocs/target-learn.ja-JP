@@ -9,23 +9,21 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 2%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
 # オンデバイス判定の概要
-
-## 説明
 
 Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コンテンツ配信が可能になります。 この 7 分間のビデオでは、
 
 * Target 実装の他の方法との比較など、オンデバイス判定について説明します。
 * Target でオンデバイス判定を有効にする方法を示します
 * JSON コンテンツで設定されたフォームベースのコンポーザーアクティビティのサンプルを調べます
-* オンデバイス判定に必要なキー設定を含む Node.JS SDK コードのサンプルを示します
+* オンデバイス判定に必要なキー設定を含む、サンプルの Node.JS SDK コードを示します
 * ブラウザーで結果を表示します。
 
 ## 目標
@@ -35,10 +33,10 @@ Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コ�
 * オンデバイス判定とそのメリットについて説明します
 * Target でオンデバイス判定を有効にする
 * オンデバイス判定で使用するためのフォームベースのコンポーザーアクティビティを作成する
-* [Adobe Target SDK ドキュメントにアクセスして、オンデバイス判定に必要な SDK 設定について詳しく説明します ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* オンデバイス判定に必要なSDK設定について詳しくは、[Adobe Target SDKのドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * オンデバイス判定を使用して配信されるコンテンツに対してエンドユーザーが体験する内容を理解する
 
-## 対象オーディエンス
+## 対象読者
 
 * 建築士
 

@@ -1,6 +1,6 @@
 ---
 title: 実装戦略とシステムガバナンスへのアプローチ方法
-description: このビデオでは、管理者とアーキテクトを対象に、Adobe Target の管理と実装における重要な概念について説明します。 このビデオでは、ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を示します。
+description: ガバナンスのベストプラクティスを特定して適用する方法を説明し、Target の実装要件を示します。
 landing-page-description: このビデオでは、ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を示します。
 short-description: このビデオでは、ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を示します。
 role: Admin, Developer, Architect
@@ -11,16 +11,14 @@ doc-type: technical video
 kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 68%
+source-wordcount: '98'
+ht-degree: 45%
 
 ---
 
 # 実装戦略とシステムガバナンス
-
-## 説明
 
 このビデオでは、次の方法を学びます。
 
@@ -28,7 +26,7 @@ ht-degree: 68%
 * ガバナンスのベストプラクティスの特定と適用
 * Target の実装要件のリスト
 
-## 対象オーディエンス
+## 対象読者
 
 * 管理者
 * 開発者

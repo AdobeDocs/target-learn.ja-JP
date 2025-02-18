@@ -1,6 +1,6 @@
 ---
-title: Target とDynamic Mediaを統合する方法（Scene7）
-description: Adobe TargetとDynamic Media（Scene7）を統合する方法について説明します。
+title: Target と Dynamic Media の統合方法（Scene7）
+description: Adobe Targetと Dynamic Media （Scene7）を統合する方法を説明します。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5388
 thumbnail: 35148.jpg
 exl-id: 9f017d6a-477f-420c-bf90-b25df0a9c147
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 22%
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 
-# Target とDynamic Mediaの統合（Scene7）
-
-## 説明
+# Target と Dynamic Media の統合（Scene7）
 
 このビデオでは、次の方法を学びます。
 
-* Adobe TargetとDynamic Mediaの統合（Scene7）
+* Adobe Targetと Dynamic Media （Scene7）の統合
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 

@@ -1,6 +1,6 @@
 ---
 title: ハイブリッドデプロイメントオプション
-description: このビデオでは、Adobe Target独自のパーソナライゼーションハイブリッドデプロイメントモデル（クライアントサイドとサーバーサイドの実装を組み合わせる）について説明します。
+description: クライアントサイドとサーバーサイドの実装を組み合わせた、パーソナライゼーションを実現するAdobe Target独自のハイブリッドデプロイメントモデルについて説明します。
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 4%
+source-wordcount: '123'
+ht-degree: 3%
 
 ---
 
 # Adobe Target ハイブリッドデプロイメント
 
-Adobe Targetは、パーソナライゼーションのための独自のハイブリッドデプロイメントモデルを提供し、クライアントサイドとサーバーサイドの実装を組み合わせます。 このハイブリッドモデルを使用すると、技術者以外のユーザーでも WYSIWYG Visual Experience Composer を使用して実験やパーソナライゼーションアクティビティを作成でき、エクスペリエンスをサーバーサイドで実行、配信、レンダリングして、パフォーマンスの高い配信を行うことができます。
+Adobe Targetは、クライアントサイドとサーバーサイドを組み合わせたパーソナライゼーション実装を実現する、独自のハイブリッドデプロイメントモデルを提供します。 このハイブリッドモデルを使用すると、技術者以外のユーザーでも、WYSIWYG Visual Experience Composer を使用して実験やパーソナライゼーションアクティビティを作成でき、エクスペリエンスをサーバーサイドで実行、配信、レンダリングして、パフォーマンスの高い配信を実現できます。
 
 ## 目標
 
@@ -28,7 +28,7 @@ Adobe Targetは、パーソナライゼーションのための独自のハイ�
 * ハイブリッドデプロイメントのメリットを理解する
 * ハイブリッドデプロイメントによって可能になるサーバーコールの減少を確認します
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 * 建築士

@@ -1,5 +1,5 @@
 ---
-title: A/B テストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendations オファーの使用方法
+title: A/B テストおよびエクスペリエンスのターゲット設定アクティビティでの Recommendations オファーの使用方法
 description: Adobe Targetの A/B テストおよびエクスペリエンスのターゲット設定アクティビティで、Recommendations オファーを使用する方法を説明します。
 role: User
 level: Intermediate
@@ -8,16 +8,16 @@ feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 1%
 
 ---
 
-# A/B テストおよびエクスペリエンスのターゲット設定アクティビティでのRecommendations オファーの使用
+# A/B テストおよびエクスペリエンスのターゲット設定アクティビティでの Recommendations オファーの使用
 
-Recommendations オファーは、「A/B テスト」および「エクスペリエンスのターゲット設定」アクティビティで使用できます。 この機能により、豊富な機能が開かれ、次のことが可能になります。
+Recommendations オファーは、A/B テストおよびエクスペリエンスのターゲット設定アクティビティで使用できます。 この機能により、豊富な機能が開かれ、次のことが可能になります。
 
 * レコメンデーションとレコメンデーション以外のコンテンツを同じアクティビティ内で混在させる
 * 複数のレコメンデーションの順序を含め、ページ上のレコメンデーションの配置を簡単に試すことができます
@@ -28,5 +28,5 @@ Recommendations オファーは、「A/B テスト」および「エクスペリ
 
 ## その他のリソース
 
-* [ オファードキュメントとしてのRecommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
-* [Recommendations アクティビティのビデオの作成](create-a-recommendations-activity.md)
+* [ オファードキュメントとしての Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Recommendations アクティビティの作成ビデオ](create-a-recommendations-activity.md)

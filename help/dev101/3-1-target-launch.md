@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5385
 thumbnail: 35145.jpg
 exl-id: 46230e24-b6e8-4f10-8669-2df519d03b87
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 12%
+source-wordcount: '97'
+ht-degree: 9%
 
 ---
 
 # Target とタグの統合
 
-## 説明
-
 このビデオでは、次の方法を学びます。
 
 * Adobe Targetとタグの統合
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 
@@ -36,7 +34,7 @@ ht-degree: 12%
 >
 >Adobe Experience Platform Launchは、データ収集テクノロジーのスイートとしてAdobe Experience Platformに統合されています。 このコンテンツを使用する際に注意する必要があるインターフェイスで、いくつかの用語がロールアウトされました。
 >
-> * Platform launch（クライアントサイド）が **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)** になりました
-> * Platform launchサーバーサイドが **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)** になりました
+> * Platform Launch（クライアントサイド）は **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)** になりました
+> * Platform Launch サーバーサイドが **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)** になりました
 > * Edgeの設定が **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)** になりました
 

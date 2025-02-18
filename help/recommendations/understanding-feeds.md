@@ -1,5 +1,5 @@
 ---
-title: Recommendationsのフィードとは
+title: Recommendations のフィードとは
 description: Adobe Target Recommendations フィードの概要と使用方法について説明します
 role: User
 level: Intermediate
@@ -8,22 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 43%
+source-wordcount: '70'
+ht-degree: 42%
 
 ---
 
-# Recommendationsのフィードについて
+# Recommendations のフィードについて
 
-## 説明
+## 学習内容
 
 このビデオでは、次の方法を学びます。
 
 * フィードとは何かを説明し、フィードの使用方法を理解する
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

@@ -9,25 +9,25 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Adobe Targetの at.js 2.0 のシングルページアプリケーションへの実装（SPA）
+# Adobe Targetの at.js 2.0 のシングルページアプリケーション（SPA）への実装
 
-Adobe Target `at.js` 2.0 には、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行できる豊富な機能セットが用意されています。 このバージョンは、シングルページアプリケーション（SPA）との調和のとれたインタラクションを実現するために、`at.js` をアップグレードすることに重点を置いています。
+Adobe Target `at.js` 2.0 には、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行できる豊富な機能セットが用意されています。 このバージョンは、`at.js` をアップグレードして、単一ページアプリケーション（SPA）との調和のとれたインタラクションを実現することに重点を置いています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## SPAでの at.js 2.0 の実装方法
+## SPA への at.js 2.0 の実装方法
 
 * シングルページアプリケーションの &lt;head> に `at.js` 2.0 を実装します。
-* SPAでビューが変更されるたびに `adobe.target.triggerView()` 関数を実装します。 これを行うには、URL ハッシュの変更をリッスンする、SPAによって実行されるカスタムイベントをリッスンする、`triggerView()` コードをアプリケーションに直接埋め込むなど、様々な手法を採用できます。 特定の単一ページアプリケーションに最適なオプションを選択してください。
+* SPA でビューが変更されるたびに `adobe.target.triggerView()` 関数を実装します。 これを行うには、URL ハッシュの変更をリッスンする、SPA によって実行されるカスタムイベントをリッスンする、`triggerView()` コードをアプリケーションに直接埋め込むなど、様々な手法を採用できます。 特定の単一ページアプリケーションに最適なオプションを選択してください。
 * ビュー名は、`triggerView()` 関数の最初のパラメーターです。 Target の Visual Experience Composer で簡単に選択できるように、シンプル、明確、一意の名前を使用します。
-* ビューのトリガーは、小さなビューの変化の場合と、SPA以外のコンテキスト（無限スクロールのページの半分の下など）の場合があります。
+* ビューのトリガーは、小さなビューの変化の場合と、SPA 以外のコンテキスト（無限スクロールのページの半分の下など）の場合があります。
 * `at.js` 2.0 以 `triggerView()` は、Adobe Experience Platform Launchなどのタグ管理ソリューションを通じて実装できます。
 
 ## at.js 2.0 の制限
@@ -40,7 +40,7 @@ Adobe Target `at.js` 2.0 には、次世代のクライアントサイドテク�
 
 ## ビデオで使用されているライブラリフッターコード
 
-ビデオの再生中に、`at.js` ライブラリのライブラリフッターセクションに次のコードが追加されました。 これは、アプリが最初に読み込まれ、次にアプリ内のハッシュが変更されたときに起動されます。 クリーンアップされたバージョンのハッシュをビュー名として使用し、ハッシュが空の場合は「home」を使用します。 SPAを識別するために、コードは URL 内で「react/」というテキストを探します。このテキストはサイト上で更新する必要がある可能性が高くなります。 また、SPAでカスタムイベントから `triggerView()` を実行するか、アプリに直接コードを埋め込む方が適切な場合があることに注意してください。
+ビデオの再生中に、`at.js` ライブラリのライブラリフッターセクションに次のコードが追加されました。 これは、アプリが最初に読み込まれ、次にアプリ内のハッシュが変更されたときに起動されます。 クリーンアップされたバージョンのハッシュをビュー名として使用し、ハッシュが空の場合は「home」を使用します。 SPA を識別するために、コードは URL 内で「react/」というテキストを探します。このテキストはサイトで更新する必要がある可能性が高くなります。 また、SPA では、カスタムイベントから `triggerView()` を実行するか、アプリに直接コードを埋め込むほうが適切な場合があることに注意してください。
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -74,4 +74,4 @@ window.onhashchange = function() {
 ## その他のリソース
 
 * [at.js 2.0 の仕組みについて（アーキテクチャ図） ](understanding-how-atjs-20-works.md)
-* [Adobe Target Visual Experience Composer for Single Page Applications （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Adobe Targetのシングルページアプリケーション用 Visual Experience Composer （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

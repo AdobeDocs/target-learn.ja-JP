@@ -1,6 +1,6 @@
 ---
 title: アクティビティターゲティングの使用方法
-description: Adobe Targetには、アクティビティが実稼働したときに様々なオーディエンスに表示されるエクスペリエンスを制御するための様々なレバーが用意されています。 オーディエンスとトラフィック配分を使用して、誰に何を表示するかを制御する方法を説明します。
+description: アクティビティが実稼働したときに、様々なオーディエンスに表示されるエクスペリエンスを制御するための様々なレバーについて説明します。
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities, Audiences
 doc-type: feature video
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 45%
+source-wordcount: '58'
+ht-degree: 51%
 
 ---
 
-# アクティビティのターゲティングを使用
-
-## 説明
+# アクティビティのターゲティングの使用
 
 このビデオでは、次の方法を学びます。
 
@@ -26,7 +24,7 @@ ht-degree: 45%
 * トラフィック配分方法の選択
 * 様々なエクスペリエンスへのトラフィック配分
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

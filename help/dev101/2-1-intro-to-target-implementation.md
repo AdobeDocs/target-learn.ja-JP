@@ -1,8 +1,7 @@
 ---
 title: Target の実装方法
-description: このビデオでは、Adobe Target の開発者とアーキテクトを対象に、Target の実装について説明します。 このビデオでは、Target 実装の様々なテクノロジーとベストプラクティスについて説明します。
-landing-page-description: このビデオでは、Target 実装の様々なテクノロジーとベストプラクティスについて説明します。
-short-description: このビデオでは、Target 実装の様々なテクノロジーとベストプラクティスについて説明します。
+description: 様々なAdobe Target実装テクノロジーについて説明し、Target の実装のベストプラクティスを採用します。
+landing-page-description: 様々なAdobe Target実装テクノロジーについて説明し、Target の実装のベストプラクティスを採用します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -11,16 +10,14 @@ doc-type: technical video
 kt: 5379
 thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 66%
+source-wordcount: '73'
+ht-degree: 12%
 
 ---
 
 # Adobe Target実装の概要
-
-## 説明
 
 このビデオでは、次の方法を学びます。
 
@@ -28,7 +25,7 @@ ht-degree: 66%
 * Target 実装テクノロジーの説明
 * Target 実装のベストプラクティスの採用
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 * 建築士

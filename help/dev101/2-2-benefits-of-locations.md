@@ -1,6 +1,6 @@
 ---
 title: 場所を使用するメリット
-description: このビデオでは、Adobe Target実装でロケーションを使用するメリットについて説明します。 特定のシナリオに最適な実装タイプを選択する方法については、このビデオをご覧ください。
+description: 特定のシナリオに最適なAdobe Target実装タイプを選択する方法を説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,23 +9,21 @@ doc-type: technical video
 kt: 5380
 thumbnail: 35140.jpg
 exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 14%
+source-wordcount: '61'
+ht-degree: 13%
 
 ---
 
 # 場所を使用するメリット
-
-## 説明
 
 このビデオでは、次の方法を学びます。
 
 * Target 実装でロケーションを使用するメリットの説明
 * 特定のシナリオに最適な実装タイプを選択
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 * 建築士

@@ -9,16 +9,14 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 25%
+source-wordcount: '69'
+ht-degree: 21%
 
 ---
 
 # Adobe Targetでのフォームベースの Experience Composer の使用
-
-## 説明
 
 このビデオでは、次の方法を学びます。
 
@@ -26,7 +24,7 @@ ht-degree: 25%
 * Visual Experience Composer （VEC）ではなく、フォームベースのコンポーザーを使用するタイミングについて説明します
 * 場所のターゲット設定の調整
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

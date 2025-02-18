@@ -1,6 +1,6 @@
 ---
 title: Target リクエストの仕組み
-description: このビデオでは、Target の Cookie とプロファイルの有効期限について説明します。 Target 要求の数とタイプを特定する方法、同期デプロイメントと非同期デプロイメントの違い、ちらつきの管理の説明について説明します。
+description: Adobe Target リクエストの数とタイプを特定する方法、同期デプロイメントと非同期デプロイメントの違い、ちらつきの管理について説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 12%
+source-wordcount: '74'
+ht-degree: 10%
 
 ---
 
-# Target リクエストの概要
-
-## 説明
+# [!DNL Target] リクエストの概要
 
 このビデオでは、次の方法を学びます。
 
@@ -27,7 +25,7 @@ ht-degree: 12%
 * 同期デプロイメントと非同期デプロイメントの区別
 * フリッカー管理の説明
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 * 建築士

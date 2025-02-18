@@ -1,6 +1,6 @@
 ---
-title: Recommendationsでフィードを作成する方法
-description: Adobe Target Recommendationsでデータフィードを作成する方法を説明します
+title: Recommendations でのフィードの作成方法
+description: Adobe Target Recommendations でデータフィードを作成する方法を学ぶ
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,22 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 43%
+source-wordcount: '68'
+ht-degree: 42%
 
 ---
 
-# Adobe Target Recommendationsでのフィードの作成
+# Adobe Target Recommendations でのフィードの作成
 
-## 説明
+## 学習内容
 
 このビデオでは、次の方法を学びます。
 
-* Adobe Target Recommendationsでのデータフィードの作成
+* Adobe Target Recommendations でのデータフィードの作成
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

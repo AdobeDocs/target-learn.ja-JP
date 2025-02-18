@@ -1,6 +1,6 @@
 ---
 title: シングルページアプリケーション用 Visual Experience Composer（SPA VEC）の使用方法
-description: このビデオでは、マーケター向けに、単一ページアプリケーション用 Adobe Target Visual Experience Composer（SPA VEC）について説明しています。SPA VEC を使用してアクティビティを作成する方法についても、このビデオで学習できます。
+description: シングルページアプリケーション用Adobe Target Visual Experience Composer （SPA VEC）について説明します。 SPA VEC を使用してアクティビティを作成する方法について説明します。
 role: User
 level: Beginner
 topic: SPA, Personalization
@@ -9,28 +9,26 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 86%
+source-wordcount: '191'
+ht-degree: 59%
 
 ---
 
 # Adobe Targetでのシングルページアプリケーション（SPA VEC）の [!UICONTROL Visual Experience Composer] の使用
 
-SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。VEC では、React や Angular など人気のあるフレームワークで作成されたアプリで、A/B テストやエクスペリエンスターゲット設定（XT）アクティビティを作成することが可能です。SPA VEC を使用してアクティビティを作成する方法については、次のビデオをご覧ください。
-
-## 概要
+SPA VEC を使用すると、開発部門に継続的に依存することなく、マーケターが自ら SPA でテストを作成したりコンテンツをパーソナライズしたりできます。
 
 * SPA VEC を使用して、A/B テスト、自動配分テスト、エクスペリエンスのターゲット設定（XT）アクティビティを作成できます。
 * SPA VEC では、自動ターゲット、Automated Personalization、レコメンデーションの各アクティビティをサポートしていません。
-* SPA VEC では、A4T、[!UICONTROL Experience Cloud Audiences] および [!UICONTROL Customer Attributes] の統合をサポートしています
+* SPA VEC では、A4T、[!UICONTROL Experience Cloud Audiences] および [!UICONTROL Customer Attributes] 統合をサポートしています。
 * すべての VEC アクションが、カスタムコードを含むシングルページアプリでサポートされています。
 * VEC アクションは、単一ビューまたはページ読み込みイベントに適用できます。
 * [!UICONTROL Additional Pages] オプションを使用しなくても、様々なビューに様々な変更を追加できます。
 * `at.js 2.0+` および `adobe.target.triggerView()` 関数は、SPA VEC を使用する前に、アプリに実装する必要があります。
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 

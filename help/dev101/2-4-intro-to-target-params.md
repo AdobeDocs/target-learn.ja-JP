@@ -1,6 +1,6 @@
 ---
 title: パラメーターの管理および実装方法
-description: このビデオでは、Adobe Target アーキテクトとデベロッパーがリクエストパラメーターとプロファイルパラメーターを区別する方法、JavaScriptとタグ管理システムを使用してリクエストを設定およびトリガーする方法、モバイル、メールのターゲティング、API の実装要件について説明します。
+description: リクエストパラメーターとプロファイルパラメーターを区別する方法、JavaScriptと tag management システムを使用してリクエストを設定しトリガーする方法について説明します。 モバイル、電子メールのターゲティング、API の実装要件を理解します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5382
 thumbnail: 35142.jpg
 exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '84'
+ht-degree: 9%
 
 ---
 
-# Target パラメーターの概要
-
-## 説明
+# [!DNL Target] パラメーターの概要
 
 このビデオでは、次の方法を学びます。
 
@@ -26,7 +24,7 @@ ht-degree: 11%
 * JavaScriptおよび tag management システムを使用したリクエストの設定とトリガー
 * モバイル、電子メールのターゲティング、API の実装要件のリスト
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 * 建築士

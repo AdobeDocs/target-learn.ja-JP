@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5391
 thumbnail: 35151.jpg
 exl-id: 2d4eb4c9-912d-48c7-a048-5269aa68adb5
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 23%
+source-wordcount: '43'
+ht-degree: 18%
 
 ---
 
-# Target とAudience Managerの統合
-
-## 説明
+# [!DNL Target] と [!DNL Audience Manager] の統合
 
 このビデオでは、次の方法を学びます。
 
 * Adobe TargetとAdobe Audience Managerの統合
 
-## 対象オーディエンス
+## 対象読者
 
 * 開発者
 

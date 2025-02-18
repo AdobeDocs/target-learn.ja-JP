@@ -8,22 +8,20 @@ feature: Administration & Configuration
 doc-type: feature video
 kt: null
 exl-id: 42ba0e3e-f6db-49d5-a1e9-89181805a123
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '50'
+ht-degree: 16%
 
 ---
 
-# Adobe Targetでアカウント環境設定を行う
-
-## 説明
+# Adobe Targetでアカウントの環境設定を行います
 
 このビデオでは、次の方法を学びます。
 
 * Adobe Targetの様々なアカウント設定の説明
 
-## 対象オーディエンス
+## 対象読者
 
 * 管理者
 

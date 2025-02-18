@@ -1,6 +1,6 @@
 ---
 title: Target の管理方法
-description: このビデオでは、Adobe Target管理者に対して、アカウントの環境設定、プロパティの作成、ホストと環境の作成方法を示します。 Target UI 実装設定の説明方法を説明します。
+description: アカウントの環境設定、プロパティの作成、ホストと環境の作成の方法について説明します。 Target UI 実装設定の説明方法を説明します。
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5062
 thumbnail: 33751.jpg
 exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '66'
+ht-degree: 13%
 
 ---
 
-# 管理セットアップの概要
-
-## 説明
+# 管理設定の概要
 
 このビデオでは、次の方法を学びます。
 
@@ -27,7 +25,7 @@ ht-degree: 16%
 * ホストと環境の作成
 * Target UI 実装設定の説明
 
-## 対象オーディエンス
+## 対象読者
 
 * 管理者
 * 開発者
