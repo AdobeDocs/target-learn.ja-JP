@@ -1,6 +1,6 @@
 ---
 title: Target と Analytics の統合方法
-description: Adobe AnalyticsとAdobe Target（A4T）の実装要件について説明します。
+description: Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 landing-page-description: このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 short-description: このビデオでは、Adobe Analytics と Adobe Target の統合（A4T）の実装要件について説明します。
 role: Developer
@@ -14,7 +14,7 @@ exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 43%
+ht-degree: 55%
 
 ---
 

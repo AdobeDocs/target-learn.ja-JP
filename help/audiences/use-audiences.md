@@ -1,6 +1,6 @@
 ---
 title: オーディエンスとは何ですか？また、オーディエンスの使用方法は？
-description: オーディエンスを使用してアクティビティをターゲット設定し、レポートをフィルタリングする方法について説明します。
+description: オーディエンスを使用してアクティビティをターゲティングしたりレポートをフィルタリングしたりする方法について説明します。
 landing-page-description: オーディエンスの定義、オーディエンスの検索、アクティビティのターゲット設定およびレポートのフィルタリングについて説明します。
 short-description: オーディエンスの定義、オーディエンスの検索、アクティビティのターゲット設定およびレポートのフィルタリングについて説明します。
 role: User
@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 52%
+ht-degree: 63%
 
 ---
 

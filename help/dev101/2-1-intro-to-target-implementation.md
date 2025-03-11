@@ -1,7 +1,7 @@
 ---
 title: Target の実装方法
-description: 様々なAdobe Target実装テクノロジーについて説明し、Target の実装のベストプラクティスを採用します。
-landing-page-description: 様々なAdobe Target実装テクノロジーについて説明し、Target の実装のベストプラクティスを採用します。
+description: Adobe Target 実装の様々なテクノロジーと Target 実装のベストプラクティスについて説明します。
+landing-page-description: Adobe Target 実装の様々なテクノロジーと Target 実装のベストプラクティスについて説明します。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 12%
+ht-degree: 47%
 
 ---
 

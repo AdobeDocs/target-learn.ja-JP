@@ -1,6 +1,6 @@
 ---
 title: Visual Experience Composer （VEC）の使用方法
-description: VEC を使用してアクティビティを作成する方法を説明します。
+description: VEC を使用してアクティビティを作成する方法について説明します。
 landing-page-description: これらのビデオでは、Visual Experience Composer（VEC）を使用してアクティビティを作成する方法について説明します。
 short-description: これらのビデオでは、Visual Experience Composer（VEC）を使用してアクティビティを作成する方法について説明します。
 role: User
@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 

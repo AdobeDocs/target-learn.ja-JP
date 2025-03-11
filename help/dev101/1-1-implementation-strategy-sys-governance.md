@@ -1,6 +1,6 @@
 ---
 title: 実装戦略とシステムガバナンスへのアプローチ方法
-description: ガバナンスのベストプラクティスを特定して適用する方法を説明し、Target の実装要件を示します。
+description: ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を一覧表示します。
 landing-page-description: このビデオでは、ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を示します。
 short-description: このビデオでは、ガバナンスのベストプラクティスを特定して適用する方法を説明すると共に、Target の実装要件を示します。
 role: Admin, Developer, Architect
@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 45%
+ht-degree: 60%
 
 ---
 
