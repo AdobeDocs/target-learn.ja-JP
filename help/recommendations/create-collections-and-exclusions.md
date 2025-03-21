@@ -8,23 +8,23 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: 342e02562b5296871638c1120114214df6115809
-workflow-type: ht
-source-wordcount: '71'
-ht-degree: 100%
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 97%
 
 ---
 
 # Recommendations でのコレクションと除外の作成
 
-## 説明
+## 学習内容
 
 このビデオでは、次の方法を学びます。
 
 * コレクションの作成
 * 除外の作成
 
-## 対象オーディエンス
+## 対象読者
 
 * ビジネス従事者
 
