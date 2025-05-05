@@ -57,7 +57,7 @@ ht-degree: 1%
 
 この置換により、A4T パネルのデフォルトの [!UICONTROL Lift and Confidence] 計算が無効になることに注意してください。 混乱を避けるために、次のレポートを残して、これらの指標をデフォルトパネルから削除できます。
 
-[!DNL Analysis Workspace]](assets/Figure2.png) の ![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png) の [!UICONTROL Experiences by Activity Conversions] パネル
 
 *図 2:[!DNL Auto-Target] アクティビティに対して推奨されるベースラインレポート。 このレポートは、（アンサンブル ML モデルによって提供される）ターゲットトラフィックを制御トラフィックと比較するように設定されています。*
 
@@ -69,13 +69,13 @@ ht-degree: 1%
 
 アンサンブル ML モデルのパフォーマンスをさらに詳しく理解するには、**[!UICONTROL Control vs Targeted]** ディメンションのエクスペリエンスレベルの分類を調べることができます。 [!DNL Analysis Workspace] では、**[!UICONTROL Target Experiences]** ディメンションをレポートにドラッグしてから、コントロールおよびターゲットの各ディメンションを別々に分類します。
 
-[!DNL Analysis Workspace]](assets/Figure3.png) の ![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png) の [!UICONTROL Experiences by Activity Conversions] パネル
 
 *図 3：ターゲットエクスペリエンスによるターゲットディメンションの分類*
 
 結果のレポートの例を次に示します。
 
-[!DNL Analysis Workspace]](assets/Figure4.png) の ![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png) の [!UICONTROL Experiences by Activity Conversions] パネル
 
 *図 4：エクスペリエンスレベルの分類を含む標準 [!UICONTROL Auto-Target] レポート。 目標指標は異なる場合があり、制御戦略は 1 つのエクスペリエンスである可能性があることに注意してください。*
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 最終的なパネルは次のように表示されます。
 
-[!DNL Analysis Workspace]](assets/Figure6.png) の ![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png) の [!UICONTROL Experiences by Activity Conversions] パネル
 
 *図 6: [!UICONTROL Visits] 指標に適用された「特定の自動ターゲットアクティビティでヒット」セグメントを含むレポートパネル。 このセグメントにより、ユーザーが実際に当該の [!DNL Target] アクティビティを操作した訪問のみが、レポートに含まれます。*
 
