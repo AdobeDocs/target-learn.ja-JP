@@ -20,4 +20,4 @@ ht-degree: 30%
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34065/?quality=12&captions=jpn)

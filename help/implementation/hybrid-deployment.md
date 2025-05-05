@@ -33,7 +33,7 @@ Adobe Targetは、クライアントサイドとサーバーサイドを組み�
 * 開発者
 * 建築士
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329470/?quality=12&captions=jpn)
 
 ## その他のリソース
 

@@ -25,7 +25,7 @@ ht-degree: 17%
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29958/?quality=12&captions=jpn)
 
 ## その他のリソース
 
