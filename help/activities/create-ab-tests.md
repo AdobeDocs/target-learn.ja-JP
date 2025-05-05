@@ -29,4 +29,4 @@ ht-degree: 17%
 
 ## その他のリソース
 
-この手順の詳細については、*Adobe Target ビジネス実践者ガイドの [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} を参照してください*。
+この手順の詳細については、*Adobe Target ビジネス実践者ガイドの [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja){target=_blank} を参照してください*。

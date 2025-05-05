@@ -30,4 +30,4 @@ ht-degree: 9%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35147/?quality=12)
 
-詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/aem-experience-fragments.html?lang=en) を参照してください。
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/aem-experience-fragments.html?lang=ja) を参照してください。

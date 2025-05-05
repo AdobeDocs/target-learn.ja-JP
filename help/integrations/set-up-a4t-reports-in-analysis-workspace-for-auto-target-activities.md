@@ -1,7 +1,7 @@
 ---
 title: ' [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities で A4T レポートを設定する方法'
 description: '[!UICONTROL Auto-Target] のアクティビティを実行した際に予期した結果が得られるように  [!DNL Analysis Workspace]  で A4T レポートを設定する方法を教えてください。'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,7 +30,7 @@ ht-degree: 1%
 このチュートリアルでは、次の主要な概念に基づいて、[!DNL Analysis Workspace] での [!UICONTROL Auto-Target] アクティビティ分析に推奨される変更について説明します。
 
 * **[!UICONTROL Control vs Targeted]** ディメンションを使用して、[!UICONTROL Control] エクスペリエンスと [!UICONTROL Auto-Target] アンサンブル ML アルゴリズムで提供されるエクスペリエンスを区別できます。
-* 訪問回数は、エクスペリエンスレベルのパフォーマンスの分類を表示する際の正規化指標として使用する必要があります。 また、[Adobe Analyticsのデフォルトのカウント方法には、ユーザーが実際にはアクティビティコンテンツを表示しない訪問が含まれる場合がありますが ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank} このデフォルトの動作は、適切にスコープが設定されたセグメント（詳細は以下）を使用することで変更できます。
+* 訪問回数は、エクスペリエンスレベルのパフォーマンスの分類を表示する際の正規化指標として使用する必要があります。 また、[Adobe Analyticsのデフォルトのカウント方法には、ユーザーが実際にはアクティビティコンテンツを表示しない訪問が含まれる場合がありますが ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ja#metrics){target=_blank} このデフォルトの動作は、適切にスコープが設定されたセグメント（詳細は以下）を使用することで変更できます。
 * 訪問ルックバックスコープ型アトリビューションは、所定のアトリビューションモデルの「訪問ルックバックウィンドウ」とも呼ばれ、[!DNL Adobe Target] ML モデルによってトレーニングフェーズで使用され、目標指標を分割する場合は、同じ（デフォルト以外の）アトリビューションモデルを使用する必要があります。
 
 ## [!DNL Analysis Workspace] での [!UICONTROL Auto-Target] パネル用の A4T の作成
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->現在、[!UICONTROL Auto-Target] の A4T レポートでは、[!UICONTROL Control vs Targeted] ディメンションで [!UICONTROL Lift and Confidence] 数を使用できません。 サポートが追加されるまでは、[ 信頼性計算ツール ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) をダウンロードして手動で計算で [!UICONTROL Lift and Confidence] ます。
+>現在、[!UICONTROL Auto-Target] の A4T レポートでは、[!UICONTROL Control vs Targeted] ディメンションで [!UICONTROL Lift and Confidence] 数を使用できません。 サポートが追加されるまでは、[ 信頼性計算ツール ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja) をダウンロードして手動で計算で [!UICONTROL Lift and Confidence] ます。
 
 ## 指標のエクスペリエンスレベルの分類の追加
 

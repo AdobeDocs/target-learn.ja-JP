@@ -33,7 +33,7 @@ Adobe Target オンデバイス判定により、ほぼゼロの待ち時間コ�
 * オンデバイス判定とそのメリットについて説明します
 * Target でオンデバイス判定を有効にする
 * オンデバイス判定で使用するためのフォームベースのコンポーザーアクティビティを作成する
-* オンデバイス判定に必要なSDK設定について詳しくは、[Adobe Target SDKのドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* オンデバイス判定に必要なSDK設定について詳しくは、[Adobe Target SDKのドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * オンデバイス判定を使用して配信されるコンテンツに対してエンドユーザーが体験する内容を理解する
 
 ## 対象読者

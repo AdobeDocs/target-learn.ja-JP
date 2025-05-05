@@ -150,7 +150,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->Analytics for Target （A4T）: Adobe Analyticsを [!DNL Target] のレポートソースとして設定できます。 これにより、Target SDK で収集されたすべての指標やディメンションを、Adobe Analyticsで表示できます。 詳しくは、[A4T の概要 ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) を参照してください。
+>Analytics for Target （A4T）: Adobe Analyticsを [!DNL Target] のレポートソースとして設定できます。 これにより、Target SDK で収集されたすべての指標やディメンションを、Adobe Analyticsで表示できます。 詳しくは、[A4T の概要 ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) を参照してください。
 
 すばらしい！ これでパラメーターが用意できたので、次にこれらのパラメーターを使用して、Adobe Targetでオーディエンスとオファーを作成します。
 

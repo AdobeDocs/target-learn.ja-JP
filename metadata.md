@@ -3,9 +3,9 @@ cloud: Experience Cloud
 product: target
 solution: Target
 solution-title: Target
-solution-hub-url: https://helpx.adobe.com/support/target.html
+solution-hub-url: https://helpx.adobe.com/jp/support/target.html
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/target/get-started.html
+getting-started-url: https://helpx.adobe.com/jp/target/get-started.html
 tutorials-title: Tutorials
 tutorials-url: /content/help/en/target-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/target-learn.ja-JP
