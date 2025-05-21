@@ -38,7 +38,7 @@ We.Travel サンプルアプリは、Adobe Mobile Services SDK v4 で事前に�
 
 ## [!DNL Target] の Mobile Services SDK 設定の確認と更新
 
-AdobeMobile Services SDK は、（ドキュメントに従って [We.Travel アプリ内にプリインストールされてい ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en) す。 次に、独自の [!DNL Target] アカウントを指すようにインストールを更新します。
+AdobeMobile Services SDK は、（ドキュメントに従って [We.Travel アプリ内にプリインストールされてい ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja) す。 次に、独自の [!DNL Target] アカウントを指すようにインストールを更新します。
 
 まず、Mobile Services ユーザーインターフェイスで新しいアプリを作成します。
 
