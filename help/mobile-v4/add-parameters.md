@@ -57,7 +57,7 @@ at_property の値は、[!DNL Target] インターフェイスの [!UICONTROL Se
 
 プリフェッチリクエストの各場所のパラメーターとして、次のように追加します。
 ![at_property パラメーターの追加 ](assets/params_at_property.jpg)
-以下は、`targetPrefetchContent()` 関数の更新されたコードです（_[!UICONTROL your at_property value goes here]_のプレースホルダーテキストを必ず更新してください）。
+以下は、`targetPrefetchContent()` 関数の更新されたコードです（_[!UICONTROL your at_property value goes here]_&#x200B;のプレースホルダーテキストを必ず更新してください）。
 
 ```java
 public void targetPrefetchContent() {
