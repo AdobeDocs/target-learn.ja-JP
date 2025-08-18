@@ -120,4 +120,4 @@ Personalizationには、エクスペリエンスのターゲット設定テス�
 
 詳しくは、ビジネスコンサルタントの Katie Cozby による [Adobe Targetの実装の理解と最適化に関するウェビナー ](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) を参照してください。
 
-戦略やソートリーダーシップについて詳しくは、[ カスタマーサクセス ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブを参照してください。
+戦略やソートリーダーシップについて詳しくは、[ カスタマーサクセス ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ja) ハブを参照してください。

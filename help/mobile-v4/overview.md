@@ -23,7 +23,7 @@ _Android用Adobe Mobile Services SDK v4 を使用したAdobe Targetは_ 既にAn
 
 このチュートリアルでは、以下の内容について学習します。
 
-* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en) 設定の検証
+* [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja) 設定の検証
 * 次のタイプの [!DNL Target] リクエストを実装します。
    * [!DNL Target] コンテンツのプリフェッチ
    * 1 回のリクエストで複数の [!DNL Target] ロケーション（mbox）をバッチ処理する

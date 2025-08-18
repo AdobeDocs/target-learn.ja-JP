@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Target でのReal-Time CDP セグメントの使用
 
-Adobe TargetのReal-Time Customer Data Platform セグメントを使用して、パーソナライズされたエクスペリエンスを web サイトやモバイルアプリで提供する方法を説明します。 詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html) を参照してください。
+Adobe TargetのReal-Time Customer Data Platform セグメントを使用して、パーソナライズされたエクスペリエンスを web サイトやモバイルアプリで提供する方法を説明します。 詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)

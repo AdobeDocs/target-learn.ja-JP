@@ -18,6 +18,6 @@ ht-degree: 5%
 
 # セグメントとプロファイル属性のアクティブ化
 
-Adobe Real-Time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。 詳しくは、[ プロファイルリクエストの宛先に対するオーディエンスデータの有効化ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html) を参照してください。
+Adobe Real-Time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。 詳しくは、[ プロファイルリクエストの宛先に対するオーディエンスデータの有効化ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
