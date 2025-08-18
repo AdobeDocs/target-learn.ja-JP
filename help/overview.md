@@ -38,23 +38,23 @@ ht-degree: 10%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ja">
-      <img alt="Target を at.js から Platform Web SDK に移行する" src="./assets/thumb_websdk.jpg" />
+      <img alt="Target を at.js から Platform Web SDKに移行する" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=ja">
-    <strong>Target を at.js から Platform Web SDK に移行する </strong>
+    <strong>Target を at.js から Platform Web SDKに移行する </strong>
     </a>
     </div>
     <p>
-    <em>at.js 実装をAdobe Experience Platform Web SDK に移行する方法を説明します。</em>
+    <em>at.js 実装をAdobe Experience Platform Web SDKに移行する方法を説明します。</em>
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ja"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Adobe Experience Platform タグを使用した Target の実装" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ja">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Adobe Experience Platform タグを使用した Target の実装 </strong>
     </a>
     </div>
@@ -63,16 +63,16 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ja">
-      <img alt="Adobe Targetの at.js 2.0 のシングルページアプリケーションへの実装（SPA）" src="./assets/26248.png" />
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+      <img alt="Adobe Targetの at.js 2.0 のシングルページアプリケーション（SPA）への実装" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ja">
-    <strong>SPAへの at.js 2.0 の実装 </strong>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <strong>SPA への at.js 2.0 の実装 </strong>
     </a>
     </div>
     <p>
-    <em> シングルページアプリケーション（SPA）でAdobe Targetを at.js 2.0 （以降）で実装する方法を説明します。</em>
+    <em> シングルページアプリケーション（SPA）にAdobe Targetの at.js 2.0 （以降）を実装する方法を説明します。</em>
     <p>
   </td>
 </tr>

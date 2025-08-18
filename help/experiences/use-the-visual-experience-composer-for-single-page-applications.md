@@ -32,7 +32,7 @@ SPA VEC を使用すると、開発部門に継続的に依存することなく
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/35062?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 
 ## その他のリソース

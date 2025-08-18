@@ -75,7 +75,7 @@ Engage ユーザーとコンテキストオファーアクティビティを作�
    ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_7.jpg)
 
 1. _wetravel_engage_search_ の場所を選択します。
-1. HTMLオファーを変更します。
+1. HTML オファーを変更します。
 
    ![ 新しいモバイルアプリユーザーのオーディエンス ](assets/activity_create_8.jpg)
 
@@ -169,7 +169,7 @@ Engage ユーザーとコンテキストオファーアクティビティを作�
 
 ## 検索オファーの検証
 
-**[!UICONTROL Departure]** として **[!UICONTROL San Jose]** を選択し、**[!UICONTROL Destination]** として **[!UICONTROL San Diego]** を選択し、**[!UICONTROL Find Bus]** をクリックして利用可能なバスを検索します。
+**[!UICONTROL San Jose]** として **[!UICONTROL Departure]** を選択し、**[!UICONTROL San Diego]** として **[!UICONTROL Destination]** を選択し、**[!UICONTROL Find Bus]** をクリックして利用可能なバスを検索します。
 
 結果画面に「_フィルターを使用_」メッセージが表示されます。 アプリの起動数が 5 つ以上の再ユーザーの場合、この場所（空白）にはデフォルトコンテンツが設定されているので、メッセージはここに表示されません。
 
@@ -193,7 +193,7 @@ Engage ユーザーとコンテキストオファーアクティビティを作�
 
 ## まとめ
 
-おめでとうございます。 これで、Android チュートリアル用Adobe Target SDK 4.x の主な部分は終了です。 これで、Android アプリでパーソナライゼーションを実装するスキルが身につきました。 今後のプロジェクトの参考として、このドキュメントとデモアプリを参照できます。
+おめでとうございます。 これで、Android用Adobe Target SDK 4.x チュートリアルの主要部分は終了です。 これで、Android アプリでパーソナライゼーションを実装するスキルが身につきました。 今後のプロジェクトの参考として、このドキュメントとデモアプリを参照できます。
 
 次のトピック：機能フラグは、AndroidのAdobe Targetで実装できるもう 1 つの機能です。 機能のフラグ設定について詳しくは、次のレッスンを参照してください。
 

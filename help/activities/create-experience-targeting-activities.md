@@ -29,15 +29,15 @@ ht-degree: 31%
 
 * 実務家
 
->[!VIDEO](https://video.tv.adobe.com/v/38305?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## その他のリソース
 
-* [Experience Personalizationのプレイブックをダウンロード ](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [ エクスペリエンスのターゲット設定のドキュメント ](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=ja)
+* [Experience Personalizationのプレイブックをダウンロード ](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
+* [ エクスペリエンスのターゲット設定のドキュメント ](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## このビデオで使用されているその他の機能
 
-* [ レポートドキュメントのオーディエンス ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ja)
-* [Audiences ドキュメントの作成 ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ja)
-* [Visual Experience Composer のドキュメントを使用したエクスペリエンスの構築 ](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ja)
+* [ レポートドキュメントのオーディエンス ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Audiences ドキュメントの作成 ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Visual Experience Composer のドキュメントを使用したエクスペリエンスの構築 ](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

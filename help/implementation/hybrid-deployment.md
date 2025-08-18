@@ -33,9 +33,9 @@ Adobe Targetは、クライアントサイドとサーバーサイドを組み�
 * 開発者
 * 建築士
 
->[!VIDEO](https://video.tv.adobe.com/v/329470/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
 ## その他のリソース
 
-* [ オンデバイス判定の概要 ](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK ドキュメント ](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [ オンデバイス判定の概要 ](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK ドキュメント ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

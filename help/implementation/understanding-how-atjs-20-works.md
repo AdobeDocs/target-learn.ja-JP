@@ -41,7 +41,7 @@ ht-degree: 0%
 
    単一ページアプリケーションの今後のビュー用のターゲットコンテンツは、ブラウザーにキャッシュされます。そのため、ビューがトリガーされたときに追加のサーバー呼び出しをおこなわずに即座にターゲットコンテンツを適用できます。 （`triggerView()` の動作については、次の図を参照してください）。
 
-1. ページから [!UICONTROL Data Collection] サーバーに送信された [!DNL Analytics] データ
+1. ページから [!DNL Analytics] サーバーに送信された [!UICONTROL Data Collection] データ
 1. [!DNL Target] データは、SDID を介して Analytics データと照合され、[!DNL Analytics] レポートストレージに処理されます。 A4T レポートを使用して、[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。
 
 ![triggerView （）関数が使用された場合の at.js 2.0 の動作 ](assets/triggerview.png)

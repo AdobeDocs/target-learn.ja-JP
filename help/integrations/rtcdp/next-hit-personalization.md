@@ -1,6 +1,6 @@
 ---
 title: Real-Time CDPとAdobe Targetの次のヒットのパーソナライゼーションとは
-description: Real-time Customer Data Platform（CDP）とAdobe Targetを使用して、次のヒットでパーソナライズする方法を説明します。
+description: Real-Time Customer Data Platform（CDP）とAdobe Targetを使用して、次のヒットでパーソナライズする方法を説明します。
 role: User
 solution: Real-Time Customer Data Platform,Target
 feature-set: Experience Platform,Target
@@ -18,6 +18,6 @@ ht-degree: 1%
 
 # Real-Time CDPとAdobe Targetを使用した次のヒットのパーソナライゼーション
 
-Real-time Customer Data PlatformとAdobe Targetを使用して、次のヒットでパーソナライズする方法を説明します。 Real-Time CDPのAdobe Targetの宛先では、Adobe TargetのExperience Platformセグメントを使用して、ガバナンスとプライバシーをサポートする同じページおよび次のページのパーソナライゼーションを行うことができます。 詳しくは、[ 同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定する」ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja)
+Real-Time Customer Data PlatformとAdobe Targetを使用して、次のヒットでパーソナライズする方法を説明します。 Real-Time CDPのAdobe Targetの宛先では、Adobe TargetのExperience Platform セグメントを使用して、ガバナンスとプライバシーをサポートした同じページおよび次のページのパーソナライゼーションを行うことができます。 詳しくは、[ 同じページと次のページのパーソナライゼーション用にパーソナライゼーションの宛先を設定する」ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja)
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)

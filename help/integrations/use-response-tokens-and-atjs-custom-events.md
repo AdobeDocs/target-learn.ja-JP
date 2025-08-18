@@ -20,7 +20,7 @@ ht-degree: 3%
 
 レスポンストークンと `at.js` カスタムイベントを使用すると、[!DNL Target] ーザーからサードパーティシステムにプロファイル情報を共有できます。 カスタムプロファイル属性、地理情報、アクティビティの詳細、組み込みプロファイルなど、[!DNL Target] 訪問者プロファイルの任意のオブジェクトを [!DNL Target] レスポンスに追加できます。このレスポンスでは、カスタムJavaScriptを使用してサードパーティと統合できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/34066/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## 応答トークンと at.js カスタムイベントの使用方法
 
@@ -34,5 +34,5 @@ ht-degree: 3%
 ## その他のリソース
 
 * [Experience Cloud Debugger をAdobe Targetで使用する](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [ 応答トークンのドキュメント ](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=ja)
+* [ 応答トークンのドキュメント ](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
 * [Adobe Target でのデータプロバイダーの使用](use-data-providers-to-integrate-third-party-data.md)

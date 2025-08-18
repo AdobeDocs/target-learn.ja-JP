@@ -1,6 +1,6 @@
 ---
 title: Adobe Real-time CDP からAdobe Targetに対してセグメントとプロファイル属性をアクティブ化するにはどうすればよいですか。
-description: Adobe Real-time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。
+description: Adobe Real-Time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 role: User
@@ -18,6 +18,6 @@ ht-degree: 5%
 
 # セグメントとプロファイル属性のアクティブ化
 
-Adobe Real-time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。 詳しくは、[ プロファイルリクエストの宛先に対するオーディエンスデータの有効化ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ja) を参照してください。
+Adobe Real-Time Customer Data PlatformからAdobe Targetにセグメントとプロファイル属性をアクティブ化して、web サイト、モバイルアプリ、その他のデジタルプロパティにリアルタイムのパーソナライズされたコンテンツを表示する方法を説明します。 詳しくは、[ プロファイルリクエストの宛先に対するオーディエンスデータの有効化ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html) を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447356/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

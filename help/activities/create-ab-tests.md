@@ -25,8 +25,8 @@ ht-degree: 17%
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/29958/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
 
 ## その他のリソース
 
-この手順の詳細については、*Adobe Target ビジネス実践者ガイドの [A/B テストの作成 ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja){target=_blank} を参照してください*。
+この手順の詳細については、[Adobe Target ビジネス実践者ガイドの ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank}A/B テストの作成 *を参照してくだ* い。

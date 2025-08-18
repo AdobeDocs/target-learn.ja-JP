@@ -1,6 +1,6 @@
 ---
 title: Adobe Real-Time CDPでAdobe Targetの宛先を設定するにはどうすればよいですか？
-description: Real-Time CDPから Target へのセグメントとプロファイル属性の送信を開始するために、Real-time Customer Data PlatformでAdobe Targetの宛先を設定する方法について説明します。
+description: Real-Time CDPから Target へのセグメントとプロファイル属性の送信を開始するために、Real-Time Customer Data PlatformでAdobe Targetの宛先を設定する方法について説明します。
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 role: Admin, Architect, User
@@ -16,8 +16,8 @@ ht-degree: 1%
 
 ---
 
-# Real-time Customer Data PlatformでのAdobe Targetの宛先の設定
+# Real-Time Customer Data PlatformでのAdobe Targetの宛先の設定
 
-Real-Time CDPから Target へのセグメントとプロファイル属性の送信を開始するために、Real-time Customer Data PlatformでAdobe Targetの宛先を設定する方法について説明します。 詳しくは、[Adobe Target接続ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja) を参照してください。
+Real-Time CDPから Target へのセグメントとプロファイル属性の送信を開始するために、Real-Time Customer Data PlatformでAdobe Targetの宛先を設定する方法について説明します。 詳しくは、[Adobe Target接続ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja) を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449794/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)

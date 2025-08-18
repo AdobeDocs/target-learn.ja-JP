@@ -28,6 +28,6 @@ ht-degree: 11%
 
 ## 注釈
 
-このビデオでは、[Adobe Developer Console](https://developer.adobe.com/developer-console/) を使用した統合の概念を説明します。 Adobe Developer Consoleを使用してAdobe Targetと統合する方法を示す実践的な手順については、&lbrace;3[Adobe Target開発者ガイドの ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"}Adobe認証の設定に関するガイド *を参照してください。*
+このビデオでは、[Adobe Developer Console](https://developer.adobe.com/developer-console/) を使用した統合の概念を説明します。 Adobe Developer Consoleを使用してAdobe Targetと統合する方法を示す実践的な手順については、{2[Adobe Target開発者ガイドの ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"}Adobe認証の設定に関するガイド *を参照してください。*
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

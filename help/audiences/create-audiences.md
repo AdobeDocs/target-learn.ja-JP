@@ -20,4 +20,4 @@ ht-degree: 12%
 
 アクティビティで使用するた [!DNL Target] に、カスタムオーディエンスを作成および保存する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411156/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)

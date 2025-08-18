@@ -31,7 +31,7 @@ Adobe Targetの [!UICONTROL Profile Comparison] 機能を使用すると、オ�
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/328272/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## その他のリソース
 

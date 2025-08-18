@@ -1,6 +1,6 @@
 ---
 title: リクエストへのパラメーターの追加
-description: このレッスンでは、前のレッスンで追加した Target リクエストにAdobeライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
+description: このレッスンでは、前のレッスンで追加した Target リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # リクエストへのパラメーターの追加
 
-このレッスンでは、前のレッスンで追加した [!DNL Target] リクエストにAdobe ライフサイクル メトリックとカスタム パラメータを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
+このレッスンでは、前のレッスンで追加した [!DNL Target] リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
 
 ## 学習目標
 
 このレッスンを終了すると、次の操作を実行できるようになります。
 
-* Adobeのモバイルライフサイクル指標を追加
+* Adobe モバイルライフサイクル指標の追加
 * プリフェッチ・リクエストへのパラメータの追加
 * ライブロケーションへのパラメーターの追加
 * 両方のリクエストのパラメーターを検証
 
 ## ライフサイクル パラメータを追加する
 
-[Adobeモバイルライフサイクル指標 ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ja) を有効にしましょう。 これにより、ユーザーのデバイスに関する豊富な情報とアプリのエンゲージメントを含むロケーションリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストで提供されるデータを使用して、オーディエンスを作成します。
+[Adobe モバイルライフサイクル指標 ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) を有効にしましょう。 これにより、ユーザーのデバイスに関する豊富な情報とアプリのエンゲージメントを含むロケーションリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストで提供されるデータを使用して、オーディエンスを作成します。
 
 ライフサイクル指標を有効にするには、HomeActivity コントローラを再度開き、onResume （）関数に `Config.collectLifecycleData(this);` を追加します。
 
@@ -57,7 +57,7 @@ at_property の値は、[!DNL Target] インターフェイスの [!UICONTROL Se
 
 プリフェッチリクエストの各場所のパラメーターとして、次のように追加します。
 ![at_property パラメーターの追加 ](assets/params_at_property.jpg)
-以下は、`targetPrefetchContent()` 関数の更新されたコードです（_[!UICONTROL your at_property value goes here]_&#x200B;のプレースホルダーテキストを必ず更新してください）。
+以下は、`targetPrefetchContent()` 関数の更新されたコードです（_[!UICONTROL your at_property value goes here]_のプレースホルダーテキストを必ず更新してください）。
 
 ```java
 public void targetPrefetchContent() {
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### パラメーターに関する注意
 
-今後のプロジェクトでは、追加のパラメーターを実装する必要が生じる場合があります。 `createTargetPrefetchObject()` メソッドを使用すると、`locationParams`、`orderParams`、`productParams` の 3 種類のパラメーターを使用できます。 [ プリフェッチリクエストへのこれらのパラメーターの追加について詳しくは ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja) ドキュメントを参照してください。
+今後のプロジェクトでは、追加のパラメーターを実装する必要が生じる場合があります。 `createTargetPrefetchObject()` メソッドを使用すると、`locationParams`、`orderParams`、`productParams` の 3 種類のパラメーターを使用できます。 [ プリフェッチリクエストへのこれらのパラメーターの追加について詳しくは ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) ドキュメントを参照してください。
 
 また、プリフェッチ・リクエストでは、場所ごとに異なる場所のパラメータを追加できます。 たとえば、param2 という別のマップを作成し、そのマップに新しいパラメータを配置してから、ある場所に param2 を設定し、他の場所に param1 を設定できます。 次に例を示します。
 
@@ -146,11 +146,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->注文確認のリクエストとパラメーター：このデモプロジェクトでは使用しませんが、注文の詳細は通常、実際の実装で取得 [!DNL Target] れるので、注文の詳細を指標やディメンションとして使用できます。 詳しくは、注文確認リクエストとパラメーターの実装方法に関する手順 [ ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=ja) 参照してください。
+>注文確認のリクエストとパラメーター：このデモプロジェクトでは使用しませんが、注文の詳細は通常、実際の実装で取得 [!DNL Target] れるので、注文の詳細を指標やディメンションとして使用できます。 詳しくは、注文確認リクエストとパラメーターの実装方法に関する手順 [ ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en) 参照してください。
 
 >[!NOTE]
 >
->Analytics for Target （A4T）: Adobe Analyticsを [!DNL Target] のレポートソースとして設定できます。 これにより、Target SDK で収集されたすべての指標やディメンションを、Adobe Analyticsで表示できます。 詳しくは、[A4T の概要 ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) を参照してください。
+>Analytics for Target （A4T）: Adobe Analyticsを [!DNL Target] のレポートソースとして設定できます。 これにより、Target SDKで収集されたすべての指標やディメンションをAdobe Analyticsで表示できます。 詳しくは、[A4T の概要 ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) を参照してください。
 
 すばらしい！ これでパラメーターが用意できたので、次にこれらのパラメーターを使用して、Adobe Targetでオーディエンスとオファーを作成します。
 

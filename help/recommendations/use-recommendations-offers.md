@@ -28,5 +28,5 @@ Recommendations オファーは、A/B テストおよびエクスペリエンス
 
 ## その他のリソース
 
-* [ オファードキュメントとしての Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=ja)
+* [ オファードキュメントとしての Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Recommendations アクティビティの作成ビデオ](create-a-recommendations-activity.md)

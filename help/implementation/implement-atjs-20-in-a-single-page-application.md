@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Target `at.js` 2.0 には、次世代のクライアントサイドテクノロジーでパーソナライゼーションを実行できる豊富な機能セットが用意されています。 このバージョンは、`at.js` をアップグレードして、単一ページアプリケーション（SPA）との調和のとれたインタラクションを実現することに重点を置いています。
 
->[!VIDEO](https://video.tv.adobe.com/v/35058?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## SPA への at.js 2.0 の実装方法
 

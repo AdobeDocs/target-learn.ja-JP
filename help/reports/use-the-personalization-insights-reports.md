@@ -21,8 +21,8 @@ ht-degree: 2%
 
 Automated Personalizationおよび自動ターゲット アクティビティは、高度な機械学習を使用して、個々の顧客プロファイルと類似プロファイルを持つ以前の訪問者の行動に基づいて、各訪問者に最適なエクスペリエンスを提供します。 Personalization Insights レポートは、これらのモデルが意思決定を行う方法に関する情報を提供します。
 
->[!VIDEO](https://video.tv.adobe.com/v/328271/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## 追加情報
 
-* [ ヘルプドキュメントのPersonalization インサイト ](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=ja)
+* [ ヘルプドキュメントのPersonalization インサイト ](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

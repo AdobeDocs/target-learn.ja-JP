@@ -26,6 +26,6 @@ ht-degree: 18%
 
 * 開発者
 
->[!VIDEO](https://video.tv.adobe.com/v/3421745/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35151/?quality=12)
 
-詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja) を参照してください。
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en) を参照してください。

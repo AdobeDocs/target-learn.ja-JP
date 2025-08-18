@@ -20,4 +20,4 @@ ht-degree: 1%
 
 このビデオでは、パーソナライゼーションの重要性、パーソナライゼーションを適切に行うことの課題、これらの課題に対するソリューション（Adobe Targetの 4 つの AI/自動化製品）、パーソナライズされたエクスペリエンスを提供するための主な構成要素について説明します。 これは、ジェイミー・ブライトンの 2018 年のAdobe Summitのプレゼンテーションを編集したものです。
 
->[!VIDEO](https://video.tv.adobe.com/v/30031/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
