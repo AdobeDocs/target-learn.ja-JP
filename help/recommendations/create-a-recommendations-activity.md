@@ -29,7 +29,7 @@ Adobe Target Recommendations アクティビティの作成方法を説明しま
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33952?quality=12&captions=jpn)
 
 ## その他のリソース
 

@@ -29,7 +29,7 @@ ht-degree: 31%
 
 * 実務家
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38305?quality=12&captions=jpn)
 
 ## その他のリソース
 
