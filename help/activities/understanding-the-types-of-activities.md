@@ -1,8 +1,8 @@
 ---
 title: 様々なアクティビティタイプには何がありますか？
 description: Adobe Target に含まれる様々なタイプのアクティビティと、それらが目標の達成にどのように役立つかについて説明します。
-landing-page-description: レコメンデーションA/B アクティビティ、多変量テスト、エクスペリエンスのターゲット設定アクティビティ、レコメンデーションおよび Automated Personalization アクティビティの基本について説明します。
-short-description: レコメンデーションA/B アクティビティ、多変量テスト、エクスペリエンスのターゲット設定アクティビティ、レコメンデーションおよび Automated Personalization アクティビティの基本について説明します。
+landing-page-description: A/B アクティビティ、多変量テスト、エクスペリエンスのターゲット設定アクティビティ、レコメンデーション、Automated Personalization アクティビティの基本について学習します。
+short-description: A/B アクティビティ、多変量テスト、エクスペリエンスのターゲット設定アクティビティ、レコメンデーション、Automated Personalization アクティビティの基本について学習します。
 role: User
 level: Beginner
 topic: Personalization
@@ -29,4 +29,4 @@ ht-degree: 54%
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/30014/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)
