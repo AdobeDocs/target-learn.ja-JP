@@ -1,7 +1,9 @@
 ---
 user-guide-title: Adobe Target チュートリアル
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+landing-page-breadcrumb-title: Adobe Target
+landing-page-name: target
+source-git-commit: a416f01d695b7f2b1686c93e3c777b8ae005ca09
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 9%
@@ -27,7 +29,7 @@ ht-degree: 9%
 + 実装{#implementation}
    + [Target 実装の概要](../dev101/2-1-intro-to-target-implementation.md)
    + [Target と Launch の統合](../dev101/3-1-target-launch.md)
-   + [Launch を使用した web サイトへの実装 ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja)
+   + [Launch を使用した web サイトへの実装 ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [場所を使用するメリット](../dev101/2-2-benefits-of-locations.md)
    + [Target リクエストの概要](../dev101/2-3-intro-to-target-requests.md)
    + [ターゲットパラメーターの概要](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +37,7 @@ ht-degree: 9%
    + [at.js 2.0 の単一ページアプリケーション（SPA）への実装](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 実装の設計](../dev101/2-5-design-target-implementation.md)
    + [Target 実装を設計するための次の手順](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [ オプトインを使用し、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja)
+   + [ オプトインを使用し、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target ハイブリッドデプロイメントについて](../implementation/hybrid-deployment.md)
    + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
    + [Adobe Targetの実装パターン](../implementation/implementation-patterns-for-adobe-target.md)
