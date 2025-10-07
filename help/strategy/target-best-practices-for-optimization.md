@@ -6,9 +6,9 @@ role: Leader, Architect, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,6 @@ Personalizationには、エクスペリエンスのターゲット設定テス�
 
 上記の理解に基づいて、Adobeでは、パーソナライズする前に最適化を行い、Personalizationを幅広い範囲から詳細な範囲に進めることをお勧めします。 Personalization アクティビティを広範から詳細に成熟させるには、まず 1 対多のパーソナライゼーション（広範）スタイル（A/B テストを使用）を使用し、次に 1 対 1 のパーソナライゼーション（詳細）スタイル（Automated Personalization アクティビティを使用）に移行します。
 
-詳しくは、ビジネスコンサルタントの Katie Cozby による [Adobe Targetの実装の理解と最適化に関するウェビナー ](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) を参照してください。
+詳しくは、[ パーソナライゼーションテストとロードマップ作成のクイックスタート ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation) を参照してください。
 
-戦略やソートリーダーシップについて詳しくは、[ カスタマーサクセス ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ja) ハブを参照してください。
+戦略とソートリーダーシップについて詳しくは、[ パースペクティブ ](https://experienceleague.adobe.com/en/perspectives) ハブを参照してください。
