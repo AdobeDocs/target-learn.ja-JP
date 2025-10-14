@@ -42,7 +42,7 @@ _Android用Adobe Mobile Services SDK v4 を使用したAdobe Targetは_ 既にAn
 
 * Adobe ID と承認者レベルでAdobe Target インターフェイスにアクセスできる（以下の検証手順を参照）
 * 自分のアカウントにリクエストを送信できるように、Adobe Targetのクライアントコードを把握します。 クライアントコードは、のAdobe Target インターフェイスに表示されます   設定/実装/ at.js 設定を編集画面
-* [Mobile Services ユーザーインターフェイス ](https://mobilemarketing.adobe.com/) にアクセスし、精通している
+* [Mobile Services ユーザーインターフェイス &#x200B;](https://mobilemarketing.adobe.com/) にアクセスし、精通している
 * Android モバイルアプリ開発用の IDE がある。 このチュートリアルでは、[Android Studio](https://developer.android.com/studio/install) を様々な手順とスクリーンショットで紹介します
 
 Experience Cloud ソリューションへの必要なアクセス権がない場合は、Experience Cloud管理者にお問い合わせください。
@@ -55,7 +55,7 @@ Experience Cloud ソリューションへの必要なアクセス権がない場
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/) にログインします
 1. Experience Cloudのホーム画面で、[!DNL Target] をクリックします。
-   ![Experience Cloud ホーム画面 ](assets/aec_homeScreen_clickTarget.png)
+   ![Experience Cloud ホーム画面 &#x200B;](assets/aec_homeScreen_clickTarget.png)
 1. 以下の図に示すように、Adobe Targetのアクティビティリストに移動すると、ユーザーが承認者レベルのアクセス権を持っていることが確認できます。 [!DNL Target] にアクセスできない場合や、承認者レベルのアクセスを確認できない場合は、会社のExperience Cloud管理者の 1 人に問い合わせて、このアクセスをリクエストし、付与されたら、このチュートリアルを再開してください。
 
    ![Adobe UI](assets/targetUI_approver.png)
@@ -64,7 +64,7 @@ Experience Cloud ソリューションへの必要なアクセス権がない場
 
 これらのレッスンでは、Adobe Targetを、独自のAdobe Target アカウントを使用した「We.Travel」というデモ用の旅行アプリに実装します。 このチュートリアルを終了すると、アプリの使用状況に基づいて、パーソナライズされたメッセージをユーザーに配信できるようになります。 最終的なパーソナライゼーションエクスペリエンスは次のようになります。
 
-![We.Travel アプリの最終版 ](assets/overview_final_result.jpg)
+![We.Travel アプリの最終版 &#x200B;](assets/overview_final_result.jpg)
 
 We.Travel アプリ内での実装を確認した後、独自のモバイルアプリで [!DNL Target] を使用できるようになります。
 

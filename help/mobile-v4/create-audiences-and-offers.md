@@ -53,18 +53,18 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 
 1. 上部ナビゲーションの「**[!UICONTROL Audiences]**」をクリックします。
 1. **[!UICONTROL Create Audience]** ボタンをクリックします。
-   ![ 新しいユーザーオーディエンスの作成 ](assets/audience_new_mobile_app_users_1.jpg)
+   ![&#x200B; 新しいユーザーオーディエンスの作成 &#x200B;](assets/audience_new_mobile_app_users_1.jpg)
 
 1. オーディエンス名として **[!UICONTROL New Mobile App Users]** と入力します。
 1. 「**[!UICONTROL Add Rule]**」を選択します。
 1. **[!UICONTROL Custom]** ルールを選択します。
-   ![ 新しいユーザーオーディエンスの作成 ](assets/audience_new_mobile_app_users_2.jpg)
+   ![&#x200B; 新しいユーザーオーディエンスの作成 &#x200B;](assets/audience_new_mobile_app_users_2.jpg)
 
 1. 「**[!UICONTROL a.Launches]**」を選択します。
 1. 「**[!UICONTROL is less than]**」を選択します。
 1. **5** と入力します。
 1. 新しいオーディエンスを保存します。
-   ![ 新しいユーザーオーディエンスの作成 ](assets/audience_new_mobile_app_users_3.jpg)
+   ![&#x200B; 新しいユーザーオーディエンスの作成 &#x200B;](assets/audience_new_mobile_app_users_3.jpg)
 
 ### 再ユーザー用のオーディエンスの作成
 
@@ -74,7 +74,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. **[!UICONTROL a.Launches is greater than or equal to 5]** をカスタムルールとして使用します。
 1. 新しいオーディエンスを保存します。
 
-   ![ 再来訪ユーザーオーディエンスの作成 ](assets/audience_returning_mobile_app_users.jpg)
+   ![&#x200B; 再来訪ユーザーオーディエンスの作成 &#x200B;](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. _locationDest contains San Diego_ という定義のカスタムルールを使用します。
 1. 新しいオーディエンスを保存します。
 
-   ![ 「サンディエゴ」オーディエンスの作成 ](assets/audience_locationDest_san_diego.jpg)
+   ![&#x200B; 「サンディエゴ」オーディエンスの作成 &#x200B;](assets/audience_locationDest_san_diego.jpg)
 
 ### ロサンゼルスへの旅行を予約するユーザー向けのオーディエンスの作成
 
@@ -100,7 +100,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. _locationDest contains Los Angeles_ という定義のカスタムルールを使用します。
 1. 新しいオーディエンスを保存します。
 
-![ 「ロサンゼルス」オーディエンスの作成 ](assets/audience_locationDest_los_angeles.jpg)
+![&#x200B; 「ロサンゼルス」オーディエンスの作成 &#x200B;](assets/audience_locationDest_los_angeles.jpg)
 
 ## オファーを作成
 
@@ -114,13 +114,13 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. **[!UICONTROL Create]** をクリックします。
 1. 「**[!UICONTROL HTML Offer]**」を選択します。
 
-   ![ ホームオファーを作成 ](assets/offer_home_1.jpg)
+   ![&#x200B; ホームオファーを作成 &#x200B;](assets/offer_home_1.jpg)
 
 1. オファーに名前を付けます _ホーム：新しいユーザーを引き付ける_。
 1. _Select Source and Destination to search for available bus_ をコードとして入力します。
 1. 新規オファーを保存します。
 
-   ![ ホームHTMLオファーを作成 ](assets/offer_home_2.jpg)
+   ![&#x200B; ホームHTMLオファーを作成 &#x200B;](assets/offer_home_2.jpg)
 
 ### 再来訪ユーザー向けオファーの作成
 
@@ -130,7 +130,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. Enter _おかえりなさい！ チェックアウト時にプロモーションコード BACK30 を使用すると、10% の割引が受けられます。HTML コードとして_ します。
 1. 新規オファーを保存します。
 
-   ![ ホームHTMLオファーを作成 ](assets/offer_home_returning_users.jpg)
+   ![&#x200B; ホームHTMLオファーを作成 &#x200B;](assets/offer_home_returning_users.jpg)
 
 ### サンディエゴオファーの作成
 
@@ -140,7 +140,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. HTMLコードとして _DJ_ と入力します。
 1. 新規オファーを保存します。
 
-![ 「サンディエゴ」オファーを作成 ](assets/offer_san_diego.jpg)
+![&#x200B; 「サンディエゴ」オファーを作成 &#x200B;](assets/offer_san_diego.jpg)
 
 ### ロサンゼルスに行くユーザー向けのオファーを作成
 
@@ -150,7 +150,7 @@ Adobe Target オーディエンスは、訪問者の特定のグループを識�
 1. HTML コードとして _ユニバーサル_ と入力します。
 1. 新規オファーを保存します。
 
-![ 「ロサンゼルス」オファーの作成 ](assets/offer_los_angeles.jpg)
+![&#x200B; 「ロサンゼルス」オファーの作成 &#x200B;](assets/offer_los_angeles.jpg)
 
 ## まとめ
 

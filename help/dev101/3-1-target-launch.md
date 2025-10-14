@@ -28,7 +28,7 @@ ht-degree: 9%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-詳しくは、[ タグのチュートリアル ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja) を参照してください。
+詳しくは、[&#x200B; タグのチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja) を参照してください。
 
 >[!NOTE]
 >

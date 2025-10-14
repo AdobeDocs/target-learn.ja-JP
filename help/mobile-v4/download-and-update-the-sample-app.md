@@ -34,15 +34,15 @@ We.Travel サンプルアプリは、Adobe Mobile Services SDK v4 で事前に�
 * エミュレーターでアプリを実行して、アプリがビルドされ、ホーム画面が表示されることを確認します
 * アプリを閲覧し、予約プロセスを完了できることを確認します（任意の支払いオプションを選択し、「続行」をクリックして請求画面をスキップします）。
 
-  ![ アプリ確認画面 ](assets/wetravel_homeScreen.png)![ 開く ](assets/wetravel_confirmationScreen.png)
+  ![&#x200B; アプリ確認画面 &#x200B;](assets/wetravel_homeScreen.png)![&#x200B; 開く &#x200B;](assets/wetravel_confirmationScreen.png)
 
 ## [!DNL Target] の Mobile Services SDK設定の確認と更新
 
-Adobe Mobile Services SDKは、（ドキュメントに従って [We.Travel アプリ内にプリインストールされてい ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja) す。 次に、独自の [!DNL Target] アカウントを指すようにインストールを更新します。
+Adobe Mobile Services SDKは、（ドキュメントに従って [We.Travel アプリ内にプリインストールされてい &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja) す。 次に、独自の [!DNL Target] アカウントを指すようにインストールを更新します。
 
 まず、Mobile Services ユーザーインターフェイスで新しいアプリを作成します。
 
-1. [Adobe Mobile Services インターフェイス ](https://mobilemarketing.adobe.com/) にログインします。
+1. [Adobe Mobile Services インターフェイス &#x200B;](https://mobilemarketing.adobe.com/) にログインします。
 1. [!UICONTROL Manage Apps] に移動し、「**[!UICONTROL Add]**」をクリックして、このチュートリアルで使用する新しいアプリを追加します（**[!UICONTROL Manage Apps]**/**[!UICONTROL Add]**）。
 1. 実稼動以外のデータを含む Analytics レポートスイートを選択し、アプリに名前を付けて、**[!UICONTROL Standard]** のタイプを選択し、「**[!UICONTROL Save]**」をクリックします。
 1. アプリを追加したら、[!DNL Target] のセクションの次の画面で、[!UICONTROL SDK Target Options] クライアントコードを追加します（クライアントコードは、[!DNL Target] インターフェイスの **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** の「`at.js` をダウンロード」ボタンの横にあります）。
@@ -51,12 +51,12 @@ Adobe Mobile Services SDKは、（ドキュメントに従って [We.Travel ア�
 1. 変更を保存するには、ウィンドウの右上にある **[!UICONTROL Save]** をクリックします（[!UICONTROL Universal Links]、[!UICONTROL App Links] のオプション、または [!UICONTROL Push Services] のセクションのアイコンではありません）。
 1. ページ下部の「アプリSDKのダウンロード」セクションまでスクロールし、設定ファイルをダウンロードします。
 
-   ![ 設定ファイルのダウンロード ](assets/config_file.jpg)
+   ![&#x200B; 設定ファイルのダウンロード &#x200B;](assets/config_file.jpg)
 
 1. Android Studio プロジェクトのアセットフォルダー（app/src/main/assets）の `ADBMobileConfig.json` ファイルを置き換えます。
 
 1. 次に、`ADBMobileConfig.json` ファイルを開き、[!DNL Target] クライアントコードや Analytics の詳細など、期待される変更が含まれていることを確認します。
-   ![ 設定ファイルのダウンロード ](assets/client_code.jpg)
+   ![&#x200B; 設定ファイルのダウンロード &#x200B;](assets/client_code.jpg)
 
 設定が表示されない場合は、**[!UICONTROL Save]** インターフェイスの右 [!UICONTROL Mobile Services] ボタンをクリックし、ファイルを正しい場所にコピーしたことを確認します。
 

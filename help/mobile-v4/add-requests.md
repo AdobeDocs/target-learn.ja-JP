@@ -23,7 +23,7 @@ Adobe Mobile Services SDK（v4）は、ユーザーごとに異なるエクス�
 
 ## 前提条件
 
-必ず [ サンプルアプリをダウンロードして更新 ](download-and-update-the-sample-app.md) してください。
+必ず [&#x200B; サンプルアプリをダウンロードして更新 &#x200B;](download-and-update-the-sample-app.md) してください。
 
 ## 学習目標
 
@@ -52,7 +52,7 @@ Adobe Mobile Services SDK（v4）は、ユーザーごとに異なるエクス�
 
 We.Travel で最初に実装するリクエストは、ホーム画面の 2 つの [!DNL Target] の場所を持つバッチプリフェッチリクエストです。 後のレッスンでは、これらの場所にオファーを設定します。このオファーでは、新規ユーザーが予約プロセスを進める際に役立つメッセージを表示します。
 
-プリフェッチリクエストは [!DNL Target]Adobe Target サーバー応答（オファー）をキャッシュすることで、最小限のコンテンツを取得します。 バッチ事前読み込みリクエストは、それぞれ異なる場所に関連付けられた複数のオファーを取得してキャッシュします。 プリフェッチされたすべての場所は、ユーザー・セッションで後で使用するためにデバイス上にキャッシュされます。 ホーム画面で複数の場所をプリフェッチすることで、訪問者がアプリ内を移動したときに後で使用するオファーを取得できます。 プリフェッチ・メソッドの詳細は、[prefetch ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja) を参照してください。
+プリフェッチリクエストは [!DNL Target]Adobe Target サーバー応答（オファー）をキャッシュすることで、最小限のコンテンツを取得します。 バッチ事前読み込みリクエストは、それぞれ異なる場所に関連付けられた複数のオファーを取得してキャッシュします。 プリフェッチされたすべての場所は、ユーザー・セッションで後で使用するためにデバイス上にキャッシュされます。 ホーム画面で複数の場所をプリフェッチすることで、訪問者がアプリ内を移動したときに後で使用するオファーを取得できます。 プリフェッチ・メソッドの詳細は、[prefetch ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja) を参照してください。
 
 ### バッチ・プリフェッチ・リクエストの追加
 
@@ -62,7 +62,7 @@ app/main/java/com.wetravel/Controller の下にある HomeActivity コントロ�
 
 赤で表示されている 2 つのコードブロックを追加します。
 
-![HomeActivity プリフェッチ コード ](assets/homeactivity.jpg)
+![HomeActivity プリフェッチ コード &#x200B;](assets/homeactivity.jpg)
 
 HomeActivity のコードの末尾まで下にスクロールし、`setHeader()` 関数および現在の *関数の* 置き換え `onResume()` の後に以下のコードを追加します。
 
@@ -101,7 +101,7 @@ import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![Target クラスの読み込み ](assets/import.jpg)
+![Target クラスの読み込み &#x200B;](assets/import.jpg)
 
 「シンボル変数 wetravel_engage_home が見つかりません」と「シンボル変数 wetravel_engage_search が見つかりません」というエラーも表示されます。 これらを `Constant.java` ファイルに追加します（アプリ/src/メイン/java/com/wetravel/Utils 内）。
 
@@ -110,7 +110,7 @@ public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![Constant.java ファイルに場所の名前を追加する ](assets/constants.jpg)
+![Constant.java ファイルに場所の名前を追加する &#x200B;](assets/constants.jpg)
 
 ### バッチ・プリフェッチ・リクエスト・コードの説明
 
@@ -132,7 +132,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ホーム画面がレンダリングされると、プリフェッチリクエストが読み込まれます。 Logcat で、[!DNL "Target"] をフィルタリングして、リクエストと応答を確認します。
 
-![ ホーム画面でリクエストを検証 ](assets/prefetch_validation.jpg)
+![&#x200B; ホーム画面でリクエストを検証 &#x200B;](assets/prefetch_validation.jpg)
 
 正常な応答が表示されない場合は、`ADBMobileConfig.json` ファイルの設定と HomeActivity ファイルのコード構文を確認してください。
 
@@ -144,7 +144,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 まず、HomeActivity で wetravel_engage_home ロケーションの `engageMessage()` 呼び出しとメソッドを追加します。
 
-![ 最初の読み込みリクエストを追加 ](assets/wetravel_engage_home_loadRequest.jpg)
+![&#x200B; 最初の読み込みリクエストを追加 &#x200B;](assets/wetravel_engage_home_loadRequest.jpg)
 
 更新されたコードを次に示します。
 
@@ -190,7 +190,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 次に、SearchBusActivity の wetravel_engage_search の場所に対する `engageMessage()` 呼び出しおよびメソッドを追加します。 `engageMessage()` の呼び出しは、`onResume()` の呼び出しの前に `setUpSearch()` メソッドで設定されるため、画面が設定される前に実行されます。
 
-![2 回目の読み込みリクエストを追加 ](assets/wetravel_engage_search_loadRequest.jpg)
+![2 回目の読み込みリクエストを追加 &#x200B;](assets/wetravel_engage_search_loadRequest.jpg)
 
 更新されたコードを次に示します。
 
@@ -230,7 +230,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 アプリに追加する次のリクエストは、ありがとう画面のリアルタイムリクエストになります。 「リアルタイム」とは、リクエストが行われ、応答が直ちに適用される（後でキャッシュされない）ことを意味します。 後のレッスンでは、このリクエストを使用して、ユーザーの旅行先に合わせてパーソナライズされたエクスペリエンスを作成します。
 
 次に、「ありがとうございます」画面でリアルタイムリクエストを追加します。 ThankYouActivity ファイルで、赤で表示されている変更を行います。
-![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou.jpg)
+![&#x200B; ありがとう画面でのリアルタイムの場所の追加 &#x200B;](assets/thankyou.jpg)
 
 ThankYouActivity ファイルの末尾までスクロールします。 `getRecommandations()` 関数の 3 行をコメントアウトし、`targetLoadRequest()` 関数の呼び出しを追加します。
 
@@ -247,7 +247,7 @@ targetLoadRequest(recommandation.recommandations);
 ```
 
 次に、`targetLoadRequest()` の関数を定義する必要があります。
-![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou2.jpg)
+![&#x200B; ありがとう画面でのリアルタイムの場所の追加 &#x200B;](assets/thankyou2.jpg)
 
 `filterRecommendationBasedOnOffer()` 関数の後にこのコードブロックを追加します。
 
@@ -305,7 +305,7 @@ Android エミュレーターを開き、次のすべての手順を実行して
 
 最後の「ありがとうございます」画面で、Logcat の応答を確認します。 応答は、「Default content was returned for &quot;wetravel_context_dest&quot;:
 
-![ ありがとう画面でのリアルタイムの場所の追加 ](assets/thankyou_validation.jpg)
+![&#x200B; ありがとう画面でのリアルタイムの場所の追加 &#x200B;](assets/thankyou_validation.jpg)
 
 ## プリフェッチされた場所のキャッシュからの消去
 
@@ -317,7 +317,7 @@ Android エミュレーターを開き、次のすべての手順を実行して
 Target.clearPrefetchCache()
 ```
 
-![ プリフェッチされた場所をキャッシュからクリア ](assets/clearPrefetch.jpg)
+![&#x200B; プリフェッチされた場所をキャッシュからクリア &#x200B;](assets/clearPrefetch.jpg)
 
 おめでとうございます。 アプリにパーソナライゼーションのフレームワークが追加されました。 次のレッスンでは、これらの場所にパラメーターを追加して、パーソナライゼーション機能を強化します。
 

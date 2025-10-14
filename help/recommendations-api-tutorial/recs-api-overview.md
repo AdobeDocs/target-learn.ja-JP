@@ -18,12 +18,12 @@ ht-degree: 2%
 
 # Adobe Recommendations API の概要
 
-[!DNL Recommendations] に関連する API には、次の操作を可能にする [ 管理 API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=ja) が含まれます。
+[!DNL Recommendations] に関連する API には、次の操作を可能にする [&#x200B; 管理 API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=ja) が含まれます。
 
 * お勧めの製品やコンテンツのカタログを管理する
 * [!DNL Recommendations] のアルゴリズムとアクティビティの管理
 
-Recommendations で [!DNL Target] [ 配信 API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=ja) を使用すると、次の操作も可能です。
+Recommendations で [!DNL Target] [&#x200B; 配信 API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=ja) を使用すると、次の操作も可能です。
 
 * レコメンデーションを JSON オブジェクト、HTML オブジェクトまたは XML オブジェクトで取得して、web、モバイル、メール、Internet of Things （IOT）などのチャネルで表示できるようにします。
 
@@ -41,7 +41,7 @@ Recommendations で [!DNL Target] [ 配信 API](https://experienceleague.adobe.c
 
 ## 前提条件
 
-Target 管理 API を使用するには、[Adobe認証設定 ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"} が必要です。 このチュートリアルを開始する前に、このが設定されていることを確認してください。
+Target 管理 API を使用するには、[Adobe認証設定 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=ja){target="_blank"} が必要です。 このチュートリアルを開始する前に、このが設定されていることを確認してください。
 
 ## リソース
 
@@ -49,7 +49,7 @@ Target 管理 API を使用するには、[Adobe認証設定 ](https://experienc
 
 | リソース | 詳細 |
 | --- | --- |
-| Postman | お使いのオペレーティングシステム用の [0&rbrace;Postman アプリ &rbrace; を入手します。 ](https://www.postman.com/downloads/)Postman basic は無料でアカウントを作成できます。 Adobe Target API を一般的に使用するために必要なものではありませんが、Postmanを使用すると API ワークフローが容易になり、Adobe Targetには API の実行と操作方法の学習に役立つPostman コレクションが複数用意されています。 このチュートリアルの残りの部分では、Postmanに関する実務知識を前提としています。 サポートについては、[Postmanのドキュメント ](https://learning.getpostman.com/) を参照してください。 |
-| 参照 | このチュートリアルの残りの期間、次のリソースに慣れていることを前提としています。<UL><li>[Adobe I/O GitHub](https://github.com/adobeio)</li><li>[Target Adobe I/Oのドキュメント ](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API ドキュメント ](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Postman | お使いのオペレーティングシステム用の [0&rbrace;Postman アプリ &rbrace; を入手します。 &#x200B;](https://www.postman.com/downloads/)Postman basic は無料でアカウントを作成できます。 Adobe Target API を一般的に使用するために必要なものではありませんが、Postmanを使用すると API ワークフローが容易になり、Adobe Targetには API の実行と操作方法の学習に役立つPostman コレクションが複数用意されています。 このチュートリアルの残りの部分では、Postmanに関する実務知識を前提としています。 サポートについては、[Postmanのドキュメント &#x200B;](https://learning.getpostman.com/) を参照してください。 |
+| 参照 | このチュートリアルの残りの期間、次のリソースに慣れていることを前提としています。<UL><li>[Adobe I/O GitHub](https://github.com/adobeio)</li><li>[Target Adobe I/Oのドキュメント &#x200B;](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API ドキュメント &#x200B;](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[ 次へ「Recommendations カタログの管理」 >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=ja){target="_blank"}
+[&#x200B; 次へ「Recommendations カタログの管理」 >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=ja){target="_blank"}

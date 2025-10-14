@@ -25,4 +25,4 @@ Automated Personalizationおよび自動ターゲット アクティビティは
 
 ## 追加情報
 
-* [ ヘルプドキュメントのPersonalization インサイト ](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=ja)
+* [&#x200B; ヘルプドキュメントのPersonalization インサイト &#x200B;](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=ja)

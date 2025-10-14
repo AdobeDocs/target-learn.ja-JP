@@ -73,5 +73,5 @@ window.onhashchange = function() {
 
 ## その他のリソース
 
-* [at.js 2.0 の仕組みについて（アーキテクチャ図） ](understanding-how-atjs-20-works.md)
+* [at.js 2.0 の仕組みについて（アーキテクチャ図） &#x200B;](understanding-how-atjs-20-works.md)
 * [Adobe Targetのシングルページアプリケーション用 Visual Experience Composer （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

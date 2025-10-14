@@ -26,6 +26,6 @@ Adobe Experience Cloud デバッガーを使用すると、Target の実装を�
 
 * [Target トレースのビデオを使用したトラブルシューティング](troubleshoot-with-target-traces.md)
 * [Chrome ストアでの Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [ デバッガー拡張機能の追加ビデオ ](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=ja)
-* [Target ヘルプドキュメントのトラブルシューティング ](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ja)
+* [&#x200B; デバッガー拡張機能の追加ビデオ &#x200B;](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=ja)
+* [Target ヘルプドキュメントのトラブルシューティング &#x200B;](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ja)
 * [Experience Cloud Debugger ビデオの使用方法](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=ja)

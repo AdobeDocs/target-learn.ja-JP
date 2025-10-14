@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## アーキテクチャ図
 
-![ ページ読み込み時の at.js 2.0 の動作 ](assets/pageload.png)
+![&#x200B; ページ読み込み時の at.js 2.0 の動作 &#x200B;](assets/pageload.png)
 
 1. 呼び出しによってExperience Cloud ID （ECID）が返されます。 ユーザーが認証されると、別の呼び出しでその顧客 ID が同期されます。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. ページから [!DNL Analytics] サーバーに送信された [!UICONTROL Data Collection] データ
 1. [!DNL Target] データは、SDID を介して Analytics データと照合され、[!DNL Analytics] レポートストレージに処理されます。 A4T レポートを使用して、[!DNL Analytics] データが [!DNL Analytics] と [!DNL Target] の両方に表示できるようになります。
 
-![triggerView （）関数が使用された場合の at.js 2.0 の動作 ](assets/triggerview.png)
+![triggerView （）関数が使用された場合の at.js 2.0 の動作 &#x200B;](assets/triggerview.png)
 
 1. `adobe.target.triggerView()` は、単一ページアプリケーションで呼び出されます
 1. ビューのターゲットコンテンツがキャッシュから読み取られる

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 + [Recs API の概要](recs-api-overview.md)
 + [API を使用したカタログの管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=ja){target="_blank"}
-+ [ カスタム条件の管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=ja){target="_blank"}
++ [&#x200B; カスタム条件の管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=ja){target="_blank"}
 + [Recommendations での配信 API の使用](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=ja){target="_blank"}
 
 <!--+ [Debug API calls](6debug.md)

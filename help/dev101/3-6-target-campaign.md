@@ -28,4 +28,4 @@ ht-degree: 20%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
 
-詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja) を参照してください。
+詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja) を参照してください。

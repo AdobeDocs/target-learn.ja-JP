@@ -58,4 +58,4 @@ ht-degree: 0%
 
 ## サポート資料
 
-* [Adobe Targetでのデータプロバイダーの使用 ](use-data-providers-to-integrate-third-party-data.md)
+* [Adobe Targetでのデータプロバイダーの使用 &#x200B;](use-data-providers-to-integrate-third-party-data.md)

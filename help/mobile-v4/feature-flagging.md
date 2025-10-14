@@ -39,7 +39,7 @@ ht-degree: 1%
 
 まず、wetravel_feature_flag_recs 定数が Constant.java ファイルに追加されていることを確認します。
 
-![ フィーチャ フラグ定数を追加 ](assets/feature_flag_constant.jpg)
+![&#x200B; フィーチャ フラグ定数を追加 &#x200B;](assets/feature_flag_constant.jpg)
 
 次にコードを示します。
 
@@ -49,7 +49,7 @@ public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_r
 
 次に、プリフェッチリクエストに場所を追加し、`processFeatureFlags()` という新しい関数を読み込みます。
 
-![ 機能フラグコード ](assets/feature_flag_code.jpg)
+![&#x200B; 機能フラグコード &#x200B;](assets/feature_flag_code.jpg)
 
 完全に更新されたコードを次に示します。
 
@@ -106,17 +106,17 @@ public void processFeatureFlags() {
 
 コードを追加したら、ホーム アクティビティでエミュレーターを実行し、更新された応答をログで確認します。
 
-![ 機能フラグの場所を検証 ](assets/feature_flag_code_logcat.jpg)
+![&#x200B; 機能フラグの場所を検証 &#x200B;](assets/feature_flag_code_logcat.jpg)
 
 ## 機能フラグ JSON オファーの作成
 
 次に、特定のオーディエンス（アプリで機能ロールアウトを受け取るオーディエンス）のフラグまたはトリガーとして機能するシンプルな JSON オファーを作成します。 [!DNL Target] インターフェイスで、新しいオファーを作成します。
 
-![ 機能フラグ JSON オファーの作成 ](assets/feature_flag_json_offer.jpg)
+![&#x200B; 機能フラグ JSON オファーの作成 &#x200B;](assets/feature_flag_json_offer.jpg)
 
 「機能フラグ v1」に値 {&quot;enable&quot;:1} という名前を付けてみましょう
 
-![feature_flag_v1 JSON オファー ](assets/feature_flag_json_name.jpg)
+![feature_flag_v1 JSON オファー &#x200B;](assets/feature_flag_json_name.jpg)
 
 ## アクティビティの作成
 
@@ -126,24 +126,24 @@ public void processFeatureFlags() {
 1. 「wetravel_feature_flag_recs」の場所を選択
 1. コンテンツを「機能フラグ v1」 JSON オファーに変更します
 
-   ![ 機能フラグアクティビティ設定 ](assets/feature_flag_activity.jpg)
+   ![&#x200B; 機能フラグアクティビティ設定 &#x200B;](assets/feature_flag_activity.jpg)
 
 1. 「**[!UICONTROL Add Experience]**」をクリックしてエクスペリエンス B を追加します。
 1. 「wetravel_feature_flag_recs」の場所を離れる
 1. コンテンツ **[!UICONTROL Default Content]** は残す
 1. **[!UICONTROL Next]** をクリックして [!UICONTROL Targeting] 画面に進みます
 
-   ![ 機能フラグアクティビティ設定 ](assets/feature_flag_activity_2.jpg)
+   ![&#x200B; 機能フラグアクティビティ設定 &#x200B;](assets/feature_flag_activity_2.jpg)
 
 1. [!UICONTROL Targeting] の画面で、[!UICONTROL Traffic Allocation] メソッドがデフォルト設定（手動）に設定されていること、および各エクスペリエンスにデフォルトの 50% 配分が設定されていることを確認します。 **[!UICONTROL Next]** を選択して **[!UICONTROL Goals & Settings]** に進みます。
 
-   ![ 機能フラグアクティビティ設定 ](assets/feature_flag_activity_3.jpg)
+   ![&#x200B; 機能フラグアクティビティ設定 &#x200B;](assets/feature_flag_activity_3.jpg)
 
 1. **[!UICONTROL Primary Goal]** を **[!UICONTROL Conversion]** に設定します。
 1. アクションを **[!UICONTROL Viewed an Mbox]** に設定します。 「wetravel_context_dest」の場所を使用します（この場所は確認画面にあるので、この場所を使用して、新機能によってより多くのコンバージョンが発生するかどうかを確認できます）。
 1. **[!UICONTROL Save & Close]** をクリックします。
 
-   ![ 機能フラグアクティビティ設定 ](assets/feature_flag_activity_4.jpg)
+   ![&#x200B; 機能フラグアクティビティ設定 &#x200B;](assets/feature_flag_activity_4.jpg)
 
 アクティビティをアクティブ化します。
 
@@ -151,7 +151,7 @@ public void processFeatureFlags() {
 
 次に、エミュレーターを使用してリクエストを監視します。 ターゲティングを 50% のユーザーに設定したので、50% が存在する場合は、機能フラグの応答に `{enable:1}` 値が含まれています。
 
-![ 機能フラグの検証 ](assets/feature_flag_validation.jpg)
+![&#x200B; 機能フラグの検証 &#x200B;](assets/feature_flag_validation.jpg)
 
 `{enable:1}` の値が表示されない場合は、エクスペリエンスのターゲットになっていません。 一時的なテストとして、オファーを強制的に表示するには、次の操作を行います。
 
