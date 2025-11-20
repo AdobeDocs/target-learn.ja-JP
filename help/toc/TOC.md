@@ -29,7 +29,7 @@ ht-degree: 9%
 + 実装{#implementation}
    + [Target 実装の概要](../dev101/2-1-intro-to-target-implementation.md)
    + [Target と Launch の統合](../dev101/3-1-target-launch.md)
-   + [Launch を使用した web サイトへの実装 &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja)
+   + [Launch を使用した web サイトへの実装 ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [場所を使用するメリット](../dev101/2-2-benefits-of-locations.md)
    + [Target リクエストの概要](../dev101/2-3-intro-to-target-requests.md)
    + [ターゲットパラメーターの概要](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 9%
    + [at.js 2.0 の単一ページアプリケーション（SPA）への実装](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Target 実装の設計](../dev101/2-5-design-target-implementation.md)
    + [Target 実装を設計するための次の手順](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [&#x200B; オプトインを使用し、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja)
+   + [ オプトインを使用し、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target ハイブリッドデプロイメントについて](../implementation/hybrid-deployment.md)
    + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
    + [Adobe Targetの実装パターン](../implementation/implementation-patterns-for-adobe-target.md)
@@ -58,7 +58,7 @@ ht-degree: 9%
       + [Target でのReal-Time CDP プロファイル属性の使用](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Target と Scene7 の統合](../dev101/3-8-target-scene7.md)
    + [Target とAdobe Experience Managerの統合](../dev101/3-5-target-aem.md)
-   + [Adobe TargetでのAEM エクスペリエンスフラグメントの使用 &#x200B;](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Adobe TargetでのAEM エクスペリエンスフラグメントの使用 ](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Data In: データプロバイダーを使用してサードパーティのデータを統合します](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [データ入力：データプロバイダーを実装してサードパーティのデータを統合する](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [データアウト：応答トークンと at.js カスタムイベントの使用](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -80,7 +80,7 @@ ht-degree: 9%
    + [Visual Experience Composer の使用](../experiences/use-the-visual-experience-composer.md)
    + [シングルページアプリケーション用 Visual Experience Composer （SPA VEC）の使用](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [フォームベースの Experience Composer の使用](../experiences/use-the-form-based-experience-composer.md)
-   + [Adobe TargetでのAEM エクスペリエンスフラグメントの使用 &#x200B;](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Adobe TargetでのAEM エクスペリエンスフラグメントの使用 ](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + レポート{#reports}
    + [Personalization Insights レポートの使用](../reports/use-the-personalization-insights-reports.md)
 + レコメンデーション{#recommendations}
