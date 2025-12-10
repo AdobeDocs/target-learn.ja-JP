@@ -2,11 +2,11 @@
 title: 最適化のベストプラクティス
 description: Adobeの 6 つの最適化の基本事項と、その適用方法について説明します。
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobeの 6 つの最適化の基本事項と、その適用方法について説
 
 変化が一定であることを知っている場合、当社の最適化戦略は、顧客の絶え間なく変化するニーズを満たすための反復的な実行サイクルである必要があります（下図 1 を参照）。
 
-![&#x200B; 最適化とパーソナライゼーション &#x200B;](assets/optimize-and-personalize.png)
+![ 最適化とパーソナライゼーション ](assets/optimize-and-personalize.png)
 
 _図 1 – 最適化の反復サイクル_
 
@@ -118,6 +118,6 @@ Personalizationには、エクスペリエンスのターゲット設定テス�
 
 上記の理解に基づいて、Adobeでは、パーソナライズする前に最適化を行い、Personalizationを幅広い範囲から詳細な範囲に進めることをお勧めします。 Personalization アクティビティを広範から詳細に成熟させるには、まず 1 対多のパーソナライゼーション（広範）スタイル（A/B テストを使用）を使用し、次に 1 対 1 のパーソナライゼーション（詳細）スタイル（Automated Personalization アクティビティを使用）に移行します。
 
-詳しくは、[&#x200B; パーソナライゼーションテストとロードマップ作成のクイックスタート &#x200B;](https://experienceleague.adobe.com/ja/perspectives/quickstart-for-personalization-testing-and-roadmap-creation) を参照してください。
+詳しくは、[ パーソナライゼーションテストとロードマップ作成のクイックスタート ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation) を参照してください。
 
-戦略とソートリーダーシップについて詳しくは、[&#x200B; パースペクティブ &#x200B;](https://experienceleague.adobe.com/ja/perspectives) ハブを参照してください。
+戦略とソートリーダーシップについて詳しくは、[ パースペクティブ ](https://experienceleague.adobe.com/en/perspectives) ハブを参照してください。

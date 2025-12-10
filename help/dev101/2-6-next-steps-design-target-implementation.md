@@ -1,7 +1,7 @@
 ---
 title: 基本以外に、Target 実装を設計するための次の手順は何か
 description: タグ管理ライブラリを使用した Target の実装方法を説明します。 プロファイルスクリプトとユーザーモデルの関連性、およびリクエストパラメーターとプロファイルパラメーターの使用と適用を区別する方法を明確にします。
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development, Architecture
 feature: Implementation
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 7%
@@ -31,4 +31,4 @@ ht-degree: 7%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35144/?quality=12)
 
-詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja) を参照してください。
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en) を参照してください。

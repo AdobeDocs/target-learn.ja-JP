@@ -1,12 +1,12 @@
 ---
 title: Adobe Targetの使用方法を学ぶ
 description: すべてのコンポーネントをカバーするチュ  [!DNL Adobe Target]  トリアルとビデオのこのコレクションでの使用方法を説明します。
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 >
 >このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 >
->* *[Adobe Target実務担当者ガイド &#x200B;](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja){target=_blank}*
+>* *[Adobe Target実務担当者ガイド ](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja){target=_blank}*
 >
 >* *[Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}*
 
@@ -50,11 +50,11 @@ ht-degree: 10%
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ja"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Adobe Experience Platform タグを使用した Target の実装" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=ja">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Adobe Experience Platform タグを使用した Target の実装 </strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ja">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
       <img alt="Adobe Targetの at.js 2.0 のシングルページアプリケーション（SPA）への実装" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=ja">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
     <strong>SPA への at.js 2.0 の実装 </strong>
     </a>
     </div>

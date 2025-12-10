@@ -1,7 +1,7 @@
 ---
 title: Target の管理方法
 description: アカウントの環境設定、プロパティの作成、ホストと環境の作成の方法について説明します。 Target UI 実装設定の説明方法を説明します。
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Intermediate
 topic: Personalization, Administration
 feature: Administration & Configuration, Implementation
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5062
 thumbnail: 33751.jpg
 exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 13%
@@ -33,4 +33,4 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/33751/?quality=12)
 
-詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=ja) を参照してください。
+詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en) を参照してください。
