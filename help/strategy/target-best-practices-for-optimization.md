@@ -118,6 +118,6 @@ Personalizationには、エクスペリエンスのターゲット設定テス�
 
 上記の理解に基づいて、Adobeでは、パーソナライズする前に最適化を行い、Personalizationを幅広い範囲から詳細な範囲に進めることをお勧めします。 Personalization アクティビティを広範から詳細に成熟させるには、まず 1 対多のパーソナライゼーション（広範）スタイル（A/B テストを使用）を使用し、次に 1 対 1 のパーソナライゼーション（詳細）スタイル（Automated Personalization アクティビティを使用）に移行します。
 
-詳しくは、[&#x200B; パーソナライゼーションテストとロードマップ作成のクイックスタート &#x200B;](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation) を参照してください。
+詳しくは、[&#x200B; パーソナライゼーションテストとロードマップ作成のクイックスタート &#x200B;](https://experienceleague.adobe.com/ja/perspectives/quickstart-for-personalization-testing-and-roadmap-creation) を参照してください。
 
-戦略とソートリーダーシップについて詳しくは、[&#x200B; パースペクティブ &#x200B;](https://experienceleague.adobe.com/en/perspectives) ハブを参照してください。
+戦略とソートリーダーシップについて詳しくは、[&#x200B; パースペクティブ &#x200B;](https://experienceleague.adobe.com/ja/perspectives) ハブを参照してください。

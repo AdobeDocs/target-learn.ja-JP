@@ -31,4 +31,4 @@ ht-degree: 9%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en) を参照してください。
+詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja) を参照してください。
