@@ -90,4 +90,4 @@ Adobeでは、各ユースケースを 1～5 のスケールでランク付け�
 
 次の各手順について説明しているこのビデオを視聴することをお勧めします：[https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-戦略やソートリーダーシップについて詳しくは、[ カスタマーサクセス ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブを参照してください。
+戦略やソートリーダーシップについて詳しくは、[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブを参照してください。
