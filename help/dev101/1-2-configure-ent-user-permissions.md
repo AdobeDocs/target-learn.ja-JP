@@ -30,6 +30,6 @@ ht-degree: 15%
 * 開発者
 * 建築士
 
->[!VIDEO](https://video.tv.adobe.com/v/33754/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421784/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=ja) を参照してください。
