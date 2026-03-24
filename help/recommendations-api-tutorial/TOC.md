@@ -1,23 +1,25 @@
 ---
-user-guide-title: Recommendations API の使用
+user-guide-title: Recommendations APIの使用
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-source-git-commit: 542ff406fc24df54a2f1b007422492341ea46507
+source-git-commit: f2540314838fbed20415fb3d336b81204d3eaadc
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Recommendations API の使用{#recommendations-api-tutorial}
+# Adobe Target Recommendations APIの使用{#recommendations-api-tutorial}
 
-+ [Recs API の概要](recs-api-overview.md)
-+ [API を使用したカタログの管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=ja){target="_blank"}
-+ [&#x200B; カスタム条件の管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=ja){target="_blank"}
-+ [Recommendations での配信 API の使用](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=ja){target="_blank"}
++ [Recs APIの概要](recs-api-overview.md)
++ [APIによるカタログの管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
++ [カスタム条件を管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
++ [Recommendationsでの配信APIの使用](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
-<!--+ [Debug API calls](6debug.md)
-+ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->
+<!--
++ [Debug API calls](6debug.md)
++ [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)
+-->
 
 <!--
 + Managing your Catalog with APIs{#manage-catalog}
@@ -31,4 +33,5 @@ ht-degree: 0%
   + [Category Pages](use-cases/category-pages.md)
   + [Add to Cart Modals](use-cases/add-to-cart-modals.md)
   + [Cart Page](use-cases/cart-page.md)
-  + [Order Confirmation Page](use-cases/order-confirmation-page.md)-->
+  + [Order Confirmation Page](use-cases/order-confirmation-page.md)
+-->
