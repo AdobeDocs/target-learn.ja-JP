@@ -40,7 +40,7 @@ ht-degree: 7%
    + [オプトインを使用して、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Adobe Target ハイブリッドデプロイメントについて](../implementation/hybrid-deployment.md)
    + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
-   + {hide-from-toc}[Adobe Targetの実装パターン ](../implementation/implementation-patterns-for-adobe-target.md)
+   + {hide-from-toc}[Adobe Targetの実装パターン &#x200B;](../implementation/implementation-patterns-for-adobe-target.md)
 + 統合{#integrations}
    + [Adobe TargetとAdobe Analyticsの統合](../dev101/3-2-target-analytics.md)
    + [Analytics as a Data Source for Target （A4T）の使用](../integrations/use-analytics-as-a-data-source-a4t.md)
