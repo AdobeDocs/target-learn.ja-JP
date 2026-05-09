@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 product: target
 solution: Target
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
 solution-title: Target
 landing-page-name: target
 landing-page-breadcrumb-title: Target
@@ -16,9 +18,9 @@ mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
 auto-video-transcripts: true
-source-git-commit: 9d58452f04e280cc5f27b17a50cd5d6dc0141f47
+source-git-commit: 36372c193b350e97c509618c3983da7e4484ae74
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 0%
 
 ---
