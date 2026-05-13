@@ -9,11 +9,16 @@ doc-type: tutorial
 kt: 3040
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
 TQID: https://experienceleague.adobe.com/DoRg-ukzkWeNsIVbq-KSKES4ECa0SMX-9S1uqoe-K44
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 977
@@ -80,7 +85,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. **[!UICONTROL a.Launches is greater than or equal to 5]**&#x200B;をカスタムルールとして使用します。
 1. 新しいオーディエンスを保存します。
 
-   ![ リピートユーザーオーディエンスの作成](assets/audience_returning_mobile_app_users.jpg)
+   ![&#x200B; リピートユーザーオーディエンスの作成](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
@@ -98,7 +103,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. 次の定義でカスタムルールを使用します：_locationDestにサンディエゴが含まれています_。
 1. 新しいオーディエンスを保存します。
 
-   ![ サンディエゴのオーディエンスを作成](assets/audience_locationDest_san_diego.jpg)
+   ![&#x200B; サンディエゴのオーディエンスを作成](assets/audience_locationDest_san_diego.jpg)
 
 ### ロサンゼルスへの旅行を予約するユーザー向けのオーディエンスを作成する
 
@@ -106,7 +111,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. 次の定義でカスタムルールを使用します。_locationDest contains Los Angeles_
 1. 新しいオーディエンスを保存します。
 
-![ ロサンゼルスのオーディエンスを作成](assets/audience_locationDest_los_angeles.jpg)
+![&#x200B; ロサンゼルスのオーディエンスを作成](assets/audience_locationDest_los_angeles.jpg)
 
 ## オファーの作成
 
@@ -120,13 +125,13 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. **[!UICONTROL Create]** をクリックします。
 1. **[!UICONTROL HTML Offer]**&#x200B;を選択します。
 
-   ![ ホームオファーの作成](assets/offer_home_1.jpg)
+   ![&#x200B; ホームオファーの作成](assets/offer_home_1.jpg)
 
 1. オファーに&#x200B;_Home: Engage New Users_&#x200B;という名前を付けます。
 1. 「_Sourceと宛先を選択」と入力して、使用可能なバス_&#x200B;をコードとして検索します。
 1. 新しいオファーを保存します。
 
-   ![ ホーム HTML オファーを作成](assets/offer_home_2.jpg)
+   ![&#x200B; ホーム HTML オファーを作成](assets/offer_home_2.jpg)
 
 ### リピートユーザー向けのオファーの作成
 
@@ -136,7 +141,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. _おかえりなさい！ チェックアウト時にプロモーションコード BACK30を使用すると、10%の割引が受けられます。_ HTMLコードなどです。
 1. 新しいオファーを保存します。
 
-   ![ ホーム HTML オファーを作成](assets/offer_home_returning_users.jpg)
+   ![&#x200B; ホーム HTML オファーを作成](assets/offer_home_returning_users.jpg)
 
 ### サンディエゴ・オファーの作成
 
@@ -146,7 +151,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. HTML コードとして&#x200B;_DJ_&#x200B;を入力します。
 1. 新しいオファーを保存します。
 
-![ サンディエゴのオファーを作成](assets/offer_san_diego.jpg)
+![&#x200B; サンディエゴのオファーを作成](assets/offer_san_diego.jpg)
 
 ### ロサンゼルスに行くユーザー向けのオファーを作成
 
@@ -156,7 +161,7 @@ ThankYou アクティビティに「Universal」が返されると、filterRecom
 1. HTML コードとして&#x200B;_Universal_&#x200B;を入力します。
 1. 新しいオファーを保存します。
 
-![ 「ロサンゼルス」オファーを作成](assets/offer_los_angeles.jpg)
+![&#x200B; 「ロサンゼルス」オファーを作成](assets/offer_los_angeles.jpg)
 
 ## まとめ
 

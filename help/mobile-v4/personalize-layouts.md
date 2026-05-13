@@ -10,11 +10,17 @@ kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
 TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 993
@@ -50,7 +56,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**&#x200B;を選択します。
 
-   ![ アクティビティの作成](assets/activity_create_1.jpg)
+   ![&#x200B; アクティビティの作成](assets/activity_create_1.jpg)
 
 1. **[!UICONTROL Mobile App]** をクリックします。
 1. **[!UICONTROL Form composer]**&#x200B;を選択します。
@@ -58,37 +64,37 @@ ht-degree: 1%
 1. プロパティを選択します（以前のレッスンで使用したプロパティと同じ）。
 1. **[!UICONTROL Next]** をクリックします。
 
-   ![ アクティビティの作成](assets/activity_create_2.jpg)
+   ![&#x200B; アクティビティの作成](assets/activity_create_2.jpg)
 
 1. アクティビティのタイトルを&#x200B;**[!UICONTROL Engage Users]**&#x200B;に変更します。
-1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**を選択します。
+1. **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**&#x200B;を選択します。
    ![新しいモバイルアプリユーザーによるオーディエンスの変更](assets/activity_create_3.jpg)
 1. オーディエンスを&#x200B;**[!UICONTROL New Mobile App Users]**&#x200B;に設定します。
 1. **[!UICONTROL Done]** をクリックします。
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_4.jpg)
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_4.jpg)
 
 1. 場所を&#x200B;_wetravel_ engage_home_に変更します。
 1. デフォルトコンテンツの横にあるドロップダウン矢印を選択し、**[!UICONTROL Change HTML Offer]**&#x200B;を選択します。
 
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_5.jpg)
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_5.jpg)
 
 1. **[!UICONTROL Home: Engage New Users]** オファーを選択します。
 1. **[!UICONTROL Done]**&#x200B;を選択します。
 
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_6.jpg)
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_6.jpg)
 
-1. **[!UICONTROL Add Location]**を選択します。
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_7.jpg)
+1. **[!UICONTROL Add Location]**&#x200B;を選択します。
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_7.jpg)
 
 1. _wetravel_ engage_search_の場所を選択します。
 1. HTMLのオファーを変更します。
 
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_8.jpg)
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_8.jpg)
 
 1. **[!UICONTROL Search: Engage New Users]** オファーを選択します。
 1. **[!UICONTROL Done]** をクリックします。
 
-   ![新しいモバイルアプリユーザーオーディエンス ](assets/activity_create_9.jpg)
+   ![新しいモバイルアプリユーザーオーディエンス &#x200B;](assets/activity_create_9.jpg)
 
 オーディエンスを場所やオファーに結びつけ、新しいモバイルアプリユーザーにパーソナライズされた体験を提供できました。 エクスペリエンスは次のようになります。
 
@@ -98,12 +104,12 @@ ht-degree: 1%
 
 1. 左側の&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;を選択します。
 1. オーディエンス **[!UICONTROL Returning Mobile App Users]**&#x200B;を選択します。
-1. **[!UICONTROL Done]**を選択します。
-   ![ モバイルアプリユーザーのオーディエンスを返しています](assets/activity_create_11.jpg)
+1. **[!UICONTROL Done]**&#x200B;を選択します。
+   ![&#x200B; モバイルアプリユーザーのオーディエンスを返しています](assets/activity_create_11.jpg)
 
 先ほど使用したのと同じプロセスを使用して、新しいエクスペリエンスを設定します。 Return Mobile App Users エクスペリエンスの設定は次のようになります。
 
-![ モバイルアプリユーザーの最終版](assets/activity_engage_users_b_final.jpg)を返しています
+![&#x200B; モバイルアプリユーザーの最終版](assets/activity_engage_users_b_final.jpg)を返しています
 
 設定の次の画面に進みます。
 
@@ -111,20 +117,20 @@ ht-degree: 1%
 1. ターゲティングのデフォルト設定を使用します。 オーディエンスが重複している場合（例：_New York Users_&#x200B;および&#x200B;_First Time Users_）、この画面で優先順位を並べ替えることができます。
 1. **[!UICONTROL Next]**&#x200B;をクリックして&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;に進みます。
 
-   ![ ユーザーのエンゲージメントアクティビティ – デフォルトのターゲティング ](assets/activity_engage_users_targeting.jpg)
+   ![&#x200B; ユーザーのエンゲージメントアクティビティ – デフォルトのターゲティング &#x200B;](assets/activity_engage_users_targeting.jpg)
 
 次に、アクティビティの設定を完了します。
 
 1. **[!UICONTROL Primary Goal]**&#x200B;を&#x200B;**[!UICONTROL Conversion]**&#x200B;に設定します。
 1. アクションを&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_に設定します（この場所は確認画面にあるので、コンバージョンを測定するために使用できます）。
 
-   ![ ユーザーのエンゲージメントアクティビティ – 目標](assets/activity_create_12.jpg)
+   ![&#x200B; ユーザーのエンゲージメントアクティビティ – 目標](assets/activity_create_12.jpg)
 
 1. 画面の他のすべての設定をデフォルトのままにします。
 1. 「**[!UICONTROL Save & Close]**」をクリックしてアクティビティを保存します。
 1. 次の画面で&#x200B;**[!UICONTROL Activity]**&#x200B;をアクティブ化します。
 
-![ エクスペリエンス B オーディエンス ](assets/activity_create_13.jpg)
+![&#x200B; エクスペリエンス B オーディエンス &#x200B;](assets/activity_create_13.jpg)
 
 最初のアクティビティが公開され、テストの準備が整いました。
 
@@ -141,11 +147,11 @@ ht-degree: 1%
 
 #### サンディエゴ
 
-![ コンテキストオファー – エクスペリエンス A](assets/activity_contextual_a_final.jpg)
+![&#x200B; コンテキストオファー – エクスペリエンス A](assets/activity_contextual_a_final.jpg)
 
 #### ロサンゼルス
 
-![ コンテキストオファー – エクスペリエンス B](assets/activity_contextual_b_final.jpg)
+![&#x200B; コンテキストオファー – エクスペリエンス B](assets/activity_contextual_b_final.jpg)
 
 目標と設定ステップで、プライマリ目標を予約確認画面の場所に変更します。
 
@@ -153,7 +159,7 @@ ht-degree: 1%
 1. アクションを&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_に設定します（このアクティビティでは、この指標はエクスペリエンスを提供する場所と同じであるため、基本的に意味がありません）。
 1. **[!UICONTROL Save & Close]** をクリックします。
 
-![ コンテキストオファー – エクスペリエンス ](assets/activity_create_14.jpg)
+![&#x200B; コンテキストオファー – エクスペリエンス &#x200B;](assets/activity_create_14.jpg)
 
 次の画面でアクティビティをアクティブ化します。
 
@@ -163,15 +169,15 @@ ht-degree: 1%
 
 エミュレーターを実行し、最初のオファーがホーム画面の下部に表示されるのを確認します。 5つ以上のアプリのローンチを持つリピーターの場合、_ウェルカムバック_&#x200B;のオファーが表示されます。 新規ユーザー（アプリの起動数が5未満）の場合は、_新規ユーザー_&#x200B;のメッセージが表示されます。
 
-![ ホームオファーの検証](assets/layout_home_validate.jpg)
+![&#x200B; ホームオファーの検証](assets/layout_home_validate.jpg)
 
 新しいユーザーオファーが表示されない場合は、エミュレーターのデータをワイプしてみてください。 これにより、次回の起動時にアプリの起動数が1にリセットされます。 これは、**[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**&#x200B;の下で行われます。 Logcatが正常に動作しない場合は、Android Studioを再起動する必要がある場合があります。
 
-![ エミュレーターを消去](assets/layout_home_validate_avd_wipe.jpg)
+![&#x200B; エミュレーターを消去](assets/layout_home_validate_avd_wipe.jpg)
 
 _wetravel_ engage_home_をフィルタリングして、Logcatの応答を検証することもできます。
 
-![ ホームオファーの検証 – Logcat](assets/layout_home_validate_logcat.jpg)
+![&#x200B; ホームオファーの検証 – Logcat](assets/layout_home_validate_logcat.jpg)
 
 ## 検索オファーの検証
 
@@ -191,11 +197,11 @@ _wetravel_ engage_home_をフィルタリングして、Logcatの応答を検証
 
 サンディエゴが宛先として選択されているので、確認画面に&#x200B;_DJ SAM_ オファーのバナーが表示されます。
 
-![ コンテキストオファーの検証 – サンディエゴ ](assets/layout_context_san_diego.jpg)
+![&#x200B; コンテキストオファーの検証 – サンディエゴ &#x200B;](assets/layout_context_san_diego.jpg)
 
 次に、**[!UICONTROL Done]**&#x200B;を選択し、ロサンゼルスを目的地として別の予約を試してください。 確認画面には、_Universal Studios_ バナーが表示されます。
 
-![ コンテキストオファーの検証 – ロサンゼルス ](assets/layout_context_los_angeles.jpg)
+![&#x200B; コンテキストオファーの検証 – ロサンゼルス &#x200B;](assets/layout_context_los_angeles.jpg)
 
 ## まとめ
 

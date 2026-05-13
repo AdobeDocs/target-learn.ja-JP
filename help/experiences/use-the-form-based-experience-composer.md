@@ -10,10 +10,15 @@ kt: null
 author: Daniel Wright
 exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
 TQID: https://experienceleague.adobe.com/x-N2cimJvNLRCG29tXoAX-yXzewQsrYRHyVqQs06yRw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 74

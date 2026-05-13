@@ -11,12 +11,22 @@ thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 2507
@@ -37,7 +47,7 @@ ht-degree: 2%
 このチュートリアルでは、次の主要な概念に基づいて、[!DNL Analysis Workspace]の[!UICONTROL Auto-Target] アクティビティを分析する際に推奨される変更について説明します。
 
 * **[!UICONTROL Control vs Targeted]** ディメンションを使用すると、[!UICONTROL Control]個のエクスペリエンスと[!UICONTROL Auto-Target]個のアンサンブルマシンラーニングアルゴリズムで提供されるエクスペリエンスを区別できます。
-* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
+* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
 * 訪問ルックバックスコープのアトリビューションは、所定のアトリビューションモデルの「訪問ルックバックウィンドウ」とも呼ばれ、トレーニングフェーズ中に[!DNL Adobe Target] ML モデルで使用され、目標指標を分類する場合は、同じ（デフォルト以外の）アトリビューションモデルを使用する必要があります。
 
 ## [!DNL Analysis Workspace] での [!UICONTROL Auto-Target] パネル用の A4T の作成
@@ -64,7 +74,7 @@ ht-degree: 2%
 
 この置き換えにより、A4T パネルのデフォルトの[!UICONTROL Lift and Confidence]計算が無効になることに注意してください。 混乱を避けるために、次のレポートを残して、これらの指標をデフォルトパネルから削除できます。
 
-[!DNL Analysis Workspace]](assets/Figure2.png)の![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)の[!UICONTROL Experiences by Activity Conversions] パネル
 
 *図2: [!DNL Auto-Target] アクティビティの推奨ベースラインレポート。 このレポートは、対象トラフィック （アンサンブル ML モデルによって提供される）と制御トラフィックを比較するように設定されています。*
 
@@ -76,13 +86,13 @@ ht-degree: 2%
 
 アンサンブルマシンラーニングモデルのパフォーマンスについてさらにinsightを深めるために、**[!UICONTROL Control vs Targeted]** ディメンションのエクスペリエンスレベルの内訳を調べることができます。 [!DNL Analysis Workspace]で、**[!UICONTROL Target Experiences]** ディメンションをレポートにドラッグし、コントロール ディメンションとターゲットディメンションをそれぞれ個別に分割します。
 
-[!DNL Analysis Workspace]](assets/Figure3.png)の![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)の[!UICONTROL Experiences by Activity Conversions] パネル
 
 *図3: ターゲットエクスペリエンス別のターゲットディメンションの分類*
 
 結果のレポートの例を次に示します。
 
-[!DNL Analysis Workspace]](assets/Figure4.png)の![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)の[!UICONTROL Experiences by Activity Conversions] パネル
 
 *図4：エクスペリエンスレベルの内訳が記載された標準[!UICONTROL Auto-Target] レポート。 目標指標が異なる場合があり、制御戦略が単一のエクスペリエンスを持つ場合があることに注意してください。*
 
@@ -127,7 +137,7 @@ ht-degree: 2%
 6. 歯車アイコンをクリックし、次の図に示すように&#x200B;**[!UICONTROL Attribution model > Instance]**&#x200B;を選択します。
 7. **[!UICONTROL Save]** をクリックします。
 
-[!DNL Analysis Workspace]](assets/Figure5.png)の![ セグメント
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)の セグメント
 
 *図5：ここに示すようなセグメントを使用して、[!UICONTROL Auto-Target] レポート*&#x200B;のA4Tの[!UICONTROL Visits] メトリックをフィルタリングします
 
@@ -140,7 +150,7 @@ ht-degree: 2%
 
 最後のパネルは次のように表示されます。
 
-[!DNL Analysis Workspace]](assets/Figure6.png)の![[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)の[!UICONTROL Experiences by Activity Conversions] パネル
 
 *図6: [!UICONTROL Visits]指標に「特定の自動ターゲットアクティビティでヒット」セグメントが適用されたレポートパネル。 このセグメントは、ユーザーが問題の[!DNL Target] アクティビティを実際に操作した訪問のみがレポートに含まれるようにします。*
 
@@ -234,7 +244,7 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
 >[!TIP]
 >
-> [ クイック計算指標の機能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ja)を使用して、この指標を作成することもできます。
+> [&#x200B; クイック計算指標の機能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ja)を使用して、この指標を作成することもできます。
 
 計算指標の完全な定義を次に示します。
 
@@ -252,6 +262,6 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
 クリックして画像を展開。
 
-Analysis Workspaceの[!DNL Analysis Workspace]](assets/Figure10.png "A4T レポートの![A4T レポートの最終版"){width="600" zoomable="yes"}
+Analysis Workspaceの[!DNL Analysis Workspace]&rbrack;(assets/Figure10.png "A4T レポートの!&lbrack;A4T レポートの最終版"){width="600" zoomable="yes"}
 
 *図10：このチュートリアルの前のセクションで説明した指標の定義に対するすべての調整を組み合わせた、[!DNL Adobe Analytics] [!DNL Workspace]のA4T [!UICONTROL Auto-Target] レポートの最終版。*

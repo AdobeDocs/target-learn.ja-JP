@@ -9,12 +9,20 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1390
@@ -24,7 +32,7 @@ ht-degree: 2%
 
 # [!DNL Auto-Allocate]件のアクティビティに対して[!DNL Analysis Workspace]でA4T レポートを設定します
 
-[!DNL Adobe Target]の[[!UICONTROL Auto-Allocate] アクティビティ ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}は、2つ以上のエクスペリエンスの中から勝者を特定し、テストの実行と学習を続ける間に、訪問者のトラフィックを自動的に勝者に再割り当てします。 [!UICONTROL Auto-Allocate]の[!UICONTROL Analytics for Target] （A4T）統合により、[!DNL Adobe Analytics]でレポートデータを表示でき、[!DNL Analytics]で定義されたカスタムイベントまたは指標に対して最適化できます。
+[!DNL Adobe Target]の[[!UICONTROL Auto-Allocate] アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}は、2つ以上のエクスペリエンスの中から勝者を特定し、テストの実行と学習を続ける間に、訪問者のトラフィックを自動的に勝者に再割り当てします。 [!UICONTROL Auto-Allocate]の[!UICONTROL Analytics for Target] （A4T）統合により、[!DNL Adobe Analytics]でレポートデータを表示でき、[!DNL Analytics]で定義されたカスタムイベントまたは指標に対して最適化できます。
 
 豊富な分析機能は[!DNL Adobe Analytics] [!DNL Analysis Workspace]で利用できますが、[!UICONTROL Auto-Allocate]のアクティビティを正しく解釈するために、デフォルトの[!UICONTROL Analytics for Target] パネルに対するいくつかの変更が必要になる場合があります。 これらの変更は、[最適化指標の条件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ja#supported){target=_blank}のニュアンスにより必要です。
 
@@ -65,7 +73,7 @@ ht-degree: 2%
 
 | 変更が必要 | ターゲットトリガーレポート | A4T パネルレポート |
 | --- | --- | --- |
-| [!DNL Analytics]指標のコンバージョンを最大化 | <ul><li>[!UICONTROL Confidence]指標を削除します。</li><li>3つの[!UICONTROL Lift]指標をすべて削除します。</li><li>混乱を避けるために、[!UICONTROL Conversion Rate]列のパーセント表示のチェックを外します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li></ul> | <ul><li>[!UICONTROL Confidence]指標を削除します。</li><li>3つの[!UICONTROL Lift]指標をすべて削除します。</li><li>分析されたアクティビティを閲覧した正の指標値を持つ訪問者をフィルタリングするセグメントを作成します。 以下の「[ セグメントを作成](#segment)」を参照してください。</li><li>自動入力された[!UICONTROL Conversion Rate]指標を置き換えて、[!UICONTROL Unique visitors]の除算を正の指標の値とユニーク訪問者に置き換えます。 以下の「[ コンバージョン率メトリックを更新](#update-conversion-metric)」を参照してください。</li><li>混乱を避けるために、[!UICONTROL Conversion Rate]列のパーセント表示のチェックを外します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li><li>日付と時刻の範囲が、[!DNL Target] レポートに表示される値と一致していることを確認します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li></ul> |
+| [!DNL Analytics]指標のコンバージョンを最大化 | <ul><li>[!UICONTROL Confidence]指標を削除します。</li><li>3つの[!UICONTROL Lift]指標をすべて削除します。</li><li>混乱を避けるために、[!UICONTROL Conversion Rate]列のパーセント表示のチェックを外します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li></ul> | <ul><li>[!UICONTROL Confidence]指標を削除します。</li><li>3つの[!UICONTROL Lift]指標をすべて削除します。</li><li>分析されたアクティビティを閲覧した正の指標値を持つ訪問者をフィルタリングするセグメントを作成します。 以下の「[&#x200B; セグメントを作成](#segment)」を参照してください。</li><li>自動入力された[!UICONTROL Conversion Rate]指標を置き換えて、[!UICONTROL Unique visitors]の除算を正の指標の値とユニーク訪問者に置き換えます。 以下の「[&#x200B; コンバージョン率メトリックを更新](#update-conversion-metric)」を参照してください。</li><li>混乱を避けるために、[!UICONTROL Conversion Rate]列のパーセント表示のチェックを外します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li><li>日付と時刻の範囲が、[!DNL Target] レポートに表示される値と一致していることを確認します。 以下の[A4T](#guidance)の全体的なガイダンスを参照してください。</li></ul> |
 
 ### デフォルトのA4T パネルレポート – 追加ガイダンス
 
@@ -75,7 +83,7 @@ ht-degree: 2%
 
 1. 左側のパネルの&#x200B;**[!UICONTROL Segments]**&#x200B;の横にある&#x200B;**&quot;+&quot;記号**&#x200B;をクリックします。
 
-   左側のパネルのセグメントの横に![ プラス記号があります。](/help/integrations/assets/plus-sign.png)
+   左側のパネルのセグメントの横に![&#x200B; プラス記号があります。](/help/integrations/assets/plus-sign.png)
 
 1. 「正の指標の値を持つ訪問者」セグメントのタイトルを付けます。
 1. **[!UICONTROL Definition]**&#x200B;で、**[!UICONTROL Include]**&#x200B;の横にある&#x200B;**[!UICONTROL Visitor]**&#x200B;を選択します。
@@ -125,7 +133,7 @@ ht-degree: 2%
 
 レポートの正しい設定は、次の図のような結果を生成します。
 
-![ アクティビティコンバージョン ](/help/integrations/assets/optimized-table.png)
+![&#x200B; アクティビティコンバージョン &#x200B;](/help/integrations/assets/optimized-table.png)
 
 ## A4Tの全体的なガイダンス {#guidance}
 
@@ -133,27 +141,27 @@ ht-degree: 2%
 
 次の節では、選択する方法に応じて、必要な設定を指定します。 ただし、次の手順は、A4Tの全体的なガイダンスとして機能します。
 
-* パネル作成方法に関係なく、A4T パネルから信頼度指標を削除します（両方について詳しくは後述します）。 代わりに、[!DNL Target] レポートでこれらの値を参照してください。 さらに、アクティビティの勝者は[!DNL Target] レポートで特定できます。 アクティビティの勝者を特定する方法の詳細については、以下の「[ アクティビティの勝者を特定](#winner)」セクションを参照してください。
->>
-* 混乱を避けるには、[!UICONTROL Conversion Rate]指標の「[!UICONTROL Percent]」表示のチェックを外します。 以下の[!UICONTROL Conversion Rate]列](#hide-percentage)から割合を非表示にするを参照してください。[
->>
+* パネル作成方法に関係なく、A4T パネルから信頼度指標を削除します（両方について詳しくは後述します）。 代わりに、[!DNL Target] レポートでこれらの値を参照してください。 さらに、アクティビティの勝者は[!DNL Target] レポートで特定できます。 アクティビティの勝者を特定する方法の詳細については、以下の「[&#x200B; アクティビティの勝者を特定](#winner)」セクションを参照してください。
+&#x200B;>>
+* 混乱を避けるには、[!UICONTROL Conversion Rate]指標の「[!UICONTROL Percent]」表示のチェックを外します。 以下の[!UICONTROL Conversion Rate]列[&#128279;](#hide-percentage)から割合を非表示にするを参照してください。
+&#x200B;>>
 * A4T パネルを構築する場合は、日付と時刻の範囲が[!DNL Target] レポートの範囲と一致していることを確認します。 以下の「[A4T パネルで日時を調整する](#aligning-date-and-time)」を参照してください。
 
 ### [!UICONTROL Conversion Rate]列から割合を非表示にする {#hide-percentage}
 
 1. [!UICONTROL Conversion Rate]列のタイトルの横にある&#x200B;**歯車** アイコンをクリックします。
 
-   コンバージョン率の列の![歯車アイコン ](/help/integrations/assets/coversion-rate-gear-icon.png)
+   コンバージョン率の列の![歯車アイコン &#x200B;](/help/integrations/assets/coversion-rate-gear-icon.png)
 
    [!UICONTROL Column]設定ダイアログボックスに次の内容が表示されます。
 
-   ![列設定ダイアログボックス ](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
+   ![列設定ダイアログボックス &#x200B;](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. 「**[!UICONTROL Percent]**」チェックボックスの選択を解除します。
 
    A4T パネルに、[!UICONTROL Conversion Rate]としてパーセンテージが含まれず、次に示すように[!DNL Target]と一致するようになりました。
 
-   ![ コンバージョン率の列に割合が表示されない](/help/integrations/assets/no-percentages.png)
+   ![&#x200B; コンバージョン率の列に割合が表示されない](/help/integrations/assets/no-percentages.png)
 
 ### A4T パネルで日時を調整する {#aligning-date-and-time}
 
@@ -175,7 +183,7 @@ ht-degree: 2%
 
 1. [!UICONTROL Auto-Allocate] アクティビティレポートのA4T パネルを作成するには、次に示すように、[!DNL Analysis Workspace]の[!UICONTROL Analytics for Target] パネルから開始します。
 
-   ![Analytics for Target – 自動割り当てレポート ](/help/integrations/assets/a4t-auto-allocate-report.png)
+   ![Analytics for Target – 自動割り当てレポート &#x200B;](/help/integrations/assets/a4t-auto-allocate-report.png)
 
 1. 次の選択を行います。
 
