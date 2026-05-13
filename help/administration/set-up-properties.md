@@ -1,6 +1,6 @@
 ---
 title: プロパティの設定方法
-description: Adobe Targetでプロパティを作成する方法を説明します。
+description: Adobe Targetでプロパティを作成する方法について説明します。
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,28 +9,40 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/wr-2GiZvksc-470CYmUdkq6SNkjW5b01BZDVXPDe4O4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: 84
 ht-degree: 10%
 
 ---
 
-# [!DNL Adobe Target] でのプロパティの設定
+# [!DNL Adobe Target]でプロパティを設定
 
 このビデオでは、次の方法を学びます。
 
-* [!DNL Adobe Target] でのプロパティの作成
+* [!DNL Adobe Target]でプロパティを作成
 
-## 対象読者
+## 対象オーディエンス
 
-* Administrator
+* 管理者管理者
 
 ## 要件
 
-ユーザーがプロパティを作成するには、次の権限が必要です。
+プロパティを作成するには、ユーザーに次の権限が必要です。
 
-* 製品管理者（製品プロファイル管理者と混同しないこと）
+* 製品管理者（製品プロファイル管理者と混同しないでください）
 * システム管理者
 
 ## ビデオ：[!DNL Adobe Target] インターフェイス内でプロパティを作成する方法
@@ -39,4 +51,4 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->このビデオの収録以降、[!DNL Target] UI が更新されました。 プロパティを作成するには、[!UICONTROL Administration] / [!UICONTROL Properties] / [!UICONTROL Create Property] に移動します。 新しいビデオが間もなく利用できるようになります。
+>このビデオが録画されてから、[!DNL Target] UIが更新されました。 プロパティを作成するには、[!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]に移動します。 新しいビデオがまもなく公開されます。
