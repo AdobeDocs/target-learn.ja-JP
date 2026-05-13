@@ -36,4 +36,4 @@ ht-degree: 23%
 
 * 管理者
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421733/?captions=jpn&quality=12)

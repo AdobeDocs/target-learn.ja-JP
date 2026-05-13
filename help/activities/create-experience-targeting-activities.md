@@ -41,7 +41,7 @@ ht-degree: 24%
 
 * 実務担当者
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38305?captions=jpn&quality=12)
 
 ## その他のリソース
 
