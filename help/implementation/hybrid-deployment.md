@@ -53,5 +53,5 @@ Adobe Targetでは、クライアントサイドとサーバーサイドの両�
 
 ## その他のリソース
 
-* [オンデバイス判定の概要](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK ドキュメント](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [オンデバイス判定の概要](https://experienceleague.adobe.com/ja/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK ドキュメント](https://experienceleague.adobe.com/ja/docs/target-dev/developer/server-side/on-device-decisioning/overview)

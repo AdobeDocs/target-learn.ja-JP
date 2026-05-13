@@ -42,13 +42,13 @@ ht-degree: 11%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-詳しくは、[&#x200B; タグのチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)を参照してください。
+詳しくは、[&#x200B; タグのチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
 >Adobe Experience Platform Launchは、データ収集テクノロジースイートとしてAdobe Experience Platformに統合されています。 このコンテンツを使用する際に認識しておくべき、いくつかの用語の変更がインターフェイスにロールアウトされました。
 >
 > * Platform Launch （クライアントサイド）は&#x200B;**[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)**&#x200B;になりました
-> * Platform Launch Server Sideは&#x200B;**[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**&#x200B;になりました
-> * Edgeの設定は&#x200B;**[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**&#x200B;になりました
+> * Platform Launch Server Sideは&#x200B;**[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja)**&#x200B;になりました
+> * Edgeの設定は&#x200B;**[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)**&#x200B;になりました
 

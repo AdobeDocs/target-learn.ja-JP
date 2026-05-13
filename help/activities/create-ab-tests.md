@@ -43,4 +43,4 @@ ht-degree: 15%
 
 ## 関連資料
 
-詳細な手順については、*Adobe Target Business Practitioner Guide*&#x200B;の[A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank}を参照してください。
+詳細な手順については、*Adobe Target Business Practitioner Guide*&#x200B;の[A/B テストの作成](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ja){target=_blank}を参照してください。

@@ -112,4 +112,4 @@ Adobeでは、それぞれのユースケースを1から5まで（1は単純、
 
 次の各手順について説明するこのビデオをご覧になることをお勧めします：[https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブでの戦略とソートリーダーシップについて詳しく説明します。
+[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ja) ハブでの戦略とソートリーダーシップについて詳しく説明します。

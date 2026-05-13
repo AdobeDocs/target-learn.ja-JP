@@ -48,5 +48,5 @@ ht-degree: 3%
 ## その他のリソース
 
 * [Adobe TargetでのExperience Cloud Debuggerの使用](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [応答トークンのドキュメント](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [応答トークンのドキュメント](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=ja)
 * [Adobe Target でのデータプロバイダーの使用](use-data-providers-to-integrate-third-party-data.md)

@@ -38,4 +38,4 @@ Automated Personalizationと自動ターゲティングでは、高度なマシ�
 
 ## 追加情報
 
-* [ヘルプドキュメントのPersonalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [ヘルプドキュメントのPersonalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=ja)

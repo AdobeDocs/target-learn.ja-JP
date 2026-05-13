@@ -46,10 +46,10 @@ ht-degree: 24%
 ## その他のリソース
 
 * [Adobe Experience Personalizationのプレイブックをダウンロード](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [エクスペリエンスのターゲット設定](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [エクスペリエンスのターゲット設定](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=ja)
 
 ## このビデオで使用するその他の機能
 
-* [Audiences for Reportingのドキュメント](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [オーディエンスのドキュメントの作成](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Visual Experience Composer ドキュメントを使用したエクスペリエンスの構築](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Audiences for Reportingのドキュメント](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ja)
+* [オーディエンスのドキュメントの作成](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=ja)
+* [Visual Experience Composer ドキュメントを使用したエクスペリエンスの構築](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ja)

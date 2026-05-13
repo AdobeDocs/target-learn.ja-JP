@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## ライフサイクルパラメーターの追加
 
-[Adobe モバイルライフサイクル指標](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)を有効にしましょう。 これにより、ユーザーのデバイスとアプリとのエンゲージメントに関する豊富な情報を含む位置情報リクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを構築します。
+[Adobe モバイルライフサイクル指標](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ja)を有効にしましょう。 これにより、ユーザーのデバイスとアプリとのエンゲージメントに関する豊富な情報を含む位置情報リクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを構築します。
 
 ライフサイクル指標を有効にするには、HomeActivity コントローラーを再度開き、onResume （）関数に`Config.collectLifecycleData(this);`を追加します。
 
@@ -103,7 +103,7 @@ public void targetPrefetchContent() {
 
 ### パラメーターに関する注意
 
-今後のプロジェクトでは、追加のパラメーターを実装する必要があるかもしれません。 `createTargetPrefetchObject()` メソッドでは、`locationParams`、`orderParams`、`productParams`の3種類のパラメーターを使用できます。 これらのパラメーターをプリフェッチ要求に追加する方法の詳細については、[のドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)。
+今後のプロジェクトでは、追加のパラメーターを実装する必要があるかもしれません。 `createTargetPrefetchObject()` メソッドでは、`locationParams`、`orderParams`、`productParams`の3種類のパラメーターを使用できます。 これらのパラメーターをプリフェッチ要求に追加する方法の詳細については、[のドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja)。
 
 また、プリフェッチリクエストの各場所に異なる場所パラメーターを追加することもできます。 例えば、param2という別のマップを作成し、新しいパラメーターを作成してから、ある場所にparam2を設定し、別の場所にparam1を設定することができます。 例を次に示します。
 
@@ -160,11 +160,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->注文確認リクエストとパラメーター：このデモ プロジェクトでは使用されませんが、通常、注文の詳細は実際の実装でキャプチャされるため、[!DNL Target]は注文の詳細を指標/ディメンションとして使用できます。 注文確認リクエストとパラメーターの実装方法[については、ドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en)。
+>注文確認リクエストとパラメーター：このデモ プロジェクトでは使用されませんが、通常、注文の詳細は実際の実装でキャプチャされるため、[!DNL Target]は注文の詳細を指標/ディメンションとして使用できます。 注文確認リクエストとパラメーターの実装方法[については、ドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=ja)。
 
 >[!NOTE]
 >
->Analytics for Target （A4T）: Adobe Analyticsを[!DNL Target]のレポートソースとして設定できます。 これにより、Target SDKで収集されたすべての指標/ディメンションをAdobe Analyticsで表示できるようになります。 詳しくは、[A4Tの概要](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)を参照してください。
+>Analytics for Target （A4T）: Adobe Analyticsを[!DNL Target]のレポートソースとして設定できます。 これにより、Target SDKで収集されたすべての指標/ディメンションをAdobe Analyticsで表示できるようになります。 詳しくは、[A4Tの概要](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)を参照してください。
 
 すばらしい！ パラメーターが設定されたので、これらのパラメーターを使用してAdobe Targetでオーディエンスやオファーを作成する準備が整いました。
 
