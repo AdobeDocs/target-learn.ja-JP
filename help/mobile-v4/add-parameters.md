@@ -1,6 +1,6 @@
 ---
 title: リクエストへのパラメーターの追加
-description: このレッスンでは、前のレッスンで追加した Target リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
+description: このレッスンでは、前のレッスンで追加したTarget リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスを作成するために使用します。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -8,56 +8,62 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 816
 ht-degree: 0%
 
 ---
 
 # リクエストへのパラメーターの追加
 
-このレッスンでは、前のレッスンで追加した [!DNL Target] リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、チュートリアルの後半で、パーソナライズされたオーディエンスの作成に使用されます。
+このレッスンでは、前のレッスンで追加した[!DNL Target] リクエストにAdobe ライフサイクル指標とカスタムパラメーターを追加します。 これらの指標とパラメーターは、後のチュートリアルでパーソナライズされたオーディエンスを作成するために使用します。
 
 ## 学習目標
 
-このレッスンを終了すると、次の操作を実行できるようになります。
+このレッスンの最後には、次のことが可能になります。
 
 * Adobe モバイルライフサイクル指標の追加
-* プリフェッチ・リクエストへのパラメータの追加
+* プリフェッチリクエストへのパラメーターの追加
 * ライブロケーションへのパラメーターの追加
-* 両方のリクエストのパラメーターを検証
+* 両方のリクエストのパラメーターを検証する
 
-## ライフサイクル パラメータを追加する
+## ライフサイクルパラメーターの追加
 
-[Adobe モバイルライフサイクル指標 &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ja) を有効にしましょう。 これにより、ユーザーのデバイスに関する豊富な情報とアプリのエンゲージメントを含むロケーションリクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストで提供されるデータを使用して、オーディエンスを作成します。
+[Adobe モバイルライフサイクル指標](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)を有効にしましょう。 これにより、ユーザーのデバイスとアプリとのエンゲージメントに関する豊富な情報を含む位置情報リクエストにパラメーターが追加されます。 次のレッスンでは、ライフサイクルリクエストが提供するデータを使用してオーディエンスを構築します。
 
-ライフサイクル指標を有効にするには、HomeActivity コントローラを再度開き、onResume （）関数に `Config.collectLifecycleData(this);` を追加します。
+ライフサイクル指標を有効にするには、HomeActivity コントローラーを再度開き、onResume （）関数に`Config.collectLifecycleData(this);`を追加します。
 
-![&#x200B; ライフサイクルリクエスト &#x200B;](assets/lifecycle_code.jpg)
+![ ライフサイクルリクエスト ](assets/lifecycle_code.jpg)
 
-### プリフェッチ・リクエストのライフサイクル・パラメータの検証
+### プリフェッチ要求のライフサイクルパラメーターの検証
 
-エミュレーターを実行し、Logcat を使用してライフサイクルパラメーターを検証します。 「prefetch」をフィルタリングしてプリフェッチ応答を探し、新しいパラメータを探します。
-![&#x200B; ライフサイクルの検証 &#x200B;](assets/lifecycle_validation.jpg)
+エミュレーターを実行し、Logcatを使用してライフサイクルパラメーターを検証します。 「プリフェッチ」をフィルタリングして、プリフェッチ応答を検索し、新しいパラメーターを探します。
+![ ライフサイクル検証](assets/lifecycle_validation.jpg)
 
-HomeActivity コントローラーへの追加は `Config.collectLifecycleData()` のみですが、Target リクエストと共に送信されたライフサイクル指標も「ありがとうございます」画面に表示されます。
+HomeActivity コントローラーに`Config.collectLifecycleData()`を追加しただけですが、ThankYou画面にもTarget リクエストで送信されたライフサイクル指標が表示されます。
 
-## プリフェッチ・リクエストに at_property パラメータを追加します。
+## at_property パラメーターをプリフェッチリクエストに追加します
 
-Adobe Target プロパティは、[!DNL Target] インターフェイスで定義され、アプリや web サイトをパーソナライズするための境界線を確立するために使用されます。 at_property パラメーターは、オファーとアクティビティにアクセスし、維持管理する特定のプロパティを識別します。 プリフェッチ リクエストとライブ ロケーション リクエストにプロパティを追加します。
+Adobe Target プロパティは[!DNL Target] インターフェイスで定義され、アプリとweb サイトをパーソナライズするための境界を設定するために使用されます。 at_property パラメーターは、オファーとアクティビティにアクセスして維持する特定のプロパティを識別します。 プリフェッチおよびライブロケーションのリクエストにプロパティを追加します。
 
 >[!NOTE]
 >
->[!DNL Target] インターフェイスには、ライセンスに応じて「プロパティ」オプションが表示される場合とされない場合があります。 これらのオプションがない場合、または会社でプロパティを使用していない場合は、このレッスンの次のセクションに進んでください。
+>ライセンスに応じて、[!DNL Target] インターフェイスにプロパティ オプションが表示される場合とされない場合があります。 これらのオプションがない場合や、社内でプロパティを使用していない場合は、このレッスンの次のセクションに進んでください。
 
-at_property の値は、[!DNL Target] インターフェイスの [!UICONTROL Setup] > [!UICONTROL Properties] で取得できます。  プロパティの上にマウスポインターを置き、コードスニペットアイコンを選択し、`at_property` の値をコピーします。
+at_property値は、[!UICONTROL Setup] > [!UICONTROL Properties]の下の[!DNL Target] インターフェイスで取得できます。  プロパティにカーソルを合わせ、コードスニペットアイコンを選択し、`at_property`値をコピーします。
 
-![at_property をコピー &#x200B;](assets/at_property_interface.jpg)
+![at_property](assets/at_property_interface.jpg)をコピー
 
-プリフェッチリクエストの各場所のパラメーターとして、次のように追加します。
-![at_property パラメーターの追加 &#x200B;](assets/params_at_property.jpg)
-以下は、`targetPrefetchContent()` 関数の更新されたコードです（_[!UICONTROL your at_property value goes here]_&#x200B;のプレースホルダーテキストを必ず更新してください）。
+次のように、プリフェッチリクエストの各場所のパラメーターとして追加します。
+![at_property パラメーターを追加](assets/params_at_property.jpg)
+次に、`targetPrefetchContent()`関数の更新されたコードを示します（必ず&#x200B;_[!UICONTROL your at_property value goes here]_プレースホルダーテキストを更新してください）。
 
 ```java
 public void targetPrefetchContent() {
@@ -89,27 +95,27 @@ public void targetPrefetchContent() {
 
 ### パラメーターに関する注意
 
-今後のプロジェクトでは、追加のパラメーターを実装する必要が生じる場合があります。 `createTargetPrefetchObject()` メソッドを使用すると、`locationParams`、`orderParams`、`productParams` の 3 種類のパラメーターを使用できます。 [&#x200B; プリフェッチリクエストへのこれらのパラメーターの追加について詳しくは &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja) ドキュメントを参照してください。
+今後のプロジェクトでは、追加のパラメーターを実装する必要があるかもしれません。 `createTargetPrefetchObject()` メソッドでは、`locationParams`、`orderParams`、`productParams`の3種類のパラメーターを使用できます。 これらのパラメーターをプリフェッチ要求に追加する方法の詳細については、[のドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)。
 
-また、プリフェッチ・リクエストでは、場所ごとに異なる場所のパラメータを追加できます。 たとえば、param2 という別のマップを作成し、そのマップに新しいパラメータを配置してから、ある場所に param2 を設定し、他の場所に param1 を設定できます。 次に例を示します。
+また、プリフェッチリクエストの各場所に異なる場所パラメーターを追加することもできます。 例えば、param2という別のマップを作成し、新しいパラメーターを作成してから、ある場所にparam2を設定し、別の場所にparam1を設定することができます。 例を次に示します。
 
 ```java
 prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## プリフェッチリクエストの at_property パラメーターを検証します
+## プリフェッチリクエストのat_property パラメーターを検証する
 
-次に、エミュレーターを実行し、Logcat を使用して、両方の場所のプリフェッチ要求および応答で at_property が表示されていることを確認します。
-![at_property パラメーターの検証 &#x200B;](assets/parameters_at_property_validation.jpg)
+次に、エミュレーターを実行し、Logcatを使用して、両方の場所のプリフェッチ要求と応答にat_propertyが表示されていることを確認します。
+![at_property パラメーターを検証](assets/parameters_at_property_validation.jpg)
 
-## ライブ場所リクエストへのカスタムパラメーターの追加
+## ライブ位置情報リクエストへのカスタムパラメーターの追加
 
-前のレッスンでライブの場所のリクエスト（wetravel_context_dest）を追加したので、予約プロセスの最終確認画面に関連するプロモーションを表示できるようになりました。 ユーザーの宛先に基づいてプロモーションをパーソナライズし、それをリクエストのパラメーターとして追加します。 また、trop origin と at_property 値のパラメーターも追加します。
+ライブ位置情報リクエスト（wetravel_context_dest）は、前回のレッスンで追加されたため、予約プロセスの最終確認画面に関連するプロモーションを表示することができました。 ユーザーの宛先に基づいてプロモーションをパーソナライズし、それをリクエストのパラメーターとして追加します。 また、tropの原点とat_propertyの値のパラメーターも追加します。
 
-ThankYouActivity コントローラーの targetLoadRequest （）関数に次のパラメーターを追加します。
-![&#x200B; ライブ場所リクエストへのパラメーターの追加 &#x200B;](assets/parameters_live_location.jpg)
-次に、targetLoadRequest （）関数の更新されたコードを示します（「at_property 値をここに追加」プレースホルダーテキストを更新してください）。
+次のパラメーターをThankYouActivity コントローラーのtargetLoadRequest （）関数に追加します。
+![ ライブ位置情報リクエストにパラメーターを追加](assets/parameters_live_location.jpg)
+targetLoadRequest （）関数の更新されたコードを次に示します（プレースホルダーテキストの「at_property値をここに追加」を必ず更新してください）。
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -139,19 +145,19 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-### ライブの場所リクエストでのカスタムパラメーターの検証
+### ライブ位置情報リクエストのカスタムパラメーターの検証
 
-エミュレーターを実行し、Logcat を開きます。 パラメーターの 1 つをフィルタリングして、リクエストに必要なパラメーターが含まれていることを確認します。
-![&#x200B; ライブ場所リクエストでのカスタムパラメーターの検証 &#x200B;](assets/parameters_live_location_validation.jpg)
-
->[!NOTE]
->
->注文確認のリクエストとパラメーター：このデモプロジェクトでは使用しませんが、注文の詳細は通常、実際の実装で取得 [!DNL Target] れるので、注文の詳細を指標やディメンションとして使用できます。 詳しくは、注文確認リクエストとパラメーターの実装方法に関する手順 [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=ja) 参照してください。
+エミュレーターを実行し、Logcatを開きます。 いずれかのパラメーターをフィルタリングして、リクエストに必要なパラメーターが含まれていることを確認します。
+![ ライブ位置情報リクエストでカスタムパラメーターを検証](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Analytics for Target （A4T）: Adobe Analyticsを [!DNL Target] のレポートソースとして設定できます。 これにより、Target SDKで収集されたすべての指標やディメンションをAdobe Analyticsで表示できます。 詳しくは、[A4T の概要 &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) を参照してください。
+>注文確認リクエストとパラメーター：このデモ プロジェクトでは使用されませんが、通常、注文の詳細は実際の実装でキャプチャされるため、[!DNL Target]は注文の詳細を指標/ディメンションとして使用できます。 注文確認リクエストとパラメーターの実装方法[については、ドキュメントを参照してください](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en)。
 
-すばらしい！ これでパラメーターが用意できたので、次にこれらのパラメーターを使用して、Adobe Targetでオーディエンスとオファーを作成します。
+>[!NOTE]
+>
+>Analytics for Target （A4T）: Adobe Analyticsを[!DNL Target]のレポートソースとして設定できます。 これにより、Target SDKで収集されたすべての指標/ディメンションをAdobe Analyticsで表示できるようになります。 詳しくは、[A4Tの概要](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)を参照してください。
 
-**[次へ：「オーディエンスとオファーの作成」 >](create-audiences-and-offers.md)**
+すばらしい！ パラメーターが設定されたので、これらのパラメーターを使用してAdobe Targetでオーディエンスやオファーを作成する準備が整いました。
+
+**[次：「オーディエンスとオファーを作成」 >](create-audiences-and-offers.md)**
