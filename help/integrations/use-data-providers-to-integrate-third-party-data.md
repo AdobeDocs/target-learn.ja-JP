@@ -27,14 +27,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: 199
 ht-degree: 16%
 
 ---
 
 # データプロバイダーを利用して、サードパーティデータをAdobe Targetに統合する
 
-[!UICONTROL Data Providers]は、サードパーティからTargetにデータを簡単に渡すことができる機能です。  サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。 このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。
+[!UICONTROL &#x200B; データプロバイダー]は、サードパーティからTargetにデータを簡単に渡すことができる機能です。  サードパーティとしては、気象予報サービス、DMP、自社の Web サービスなども利用可能です。 このデータを利用して、オーディエンスやターゲットコンテンツを構築したり、訪問者プロファイルを充実させることができます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers]にはat.js 1.3以降が必要です
+>[!UICONTROL &#x200B; データプロバイダー]にはat.js 1.3以降が必要です
 
 ## サポートマテリアル
 

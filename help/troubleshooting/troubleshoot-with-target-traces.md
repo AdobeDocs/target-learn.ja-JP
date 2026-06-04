@@ -1,6 +1,6 @@
 ---
 title: ターゲットトレースのトラブルシューティング方法
-description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。 Experience Cloudで認証を行い、強力なTarget Traces ツールを使用して、アクティビティとオーディエンスの適格性、および訪問者プロファイルを検査する方法を説明します。
+description: Adobe Experience Cloud デバッガーを使用すると、Target の実装をすばやく簡単に理解できます。 Experience Cloudで認証を行い、強力なTarget Traces ツールを使用して、アクティビティとオーディエンスの適格性、および訪問者プロファイルを検査する方法について説明します。
 role: User
 level: Intermediate
 topic: Personalization, Performance

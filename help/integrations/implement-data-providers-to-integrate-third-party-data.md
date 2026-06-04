@@ -24,18 +24,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Data Providers]を実装してサードパーティデータをAdobe Targetに統合
+# [!UICONTROL &#x200B; データプロバイダー]を実装して、サードパーティデータをAdobe Targetに統合する
 
-実装の詳細と、Adobe Targetの[!UICONTROL Data Providers]機能を使用してサードパーティのデータプロバイダーからデータを取得し、Target リクエストに渡す方法の例。
+実装の詳細と、Adobe Targetの[!UICONTROL &#x200B; データプロバイダー]機能を使用してサードパーティデータプロバイダーからデータを取得し、Target リクエストに渡す方法の例。
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers]には`at.js` 1.3以降が必要です
+>[!UICONTROL &#x200B; データプロバイダー]には`at.js` 1.3以降が必要です
 
 ## データプロバイダーの基本コンポーネントの実装
 

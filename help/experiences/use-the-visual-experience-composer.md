@@ -24,12 +24,12 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 32%
+source-wordcount: 128
+ht-degree: 31%
 
 ---
 
-# Adobe Targetで[!UICONTROL Visual Experience Composer]を使用
+# Adobe Targetで[!UICONTROL Visual Experience Composer]を使用する
 
 最初のビデオでは、次の方法について説明します。
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 755
 ht-degree: 1%
 
 ---
@@ -139,20 +139,20 @@ public void processFeatureFlags() {
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity.jpg)
 
-1. 「**[!UICONTROL Add Experience]**」をクリックして、エクスペリエンス Bを追加します。
+1. 「**[!UICONTROL エクスペリエンスを追加]**」をクリックして、エクスペリエンス Bを追加します。
 1. 「wetravel_feature_flag_recs」の場所を残します
-1. コンテンツに&#x200B;**[!UICONTROL Default Content]**&#x200B;を残します
-1. **[!UICONTROL Next]**&#x200B;をクリックして[!UICONTROL Targeting]画面に進みます
+1. コンテンツの&#x200B;**[!UICONTROL デフォルトコンテンツ]**&#x200B;のままにする
+1. **[!UICONTROL 次へ]**&#x200B;をクリックして、[!UICONTROL &#x200B; ターゲティング &#x200B;]画面に進みます
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity_2.jpg)
 
-1. [!UICONTROL Targeting]画面で、[!UICONTROL Traffic Allocation] メソッドが既定の設定（手動）に設定されており、各エクスペリエンスに既定の50%割り当てがあることを確認します。 **[!UICONTROL Next]**&#x200B;を選択して&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;に進みます。
+1. [!UICONTROL &#x200B; ターゲティング &#x200B;]画面で、[!UICONTROL &#x200B; トラフィック配分] メソッドがデフォルト設定（手動）に設定されており、各エクスペリエンスのデフォルトの配分が50%であることを確認します。 **[!UICONTROL 次]**&#x200B;を選択して&#x200B;**[!UICONTROL 目標と設定]**&#x200B;に進みます。
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity_3.jpg)
 
-1. **[!UICONTROL Primary Goal]**&#x200B;を&#x200B;**[!UICONTROL Conversion]**&#x200B;に設定します。
-1. アクションを&#x200B;**[!UICONTROL Viewed an Mbox]**&#x200B;に設定します。 「wetravel_context_dest」の場所を使用します（この場所は確認画面にあるので、この場所を使用して、新しい機能がより多くのコンバージョンにつながるかどうかを確認できます）。
-1. **[!UICONTROL Save & Close]** をクリックします。
+1. **[!UICONTROL プライマリ目標]**&#x200B;を&#x200B;**[!UICONTROL コンバージョン]**&#x200B;に設定します。
+1. アクションを&#x200B;**[!UICONTROL Mboxを表示]**&#x200B;に設定します。 「wetravel_context_dest」の場所を使用します（この場所は確認画面にあるので、この場所を使用して、新しい機能がより多くのコンバージョンにつながるかどうかを確認できます）。
+1. 「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity_4.jpg)
 

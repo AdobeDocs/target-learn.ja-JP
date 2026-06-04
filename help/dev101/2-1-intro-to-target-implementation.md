@@ -25,8 +25,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 93
-ht-degree: 48%
+source-wordcount: 97
+ht-degree: 46%
 
 ---
 
@@ -45,5 +45,5 @@ ht-degree: 48%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-詳しくは、*[!UICONTROL Adobe Target Developer Guide]*&#x200B;の[&#x200B; クライアントサイド実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank}または[&#x200B; サーバーサイド実装](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}を参照してください。
+詳しくは、*[!UICONTROL Adobe Target開発者ガイド]*&#x200B;の[&#x200B; クライアントサイド実装](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ja){target=_blank}または[&#x200B; サーバーサイド実装](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ja){target=_blank}を参照してください。
 

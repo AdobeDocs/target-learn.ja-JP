@@ -47,7 +47,7 @@ ht-degree: 7%
    + [自動配分アクティビティ用にAnalysis WorkspaceでA4T レポートを設定する](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [自動ターゲットアクティビティ用にAnalysis WorkspaceでA4T レポートを設定する](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Adobe TargetとAudience Managerの統合](../dev101/3-3-target-dmp.md)
-   + [Adobe TargetとExperience Cloud Audiencesの統合](../dev101/3-4-target-exc-audiences.md)
+   + [Adobe TargetとAdobe Experience Cloud Audiencesの統合](../dev101/3-4-target-exc-audiences.md)
    + [Adobe TargetとAdobe Campaignの統合](../dev101/3-6-target-campaign.md)
    + [Adobe TargetとAdobe Developer Consoleの統合](../dev101/3-7-target-io.md)
    + Adobe TargetとReal-Time CDPの統合{#rtcdp}

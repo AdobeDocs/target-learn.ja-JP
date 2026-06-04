@@ -1,6 +1,6 @@
 ---
 title: We.Travel サンプルアプリのダウンロードと更新
-description: We.Travel サンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 それを更新して、独自のExperience Cloud組織とソリューションアカウントを指すようにする必要があります。
+description: We.Travel サンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 それを更新して、Experience Cloudの組織とソリューションアカウントを指すようにする必要があります。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -24,14 +24,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 530
 ht-degree: 0%
 
 ---
 
 # We.Travel サンプルアプリのダウンロードと更新
 
-We.Travel サンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 それを更新して、独自のExperience Cloud組織とソリューションアカウントを指すようにする必要があります。
+We.Travel サンプルアプリは、Adobe Mobile Services SDK v4で事前に実装されています。 更新するだけで、Experience Cloudの組織とソリューションアカウントを指すようになります。
 
 ## 学習目標
 
@@ -57,12 +57,12 @@ Adobe Mobile Services SDKは、ドキュメント [&#128279;](https://experience
 まず、Mobile Services ユーザーインターフェイスで新しいアプリを作成します。
 
 1. [Adobe Mobile Services インターフェイス &#x200B;](https://mobilemarketing.adobe.com/)にログインします。
-1. [!UICONTROL Manage Apps]に移動し、**[!UICONTROL Add]**&#x200B;をクリックして、このチュートリアルで使用する新しいアプリを追加します（**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**）。
-1. 実稼動以外のデータを含むAnalytics レポートスイートを選択し、アプリに名前を付け、**[!UICONTROL Standard]** タイプを選択して&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
-1. アプリが追加されたら、[!UICONTROL SDK Target Options] セクションの次の画面に[!DNL Target] クライアントコードを追加します（[!DNL Target] インターフェイスの&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**、ダウンロード `at.js` ボタンの横にあります）。
-1. [!UICONTROL Request Timeout]設定は、タイムアウト命令を実行する前に[!DNL Target] サーバーからの応答をアプリが待機する時間を決定します。 デフォルト設定のままにしておきます。
-1. [!UICONTROL Visitor ID Service]を有効にし、ドロップダウンで[!UICONTROL Organization]が選択されていることを確認します。
-1. ウィンドウの右上にある&#x200B;**[!UICONTROL Save]**&#x200B;をクリックして変更を保存します（[!UICONTROL Universal Links]、[!UICONTROL App Links] オプション、または[!UICONTROL Push Services] セクション内のものではありません）。
+1. [!UICONTROL &#x200B; アプリの管理]に移動し、**[!UICONTROL 追加]**&#x200B;をクリックして、このチュートリアルで使用する新しいアプリを追加します（**[!UICONTROL アプリの管理]** > **[!UICONTROL 追加]**）。
+1. 実稼動以外のデータを含むAnalytics レポートスイートを選択し、アプリに名前を付け、**[!UICONTROL 標準]** タイプを選択して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+1. アプリが追加されたら、[!UICONTROL SDK Target Options] セクションの次の画面に[!DNL Target] クライアントコードを追加します（[!DNL Target] インターフェイスの&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**&#x200B;で、「`at.js`」ボタンの横にあります）。
+1. [!UICONTROL 要求タイムアウト &#x200B;]設定により、アプリがタイムアウト命令を実行する前に[!DNL Target] サーバーからの応答を待つ時間が決まります。 デフォルト設定のままにしておきます。
+1. [!UICONTROL 訪問者ID サービス &#x200B;]を有効にし、ドロップダウンで[!UICONTROL 組織]が選択されていることを確認します。
+1. ウィンドウの右上にある&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックして変更を保存します（[!UICONTROL &#x200B; ユニバーサルリンク &#x200B;]、[!UICONTROL &#x200B; アプリリンク &#x200B;] オプション、または[!UICONTROL &#x200B; プッシュサービス &#x200B;] セクションのオプションではありません）。
 1. ページの下部にあるApp SDK Downloads セクションまでスクロールし、Config ファイルをダウンロードします。
 
    ![設定ファイルをダウンロード &#x200B;](assets/config_file.jpg)
@@ -72,7 +72,7 @@ Adobe Mobile Services SDKは、ドキュメント [&#128279;](https://experience
 1. 次に、`ADBMobileConfig.json` ファイルを開き、[!DNL Target] クライアントコードやAnalyticsの詳細など、予想される変更が含まれていることを確認します。
    ![設定ファイルをダウンロード &#x200B;](assets/client_code.jpg)
 
-設定が表示されない場合は、[!UICONTROL Mobile Services] インターフェイスの右側の&#x200B;**[!UICONTROL Save]** ボタンをクリックし、ファイルを正しい場所にコピーしたことを確認します。
+設定が表示されない場合は、[!UICONTROL Mobile Services] インターフェイスの右側の&#x200B;**[!UICONTROL 保存]** ボタンをクリックし、ファイルを正しい場所にコピーしたことを確認してください。
 
 おめでとうございます。 [!DNL Target] アカウントの詳細が記載されたSDKが更新されました。 次のレッスンで[!DNL Target]件のリクエストを追加した後、設定の追加の検証を行います。
 

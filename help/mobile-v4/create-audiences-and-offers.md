@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +62,17 @@ ht-degree: 1%
 
 Adobe Target Audiencesは、特定の訪問者グループを特定するために使用します。 オファーは、それらの特定のグループをターゲットにすることができます。 最初の2つの場所では、「新規ユーザー」オーディエンスを使用します。
 
-1. 上部のナビゲーションで「**[!UICONTROL Audiences]**」をクリックします。
-1. 「**[!UICONTROL Create Audience]**」ボタンをクリックします。
+1. 上部のナビゲーションで「**[!UICONTROL オーディエンス]**」をクリックします。
+1. 「**[!UICONTROL オーディエンスを作成]**」ボタンをクリックします。
    ![新しいユーザーオーディエンスを作成](assets/audience_new_mobile_app_users_1.jpg)
 
-1. オーディエンス名として&#x200B;**[!UICONTROL New Mobile App Users]**&#x200B;を入力します。
-1. **[!UICONTROL Add Rule]**&#x200B;を選択します。
-1. **[!UICONTROL Custom]** ルールを選択します。
+1. オーディエンス名として「**[!UICONTROL 新規モバイルアプリユーザー]**」と入力します。
+1. 「**[!UICONTROL ルールを追加]**」を選択します。
+1. **[!UICONTROL カスタム]** ルールを選択します。
    ![新しいユーザーオーディエンスを作成](assets/audience_new_mobile_app_users_2.jpg)
 
 1. **[!UICONTROL a.Launches]**&#x200B;を選択します。
-1. **[!UICONTROL is less than]**&#x200B;を選択します。
+1. 「**[!UICONTROL は]**&#x200B;より小さい」を選択します。
 1. **5**&#x200B;と入力します。
 1. 新しいオーディエンスを保存します。
    ![新しいユーザーオーディエンスを作成](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 上記と同じ手順に従って、リピートユーザー用のオーディエンスを作成します。
 
 1. オーディエンスに&#x200B;_モバイルアプリユーザーを返す_&#x200B;という名前を付けます。
-1. **[!UICONTROL a.Launches is greater than or equal to 5]**&#x200B;をカスタムルールとして使用します。
+1. **[!UICONTROL aを使用してください。起動は、カスタム ルールとして5]**&#x200B;以上です。
 1. 新しいオーディエンスを保存します。
 
    ![&#x200B; リピートユーザーオーディエンスの作成](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 
 まず、新規ユーザーへのメッセージのオファーを作成します。
 
-1. 上部のナビゲーションで「**[!UICONTROL Offers]**」をクリックします。
-1. **[!UICONTROL Create]** をクリックします。
-1. **[!UICONTROL HTML Offer]**&#x200B;を選択します。
+1. 上部のナビゲーションで「**[!UICONTROL オファー]**」をクリックします。
+1. 「**[!UICONTROL 作成]**」をクリックします。
+1. **[!UICONTROL HTML オファー]**&#x200B;を選択します。
 
    ![&#x200B; ホームオファーの作成](assets/offer_home_1.jpg)
 

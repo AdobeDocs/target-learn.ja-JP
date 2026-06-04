@@ -1,5 +1,5 @@
 ---
-title: Adobe TargetとExperience Cloud Audiencesの統合方法
+title: Adobe TargetとAdobe Experience Cloud Audiencesの統合方法
 description: 他のAdobe製品からオーディエンスを読み込む方法について説明します。 Experience Cloud Admin ConsoleとExperience Cloud ID （ECID）の要件について説明します。
 role: Developer
 level: Intermediate
@@ -39,8 +39,8 @@ ht-degree: 8%
 
 * Adobe AnalyticsとAudience Managerを利用した、オーディエンスの構築と利用状況の説明
 * 他のAdobe製品からオーディエンスをインポートする方法について説明します
-* Experience Cloud Admin Consoleについて
-* Experience Cloud ID （ECID）の要件の一覧
+* Adobe Experience Cloud Admin Consoleについて詳しく見る
+* Experience Cloud ID （ECID）の要件のリスト
 
 ## 対象オーディエンス
 

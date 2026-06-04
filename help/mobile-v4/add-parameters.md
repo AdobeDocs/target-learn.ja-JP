@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Adobe Target プロパティは[!DNL Target] インターフェイスで定義�
 >
 >ライセンスに応じて、[!DNL Target] インターフェイスにプロパティ オプションが表示される場合とされない場合があります。 これらのオプションがない場合や、社内でプロパティを使用していない場合は、このレッスンの次のセクションに進んでください。
 
-at_property値は、[!UICONTROL Setup] > [!UICONTROL Properties]の下の[!DNL Target] インターフェイスで取得できます。  プロパティにカーソルを合わせ、コードスニペットアイコンを選択し、`at_property`値をコピーします。
+at_property値は、[!UICONTROL 設定] > [!UICONTROL &#x200B; プロパティ &#x200B;]の下の[!DNL Target] インターフェイスで取得できます。  プロパティにカーソルを合わせ、コードスニペットアイコンを選択し、`at_property`値をコピーします。
 
 ![at_property](assets/at_property_interface.jpg)をコピー
 
 次のように、プリフェッチリクエストの各場所のパラメーターとして追加します。
 ![at_property パラメーターを追加](assets/params_at_property.jpg)
-次に、`targetPrefetchContent()`関数の更新されたコードを示します（必ず&#x200B;_[!UICONTROL your at_property value goes here]_&#x200B;プレースホルダーテキストを更新してください）。
+次に、`targetPrefetchContent()`関数の更新されたコードを示します（必ず&#x200B;_[!UICONTROL at_property値を更新し、]_ プレースホルダーテキストに変更してください）。
 
 ```java
 public void targetPrefetchContent() {
