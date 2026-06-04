@@ -37,5 +37,5 @@ ht-degree: 1%
 
 ## その他のリソース
 
-* [オファードキュメントとしてのレコメンデーション](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [オファードキュメントとしてのレコメンデーション](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=ja)
 * [Recommendations アクティビティのビデオの作成](create-a-recommendations-activity.md)

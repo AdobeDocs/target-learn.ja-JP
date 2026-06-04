@@ -35,7 +35,7 @@ ht-degree: 0%
 
 組織を初めて使用する場合に、テストと最適化の方法について詳しく知りたい場合は、この記事を参照してください。 まず、Adobe Targetの導入と構造について解説します。 組織のセットアップを理解し、監査する方法について説明します。 最後に、一般的なトラブルシューティングの手法と、チーム向けのナレッジリポジトリ作成のヒントについて説明します。
 
-Adobe Targetは、さまざまな訪問者に対して、独自のコンテンツをテストおよびターゲティングできるツールです。 利用可能な機能の概要については、[このガイドをご覧ください](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en)。
+Adobe Targetは、さまざまな訪問者に対して、独自のコンテンツをテストおよびターゲティングできるツールです。 利用可能な機能の概要については、[このガイドをご覧ください](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja)。
 
 ## Targetの実装と構造
 
@@ -185,4 +185,4 @@ Adobeでは、次の目的で毎月手動監査を実施することをお勧め
 
 詳しくは、シニアコンサルタントのWilder Freed氏との[&#x200B; ウェビナー](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)をご覧ください。
 
-[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブでの戦略とソートリーダーシップについて詳しく説明します。
+[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=ja) ハブでの戦略とソートリーダーシップについて詳しく説明します。

@@ -138,6 +138,6 @@ Personalizationには、定義されたルールと基準にもとづいて、�
 
 上記の理解を踏まえ、Adobeでは、パーソナライズする前に最適化し、Personalizationを幅広い段階から詳細な段階に進めることが推奨されています。 Personalization アクティビティを幅広いものから詳細なものまで成熟させるには、一対多のパーソナライゼーション（幅広い）スタイルを使用し始め（A/B テストを使用）、次に一対一のパーソナライゼーション（詳細なパーソナライゼーション）スタイルに移行します（Automated Personalization アクティビティを使用）。
 
-詳しくは、「[&#x200B; パーソナライゼーションテストとロードマップの作成に関するクイックスタート &#x200B;](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)」を参照してください。
+詳しくは、「[&#x200B; パーソナライゼーションテストとロードマップの作成に関するクイックスタート &#x200B;](https://experienceleague.adobe.com/ja/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)」を参照してください。
 
-戦略とソートリーダーシップについて詳しくは、[視点](https://experienceleague.adobe.com/en/perspectives) ハブを参照してください。
+戦略とソートリーダーシップについて詳しくは、[視点](https://experienceleague.adobe.com/ja/perspectives) ハブを参照してください。

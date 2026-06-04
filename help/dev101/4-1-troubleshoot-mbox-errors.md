@@ -39,4 +39,4 @@ ht-degree: 9%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35153/?quality=12)
 
-詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)を参照してください。
+詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ja)を参照してください。

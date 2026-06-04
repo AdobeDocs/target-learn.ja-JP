@@ -32,7 +32,7 @@ ht-degree: 1%
 
 # [!DNL Auto-Allocate]件のアクティビティに対して[!DNL Analysis Workspace]でA4T レポートを設定します
 
-[!DNL Adobe Target]の[[!UICONTROL 自動割り当て] アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}は、2つ以上のエクスペリエンスの勝者を特定し、テストの実行と学習を続ける間に、訪問者のトラフィックを自動的に勝者に再割り当てします。 [!UICONTROL 自動配分]の[!UICONTROL Analytics for Target] （A4T）統合により、[!DNL Adobe Analytics]でレポートデータを表示でき、[!DNL Analytics]で定義されたカスタムイベントまたは指標に対して最適化できます。
+[!DNL Adobe Target]の[[!UICONTROL 自動割り当て] アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=ja){target=_blank}は、2つ以上のエクスペリエンスの勝者を特定し、テストの実行と学習を続ける間に、訪問者のトラフィックを自動的に勝者に再割り当てします。 [!UICONTROL 自動配分]の[!UICONTROL Analytics for Target] （A4T）統合により、[!DNL Adobe Analytics]でレポートデータを表示でき、[!DNL Analytics]で定義されたカスタムイベントまたは指標に対して最適化できます。
 
 詳細な分析機能は[!DNL Adobe Analytics] [!DNL Analysis Workspace]で利用できますが、[!UICONTROL 自動配分] アクティビティを正しく解釈するには、デフォルトの[!UICONTROL Analytics for Target] パネルに対するいくつかの変更が必要になる場合があります。 これらの変更は、[最適化指標の条件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ja#supported){target=_blank}のニュアンスにより必要です。
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 
 ### アクティビティ勝者の特定 {#winner}
 
-[!DNL Auto-Allocate]件のアクティビティの勝者は、信頼値が95%以上の勝利コンバージョン率がある場合に選択されます。 信頼性計算は、[!UICONTROL 自動配分] アクティビティに対して[!DNL Target]が推奨するより保守的な方法を反映しているため、これらの値は[!DNL Target] レポートで参照する必要があります。 *[!UICONTROL Adobe Targetの業務担当者ガイド]*&#x200B;の「[自動割り当ての統計的保証](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}」を参照してください。
+[!DNL Auto-Allocate]件のアクティビティの勝者は、信頼値が95%以上の勝利コンバージョン率がある場合に選択されます。 信頼性計算は、[!UICONTROL 自動配分] アクティビティに対して[!DNL Target]が推奨するより保守的な方法を反映しているため、これらの値は[!DNL Target] レポートで参照する必要があります。 *[!UICONTROL Adobe Targetの業務担当者ガイド]*&#x200B;の「[自動割り当ての統計的保証](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=ja#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}」を参照してください。
 
 >[!NOTE]
 >
->[!DNL Analysis Workspace]のA4T パネルでは、「まだ勝者なし」バッジと「勝者」バッジは使用できません。 また、[!UICONTROL 自動割り当て] アクティビティに関する[!DNL Target] レポートに表示される勝者「星」バッジは無視する必要があります。 *[!UICONTROL Adobe Target ビジネス実務担当者ガイド]*&#x200B;の&#x200B;*A4T サポートの[自動割り当て](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}および自動ターゲットアクティビティ*&#x200B;を参照してください。
+>[!DNL Analysis Workspace]のA4T パネルでは、「まだ勝者なし」バッジと「勝者」バッジは使用できません。 また、[!UICONTROL 自動割り当て] アクティビティに関する[!DNL Target] レポートに表示される勝者「星」バッジは無視する必要があります。 *[!UICONTROL Adobe Target ビジネス実務担当者ガイド]*&#x200B;の&#x200B;*A4T サポートの[自動割り当て](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=ja#aa){target=_blank}および自動ターゲットアクティビティ*&#x200B;を参照してください。
 
 ### [!DNL Analysis Workspace]で[!UICONTROL 自動配分] パネルのA4Tを作成します
 

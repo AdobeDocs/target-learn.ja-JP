@@ -1,7 +1,7 @@
 ---
 title: アクティビティ  [!DNL Auto-Target] の [!DNL Analysis Workspace] でA4T レポートを設定する方法
 description: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティの実行中に想定される結果を取得するように、 [!DNL Analysis Workspace] でA4T レポートを設定するにはどうすればよいですか？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -47,7 +47,7 @@ ht-degree: 2%
 このチュートリアルでは、次の主要な概念に基づいて、[!DNL Analysis Workspace]の[!UICONTROL 自動ターゲット &#x200B;] アクティビティを分析するために推奨される変更について説明します。
 
 * **[!UICONTROL コントロールとターゲット設定]**&#x200B;のディメンションは、[!UICONTROL &#x200B; コントロール &#x200B;]のエクスペリエンスと、[!UICONTROL 自動ターゲット &#x200B;]のアンサンブルマシンラーニングアルゴリズムで提供されるエクスペリエンスを区別するために使用できます。
-* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
+* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ja#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
 * 訪問ルックバックスコープのアトリビューションは、所定のアトリビューションモデルの「訪問ルックバックウィンドウ」とも呼ばれ、トレーニングフェーズ中に[!DNL Adobe Target] ML モデルで使用され、目標指標を分類する場合は、同じ（デフォルト以外の）アトリビューションモデルを使用する必要があります。
 
 ## [!DNL Analysis Workspace]で[!UICONTROL 自動ターゲット &#x200B;] パネルのA4Tを作成する
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->現在、[!UICONTROL 自動ターゲット &#x200B;]のA4T レポートの[!UICONTROL &#x200B; コントロール対ターゲット &#x200B;] ディメンションでは、[!UICONTROL 上昇率と信頼性]の数値を使用できません。 サポートが追加されるまでは、[信頼計算ツール &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)をダウンロードして、[!UICONTROL 上昇率と信頼度]を手動で計算できます。
+>現在、[!UICONTROL 自動ターゲット &#x200B;]のA4T レポートの[!UICONTROL &#x200B; コントロール対ターゲット &#x200B;] ディメンションでは、[!UICONTROL 上昇率と信頼性]の数値を使用できません。 サポートが追加されるまでは、[信頼計算ツール &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)をダウンロードして、[!UICONTROL 上昇率と信頼度]を手動で計算できます。
 
 ## エクスペリエンスレベルで指標の内訳を追加する
 
