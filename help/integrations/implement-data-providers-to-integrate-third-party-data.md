@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## データプロバイダーの基本コンポーネントの実装
 
->[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34061/?captions=jpn&quality=12)
 
 `dataProvider`の基本的なコンポーネントの概要と、コードを正しい順序で取得する方法について説明します。\
 ビデオで使用されているコードの実際の例は、次のとおりです。
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## サードパーティ APIとの統合
 
->[!VIDEO](https://video.tv.adobe.com/v/22345/)
+>[!VIDEO](https://video.tv.adobe.com/v/34062?captions=jpn)
 
 より現実的な例としては、weather APIの統合があります。\
 ビデオで使用されているコードの実際の例は、次のとおりです。
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 複数のプロバイダーとの統合
 
->[!VIDEO](https://video.tv.adobe.com/v/22346/)
+>[!VIDEO](https://video.tv.adobe.com/v/36804?captions=jpn)
 
 複数のプロバイダーからのデータをグローバル [!DNL Target] リクエストに組み込む方法。\
 ビデオで使用されているコードの実際の例は、次のとおりです。
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## ページ読み込み効果を最小化
 
->[!VIDEO](https://video.tv.adobe.com/v/22347/)
+>[!VIDEO](https://video.tv.adobe.com/v/36805?captions=jpn)
 
 セッションストレージオブジェクトにデータを保存することで、ページ読み込み時間への影響を最小限に抑えることができます。 または、値を`profile.`接頭辞を使用してプロファイルパラメーターとして渡し、セッションの最初の[!DNL Target] リクエストでそれらを渡すだけです。 ただし、リクエストごとに50個のプロファイルパラメーターを渡すことに制限されます。
 

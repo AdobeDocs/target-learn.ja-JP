@@ -35,4 +35,4 @@ ht-degree: 1%
 
 このビデオでは、パーソナライゼーションの重要性、パーソナライゼーションを適切におこなう上での課題、これらの課題に対する解決策（Adobe Targetの4つのAI/オートメーション機能）、パーソナライズされたエクスペリエンスを提供するための主要な構成要素について説明します。 これは、Jamie Brightonの2018年のAdobe Summitプレゼンテーションの編集版です。
 
->[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30031/?captions=jpn&quality=12)

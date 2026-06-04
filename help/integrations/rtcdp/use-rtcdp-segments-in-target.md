@@ -38,4 +38,4 @@ ht-degree: 0%
 
 Adobe TargetでReal-Time Customer Data Platform セグメントを使用して、web サイトとモバイルアプリでパーソナライズされたエクスペリエンスを配信する方法について説明します。 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=ja)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446828/?captions=jpn&learn=on)

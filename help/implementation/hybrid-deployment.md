@@ -49,7 +49,7 @@ Adobe Targetでは、クライアントサイドとサーバーサイドの両�
 * 開発者
 * 設計者
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329470/?captions=jpn&quality=12)
 
 ## その他のリソース
 

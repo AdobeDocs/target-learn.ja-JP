@@ -34,7 +34,7 @@ ht-degree: 3%
 
 応答トークンと`at.js` カスタムイベントを使用すると、[!DNL Target]からサードパーティシステムにプロファイル情報を共有できます。 カスタムプロファイル属性、地理情報、アクティビティの詳細、組み込みプロファイルなど、[!DNL Target]訪問者プロファイル内のオブジェクトを[!DNL Target]応答に追加すると、カスタム JavaScriptを使用してサードパーティと統合できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34066/?captions=jpn&quality=12)
 
 ## 応答トークンとat.js カスタムイベントの使用方法
 

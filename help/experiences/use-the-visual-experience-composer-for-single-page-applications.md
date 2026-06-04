@@ -49,7 +49,7 @@ SPA VECを使用すると、マーケターは継続的な開発の依存関係�
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35062?captions=jpn&quality=12)
 
 
 ## その他のリソース

@@ -34,7 +34,7 @@ ht-degree: 2%
 
 Automated Personalizationと自動ターゲティングでは、高度なマシンラーニング（機械学習）を利用して、個々の顧客プロファイルや、類似のプロファイルを持つ以前の訪問者の行動にもとづいて、各訪問者に最もカスタマイズされたエクスペリエンスを提供します。 Personalizationのインサイトレポートでは、これらのモデルがどのように意思決定を行うのかに関する情報が提供されます。
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328271/?captions=jpn&quality=12)
 
 ## 追加情報
 

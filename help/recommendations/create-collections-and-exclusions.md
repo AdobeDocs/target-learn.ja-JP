@@ -38,7 +38,7 @@ ht-degree: 95%
 
 * ビジネス従事者
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35311?captions=jpn&quality=12)
 
 ## その他のリソース
 
