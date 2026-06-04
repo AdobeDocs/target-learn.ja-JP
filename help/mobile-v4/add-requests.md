@@ -9,16 +9,11 @@ doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
 TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1820
@@ -34,7 +29,7 @@ Adobe Mobile Services SDK（v4）には、Adobe Targetのメソッドと機能�
 
 ## 前提条件
 
-必ず[&#x200B; サンプルアプリをダウンロードして更新してください](download-and-update-the-sample-app.md)。
+必ず[ サンプルアプリをダウンロードして更新してください](download-and-update-the-sample-app.md)。
 
 ## 学習目標
 
@@ -63,7 +58,7 @@ Adobe Mobile Services SDK（v4）には、Adobe Targetのメソッドと機能�
 
 We.Travelで最初に実装するリクエストは、ホーム画面に2つの[!DNL Target]箇所を配置したバッチ先行取得リクエストです。 後のレッスンでは、これらの場所に対するオファーを設定し、予約プロセスを通じて新規ユーザーを導くメッセージを表示します。
 
-プリフェッチリクエストは、Adobe Target サーバーレスポンス（オファー）をキャッシュすることで、可能な限り最小限に抑えて[!DNL Target] コンテンツを取得します。 バッチ先行取得リクエストは、異なる場所に関連付けられた複数のオファーを取得してキャッシュします。 プリフェッチされたすべての場所は、ユーザーセッションで今後使用するためにデバイス上にキャッシュされます。 ホーム画面の複数の場所をプリフェッチすることで、訪問者がアプリ内を移動する際に、後で使用するオファーを取得できます。 プリフェッチ方法について詳しくは、[&#x200B; プリフェッチのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=ja)を参照してください。
+プリフェッチリクエストは、Adobe Target サーバーレスポンス（オファー）をキャッシュすることで、可能な限り最小限に抑えて[!DNL Target] コンテンツを取得します。 バッチ先行取得リクエストは、異なる場所に関連付けられた複数のオファーを取得してキャッシュします。 プリフェッチされたすべての場所は、ユーザーセッションで今後使用するためにデバイス上にキャッシュされます。 ホーム画面の複数の場所をプリフェッチすることで、訪問者がアプリ内を移動する際に、後で使用するオファーを取得できます。 プリフェッチ方法について詳しくは、[ プリフェッチのドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)を参照してください。
 
 ### バッチ先行取得リクエストの追加
 
@@ -73,7 +68,7 @@ HomeActivity コントローラ（Home Screenのソースコード）から始�
 
 赤で表示されている2つのコードブロックを追加します。
 
-![HomeActivity プリフェッチ コード &#x200B;](assets/homeactivity.jpg)
+![HomeActivity プリフェッチ コード ](assets/homeactivity.jpg)
 
 HomeActivityのコードの最後までスクロールし、`setHeader()`関数の後に次のコードを追加し、現在の`onResume()`関数を&#x200B;*置換*&#x200B;します。
 
@@ -112,7 +107,7 @@ import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![&#x200B; ターゲットクラスを読み込む](assets/import.jpg)
+![ ターゲットクラスを読み込む](assets/import.jpg)
 
 また、「シンボル変数wetravel_engage_homeが見つかりません」や「シンボル変数wetravel_engage_searchが見つかりません」というエラーが表示される可能性があります。 これらを`Constant.java` ファイルに追加します（アプリ/src/main/java/com/wetravel/Utils）。
 
@@ -143,7 +138,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ホーム画面がレンダリングされると、プリフェッチリクエストが読み込まれます。 Logcatで[!DNL "Target"]をフィルターして、リクエストと応答を確認します。
 
-![&#x200B; ホーム画面でリクエストを検証](assets/prefetch_validation.jpg)
+![ ホーム画面でリクエストを検証](assets/prefetch_validation.jpg)
 
 正常な応答が表示されない場合は、`ADBMobileConfig.json` ファイルの設定とHomeActivity ファイルのコード構文を確認してください。
 
@@ -241,7 +236,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 アプリに追加する次のリクエストは、お礼の画面でリアルタイムのリクエストになります。 「リアルタイム」とは、リクエストと応答の両方が即座に適用されることを意味します（後でキャッシュされません）。 後のレッスンでは、このリクエストを使用して、ユーザーの旅行先に合わせてパーソナライズされたエクスペリエンスを構築します。
 
 サンキュー画面でリアルタイムのリクエストを追加します。 ThankYouActivity ファイルでは、赤で示される変更を行います。
-![&#x200B; サンキュー画面にリアルタイムの場所を追加](assets/thankyou.jpg)
+![ サンキュー画面にリアルタイムの場所を追加](assets/thankyou.jpg)
 
 ThankYouActivity ファイルの最後までスクロールします。 `getRecommandations()`関数の3行をコメントし、`targetLoadRequest()`関数の呼び出しを追加します。
 
@@ -258,7 +253,7 @@ targetLoadRequest(recommandation.recommandations);
 ```
 
 次に、`targetLoadRequest()`関数を定義する必要があります。
-![&#x200B; サンキュー画面にリアルタイムの場所を追加](assets/thankyou2.jpg)
+![ サンキュー画面にリアルタイムの場所を追加](assets/thankyou2.jpg)
 
 `filterRecommendationBasedOnOffer()`関数の後にこのコードブロックを追加します。
 
@@ -316,7 +311,7 @@ Android エミュレーターを開き、すべての手順を実行して旅行
 
 最後の「ありがとうございます」画面で、Logcatの応答を見ます。 応答には、「wetravel_context_destに対してデフォルトのコンテンツが返されました」と表示する必要があります。
 
-![&#x200B; サンキュー画面にリアルタイムの場所を追加](assets/thankyou_validation.jpg)
+![ サンキュー画面にリアルタイムの場所を追加](assets/thankyou_validation.jpg)
 
 ## キャッシュからのプリフェッチ済み場所のクリア
 
@@ -328,7 +323,7 @@ Android エミュレーターを開き、すべての手順を実行して旅行
 Target.clearPrefetchCache()
 ```
 
-![&#x200B; キャッシュからプリフェッチされた場所をクリア &#x200B;](assets/clearPrefetch.jpg)
+![ キャッシュからプリフェッチされた場所をクリア ](assets/clearPrefetch.jpg)
 
 おめでとうございます。 これで、アプリにパーソナライゼーションのフレームワークが追加されました。 次のレッスンでは、これらの場所にパラメーターを追加して、パーソナライゼーション機能を強化します。
 

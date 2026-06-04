@@ -1,7 +1,7 @@
 ---
 title: アクティビティ  [!DNL Auto-Target] の [!DNL Analysis Workspace] でA4T レポートを設定する方法
-description: '[!UICONTROL Auto-Target] アクティビティの実行中に想定される結果を取得するように、 [!DNL Analysis Workspace] でA4T レポートを設定するにはどうすればよいですか？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
+description: '[!UICONTROL 自動ターゲット ] アクティビティの実行中に想定される結果を取得するように、 [!DNL Analysis Workspace] でA4T レポートを設定するにはどうすればよいですか？'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,25 +11,15 @@ thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 2507
+source-wordcount: 2717
 ht-degree: 2%
 
 ---
@@ -38,71 +28,71 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Auto-Target]のアクティビティの場合、[!DNL Analytics Workspace]のレポートを確認し、A4T パネルを手動で作成する必要があります。
+>[!UICONTROL 自動ターゲット ] アクティビティの場合、[!DNL Analytics Workspace]のレポートを確認し、A4T パネルを手動で作成する必要があります。
 
-[!DNL Auto-Target] アクティビティの[!UICONTROL Analytics for Target] （A4T）統合では、[!DNL Adobe Target] アンサンブルマシンラーニング （ML） アルゴリズムを使用して、訪問者のプロファイル、行動、コンテキストに基づいて各訪問者に最適なエクスペリエンスを選択し、[!DNL Adobe Analytics]目標指標を使用します。
+[!DNL Auto-Target]のアクティビティの[!UICONTROL Analytics for Target] （A4T）統合では、[!DNL Adobe Target]のアンサンブルマシンラーニング（ML）アルゴリズムを使用して、プロファイル、行動、コンテキストに基づいて各訪問者に最適なエクスペリエンスを選択し、さらに[!DNL Adobe Analytics]の目標指標を使用します。
 
-豊富な分析機能は[!DNL Adobe Analytics] [!DNL Analysis Workspace]で利用できますが、実験アクティビティ （手動[!UICONTROL A/B Test]と[!UICONTROL Auto-Allocate]）とパーソナライゼーションアクティビティ （[!UICONTROL [!UICONTROL Auto-Target]]）の違いにより、[!DNL Auto-Target] アクティビティを正しく解釈するには、デフォルトの&#x200B;**[!UICONTROL Analytics for Target]** パネルに対するいくつかの変更が必要です。
+豊富な分析機能は[!DNL Adobe Analytics] [!DNL Analysis Workspace]で利用できますが、実験アクティビティ （手動[!UICONTROL A/B テスト ]と[!UICONTROL 自動割り当て]）とパーソナライゼーションアクティビティ （[!UICONTROL [!UICONTROL 自動ターゲット ]]）の違いにより、[!DNL Auto-Target] アクティビティを正しく解釈するには、デフォルトの&#x200B;**[!UICONTROL Analytics for Target]** パネルにいくつかの変更が必要です。
 
-このチュートリアルでは、次の主要な概念に基づいて、[!DNL Analysis Workspace]の[!UICONTROL Auto-Target] アクティビティを分析する際に推奨される変更について説明します。
+このチュートリアルでは、次の主要な概念に基づいて、[!DNL Analysis Workspace]の[!UICONTROL 自動ターゲット ] アクティビティを分析するために推奨される変更について説明します。
 
-* **[!UICONTROL Control vs Targeted]** ディメンションを使用すると、[!UICONTROL Control]個のエクスペリエンスと[!UICONTROL Auto-Target]個のアンサンブルマシンラーニングアルゴリズムで提供されるエクスペリエンスを区別できます。
-* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ja#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
+* **[!UICONTROL コントロールとターゲット設定]**&#x200B;のディメンションは、[!UICONTROL  コントロール ]のエクスペリエンスと、[!UICONTROL 自動ターゲット ]のアンサンブルマシンラーニングアルゴリズムで提供されるエクスペリエンスを区別するために使用できます。
+* 訪問は、エクスペリエンスレベルのパフォーマンスの内訳を表示する際に、正規化指標として使用する必要があります。 さらに、[Adobe Analyticsのデフォルトのカウント手法には、ユーザーが実際にアクティビティコンテンツ ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}を表示しない訪問が含まれる場合がありますが、このデフォルトの動作は、適切な範囲のセグメントを使用して変更できます（詳細は以下を参照）。
 * 訪問ルックバックスコープのアトリビューションは、所定のアトリビューションモデルの「訪問ルックバックウィンドウ」とも呼ばれ、トレーニングフェーズ中に[!DNL Adobe Target] ML モデルで使用され、目標指標を分類する場合は、同じ（デフォルト以外の）アトリビューションモデルを使用する必要があります。
 
-## [!DNL Analysis Workspace] での [!UICONTROL Auto-Target] パネル用の A4T の作成
+## [!DNL Analysis Workspace]で[!UICONTROL 自動ターゲット ] パネルのA4Tを作成する
 
-[!UICONTROL Auto-Target]報告書のA4Tを作成するには、次に示すように、[!DNL Analysis Workspace]の&#x200B;**[!UICONTROL Analytics for Target]** パネルから開始するか、フリーフォームテーブルから開始します。 次に、以下の選択を行います。
+[!UICONTROL 自動ターゲット ] レポート用のA4Tを作成するには、以下に示すように、[!DNL Analysis Workspace]の&#x200B;**[!UICONTROL ターゲット用Analytics]** パネルから開始するか、フリーフォームテーブルから開始します。 次に、以下の選択を行います。
 
-1. **[!UICONTROL Control Experience]**：任意のエクスペリエンスを選択できますが、後でこの選択を上書きします。 [!UICONTROL Auto-Target]のアクティビティの場合、コントロール エクスペリエンスは実際にはコントロール戦略です。a）すべてのエクスペリエンス間でランダムに提供するか、b）単一のエクスペリエンスを提供します（この選択は、[!DNL Adobe Target]のアクティビティ作成時に行われます）。 選択肢（b）を選択した場合でも、[!UICONTROL Auto-Target] アクティビティは特定のエクスペリエンスをコントロールとして指定しました。 このチュートリアルで説明した、[!UICONTROL Auto-Target]のアクティビティのA4Tを分析する方法に従ってください。
-2. **[!UICONTROL Normalizing Metric]**: [!UICONTROL Visits]を選択します。
-3. **[!UICONTROL Success Metrics]**：レポートする指標を選択できますが、一般的に、[!DNL Target]でのアクティビティ作成時に最適化のために選択したのと同じ指標でレポートを表示する必要があります。
+1. **[!UICONTROL コントロール エクスペリエンス]**：任意のエクスペリエンスを選択できますが、後でこの選択を上書きします。 [!UICONTROL 自動ターゲット ] アクティビティの場合、コントロール エクスペリエンスは実際にはコントロール戦略です。a）すべてのエクスペリエンス間でランダムに提供するか、b）単一のエクスペリエンスを提供します（この選択は、[!DNL Adobe Target]のアクティビティ作成時に行われます）。 選択肢（b）を選択した場合でも、[!UICONTROL 自動ターゲット ] アクティビティは、特定のエクスペリエンスをコントロールとして指定しました。 このチュートリアルで説明した、[!UICONTROL 自動ターゲット ] アクティビティのA4Tを分析する方法に従ってください。
+2. **[!UICONTROL 指標の正規化]**: [!UICONTROL 訪問]を選択します。
+3. **[!UICONTROL 成功指標]**：報告する指標を選択できますが、一般的に、[!DNL Target]のアクティビティ作成中に最適化のために選択された同じ指標に関するレポートを表示する必要があります。
 
-   [!UICONTROL Auto-Target] アクティビティの![[!UICONTROL Analytics for Target] パネル設定。](assets/Figure1.png)
+   [!UICONTROL 自動ターゲット ] アクティビティの![[!UICONTROL Analytics for Target] パネルのセットアップ。](assets/Figure1.png)
 
-   *図1: [!UICONTROL Auto-Target] アクティビティの[!UICONTROL Analytics for Target] パネル設定。*
+   *図1: [!UICONTROL 自動ターゲット ] アクティビティ用の[!UICONTROL Analytics for Target] パネル設定*
 
 >[!TIP]
 >
->[!UICONTROL Analytics for Target] パネルを[!UICONTROL Auto-Target] アクティビティ用に設定するには、任意のコントロールエクスペリエンスを選択し、正規化指標として[!UICONTROL Visits]を選択し、[!DNL Target] アクティビティ作成時に最適化のために選択したのと同じ目標指標を選択します。
+>[!UICONTROL 自動ターゲット ] アクティビティ用の[!UICONTROL Analytics for Target] パネルを設定するには、任意のコントロールエクスペリエンスを選択し、正規化指標として[!UICONTROL 訪問]を選択し、[!DNL Target] アクティビティの作成中に最適化のために選択したのと同じ目標指標を選択します。
 
-## [!UICONTROL Control vs.Targeted] ディメンションを使用して、[!DNL Target] アンサンブル ML モデルをコントロールと比較します
+## [!UICONTROL  コントロールと比較を使用するターゲット ] ディメンション：[!DNL Target] アンサンブル ML モデルをコントロールと比較します
 
-デフォルトのA4T パネルは、クラシック（手動）の[!UICONTROL A/B Test]または[!UICONTROL Auto-Allocate] アクティビティ用に設計されており、目標は個々のエクスペリエンスのパフォーマンスとコントロールエクスペリエンスを比較することです。 ただし、[!UICONTROL Auto-Target] アクティビティでは、最初の順序の比較は、コントロール *戦略*&#x200B;とターゲット *戦略*&#x200B;の間で行う必要があります。 つまり、[!UICONTROL Auto-Target] アンサンブル ML モデルの全体的なパフォーマンスの上昇率を制御戦略に対して決定します。
+デフォルトのA4T パネルは、クラシック （手動） [!UICONTROL A/B テスト ]または[!UICONTROL 自動配分] アクティビティ用に設計されており、目的は個々のエクスペリエンスのパフォーマンスとコントロールエクスペリエンスを比較することです。 ただし、[!UICONTROL 自動ターゲット ] アクティビティでは、最初の順序の比較は、コントロール *戦略*&#x200B;とターゲット *戦略*&#x200B;の間で行う必要があります。 つまり、[!UICONTROL 自動ターゲット ] アンサンブル ML モデルの全体的なパフォーマンスの上昇率を制御戦略に対して決定します。
 
-この比較を実行するには、**[!UICONTROL Control vs Targeted (Analytics for Target)]** ディメンションを使用します。 ドラッグ&amp;ドロップして、デフォルトのA4T レポートの&#x200B;**[!UICONTROL Target Experiences]** ディメンションを置き換えます。
+この比較を実行するには、**[!UICONTROL コントロール vs ターゲット （Analytics for Target）]** ディメンションを使用します。 ドラッグ&amp;ドロップして、デフォルトのA4T レポートの&#x200B;**[!UICONTROL ターゲットエクスペリエンス]** ディメンションを置き換えます。
 
-この置き換えにより、A4T パネルのデフォルトの[!UICONTROL Lift and Confidence]計算が無効になることに注意してください。 混乱を避けるために、次のレポートを残して、これらの指標をデフォルトパネルから削除できます。
+この置き換えにより、A4T パネルのデフォルトの[!UICONTROL 上昇率と信頼性]の計算が無効になることに注意してください。 混乱を避けるために、次のレポートを残して、これらの指標をデフォルトパネルから削除できます。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)の[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]](assets/Figure2.png)の![[!UICONTROL  アクティビティ コンバージョン別エクスペリエンス ] パネル
 
 *図2: [!DNL Auto-Target] アクティビティの推奨ベースラインレポート。 このレポートは、対象トラフィック （アンサンブル ML モデルによって提供される）と制御トラフィックを比較するように設定されています。*
 
 >[!NOTE]
 >
->現在、[!UICONTROL Auto-Target]のA4T レポートの[!UICONTROL Control vs Targeted] ディメンションでは[!UICONTROL Lift and Confidence]個の数値を使用できません。 サポートが追加されるまでは、[信頼計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)をダウンロードして、[!UICONTROL Lift and Confidence]を手動で計算できます。
+>現在、[!UICONTROL 自動ターゲット ]のA4T レポートの[!UICONTROL  コントロール対ターゲット ] ディメンションでは、[!UICONTROL 上昇率と信頼性]の数値を使用できません。 サポートが追加されるまでは、[信頼計算ツール ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)をダウンロードして、[!UICONTROL 上昇率と信頼度]を手動で計算できます。
 
 ## エクスペリエンスレベルで指標の内訳を追加する
 
-アンサンブルマシンラーニングモデルのパフォーマンスについてさらにinsightを深めるために、**[!UICONTROL Control vs Targeted]** ディメンションのエクスペリエンスレベルの内訳を調べることができます。 [!DNL Analysis Workspace]で、**[!UICONTROL Target Experiences]** ディメンションをレポートにドラッグし、コントロール ディメンションとターゲットディメンションをそれぞれ個別に分割します。
+アンサンブルマシンラーニングモデルのパフォーマンスについてさらにinsightを深めるために、**[!UICONTROL コントロールとターゲット]** ディメンションのエクスペリエンスレベルの内訳を調べることができます。 [!DNL Analysis Workspace]で、**[!UICONTROL ターゲットエクスペリエンス]** ディメンションをレポートにドラッグし、コントロールとターゲットディメンションをそれぞれ個別に分割します。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)の[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]](assets/Figure3.png)の![[!UICONTROL  アクティビティ コンバージョン別エクスペリエンス ] パネル
 
 *図3: ターゲットエクスペリエンス別のターゲットディメンションの分類*
 
 結果のレポートの例を次に示します。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)の[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]](assets/Figure4.png)の![[!UICONTROL  アクティビティ コンバージョン別エクスペリエンス ] パネル
 
-*図4：エクスペリエンスレベルの内訳が記載された標準[!UICONTROL Auto-Target] レポート。 目標指標が異なる場合があり、制御戦略が単一のエクスペリエンスを持つ場合があることに注意してください。*
+*図4：エクスペリエンスレベルの内訳を含む標準の[!UICONTROL 自動ターゲット ] レポート。 目標指標が異なる場合があり、制御戦略が単一のエクスペリエンスを持つ場合があることに注意してください。*
 
 >[!TIP]
 >
->[!DNL Analysis Workspace]で、歯車アイコンをクリックして[!UICONTROL Conversion Rate]列の割合を非表示にし、エクスペリエンスのコンバージョン率に注目し続けることができます。 コンバージョン率は10進数としてフォーマットされますが、それに応じてパーセンテージとして解釈されます。
+>[!DNL Analysis Workspace]で歯車アイコンをクリックすると、[!UICONTROL  コンバージョン率]列の割合が非表示になり、エクスペリエンスのコンバージョン率に注目できます。 コンバージョン率は10進数としてフォーマットされますが、それに応じてパーセンテージとして解釈されます。
 
-## 「[!UICONTROL Visits]」が[!UICONTROL Auto-Target] アクティビティの正規化指標として正しい理由
+## 「[!UICONTROL 訪問]」が[!UICONTROL 自動ターゲット ] アクティビティの正規化指標として正しい理由
 
-[!UICONTROL Auto-Target] アクティビティを分析する場合は、常にデフォルトの正規化指標として[!UICONTROL Visits]を選択してください。 [!UICONTROL Auto-Target]のパーソナライゼーションでは、訪問ごとに1回（正式には[!DNL Target] セッションごとに1回）訪問者のエクスペリエンスが選択されます。つまり、訪問者に表示されるエクスペリエンスは、訪問ごとに1回ずつ変更できます。 したがって、[!UICONTROL Unique Visitors]を正規化指標として使用すると、1人のユーザーが（異なる訪問で）複数のエクスペリエンスを表示する可能性があるという事実により、コンバージョン率が混乱する可能性があります。
+[!UICONTROL 自動ターゲット ] アクティビティを分析する場合は、デフォルトの正規化指標として常に[!UICONTROL 訪問]を選択してください。 [!UICONTROL 自動ターゲット ] パーソナライゼーションでは、訪問ごとに1回（正式には[!DNL Target] セッションごとに1回）訪問者のエクスペリエンスが選択されます。つまり、訪問者に表示されるエクスペリエンスは、訪問ごとに1回ずつ変更できます。 したがって、[!UICONTROL  ユニーク訪問者]を正規化指標として使用すると、1人のユーザーが（異なる訪問で）複数のエクスペリエンスを表示する可能性があるという事実は、コンバージョン率を混乱させる可能性があります。
 
 単純な例では、次の点を示しています。2人の訪問者が2つのエクスペリエンスしかないキャンペーンに参加するシナリオを考えてみましょう。 最初の訪問者は2回訪問します。 初回訪問時にはエクスペリエンス Aに割り当てられますが、2回目の訪問時にはエクスペリエンス Bに割り当てられます（2回目の訪問時にプロファイルの状態が変化するため）。 2回目の訪問後、訪問者は注文してコンバージョンしました。 コンバージョンは、直近に表示されたエクスペリエンス（エクスペリエンス B）に起因します。 2人目の訪問者も2回訪問し、その両方でエクスペリエンス Bが表示されますが、コンバージョンには至りません。
 
@@ -122,41 +112,41 @@ ht-degree: 2%
 
 [!DNL Target] アクティビティへの訪問に対する[!DNL Adobe Analytics]のデフォルトのカウント方法には、ユーザーが[!DNL Target] アクティビティとインタラクションしなかった訪問が含まれる場合があります。 これは、[!DNL Target] アクティビティの割り当てが[!DNL Analytics]訪問者コンテキストに保持される方法が原因です。 その結果、[!DNL Target] アクティビティへの訪問数が増えることがあり、コンバージョン率が低下する可能性があります。
 
-ユーザーが実際に[!UICONTROL Auto-Target] アクティビティを操作した訪問についてレポートを作成する場合（アクティビティへのエントリ、表示イベントまたは訪問イベント、コンバージョンなど）、次の操作を実行できます。
+ユーザーが実際に[!UICONTROL 自動ターゲット ] アクティビティを操作した訪問についてレポートを作成する場合（アクティビティへのエントリ、表示イベントまたは訪問イベント、またはコンバージョンを通じて）、次のことができます。
 
 1. 該当する[!DNL Target] アクティビティからのヒットを含む特定のセグメントを作成し、次に
-1. このセグメントを使用して[!UICONTROL Visits]指標をフィルタリングします。
+1. このセグメントを使用して[!UICONTROL 訪問数]指標をフィルタリングします。
 
 **セグメントを作成するには：**
 
-1. [!DNL Analysis Workspace] ツールバーの&#x200B;**[!UICONTROL Components > Create Segment]** オプションを選択します。
-2. セグメントの&#x200B;**[!UICONTROL Title]**&#x200B;を指定してください。 次の例では、セグメントの名前は[!DNL "Hit with specific Auto-Target activity"]です。
-3. **[!UICONTROL Target Activities]** ディメンションをセグメント **[!UICONTROL Definition]** セクションにドラッグします。
+1. [!DNL Analysis Workspace] ツールバーの&#x200B;**[!UICONTROL コンポーネント/セグメントを作成]** オプションを選択します。
+2. セグメントの&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。 次の例では、セグメントの名前は[!DNL "Hit with specific Auto-Target activity"]です。
+3. **[!UICONTROL ターゲットアクティビティ]** ディメンションをセグメント **[!UICONTROL 定義]** セクションにドラッグします。
 4. **[!UICONTROL equals]**&#x200B;演算子を使用します。
 5. 特定の[!DNL Target] アクティビティを検索します。
-6. 歯車アイコンをクリックし、次の図に示すように&#x200B;**[!UICONTROL Attribution model > Instance]**&#x200B;を選択します。
-7. **[!UICONTROL Save]** をクリックします。
+6. 歯車アイコンをクリックし、次の図に示すように&#x200B;**[!UICONTROL アトリビューションモデル/インスタンス]**&#x200B;を選択します。
+7. 「**[!UICONTROL 保存]**」をクリックします。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)の セグメント
+[!DNL Analysis Workspace]](assets/Figure5.png)の![ セグメント
 
-*図5：ここに示すようなセグメントを使用して、[!UICONTROL Auto-Target] レポート*&#x200B;のA4Tの[!UICONTROL Visits] メトリックをフィルタリングします
+*図5：ここに示すようなセグメントを使用して、[!UICONTROL 自動ターゲット ] レポート*&#x200B;のA4Tの[!UICONTROL 訪問] メトリックをフィルタリングします
 
-セグメントを作成したら、それを使用して[!UICONTROL Visits]指標をフィルタリングするため、[!UICONTROL Visits]指標には、ユーザーが[!DNL Target] アクティビティとインタラクションした訪問のみが含まれます。
+セグメントを作成したら、それを使用して[!UICONTROL 訪問回数]指標をフィルタリングします。そのため、[!UICONTROL 訪問回数]指標には、ユーザーが[!DNL Target] アクティビティとインタラクションした訪問回数のみが含まれます。
 
-**このセグメントを使用して[!UICONTROL Visits]をフィルタリングするには：**
+**このセグメントを使用して[!UICONTROL 訪問]をフィルタリングするには：**
 
-1. 新しく作成したセグメントをコンポーネントツールバーからドラッグし、青い&#x200B;**[!UICONTROL Filter by]** プロンプトが表示されるまで&#x200B;**[!UICONTROL Visits]**&#x200B;指標ラベルのベースにカーソルを合わせます。
+1. 新しく作成したセグメントをコンポーネントツールバーからドラッグし、**[!UICONTROL 訪問]**&#x200B;指標ラベルのベースにカーソルを合わせると、青い&#x200B;**[!UICONTROL フィルター]** プロンプトが表示されます。
 2. セグメントを解除します。 フィルターがその指標に適用されます。
 
 最後のパネルは次のように表示されます。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)の[!UICONTROL Experiences by Activity Conversions] パネル
+[!DNL Analysis Workspace]](assets/Figure6.png)の![[!UICONTROL  アクティビティ コンバージョン別エクスペリエンス ] パネル
 
-*図6: [!UICONTROL Visits]指標に「特定の自動ターゲットアクティビティでヒット」セグメントが適用されたレポートパネル。 このセグメントは、ユーザーが問題の[!DNL Target] アクティビティを実際に操作した訪問のみがレポートに含まれるようにします。*
+*図6: [!UICONTROL 訪問]指標に「特定の自動ターゲットアクティビティでヒット」セグメントが適用されたレポートパネル。 このセグメントは、ユーザーが問題の[!DNL Target] アクティビティを実際に操作した訪問のみがレポートに含まれるようにします。*
 
 ## 目標指標とアトリビューションが最適化基準に合致していることを確認します
 
-A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレポートの生成*&#x200B;に使用するのと同じコンバージョンイベントデータを使用して、[!UICONTROL Auto-Target] ML モデルを&#x200B;*トレーニング*&#x200B;できます。 ただし、マシンラーニングモデルのトレーニング時にこのデータを解釈する際に採用しなければならない特定の仮定があります。これは、[!DNL Adobe Analytics]のレポート段階で行われたデフォルトの仮定とは異なります。
+A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレポートを生成するために使用するのと同じコンバージョンイベントデータを使用して、[!UICONTROL 自動ターゲット ] ML モデルを* トレーニング *することができます*。 ただし、マシンラーニングモデルのトレーニング時にこのデータを解釈する際に採用しなければならない特定の仮定があります。これは、[!DNL Adobe Analytics]のレポート段階で行われたデフォルトの仮定とは異なります。
 
 具体的には、[!DNL Adobe Target] ML モデルは、訪問範囲のアトリビューションモデルを使用します。 すなわち、マシンラーニングモデルは、コンバージョンがマシンラーニングモデルによって行われた決定に「起因する」ために、アクティビティのコンテンツの表示と同じ訪問でコンバージョンが行われなければならないと仮定します。 これは、[!DNL Target]がモデルのタイムリーなトレーニングを保証するために必要です。[!DNL Target]は、モデルのトレーニングデータに追加する前に、コンバージョンを最大30日間待つことはできません（[!DNL Adobe Analytics]のレポートのデフォルトのアトリビューションウィンドウ）。
 
@@ -178,17 +168,17 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
    ![gearicon.png](assets/gearicon.png)
 
-1. 表示されるメニューから、**[!UICONTROL Data settings]**&#x200B;までスクロールします。
-1. **[!UICONTROL Use non-default  attribution model]**&#x200B;を選択します（まだ選択されていない場合）。
+1. 表示されるメニューから、**[!UICONTROL データ設定]**&#x200B;までスクロールします。
+1. **[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**&#x200B;を選択します（まだ選択されていない場合）。
 
    ![non-defaultattributionmodel.png](assets/non-defaultattributionmodel.png)
 
-1. **[!UICONTROL Edit]** をクリックします。
-1. **[!UICONTROL Model]**: **[!UICONTROL Participation]**、および&#x200B;**[!UICONTROL Lookback window]**: **[!UICONTROL Visit]**&#x200B;を選択します。
+1. **[!UICONTROL 編集]**&#x200B;をクリックします。
+1. **[!UICONTROL モデル]**: **[!UICONTROL 参加]**、および&#x200B;**[!UICONTROL ルックバックウィンドウ]**: **[!UICONTROL 訪問]**&#x200B;を選択します。
 
    ![ParticipationbyVisit.png](assets/ParticipationbyVisit.png)
 
-1. **[!UICONTROL Apply]** をクリックします。
+1. 「**[!UICONTROL 適用]**」をクリックします。
 
 これらの手順により、目標メトリック イベントが&#x200B;*いつでも* （「参加」）発生した場合、レポートが目標メトリックをエクスペリエンスの表示に確実に関連付けるようにします。このイベントは、エクスペリエンスが表示された同じ訪問で発生します。
 
@@ -198,8 +188,8 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
 最適化基準として「*ユニーク訪問コンバージョン率を最大化*」を選択したシナリオでは、コンバージョン率の正しい定義は、指標の値が正の訪問の割合です。 これは、指標の正の値を持つ訪問に絞り込むセグメントを作成し、訪問指標をフィルタリングすることで実現できます。
 
-1. 以前と同様に、[!DNL Analysis Workspace] ツールバーの&#x200B;**[!UICONTROL Components > Create Segment]** オプションを選択します。
-2. セグメントの&#x200B;**[!UICONTROL Title]**&#x200B;を指定してください。
+1. 以前と同様に、[!DNL Analysis Workspace] ツールバーで「**[!UICONTROL コンポーネント/ セグメントを作成]**」オプションを選択します。
+2. セグメントの&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。
 
    次の例では、セグメントの名前は[!DNL "Visits with an order"]です。
 
@@ -207,12 +197,12 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
    以下の例では、**orders**&#x200B;指標を使用しています。これにより、コンバージョン率は、注文が記録された訪問回数の割合を測定します。
 
-4. セグメント定義コンテナの左上で、**[!UICONTROL Include]** **訪問**&#x200B;を選択します。
-5. **[!UICONTROL is greater than]**&#x200B;演算子を使用し、値を0に設定します。
+4. セグメント定義コンテナの左上で、**[!UICONTROL 含める]** **訪問**&#x200B;を選択します。
+5. **[!UICONTROL は]**&#x200B;より大きい演算子を使用し、値を0に設定します。
 
    値を0に設定すると、このセグメントには、注文指標が正の場合に訪問が含まれます。
 
-6. **[!UICONTROL Save]** をクリックします。
+6. 「**[!UICONTROL 保存]**」をクリックします。
 
 ![Figure7.png](assets/Figure7.png)
 
@@ -228,23 +218,23 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
 ## 最後のステップ：上記の魔法を捉えたコンバージョン率を作成します
 
-前述のセクションの[!UICONTROL Visit]と目標指標の変更により、[!DNL Auto-Target] レポートパネルのデフォルト A4Tに対して行う必要がある最終的な変更は、適切にフィルタリングされた「訪問」指標に対する正しい比率（修正された目標指標の比率）であるコンバージョン率を作成することです。
+前述のセクションの[!UICONTROL 訪問]および目標指標の変更により、[!DNL Auto-Target] レポートパネルのデフォルト A4Tに対して行う必要がある最後の変更は、適切にフィルタリングされた「訪問」指標に対する正しい比率（修正された目標指標の比率）であるコンバージョン率を作成することです。
 
-次の手順を使用して[!UICONTROL Calculated Metric]を作成します。
+これを行うには、次の手順を使用して[!UICONTROL 計算指標]を作成します。
 
-1. [!DNL Analysis Workspace] ツールバーの&#x200B;**[!UICONTROL Components > Create Metric]** オプションを選択します。
-1. 指標の&#x200B;**[!UICONTROL Title]**&#x200B;を指定します。 例えば、「Activity XXXの訪問修正コンバージョン率」などです。
-1. **[!UICONTROL Format]** = パーセントおよび&#x200B;**[!UICONTROL Decimal Places]** = 2を選択してください。
-1. アクティビティに関連する目標指標（例：[!UICONTROL Activity Conversions]）を定義にドラッグし、この目標指標の歯車アイコンを使用して、前述のようにアトリビューションモデルを（参加|訪問）に調整します。
-1. 「**[!UICONTROL Definition]**」セクションの右上にある「**[!UICONTROL Add > Container]**」を選択します。
+1. [!DNL Analysis Workspace] ツールバーの「**[!UICONTROL コンポーネント/指標を作成]**」オプションを選択します。
+1. 指標に&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。 例えば、「Activity XXXの訪問修正コンバージョン率」などです。
+1. **[!UICONTROL 形式]** = パーセントおよび&#x200B;**[!UICONTROL 小数点以下桁]** = 2を選択します。
+1. アクティビティに関連する目標指標（例：[!UICONTROL  アクティビティのコンバージョン ]）を定義にドラッグし、この目標指標の歯車アイコンを使用して、前述のようにアトリビューションモデルを（参加|訪問）に調整します。
+1. **[!UICONTROL 定義]** セクションの右上から&#x200B;**[!UICONTROL 追加> コンテナ]**&#x200B;を選択します。
 1. 2つのコンテナ間の除算（÷）演算子を選択します。
-1. 以前に作成したセグメントを、この特定の[!DNL Auto-Target] アクティビティに対してこのチュートリアルの「特定の[!UICONTROL Auto-Target] アクティビティでヒット」という名前でドラッグします。
-1. **[!UICONTROL Visits]**&#x200B;指標をセグメントコンテナにドラッグします。
-1. **[!UICONTROL Save]** をクリックします。
+1. この特定の[!DNL Auto-Target] アクティビティに対して、このチュートリアルで以前に作成した「特定の[!UICONTROL 自動ターゲット ] アクティビティでヒット」という名前のセグメントをドラッグします。
+1. **[!UICONTROL 訪問回数]**&#x200B;指標をセグメントコンテナにドラッグします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!TIP]
 >
-> [&#x200B; クイック計算指標の機能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ja)を使用して、この指標を作成することもできます。
+> [ クイック計算指標の機能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ja)を使用して、この指標を作成することもできます。
 
 計算指標の完全な定義を次に示します。
 
@@ -254,14 +244,14 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
 >[!IMPORTANT]
 >
->A4T パネルの[!UICONTROL Conversion] レート指標は、コンバージョンイベントまたはテーブル内の正規化指標にリンクされていません。 このチュートリアルで提案した変更を行うと、[!UICONTROL Conversion]率は変更に自動的に適応しません。 したがって、コンバージョンイベントのアトリビューションまたは正規化指標（またはその両方）に変更を加えた場合は、上記のように、[!UICONTROL Conversion]率も変更する最後の手順として覚えておく必要があります。
+>A4T パネルの[!UICONTROL  コンバージョン ] レート指標は、コンバージョンイベントまたはテーブル内の正規化指標にリンクされていません。 このチュートリアルで提案した変更を行うと、[!UICONTROL  コンバージョン ]率は変更に自動的に適応しません。 したがって、コンバージョンイベントのアトリビューションまたは正規化指標（またはその両方）に変更を加えた場合は、上記のように、[!UICONTROL  コンバージョン ]率も変更する最後の手順として覚えておく必要があります。
 
-## 概要：[!UICONTROL Auto-Target]件のレポートの最終サンプル [!DNL Analysis Workspace] パネル
+## 概要：[!UICONTROL 自動ターゲット ] レポートの最終サンプル [!DNL Analysis Workspace] パネル
 
-上記のすべての手順を1つのパネルに組み合わせると、次の図は[!UICONTROL Auto-Target]A4T アクティビティの推奨レポートの全体像を示しています。 このレポートは、[!DNL Target] ML モデルで目標指標を最適化するために使用されるものと同じです。 このレポートには、このチュートリアルで説明したすべてのニュアンスと推奨事項が含まれています。 このレポートは、従来の[!DNL Target] – レポート駆動型[!UICONTROL Auto-Target] アクティビティで使用されるカウント方法にも最も近いものです。
+上記のすべての手順を1つのパネルに組み合わせると、次の図は、[!UICONTROL 自動ターゲット ] A4T アクティビティの推奨レポートの全体像を示しています。 このレポートは、[!DNL Target] ML モデルで目標指標を最適化するために使用されるものと同じです。 このレポートには、このチュートリアルで説明したすべてのニュアンスと推奨事項が含まれています。 このレポートは、従来の[!DNL Target] – レポート駆動型[!UICONTROL 自動ターゲット ] アクティビティで使用されるカウント方法にも最も近いものです。
 
 クリックして画像を展開。
 
-Analysis Workspaceの[!DNL Analysis Workspace]&rbrack;(assets/Figure10.png "A4T レポートの!&lbrack;A4T レポートの最終版"){width="600" zoomable="yes"}
+Analysis Workspaceの[!DNL Analysis Workspace]](assets/Figure10.png "A4T レポートの![A4T レポートの最終版"){width="600" zoomable="yes"}
 
-*図10：このチュートリアルの前のセクションで説明した指標の定義に対するすべての調整を組み合わせた、[!DNL Adobe Analytics] [!DNL Workspace]のA4T [!UICONTROL Auto-Target] レポートの最終版。*
+*図10：このチュートリアルの前のセクションで説明した指標の定義に対するすべての調整を組み合わせた、[!DNL Adobe Analytics] [!DNL Workspace]のA4T [!UICONTROL 自動ターゲット ]の最終報告書*。

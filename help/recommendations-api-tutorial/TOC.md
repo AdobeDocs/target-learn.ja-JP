@@ -12,9 +12,9 @@ ht-degree: 0%
 # Adobe Target Recommendations APIの使用{#recommendations-api-tutorial}
 
 + [Recs APIの概要](recs-api-overview.md)
-+ [APIによるカタログの管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=ja){target="_blank"}
-+ [カスタム条件を管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=ja){target="_blank"}
-+ [Recommendationsでの配信APIの使用](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=ja){target="_blank"}
++ [APIによるカタログの管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
++ [カスタム条件を管理](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
++ [Recommendationsでの配信APIの使用](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
 <!--
 + [Debug API calls](6debug.md)
