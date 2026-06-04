@@ -42,7 +42,7 @@ _Adobe TargetとAdobe Mobile ServicesのSDK v4 for Android_&#x200B;は、既にA
 
 * Adobe IDと、Adobe Target インターフェイスへの承認者レベルのアクセス権を持つ（以下の確認手順を参照）
 * 自分のアカウントにリクエストを行えるように、Adobe Targetのクライアントコードを把握する。 クライアントコードは、設定/実装/at.js設定画面のAdobe Target インターフェイスに表示されます
-* [Mobile Services ユーザーインターフェイス ](https://mobilemarketing.adobe.com/)にアクセスし、精通している
+* [Mobile Services ユーザーインターフェイス &#x200B;](https://mobilemarketing.adobe.com/)にアクセスし、精通している
 * Android モバイルアプリ開発用のIDEを持っている。 このチュートリアルでは、様々な手順とスクリーンショットで[Android Studio](https://developer.android.com/studio/install)を紹介します
 
 Experience Cloud ソリューションに必要なアクセス権がない場合は、Experience Cloud管理者にお問い合わせください。
