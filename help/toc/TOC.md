@@ -29,7 +29,7 @@ ht-degree: 7%
 + 実装{#implementation}
    + [Target実装の概要](../dev101/2-1-intro-to-target-implementation.md)
    + [Adobe TargetとAdobe Cloud Platform Launchの統合](../dev101/3-1-target-launch.md)
-   + [Launchを使用したweb サイトでの実装](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Launchを使用したweb サイトでの実装](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja)
    + [位置情報の利点](../dev101/2-2-benefits-of-locations.md)
    + [Target リクエストの概要](../dev101/2-3-intro-to-target-requests.md)
    + [ターゲットパラメーターの概要](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 7%
    + [シングルページアプリケーション（SPA）でのat.js 2.0の実装](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [ターゲット実装の設計](../dev101/2-5-design-target-implementation.md)
    + [ターゲット実装を設計するための次のステップ](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [オプトインを使用して、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [オプトインを使用して、ユーザーの同意に基づいてExperience Cloud ソリューションを制御する](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja)
    + [Adobe Target ハイブリッドデプロイメントについて](../implementation/hybrid-deployment.md)
    + [オンデバイス判定の概要](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Adobe Targetの実装パターン &#x200B;](../implementation/implementation-patterns-for-adobe-target.md)
