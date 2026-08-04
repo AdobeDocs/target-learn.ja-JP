@@ -35,4 +35,4 @@ ht-degree: 9%
 
 Real-Time Customer Data PlatformとAdobe Targetを利用して、次のヒットをパーソナライズする方法を説明します。 Real-Time CDPのAdobe Targetの配信先では、Adobe TargetのExperience Platform セグメントを使用して、ガバナンスとプライバシーをサポートしながら、同じページや次のページのパーソナライゼーションを行うことができます。 詳しくは、[同じページおよび次のページのパーソナライゼーションの宛先の設定に関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=ja)を参照してください
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342979?captions=jpn&quality=12&learn=on)
