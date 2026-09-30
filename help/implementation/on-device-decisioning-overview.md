@@ -53,7 +53,7 @@ Adobe Targetのオンデバイス判定機能により、ほぼゼロの遅延�
 * オンデバイス判定の概要と利点
 * Targetでオンデバイス判定を有効にする
 * オンデバイス判定で使用するフォームベースのコンポーザーアクティビティを作成します
-* オンデバイス判定に必要なSDK設定について詳しくは、[Adobe Target SDK ドキュメント ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)を参照してください
+* オンデバイス判定に必要なSDK設定について詳しくは、[Adobe Target SDK ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)を参照してください
 * オンデバイス判定を使用して配信されるコンテンツについて、エンドユーザーがどのように体験するかを把握します
 
 ## 対象オーディエンス
@@ -62,4 +62,4 @@ Adobe Targetのオンデバイス判定機能により、ほぼゼロの遅延�
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-詳しくは、*Adobe Target開発者ガイド*&#x200B;の「[ オンデバイス決定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja){target=_blank}」を参照してください。
+詳しくは、*Adobe Target開発者ガイド*&#x200B;の「[&#x200B; オンデバイス決定の概要](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ja){target=_blank}」を参照してください。

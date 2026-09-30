@@ -93,7 +93,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. **[!UICONTROL aを使用してください。起動は、カスタム ルールとして5]**&#x200B;以上です。
 1. 新しいオーディエンスを保存します。
 
-   ![ リピートユーザーオーディエンスの作成](assets/audience_returning_mobile_app_users.jpg)
+   ![&#x200B; リピートユーザーオーディエンスの作成](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. 次の定義でカスタムルールを使用します：_locationDestにサンディエゴが含まれています_。
 1. 新しいオーディエンスを保存します。
 
-   ![ サンディエゴのオーディエンスを作成](assets/audience_locationDest_san_diego.jpg)
+   ![&#x200B; サンディエゴのオーディエンスを作成](assets/audience_locationDest_san_diego.jpg)
 
 ### ロサンゼルスへの旅行を予約するユーザー向けのオーディエンスを作成する
 
@@ -119,7 +119,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. 次の定義でカスタムルールを使用します。_locationDest contains Los Angeles_
 1. 新しいオーディエンスを保存します。
 
-![ ロサンゼルスのオーディエンスを作成](assets/audience_locationDest_los_angeles.jpg)
+![&#x200B; ロサンゼルスのオーディエンスを作成](assets/audience_locationDest_los_angeles.jpg)
 
 ## オファーの作成
 
@@ -133,13 +133,13 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. **[!UICONTROL HTML オファー]**&#x200B;を選択します。
 
-   ![ ホームオファーの作成](assets/offer_home_1.jpg)
+   ![&#x200B; ホームオファーの作成](assets/offer_home_1.jpg)
 
 1. オファーに&#x200B;_Home: Engage New Users_&#x200B;という名前を付けます。
 1. 「_Sourceと宛先を選択」と入力して、使用可能なバス_&#x200B;をコードとして検索します。
 1. 新しいオファーを保存します。
 
-   ![ ホーム HTML オファーを作成](assets/offer_home_2.jpg)
+   ![&#x200B; ホーム HTML オファーを作成](assets/offer_home_2.jpg)
 
 ### リピートユーザー向けのオファーの作成
 
@@ -149,7 +149,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. _おかえりなさい！ チェックアウト時にプロモーションコード BACK30を使用すると、10%の割引が受けられます。_ HTMLコードなどです。
 1. 新しいオファーを保存します。
 
-   ![ ホーム HTML オファーを作成](assets/offer_home_returning_users.jpg)
+   ![&#x200B; ホーム HTML オファーを作成](assets/offer_home_returning_users.jpg)
 
 ### サンディエゴ・オファーの作成
 
@@ -159,7 +159,7 @@ Adobe Target Audiencesは、特定の訪問者グループを特定するため�
 1. HTML コードとして&#x200B;_DJ_&#x200B;を入力します。
 1. 新しいオファーを保存します。
 
-![ サンディエゴのオファーを作成](assets/offer_san_diego.jpg)
+![&#x200B; サンディエゴのオファーを作成](assets/offer_san_diego.jpg)
 
 ### ロサンゼルスに行くユーザー向けのオファーを作成
 
@@ -169,7 +169,7 @@ ThankYou アクティビティに「Universal」が返されると、filterRecom
 1. HTML コードとして&#x200B;_Universal_&#x200B;を入力します。
 1. 新しいオファーを保存します。
 
-![ 「ロサンゼルス」オファーを作成](assets/offer_los_angeles.jpg)
+![&#x200B; 「ロサンゼルス」オファーを作成](assets/offer_los_angeles.jpg)
 
 ## まとめ
 

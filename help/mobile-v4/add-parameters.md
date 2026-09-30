@@ -57,12 +57,12 @@ ht-degree: 0%
 
 ライフサイクル指標を有効にするには、HomeActivity コントローラーを再度開き、onResume （）関数に`Config.collectLifecycleData(this);`を追加します。
 
-![ ライフサイクルリクエスト ](assets/lifecycle_code.jpg)
+![&#x200B; ライフサイクルリクエスト &#x200B;](assets/lifecycle_code.jpg)
 
 ### プリフェッチ要求のライフサイクルパラメーターの検証
 
 エミュレーターを実行し、Logcatを使用してライフサイクルパラメーターを検証します。 「プリフェッチ」をフィルタリングして、プリフェッチ応答を検索し、新しいパラメーターを探します。
-![ ライフサイクル検証](assets/lifecycle_validation.jpg)
+![&#x200B; ライフサイクル検証](assets/lifecycle_validation.jpg)
 
 HomeActivity コントローラーに`Config.collectLifecycleData()`を追加しただけですが、ThankYou画面にもTarget リクエストで送信されたライフサイクル指標が表示されます。
 
@@ -74,7 +74,7 @@ Adobe Target プロパティは[!DNL Target] インターフェイスで定義�
 >
 >ライセンスに応じて、[!DNL Target] インターフェイスにプロパティ オプションが表示される場合とされない場合があります。 これらのオプションがない場合や、社内でプロパティを使用していない場合は、このレッスンの次のセクションに進んでください。
 
-at_property値は、[!UICONTROL 設定] > [!UICONTROL  プロパティ ]の下の[!DNL Target] インターフェイスで取得できます。  プロパティにカーソルを合わせ、コードスニペットアイコンを選択し、`at_property`値をコピーします。
+at_property値は、[!UICONTROL 設定] > [!UICONTROL &#x200B; プロパティ &#x200B;]の下の[!DNL Target] インターフェイスで取得できます。  プロパティにカーソルを合わせ、コードスニペットアイコンを選択し、`at_property`値をコピーします。
 
 ![at_property](assets/at_property_interface.jpg)をコピー
 
@@ -131,7 +131,7 @@ prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ライブ位置情報リクエスト（wetravel_context_dest）は、前回のレッスンで追加されたため、予約プロセスの最終確認画面に関連するプロモーションを表示することができました。 ユーザーの宛先に基づいてプロモーションをパーソナライズし、それをリクエストのパラメーターとして追加します。 また、tropの原点とat_propertyの値のパラメーターも追加します。
 
 次のパラメーターをThankYouActivity コントローラーのtargetLoadRequest （）関数に追加します。
-![ ライブ位置情報リクエストにパラメーターを追加](assets/parameters_live_location.jpg)
+![&#x200B; ライブ位置情報リクエストにパラメーターを追加](assets/parameters_live_location.jpg)
 targetLoadRequest （）関数の更新されたコードを次に示します（プレースホルダーテキストの「at_property値をここに追加」を必ず更新してください）。
 
 ```java
@@ -165,7 +165,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 ### ライブ位置情報リクエストのカスタムパラメーターの検証
 
 エミュレーターを実行し、Logcatを開きます。 いずれかのパラメーターをフィルタリングして、リクエストに必要なパラメーターが含まれていることを確認します。
-![ ライブ位置情報リクエストでカスタムパラメーターを検証](assets/parameters_live_location_validation.jpg)
+![&#x200B; ライブ位置情報リクエストでカスタムパラメーターを検証](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >

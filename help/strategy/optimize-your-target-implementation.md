@@ -198,6 +198,6 @@ Adobeでは、次の目的で毎月手動監査を実施することをお勧め
 * **アクティビティプランドキュメント** – 結果を関係者に伝え、次の手順を推奨するために使用されるドキュメント
 * **プログラムダッシュボード** - プログラムのパフォーマンス、頻度、収益のメリットを経時的に追跡するために使用されるドキュメント。
 
-詳しくは、シニアコンサルタントのWilder Freed氏との[ ウェビナー](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)をご覧ください。
+詳しくは、シニアコンサルタントのWilder Freed氏との[&#x200B; ウェビナー](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)をご覧ください。
 
-[ カスタマーサクセス ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブでの戦略とソートリーダーシップについて詳しく説明します。
+[&#x200B; カスタマーサクセス &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) ハブでの戦略とソートリーダーシップについて詳しく説明します。

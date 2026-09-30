@@ -56,7 +56,7 @@ ht-degree: 17%
 >
 >このガイドに加えて、次の [!DNL Adobe Target] ガイドも使用できます。
 >
->* *[Adobe Target ビジネス実践ガイド ](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja){target=_blank}*
+>* *[Adobe Target ビジネス実践ガイド &#x200B;](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ja){target=_blank}*
 >
 >* *[Adobe Target 開発者ガイド](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ja){target=_blank}*
 

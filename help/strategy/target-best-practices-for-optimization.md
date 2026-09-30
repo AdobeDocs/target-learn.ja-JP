@@ -73,7 +73,7 @@ Adobeの最適化の6つの基本と、その適用方法について説明し�
 
 変化は絶え間なく起こり続けることを理解しているアドビの最適化戦略は、変化し続ける顧客ニーズに対応するための反復的な実行サイクルである必要があります（下の図1参照）。
 
-![最適化とパーソナライゼーション ](assets/optimize-and-personalize.png)
+![最適化とパーソナライゼーション &#x200B;](assets/optimize-and-personalize.png)
 
 _図1 – 最適化の反復サイクル_
 
@@ -155,6 +155,6 @@ Personalizationには、定義されたルールと基準にもとづいて、�
 
 上記の理解を踏まえ、Adobeでは、パーソナライズする前に最適化し、Personalizationを幅広い段階から詳細な段階に進めることが推奨されています。 Personalization アクティビティを幅広いものから詳細なものまで成熟させるには、一対多のパーソナライゼーション（幅広い）スタイルを使用し始め（A/B テストを使用）、次に一対一のパーソナライゼーション（詳細なパーソナライゼーション）スタイルに移行します（Automated Personalization アクティビティを使用）。
 
-詳しくは、「[ パーソナライゼーションテストとロードマップの作成に関するクイックスタート ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)」を参照してください。
+詳しくは、「[&#x200B; パーソナライゼーションテストとロードマップの作成に関するクイックスタート &#x200B;](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)」を参照してください。
 
 戦略とソートリーダーシップについて詳しくは、[視点](https://experienceleague.adobe.com/en/perspectives) ハブを参照してください。
