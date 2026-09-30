@@ -1,39 +1,53 @@
 ---
-title: アクティビティ  [!DNL Auto-Target] の [!DNL Analysis Workspace] でA4T レポートを設定する方法
-description: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティの実行中に想定される結果を取得するように、 [!DNL Analysis Workspace] でA4T レポートを設定するにはどうすればよいですか？'
+title: '[!DNL Auto-Target]のアクティビティに対して[!DNL Analysis Workspace]でA4T レポートを設定する方法'
+description: '[!UICONTROL 自動ターゲット &#x200B;] アクティビティの実行中に想定される結果を取得するように、[!DNL Analysis Workspace]でA4T レポートを設定するにはどうすればよいですか？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ja#premium newtab=true" tooltip="Target Premium に含まれる機能を確認してください。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 2%
-
 ---
-
 # [!DNL Auto-Target]件のアクティビティに対して[!DNL Analysis Workspace]でA4T レポートを設定します
 
 >[!IMPORTANT]
@@ -135,7 +149,7 @@ ht-degree: 2%
 4. **[!UICONTROL equals]**&#x200B;演算子を使用します。
 5. 特定の[!DNL Target] アクティビティを検索します。
 6. 歯車アイコンをクリックし、次の図に示すように&#x200B;**[!UICONTROL アトリビューションモデル/インスタンス]**&#x200B;を選択します。
-7. 「**[!UICONTROL 保存]**」をクリックします。
+7. 「**[!UICONTROL Save]**」をクリックします。
 
 [!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)の セグメント
 
@@ -212,7 +226,7 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 
    値を0に設定すると、このセグメントには、注文指標が正の場合に訪問が含まれます。
 
-6. 「**[!UICONTROL 保存]**」をクリックします。
+6. 「**[!UICONTROL Save]**」をクリックします。
 
 ![Figure7.png](assets/Figure7.png)
 
@@ -240,7 +254,7 @@ A4T統合により、[!DNL Adobe Analytics]が&#x200B;*パフォーマンスレ�
 1. 2つのコンテナ間の除算（÷）演算子を選択します。
 1. この特定の[!DNL Auto-Target] アクティビティに対して、このチュートリアルで以前に作成した「特定の[!UICONTROL 自動ターゲット &#x200B;] アクティビティでヒット」という名前のセグメントをドラッグします。
 1. **[!UICONTROL 訪問回数]**&#x200B;指標をセグメントコンテナにドラッグします。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!TIP]
 >

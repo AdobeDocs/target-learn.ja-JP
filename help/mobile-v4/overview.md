@@ -8,13 +8,30 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
-
 ---
-
 # Adobe TargetとAdobe Mobile Services SDK v4 for Android – 概要
 
 _Adobe TargetとAdobe Mobile ServicesのSDK v4 for Android_&#x200B;は、既にAdobe Mobile Services SDK v4を使用しており、Adobe Targetでアプリ体験のパーソナライズを開始したいAndroid デベロッパーにとって最適な出発点です。
@@ -25,12 +42,12 @@ _Adobe TargetとAdobe Mobile ServicesのSDK v4 for Android_&#x200B;は、既にA
 
 * [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja)の設定を検証します
 * 次のタイプの[!DNL Target] リクエストを実装します。
-   * [!DNL Target] コンテンツの先行取得
-   * 1つのリクエスト内の複数の[!DNL Target] ロケーション （mbox）をバッチ処理する
-   * リクエストのブロック （アプリの表示前に実行）
-   * 非ブロッキング要求（バックグラウンドで実行）
-   * リアルタイム（キャッシュなし）
-   * キャッシュバスティングのリフェッチ
+  * [!DNL Target] コンテンツの先行取得
+  * 1つのリクエスト内の複数の[!DNL Target] ロケーション （mbox）をバッチ処理する
+  * リクエストのブロック （アプリの表示前に実行）
+  * 非ブロッキング要求（バックグラウンドで実行）
+  * リアルタイム（キャッシュなし）
+  * キャッシュバスティングのリフェッチ
 * 強化されたパーソナライゼーションのリクエストにパラメーターを追加する
 * オーディエンスとオファーの作成
 * レイアウトのパーソナライズ
