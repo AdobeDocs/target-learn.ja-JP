@@ -17,14 +17,8 @@ product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: ''
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: ''
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: ''
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: eec185bd-7d60-4193-ba3f-da427569936a
@@ -51,16 +45,16 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
+source-git-commit: a3fd8229184c51a0720ce9d096263ef35fd0e26c
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
 ---
 # Adobe TargetでのReal-Time CDP プロファイル属性の使用
 
-Adobe TargetでAdobe Real-Time Customer Data Platformのプロファイル属性を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=ja)を参照してください。
+Adobe TargetでAdobe Real-Time Customer Data Platformのプロファイル属性を使用して、web サイトやモバイルアプリでパーソナライズされたエクスペリエンスを提供する方法を説明します。 詳しくは、[ ドキュメント ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html)を参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451894/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 >[!CAUTION]
 >
