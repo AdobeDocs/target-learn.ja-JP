@@ -17,4 +17,4 @@ ht-degree: 0%
 
 このビデオでは、Adobe Targetのプロファイル属性別に最も閲覧された機能を使用して、画一的な人気リストの代わりに、ローカライズされたセグメント固有のレコメンデーションを配信する方法を説明します。 簡単なプロファイルスクリプトを設定し、プロファイル属性の人気アルゴリズムを選択することで、ユーザーの国、購読層、デモグラフィックなどの属性に基づいて、「最も閲覧された」コンテンツを動的にカスタマイズすることができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503624/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503625/?captions=jpn&learn=on&enablevpops)
