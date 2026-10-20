@@ -4,6 +4,7 @@ product: target
 solution: Target
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: "Target"
 usetq: true
 solution-title: Target
 landing-page-name: target
@@ -21,11 +22,9 @@ type: Tutorial
 auto-video-transcripts: true
 source-git-commit: 0bc96867c0286626f27c306aa7f202eb2e0c3966
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のためのメタデータ
 
