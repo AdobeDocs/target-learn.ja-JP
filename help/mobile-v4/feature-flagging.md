@@ -68,7 +68,7 @@ public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_r
 
 次に、プリフェッチリクエストに場所を追加し、`processFeatureFlags()`という新しい関数を読み込みます。
 
-![機能フラグコード ](assets/feature_flag_code.jpg)
+![機能フラグコード &#x200B;](assets/feature_flag_code.jpg)
 
 完全に更新されたコードは次のとおりです。
 
@@ -150,11 +150,11 @@ public void processFeatureFlags() {
 1. 「**[!UICONTROL エクスペリエンスを追加]**」をクリックして、エクスペリエンス Bを追加します。
 1. 「wetravel_feature_flag_recs」の場所を残します
 1. コンテンツの&#x200B;**[!UICONTROL デフォルトコンテンツ]**&#x200B;のままにする
-1. **[!UICONTROL 次へ]**&#x200B;をクリックして、[!UICONTROL  ターゲティング ]画面に進みます
+1. **[!UICONTROL 次へ]**&#x200B;をクリックして、[!UICONTROL &#x200B; ターゲティング &#x200B;]画面に進みます
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity_2.jpg)
 
-1. [!UICONTROL  ターゲティング ]画面で、[!UICONTROL  トラフィック配分] メソッドがデフォルト設定（手動）に設定されており、各エクスペリエンスのデフォルトの配分が50%であることを確認します。 **[!UICONTROL 次]**&#x200B;を選択して&#x200B;**[!UICONTROL 目標と設定]**&#x200B;に進みます。
+1. [!UICONTROL &#x200B; ターゲティング &#x200B;]画面で、[!UICONTROL &#x200B; トラフィック配分] メソッドがデフォルト設定（手動）に設定されており、各エクスペリエンスのデフォルトの配分が50%であることを確認します。 **[!UICONTROL 次]**&#x200B;を選択して&#x200B;**[!UICONTROL 目標と設定]**&#x200B;に進みます。
 
    ![機能フラグアクティビティ設定](assets/feature_flag_activity_3.jpg)
 
