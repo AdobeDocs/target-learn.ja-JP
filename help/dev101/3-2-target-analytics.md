@@ -52,6 +52,6 @@ ht-degree: 50%
 
 * 開発者
 
->[!VIDEO](https://video.tv.adobe.com/v/35146/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507689/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4timplementation.html?lang=ja)を参照してください。

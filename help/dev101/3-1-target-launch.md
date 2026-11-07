@@ -48,7 +48,7 @@ ht-degree: 11%
 
 * 開発者
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507698/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; タグのチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=ja)を参照してください。
 

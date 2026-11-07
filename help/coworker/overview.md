@@ -17,6 +17,6 @@ ht-degree: 0%
 
 CX Enterprise Coworkerが最適化プログラムにもたらす価値をご紹介します。 Workfrontのチームメンバーは、ビジネス目標を理解し、ツールを切り替えることなく、Adobeアプリケーションをまたいで作業を調整し、分析、診断、ローンチします。 同僚に結果を読んでもらい、失敗したバリエーションを診断し、テスト期間をサイズテストすることで、何日もかかっていた仕事を節約できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507870?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507935?captions=jpn&learn=on)
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503343/?learn=on&enablevpops)
