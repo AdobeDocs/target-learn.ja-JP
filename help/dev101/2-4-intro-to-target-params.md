@@ -50,6 +50,6 @@ ht-degree: 8%
 * 開発者
 * 設計者
 
->[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507780/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)を参照してください。

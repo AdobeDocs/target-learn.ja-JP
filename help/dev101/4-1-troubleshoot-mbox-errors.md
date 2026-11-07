@@ -45,6 +45,6 @@ ht-degree: 9%
 
 * 開発者
 
->[!VIDEO](https://video.tv.adobe.com/v/35153/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507917/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=ja)を参照してください。
