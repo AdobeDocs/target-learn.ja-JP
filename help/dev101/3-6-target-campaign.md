@@ -48,6 +48,6 @@ ht-degree: 16%
 
 * 開発者
 
->[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3508007/?captions=jpn&quality=12)
 
 詳しくは、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)を参照してください。
